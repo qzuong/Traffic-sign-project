@@ -6,7 +6,7 @@
 
 ## Cài đặt trên Windows
 
-Cài **CPython 3.13 x64** với Tkinter, Git và Git LFS. Mở PowerShell và đăng nhập GitHub bằng tài khoản có quyền truy cập repo Private.
+Cài **CPython 3.13 x64** với Tkinter, Git và Git LFS. Mở PowerShell ở thư mục bạn muốn lưu dự án.
 
 ```powershell
 git lfs install
@@ -45,7 +45,7 @@ Git tải model, ảnh và âm thanh cùng mã nguồn. Git LFS tải riêng vid
 | `assets/voice_google/00.wav` đến `42.wav` | Cảnh báo tiếng Việt. Thư mục `assets/voice_vi/` chứa WAV dự phòng. |
 | `data/videos/test_video.mp4` | Video mẫu, khoảng 177 MB, tải bằng Git LFS. |
 
-Ứng dụng phát WAV có sẵn và không cần gTTS hay kết nối mạng khi chạy. Repo dành cho nhóm có quyền truy cập. Chỉ chia sẻ tiếp tài liệu, model và media khi đã xác minh quyền phân phối.
+Ứng dụng phát WAV có sẵn và không cần gTTS hay kết nối mạng khi chạy. Chỉ chia sẻ tiếp tài liệu, model và media khi đã xác minh quyền phân phối.
 
 ## Chạy demo
 
