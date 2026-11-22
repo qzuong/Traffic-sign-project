@@ -1,0 +1,368 @@
+{
+  "repeat": {
+    "stable": {
+      "played": [
+        [
+          5,
+          36
+        ],
+        [
+          11,
+          29
+        ],
+        [
+          19,
+          38
+        ],
+        [
+          23,
+          35
+        ],
+        [
+          31,
+          35
+        ],
+        [
+          53,
+          38
+        ],
+        [
+          71,
+          13
+        ]
+      ],
+      "withheld": 3,
+      "latency_median_max_ms": [
+        1860.8249999997497,
+        2498.9207999997234
+      ],
+      "suppression": [
+        {
+          "event": "speech_suppressed",
+          "monotonic": 4676.83296,
+          "video_ms": 4333.333333333333,
+          "generation": 0,
+          "track_id": 7,
+          "frame_id": 130,
+          "class_id": 36,
+          "reason": "latest_prediction_disagrees"
+        },
+        {
+          "event": "speech_suppressed",
+          "monotonic": 4687.4061806,
+          "video_ms": 14866.666666666666,
+          "generation": 0,
+          "track_id": 22,
+          "frame_id": 446,
+          "class_id": 38,
+          "reason": "mandatory_blue_face_unverified"
+        },
+        {
+          "event": "speech_suppressed",
+          "monotonic": 4717.3906222,
+          "video_ms": 44900.0,
+          "generation": 0,
+          "track_id": 74,
+          "frame_id": 1347,
+          "class_id": 40,
+          "reason": "roundabout_voice_unverified"
+        }
+      ]
+    },
+    "margin_only": {
+      "played": [
+        [
+          5,
+          36
+        ],
+        [
+          11,
+          29
+        ],
+        [
+          19,
+          38
+        ],
+        [
+          23,
+          35
+        ],
+        [
+          31,
+          35
+        ],
+        [
+          53,
+          38
+        ],
+        [
+          71,
+          13
+        ]
+      ],
+      "withheld": 6,
+      "latency_median_max_ms": [
+        1860.8249999997497,
+        2498.9207999997234
+      ],
+      "suppression": [
+        {
+          "event": "speech_suppressed",
+          "monotonic": 4676.83296,
+          "video_ms": 4333.333333333333,
+          "generation": 0,
+          "track_id": 5,
+          "frame_id": 130,
+          "class_id": 36,
+          "reason": "high_risk_margin"
+        },
+        {
+          "event": "speech_suppressed",
+          "monotonic": 4676.83296,
+          "video_ms": 4333.333333333333,
+          "generation": 0,
+          "track_id": 7,
+          "frame_id": 130,
+          "class_id": 36,
+          "reason": "latest_prediction_disagrees"
+        },
+        {
+          "event": "speech_suppressed",
+          "monotonic": 4687.4061806,
+          "video_ms": 14866.666666666666,
+          "generation": 0,
+          "track_id": 22,
+          "frame_id": 446,
+          "class_id": 38,
+          "reason": "mandatory_blue_face_unverified"
+        },
+        {
+          "event": "speech_suppressed",
+          "monotonic": 4698.4167925,
+          "video_ms": 25900.0,
+          "generation": 0,
+          "track_id": 31,
+          "frame_id": 777,
+          "class_id": 35,
+          "reason": "high_risk_margin"
+        },
+        {
+          "event": "speech_suppressed",
+          "monotonic": 4710.1847643,
+          "video_ms": 37666.666666666664,
+          "generation": 0,
+          "track_id": 58,
+          "frame_id": 1130,
+          "class_id": 14,
+          "reason": "high_risk_margin"
+        },
+        {
+          "event": "speech_suppressed",
+          "monotonic": 4717.3906222,
+          "video_ms": 44900.0,
+          "generation": 0,
+          "track_id": 74,
+          "frame_id": 1347,
+          "class_id": 40,
+          "reason": "roundabout_voice_unverified"
+        }
+      ]
+    },
+    "selective_speed": {
+      "played": [
+        [
+          5,
+          36
+        ],
+        [
+          11,
+          29
+        ],
+        [
+          19,
+          38
+        ],
+        [
+          23,
+          35
+        ],
+        [
+          31,
+          35
+        ],
+        [
+          53,
+          38
+        ],
+        [
+          71,
+          13
+        ]
+      ],
+      "withheld": 6,
+      "latency_median_max_ms": [
+        1860.8249999997497,
+        2498.9207999997234
+      ],
+      "suppression": [
+        {
+          "event": "speech_suppressed",
+          "monotonic": 4676.83296,
+          "video_ms": 4333.333333333333,
+          "generation": 0,
+          "track_id": 5,
+          "frame_id": 130,
+          "class_id": 36,
+          "reason": "high_risk_margin"
+        },
+        {
+          "event": "speech_suppressed",
+          "monotonic": 4676.83296,
+          "video_ms": 4333.333333333333,
+          "generation": 0,
+          "track_id": 7,
+          "frame_id": 130,
+          "class_id": 36,
+          "reason": "latest_prediction_disagrees"
+        },
+        {
+          "event": "speech_suppressed",
+          "monotonic": 4687.4061806,
+          "video_ms": 14866.666666666666,
+          "generation": 0,
+          "track_id": 22,
+          "frame_id": 446,
+          "class_id": 38,
+          "reason": "mandatory_blue_face_unverified"
+        },
+        {
+          "event": "speech_suppressed",
+          "monotonic": 4698.4167925,
+          "video_ms": 25900.0,
+          "generation": 0,
+          "track_id": 31,
+          "frame_id": 777,
+          "class_id": 35,
+          "reason": "high_risk_margin"
+        },
+        {
+          "event": "speech_suppressed",
+          "monotonic": 4710.1847643,
+          "video_ms": 37666.666666666664,
+          "generation": 0,
+          "track_id": 58,
+          "frame_id": 1130,
+          "class_id": 14,
+          "reason": "high_risk_margin"
+        },
+        {
+          "event": "speech_suppressed",
+          "monotonic": 4717.3906222,
+          "video_ms": 44900.0,
+          "generation": 0,
+          "track_id": 74,
+          "frame_id": 1347,
+          "class_id": 40,
+          "reason": "roundabout_voice_unverified"
+        }
+      ]
+    }
+  },
+  "motorway": {
+    "stable": {
+      "played": [],
+      "withheld": 2,
+      "latency_median_max_ms": null,
+      "suppression": [
+        {
+          "event": "speech_suppressed",
+          "monotonic": 4779.7573197,
+          "video_ms": 3900.0,
+          "generation": 0,
+          "track_id": 2,
+          "frame_id": 117,
+          "class_id": 4,
+          "reason": "dark_red_sign_face"
+        },
+        {
+          "event": "speech_suppressed",
+          "monotonic": 4780.2189183,
+          "video_ms": 4366.666666666667,
+          "generation": 0,
+          "track_id": 3,
+          "frame_id": 131,
+          "class_id": 0,
+          "reason": "dark_red_sign_face"
+        }
+      ]
+    },
+    "margin_only": {
+      "played": [],
+      "withheld": 2,
+      "latency_median_max_ms": null,
+      "suppression": [
+        {
+          "event": "speech_suppressed",
+          "monotonic": 4779.7573197,
+          "video_ms": 3900.0,
+          "generation": 0,
+          "track_id": 2,
+          "frame_id": 117,
+          "class_id": 4,
+          "reason": "dark_red_sign_face"
+        },
+        {
+          "event": "speech_suppressed",
+          "monotonic": 4780.2189183,
+          "video_ms": 4366.666666666667,
+          "generation": 0,
+          "track_id": 3,
+          "frame_id": 131,
+          "class_id": 0,
+          "reason": "dark_red_sign_face"
+        }
+      ]
+    },
+    "selective_speed": {
+      "played": [],
+      "withheld": 2,
+      "latency_median_max_ms": null,
+      "suppression": [
+        {
+          "event": "speech_suppressed",
+          "monotonic": 4779.7573197,
+          "video_ms": 3900.0,
+          "generation": 0,
+          "track_id": 2,
+          "frame_id": 117,
+          "class_id": 4,
+          "reason": "dark_red_sign_face"
+        },
+        {
+          "event": "speech_suppressed",
+          "monotonic": 4780.2189183,
+          "video_ms": 4366.666666666667,
+          "generation": 0,
+          "track_id": 3,
+          "frame_id": 131,
+          "class_id": 0,
+          "reason": "dark_red_sign_face"
+        }
+      ]
+    }
+  },
+  "known_blue_panel": {
+    "stable": [
+      "roundabout_voice_unverified",
+      "roundabout_voice_unverified"
+    ],
+    "margin_only": [
+      "roundabout_voice_unverified",
+      "roundabout_voice_unverified"
+    ],
+    "selective_speed": [
+      "roundabout_voice_unverified",
+      "roundabout_voice_unverified"
+    ]
+  }
+}

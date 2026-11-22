@@ -1,0 +1,2568 @@
+[
+  {
+    "tag": "annotated",
+    "frame_id": 780,
+    "clipped_box": [
+      890,
+      239,
+      914,
+      263
+    ],
+    "detected_box": [
+      890.8626708984375,
+      239.01022338867188,
+      913.1031494140625,
+      262.2848815917969
+    ],
+    "recorded_prediction_id": 12,
+    "recorded_top1": 1.0,
+    "timestamp_ms": 26000.0,
+    "ground_truth_id": 12,
+    "ground_truth_box": [
+      891,
+      237,
+      913,
+      260
+    ],
+    "iou": 0.8218620794080648,
+    "top5": [
+      {
+        "class_id": 12,
+        "label": "Priority road",
+        "probability": 1.0
+      },
+      {
+        "class_id": 17,
+        "label": "No entry",
+        "probability": 1.5775117257466856e-15
+      },
+      {
+        "class_id": 32,
+        "label": "End speed + passing limits",
+        "probability": 2.31215536524072e-16
+      },
+      {
+        "class_id": 15,
+        "label": "No vehicles",
+        "probability": 1.6434711607312232e-16
+      },
+      {
+        "class_id": 14,
+        "label": "Stop",
+        "probability": 2.956748496892427e-17
+      }
+    ],
+    "crop": "crops/annotated-780-0.png",
+    "reproduced_prediction": true,
+    "speech_veto": null,
+    "crop_size_px": [
+      24,
+      24
+    ],
+    "aspect_ratio": 1.0,
+    "top1_top2_margin": 0.9999999999999984
+  },
+  {
+    "tag": "annotated",
+    "frame_id": 780,
+    "clipped_box": [
+      885,
+      313,
+      907,
+      336
+    ],
+    "detected_box": [
+      885.4639282226562,
+      313.44256591796875,
+      906.7247924804688,
+      335.70245361328125
+    ],
+    "recorded_prediction_id": 35,
+    "recorded_top1": 0.9999485015869141,
+    "timestamp_ms": 26000.0,
+    "ground_truth_id": 35,
+    "ground_truth_box": [
+      885,
+      310,
+      908,
+      334
+    ],
+    "iou": 0.7430670840923987,
+    "top5": [
+      {
+        "class_id": 35,
+        "label": "Ahead only",
+        "probability": 0.9999485015869141
+      },
+      {
+        "class_id": 12,
+        "label": "Priority road",
+        "probability": 1.3320353900780901e-05
+      },
+      {
+        "class_id": 36,
+        "label": "Go straight or right",
+        "probability": 1.3272661817609333e-05
+      },
+      {
+        "class_id": 13,
+        "label": "Yield",
+        "probability": 9.499169209448155e-06
+      },
+      {
+        "class_id": 40,
+        "label": "Roundabout mandatory",
+        "probability": 4.435659320733976e-06
+      }
+    ],
+    "crop": "crops/annotated-780-1.png",
+    "reproduced_prediction": true,
+    "speech_veto": null,
+    "crop_size_px": [
+      22,
+      23
+    ],
+    "aspect_ratio": 0.9565217391304348,
+    "top1_top2_margin": 0.9999351812330133
+  },
+  {
+    "tag": "annotated",
+    "frame_id": 1080,
+    "clipped_box": [
+      1086,
+      250,
+      1117,
+      279
+    ],
+    "detected_box": [
+      1086.5614013671875,
+      250.54193115234375,
+      1116.1524658203125,
+      278.64337158203125
+    ],
+    "recorded_prediction_id": 12,
+    "recorded_top1": 1.0,
+    "timestamp_ms": 36000.0,
+    "ground_truth_id": 12,
+    "ground_truth_box": [
+      1090,
+      251,
+      1117,
+      278
+    ],
+    "iou": 0.8264134919526478,
+    "top5": [
+      {
+        "class_id": 12,
+        "label": "Priority road",
+        "probability": 1.0
+      },
+      {
+        "class_id": 39,
+        "label": "Keep left",
+        "probability": 7.921591713751924e-14
+      },
+      {
+        "class_id": 41,
+        "label": "End of no passing",
+        "probability": 2.8682551532445075e-14
+      },
+      {
+        "class_id": 17,
+        "label": "No entry",
+        "probability": 2.6401639189222066e-14
+      },
+      {
+        "class_id": 16,
+        "label": "Veh > 3.5 tons prohibited",
+        "probability": 6.948979948726659e-15
+      }
+    ],
+    "crop": "crops/annotated-1080-2.png",
+    "reproduced_prediction": true,
+    "speech_veto": null,
+    "crop_size_px": [
+      31,
+      29
+    ],
+    "aspect_ratio": 1.0689655172413792,
+    "top1_top2_margin": 0.9999999999999207
+  },
+  {
+    "tag": "annotated",
+    "frame_id": 1300,
+    "clipped_box": [
+      160,
+      224,
+      183,
+      247
+    ],
+    "detected_box": [
+      160.5909423828125,
+      224.22335815429688,
+      182.2685546875,
+      246.96261596679688
+    ],
+    "recorded_prediction_id": 33,
+    "recorded_top1": 0.999998927116394,
+    "timestamp_ms": 43333.333333333336,
+    "ground_truth_id": 33,
+    "ground_truth_box": [
+      160,
+      223,
+      183,
+      247
+    ],
+    "iou": 0.8929942299922308,
+    "top5": [
+      {
+        "class_id": 33,
+        "label": "Turn right ahead",
+        "probability": 0.999998927116394
+      },
+      {
+        "class_id": 42,
+        "label": "End no passing veh > 3.5 tons",
+        "probability": 9.081981033887132e-07
+      },
+      {
+        "class_id": 10,
+        "label": "No passing veh over 3.5 tons",
+        "probability": 8.428887099398708e-08
+      },
+      {
+        "class_id": 35,
+        "label": "Ahead only",
+        "probability": 4.4981433688917605e-08
+      },
+      {
+        "class_id": 11,
+        "label": "Right-of-way at intersection",
+        "probability": 1.5162777700084007e-08
+      }
+    ],
+    "crop": "crops/annotated-1300-3.png",
+    "reproduced_prediction": true,
+    "speech_veto": null,
+    "crop_size_px": [
+      23,
+      23
+    ],
+    "aspect_ratio": 1.0,
+    "top1_top2_margin": 0.9999980189182907
+  },
+  {
+    "tag": "annotated",
+    "frame_id": 1300,
+    "clipped_box": [
+      174,
+      199,
+      211,
+      231
+    ],
+    "detected_box": [
+      174.33880615234375,
+      199.90481567382812,
+      210.22772216796875,
+      230.28985595703125
+    ],
+    "recorded_prediction_id": 13,
+    "recorded_top1": 1.0,
+    "timestamp_ms": 43333.333333333336,
+    "ground_truth_id": 13,
+    "ground_truth_box": [
+      177,
+      201,
+      207,
+      230
+    ],
+    "iou": 0.7978093008656659,
+    "top5": [
+      {
+        "class_id": 13,
+        "label": "Yield",
+        "probability": 1.0
+      },
+      {
+        "class_id": 32,
+        "label": "End speed + passing limits",
+        "probability": 5.113417501922957e-12
+      },
+      {
+        "class_id": 39,
+        "label": "Keep left",
+        "probability": 4.3937864956621053e-13
+      },
+      {
+        "class_id": 42,
+        "label": "End no passing veh > 3.5 tons",
+        "probability": 2.890330525915849e-15
+      },
+      {
+        "class_id": 33,
+        "label": "Turn right ahead",
+        "probability": 1.7981008104309788e-15
+      }
+    ],
+    "crop": "crops/annotated-1300-4.png",
+    "reproduced_prediction": true,
+    "speech_veto": null,
+    "crop_size_px": [
+      37,
+      32
+    ],
+    "aspect_ratio": 1.15625,
+    "top1_top2_margin": 0.9999999999948865
+  },
+  {
+    "tag": "annotated",
+    "frame_id": 1326,
+    "clipped_box": [
+      618,
+      204,
+      651,
+      234
+    ],
+    "detected_box": [
+      618.3992309570312,
+      204.13589477539062,
+      650.9392700195312,
+      233.56423950195312
+    ],
+    "recorded_prediction_id": 13,
+    "recorded_top1": 1.0,
+    "timestamp_ms": 44200.0,
+    "ground_truth_id": 13,
+    "ground_truth_box": [
+      620,
+      201,
+      649,
+      233
+    ],
+    "iou": 0.7983087949943434,
+    "top5": [
+      {
+        "class_id": 13,
+        "label": "Yield",
+        "probability": 1.0
+      },
+      {
+        "class_id": 39,
+        "label": "Keep left",
+        "probability": 4.030762182360981e-11
+      },
+      {
+        "class_id": 12,
+        "label": "Priority road",
+        "probability": 3.503334341375952e-12
+      },
+      {
+        "class_id": 32,
+        "label": "End speed + passing limits",
+        "probability": 3.1197000278232467e-12
+      },
+      {
+        "class_id": 38,
+        "label": "Keep right",
+        "probability": 3.949110732436728e-13
+      }
+    ],
+    "crop": "crops/annotated-1326-5.png",
+    "reproduced_prediction": true,
+    "speech_veto": null,
+    "crop_size_px": [
+      33,
+      30
+    ],
+    "aspect_ratio": 1.1,
+    "top1_top2_margin": 0.9999999999596924
+  },
+  {
+    "tag": "annotated",
+    "frame_id": 1326,
+    "clipped_box": [
+      607,
+      230,
+      629,
+      255
+    ],
+    "detected_box": [
+      607.20556640625,
+      230.4267578125,
+      628.414306640625,
+      254.36346435546875
+    ],
+    "recorded_prediction_id": 33,
+    "recorded_top1": 0.9999994039535522,
+    "timestamp_ms": 44200.0,
+    "ground_truth_id": 33,
+    "ground_truth_box": [
+      603,
+      228,
+      624,
+      257
+    ],
+    "iou": 0.5625069256323414,
+    "top5": [
+      {
+        "class_id": 33,
+        "label": "Turn right ahead",
+        "probability": 0.9999994039535522
+      },
+      {
+        "class_id": 42,
+        "label": "End no passing veh > 3.5 tons",
+        "probability": 4.454187489955075e-07
+      },
+      {
+        "class_id": 38,
+        "label": "Keep right",
+        "probability": 1.1627124507640474e-07
+      },
+      {
+        "class_id": 5,
+        "label": "Speed limit (80km/h)",
+        "probability": 7.212402231004944e-09
+      },
+      {
+        "class_id": 20,
+        "label": "Dangerous curve right",
+        "probability": 5.128582003521842e-09
+      }
+    ],
+    "crop": "crops/annotated-1326-6.png",
+    "reproduced_prediction": true,
+    "speech_veto": null,
+    "crop_size_px": [
+      22,
+      25
+    ],
+    "aspect_ratio": 0.88,
+    "top1_top2_margin": 0.9999989585348033
+  },
+  {
+    "tag": "annotated",
+    "frame_id": 1345,
+    "clipped_box": [
+      777,
+      215,
+      806,
+      246
+    ],
+    "detected_box": [
+      777.3954467773438,
+      215.24560546875,
+      805.7764282226562,
+      245.81582641601562
+    ],
+    "recorded_prediction_id": 33,
+    "recorded_top1": 1.0,
+    "timestamp_ms": 44833.333333333336,
+    "ground_truth_id": 33,
+    "ground_truth_box": [
+      776,
+      216,
+      801,
+      246
+    ],
+    "iou": 0.7701587618181365,
+    "top5": [
+      {
+        "class_id": 33,
+        "label": "Turn right ahead",
+        "probability": 1.0
+      },
+      {
+        "class_id": 42,
+        "label": "End no passing veh > 3.5 tons",
+        "probability": 1.4966759775969507e-10
+      },
+      {
+        "class_id": 40,
+        "label": "Roundabout mandatory",
+        "probability": 1.6890331364441402e-12
+      },
+      {
+        "class_id": 3,
+        "label": "Speed limit (60km/h)",
+        "probability": 1.6029799015937485e-12
+      },
+      {
+        "class_id": 38,
+        "label": "Keep right",
+        "probability": 1.4595103554546074e-12
+      }
+    ],
+    "crop": "crops/annotated-1345-7.png",
+    "reproduced_prediction": true,
+    "speech_veto": null,
+    "crop_size_px": [
+      29,
+      31
+    ],
+    "aspect_ratio": 0.9354838709677419,
+    "top1_top2_margin": 0.9999999998503324
+  },
+  {
+    "tag": "annotated",
+    "frame_id": 1345,
+    "clipped_box": [
+      795,
+      184,
+      835,
+      222
+    ],
+    "detected_box": [
+      795.8715209960938,
+      184.51876831054688,
+      834.4783325195312,
+      221.11260986328125
+    ],
+    "recorded_prediction_id": 13,
+    "recorded_top1": 1.0,
+    "timestamp_ms": 44833.333333333336,
+    "ground_truth_id": 13,
+    "ground_truth_box": [
+      794,
+      180,
+      827,
+      222
+    ],
+    "iou": 0.6863514215141745,
+    "top5": [
+      {
+        "class_id": 13,
+        "label": "Yield",
+        "probability": 1.0
+      },
+      {
+        "class_id": 39,
+        "label": "Keep left",
+        "probability": 6.252531478678769e-12
+      },
+      {
+        "class_id": 32,
+        "label": "End speed + passing limits",
+        "probability": 2.969721473941589e-12
+      },
+      {
+        "class_id": 33,
+        "label": "Turn right ahead",
+        "probability": 2.3524493984738992e-12
+      },
+      {
+        "class_id": 12,
+        "label": "Priority road",
+        "probability": 1.2896357159258853e-12
+      }
+    ],
+    "crop": "crops/annotated-1345-8.png",
+    "reproduced_prediction": true,
+    "speech_veto": null,
+    "crop_size_px": [
+      40,
+      38
+    ],
+    "aspect_ratio": 1.0526315789473684,
+    "top1_top2_margin": 0.9999999999937474
+  },
+  {
+    "tag": "annotated",
+    "frame_id": 1358,
+    "clipped_box": [
+      911,
+      157,
+      957,
+      201
+    ],
+    "detected_box": [
+      911.48583984375,
+      157.34381103515625,
+      956.3955078125,
+      200.24591064453125
+    ],
+    "recorded_prediction_id": 13,
+    "recorded_top1": 1.0,
+    "timestamp_ms": 45266.666666666664,
+    "ground_truth_id": 13,
+    "ground_truth_box": [
+      912,
+      153,
+      955,
+      205
+    ],
+    "iou": 0.7958787650111084,
+    "top5": [
+      {
+        "class_id": 13,
+        "label": "Yield",
+        "probability": 1.0
+      },
+      {
+        "class_id": 32,
+        "label": "End speed + passing limits",
+        "probability": 7.629690777007526e-15
+      },
+      {
+        "class_id": 39,
+        "label": "Keep left",
+        "probability": 2.1780437916689996e-15
+      },
+      {
+        "class_id": 12,
+        "label": "Priority road",
+        "probability": 7.715030193476344e-16
+      },
+      {
+        "class_id": 15,
+        "label": "No vehicles",
+        "probability": 5.913199473462131e-16
+      }
+    ],
+    "crop": "crops/annotated-1358-9.png",
+    "reproduced_prediction": true,
+    "speech_veto": null,
+    "crop_size_px": [
+      46,
+      44
+    ],
+    "aspect_ratio": 1.0454545454545454,
+    "top1_top2_margin": 0.9999999999999923
+  },
+  {
+    "tag": "annotated",
+    "frame_id": 1358,
+    "clipped_box": [
+      889,
+      194,
+      923,
+      230
+    ],
+    "detected_box": [
+      889.095458984375,
+      194.1859130859375,
+      922.599853515625,
+      229.04705810546875
+    ],
+    "recorded_prediction_id": 33,
+    "recorded_top1": 1.0,
+    "timestamp_ms": 45266.666666666664,
+    "ground_truth_id": 33,
+    "ground_truth_box": [
+      886,
+      194,
+      925,
+      233
+    ],
+    "iou": 0.7679168682087416,
+    "top5": [
+      {
+        "class_id": 33,
+        "label": "Turn right ahead",
+        "probability": 1.0
+      },
+      {
+        "class_id": 42,
+        "label": "End no passing veh > 3.5 tons",
+        "probability": 1.9484298618976936e-09
+      },
+      {
+        "class_id": 20,
+        "label": "Dangerous curve right",
+        "probability": 8.612541929631234e-11
+      },
+      {
+        "class_id": 35,
+        "label": "Ahead only",
+        "probability": 2.3110588096009188e-11
+      },
+      {
+        "class_id": 10,
+        "label": "No passing veh over 3.5 tons",
+        "probability": 2.081013486532335e-11
+      }
+    ],
+    "crop": "crops/annotated-1358-10.png",
+    "reproduced_prediction": true,
+    "speech_veto": null,
+    "crop_size_px": [
+      34,
+      36
+    ],
+    "aspect_ratio": 0.9444444444444444,
+    "top1_top2_margin": 0.9999999980515701
+  },
+  {
+    "tag": "annotated",
+    "frame_id": 1372,
+    "clipped_box": [
+      1061,
+      109,
+      1116,
+      164
+    ],
+    "detected_box": [
+      1061.275634765625,
+      109.7091064453125,
+      1115.551513671875,
+      163.7388916015625
+    ],
+    "recorded_prediction_id": 13,
+    "recorded_top1": 1.0,
+    "timestamp_ms": 45733.333333333336,
+    "ground_truth_id": 13,
+    "ground_truth_box": [
+      1059,
+      110,
+      1115,
+      173
+    ],
+    "iou": 0.8079326809598812,
+    "top5": [
+      {
+        "class_id": 13,
+        "label": "Yield",
+        "probability": 1.0
+      },
+      {
+        "class_id": 39,
+        "label": "Keep left",
+        "probability": 2.9481557711590056e-13
+      },
+      {
+        "class_id": 32,
+        "label": "End speed + passing limits",
+        "probability": 1.618932310258614e-13
+      },
+      {
+        "class_id": 12,
+        "label": "Priority road",
+        "probability": 2.463495546607946e-14
+      },
+      {
+        "class_id": 33,
+        "label": "Turn right ahead",
+        "probability": 1.1464494379330968e-14
+      }
+    ],
+    "crop": "crops/annotated-1372-11.png",
+    "reproduced_prediction": true,
+    "speech_veto": null,
+    "crop_size_px": [
+      55,
+      55
+    ],
+    "aspect_ratio": 1.0,
+    "top1_top2_margin": 0.9999999999997052
+  },
+  {
+    "tag": "annotated",
+    "frame_id": 1372,
+    "clipped_box": [
+      1032,
+      156,
+      1074,
+      200
+    ],
+    "detected_box": [
+      1032.83740234375,
+      156.408447265625,
+      1073.921875,
+      199.924560546875
+    ],
+    "recorded_prediction_id": 33,
+    "recorded_top1": 1.0,
+    "timestamp_ms": 45733.333333333336,
+    "ground_truth_id": 33,
+    "ground_truth_box": [
+      1030,
+      158,
+      1066,
+      201
+    ],
+    "iou": 0.7146341481370929,
+    "top5": [
+      {
+        "class_id": 33,
+        "label": "Turn right ahead",
+        "probability": 1.0
+      },
+      {
+        "class_id": 42,
+        "label": "End no passing veh > 3.5 tons",
+        "probability": 8.191731182272122e-10
+      },
+      {
+        "class_id": 38,
+        "label": "Keep right",
+        "probability": 9.920576860000807e-11
+      },
+      {
+        "class_id": 20,
+        "label": "Dangerous curve right",
+        "probability": 1.0867640988510008e-11
+      },
+      {
+        "class_id": 11,
+        "label": "Right-of-way at intersection",
+        "probability": 5.881142361302549e-12
+      }
+    ],
+    "crop": "crops/annotated-1372-12.png",
+    "reproduced_prediction": true,
+    "speech_veto": null,
+    "crop_size_px": [
+      42,
+      44
+    ],
+    "aspect_ratio": 0.9545454545454546,
+    "top1_top2_margin": 0.9999999991808268
+  },
+  {
+    "tag": "annotated",
+    "frame_id": 7470,
+    "clipped_box": [
+      585,
+      204,
+      608,
+      228
+    ],
+    "detected_box": [
+      585.1939697265625,
+      204.7928466796875,
+      607.9141845703125,
+      227.57260131835938
+    ],
+    "recorded_prediction_id": 25,
+    "recorded_top1": 0.748485803604126,
+    "timestamp_ms": 249000.0,
+    "ground_truth_id": null,
+    "ground_truth_box": [
+      588,
+      207,
+      608,
+      228
+    ],
+    "iou": 0.7761062603502786,
+    "top5": [
+      {
+        "class_id": 25,
+        "label": "Road work",
+        "probability": 0.748486340045929
+      },
+      {
+        "class_id": 8,
+        "label": "Speed limit (120km/h)",
+        "probability": 0.21546146273612976
+      },
+      {
+        "class_id": 4,
+        "label": "Speed limit (70km/h)",
+        "probability": 0.017132533714175224
+      },
+      {
+        "class_id": 0,
+        "label": "Speed limit (20km/h)",
+        "probability": 0.009537426754832268
+      },
+      {
+        "class_id": 1,
+        "label": "Speed limit (30km/h)",
+        "probability": 0.003937233239412308
+      }
+    ],
+    "crop": "crops/annotated-7470-13.png",
+    "reproduced_prediction": true,
+    "speech_veto": "dark_red_sign_face",
+    "crop_size_px": [
+      23,
+      24
+    ],
+    "aspect_ratio": 0.9583333333333334,
+    "top1_top2_margin": 0.5330248773097992
+  },
+  {
+    "tag": "annotated",
+    "frame_id": 7470,
+    "clipped_box": [
+      660,
+      210,
+      685,
+      235
+    ],
+    "detected_box": [
+      660.716796875,
+      210.48294067382812,
+      684.924072265625,
+      234.55490112304688
+    ],
+    "recorded_prediction_id": 4,
+    "recorded_top1": 0.7247903943061829,
+    "timestamp_ms": 249000.0,
+    "ground_truth_id": null,
+    "ground_truth_box": [
+      663,
+      213,
+      684,
+      234
+    ],
+    "iou": 0.7568001637928324,
+    "top5": [
+      {
+        "class_id": 4,
+        "label": "Speed limit (70km/h)",
+        "probability": 0.7247901558876038
+      },
+      {
+        "class_id": 14,
+        "label": "Stop",
+        "probability": 0.11363549530506134
+      },
+      {
+        "class_id": 0,
+        "label": "Speed limit (20km/h)",
+        "probability": 0.05174313858151436
+      },
+      {
+        "class_id": 35,
+        "label": "Ahead only",
+        "probability": 0.042309362441301346
+      },
+      {
+        "class_id": 25,
+        "label": "Road work",
+        "probability": 0.02343161217868328
+      }
+    ],
+    "crop": "crops/annotated-7470-14.png",
+    "reproduced_prediction": true,
+    "speech_veto": "dark_red_sign_face",
+    "crop_size_px": [
+      25,
+      25
+    ],
+    "aspect_ratio": 1.0,
+    "top1_top2_margin": 0.6111546605825424
+  },
+  {
+    "tag": "annotated",
+    "frame_id": 7470,
+    "clipped_box": [
+      506,
+      197,
+      530,
+      223
+    ],
+    "detected_box": [
+      506.09320068359375,
+      197.0569610595703,
+      529.7557983398438,
+      222.3622589111328
+    ],
+    "recorded_prediction_id": 35,
+    "recorded_top1": 0.9983140230178833,
+    "timestamp_ms": 249000.0,
+    "ground_truth_id": null,
+    "ground_truth_box": [
+      510,
+      200,
+      530,
+      222
+    ],
+    "iou": 0.7193896837434084,
+    "top5": [
+      {
+        "class_id": 35,
+        "label": "Ahead only",
+        "probability": 0.9983140230178833
+      },
+      {
+        "class_id": 15,
+        "label": "No vehicles",
+        "probability": 0.000835650775115937
+      },
+      {
+        "class_id": 8,
+        "label": "Speed limit (120km/h)",
+        "probability": 0.0002875962236430496
+      },
+      {
+        "class_id": 14,
+        "label": "Stop",
+        "probability": 0.00018892454681918025
+      },
+      {
+        "class_id": 1,
+        "label": "Speed limit (30km/h)",
+        "probability": 0.00016054553270805627
+      }
+    ],
+    "crop": "crops/annotated-7470-15.png",
+    "reproduced_prediction": true,
+    "speech_veto": "dark_red_sign_face",
+    "crop_size_px": [
+      24,
+      26
+    ],
+    "aspect_ratio": 0.9230769230769231,
+    "top1_top2_margin": 0.9974783722427674
+  },
+  {
+    "tag": "annotated",
+    "frame_id": 8780,
+    "clipped_box": [
+      369,
+      112,
+      403,
+      146
+    ],
+    "detected_box": [
+      369.26922607421875,
+      112.10963439941406,
+      402.33563232421875,
+      145.38575744628906
+    ],
+    "recorded_prediction_id": 1,
+    "recorded_top1": 0.7050699591636658,
+    "timestamp_ms": 292666.6666666667,
+    "ground_truth_id": 7,
+    "ground_truth_box": [
+      370,
+      114,
+      401,
+      144
+    ],
+    "iou": 0.8452072815296494,
+    "top5": [
+      {
+        "class_id": 1,
+        "label": "Speed limit (30km/h)",
+        "probability": 0.7050691246986389
+      },
+      {
+        "class_id": 0,
+        "label": "Speed limit (20km/h)",
+        "probability": 0.05707714334130287
+      },
+      {
+        "class_id": 15,
+        "label": "No vehicles",
+        "probability": 0.04122161865234375
+      },
+      {
+        "class_id": 39,
+        "label": "Keep left",
+        "probability": 0.03777298703789711
+      },
+      {
+        "class_id": 14,
+        "label": "Stop",
+        "probability": 0.03159044682979584
+      }
+    ],
+    "crop": "crops/annotated-8780-16.png",
+    "reproduced_prediction": true,
+    "speech_veto": "dark_red_sign_face",
+    "crop_size_px": [
+      34,
+      34
+    ],
+    "aspect_ratio": 1.0,
+    "top1_top2_margin": 0.647991981357336
+  },
+  {
+    "tag": "annotated",
+    "frame_id": 8780,
+    "clipped_box": [
+      489,
+      127,
+      521,
+      160
+    ],
+    "detected_box": [
+      489.142333984375,
+      127.43875122070312,
+      520.575927734375,
+      159.70703125
+    ],
+    "recorded_prediction_id": 25,
+    "recorded_top1": 0.43282195925712585,
+    "timestamp_ms": 292666.6666666667,
+    "ground_truth_id": 7,
+    "ground_truth_box": [
+      490,
+      130,
+      519,
+      159
+    ],
+    "iou": 0.8291367074689515,
+    "top5": [
+      {
+        "class_id": 25,
+        "label": "Road work",
+        "probability": 0.43282127380371094
+      },
+      {
+        "class_id": 0,
+        "label": "Speed limit (20km/h)",
+        "probability": 0.25789880752563477
+      },
+      {
+        "class_id": 1,
+        "label": "Speed limit (30km/h)",
+        "probability": 0.1388011872768402
+      },
+      {
+        "class_id": 14,
+        "label": "Stop",
+        "probability": 0.09139427542686462
+      },
+      {
+        "class_id": 34,
+        "label": "Turn left ahead",
+        "probability": 0.01970239356160164
+      }
+    ],
+    "crop": "crops/annotated-8780-17.png",
+    "reproduced_prediction": true,
+    "speech_veto": "dark_red_sign_face",
+    "crop_size_px": [
+      32,
+      33
+    ],
+    "aspect_ratio": 0.9696969696969697,
+    "top1_top2_margin": 0.17492246627807617
+  },
+  {
+    "tag": "annotated",
+    "frame_id": 8780,
+    "clipped_box": [
+      602,
+      142,
+      635,
+      175
+    ],
+    "detected_box": [
+      602.6392822265625,
+      142.053466796875,
+      634.1343994140625,
+      174.41021728515625
+    ],
+    "recorded_prediction_id": 0,
+    "recorded_top1": 0.228443905711174,
+    "timestamp_ms": 292666.6666666667,
+    "ground_truth_id": 7,
+    "ground_truth_box": [
+      604,
+      146,
+      631,
+      174
+    ],
+    "iou": 0.7418458421389367,
+    "top5": [
+      {
+        "class_id": 0,
+        "label": "Speed limit (20km/h)",
+        "probability": 0.22844336926937103
+      },
+      {
+        "class_id": 4,
+        "label": "Speed limit (70km/h)",
+        "probability": 0.20249250531196594
+      },
+      {
+        "class_id": 1,
+        "label": "Speed limit (30km/h)",
+        "probability": 0.15121708810329437
+      },
+      {
+        "class_id": 33,
+        "label": "Turn right ahead",
+        "probability": 0.1233832910656929
+      },
+      {
+        "class_id": 38,
+        "label": "Keep right",
+        "probability": 0.10387374460697174
+      }
+    ],
+    "crop": "crops/annotated-8780-18.png",
+    "reproduced_prediction": true,
+    "speech_veto": "dark_red_sign_face",
+    "crop_size_px": [
+      33,
+      33
+    ],
+    "aspect_ratio": 1.0,
+    "top1_top2_margin": 0.02595086395740509
+  },
+  {
+    "tag": "annotated",
+    "frame_id": 19500,
+    "clipped_box": [
+      1201,
+      159,
+      1254,
+      205
+    ],
+    "detected_box": [
+      1201.353271484375,
+      159.94873046875,
+      1253.030029296875,
+      204.67547607421875
+    ],
+    "recorded_prediction_id": 13,
+    "recorded_top1": 1.0,
+    "timestamp_ms": 650000.0,
+    "ground_truth_id": 13,
+    "ground_truth_box": [
+      1201,
+      161,
+      1251,
+      204
+    ],
+    "iou": 0.9175961398137958,
+    "top5": [
+      {
+        "class_id": 13,
+        "label": "Yield",
+        "probability": 1.0
+      },
+      {
+        "class_id": 32,
+        "label": "End speed + passing limits",
+        "probability": 1.3375549556826627e-09
+      },
+      {
+        "class_id": 39,
+        "label": "Keep left",
+        "probability": 2.0187587712605648e-10
+      },
+      {
+        "class_id": 12,
+        "label": "Priority road",
+        "probability": 7.053014422497839e-11
+      },
+      {
+        "class_id": 33,
+        "label": "Turn right ahead",
+        "probability": 5.161136275300127e-12
+      }
+    ],
+    "crop": "crops/annotated-19500-19.png",
+    "reproduced_prediction": true,
+    "speech_veto": null,
+    "crop_size_px": [
+      53,
+      46
+    ],
+    "aspect_ratio": 1.1521739130434783,
+    "top1_top2_margin": 0.999999998662445
+  },
+  {
+    "tag": "annotated",
+    "frame_id": 19500,
+    "clipped_box": [
+      752,
+      204,
+      784,
+      238
+    ],
+    "detected_box": [
+      752.015869140625,
+      204.0301513671875,
+      783.5732421875,
+      237.89212036132812
+    ],
+    "recorded_prediction_id": 34,
+    "recorded_top1": 0.9784656167030334,
+    "timestamp_ms": 650000.0,
+    "ground_truth_id": 34,
+    "ground_truth_box": [
+      749,
+      203,
+      788,
+      239
+    ],
+    "iou": 0.761107398610976,
+    "top5": [
+      {
+        "class_id": 34,
+        "label": "Turn left ahead",
+        "probability": 0.9784656167030334
+      },
+      {
+        "class_id": 35,
+        "label": "Ahead only",
+        "probability": 0.021525247022509575
+      },
+      {
+        "class_id": 36,
+        "label": "Go straight or right",
+        "probability": 2.792654640870751e-06
+      },
+      {
+        "class_id": 12,
+        "label": "Priority road",
+        "probability": 2.6584793886286207e-06
+      },
+      {
+        "class_id": 11,
+        "label": "Right-of-way at intersection",
+        "probability": 2.357650828344049e-06
+      }
+    ],
+    "crop": "crops/annotated-19500-20.png",
+    "reproduced_prediction": true,
+    "speech_veto": null,
+    "crop_size_px": [
+      32,
+      34
+    ],
+    "aspect_ratio": 0.9411764705882353,
+    "top1_top2_margin": 0.9569403696805239
+  },
+  {
+    "tag": "annotated",
+    "frame_id": 19500,
+    "clipped_box": [
+      1206,
+      205,
+      1244,
+      242
+    ],
+    "detected_box": [
+      1206.410400390625,
+      205.109130859375,
+      1243.04150390625,
+      241.2655029296875
+    ],
+    "recorded_prediction_id": 33,
+    "recorded_top1": 0.9998179078102112,
+    "timestamp_ms": 650000.0,
+    "ground_truth_id": 33,
+    "ground_truth_box": [
+      1203,
+      202,
+      1248,
+      241
+    ],
+    "iou": 0.745000862517448,
+    "top5": [
+      {
+        "class_id": 33,
+        "label": "Turn right ahead",
+        "probability": 0.9998179078102112
+      },
+      {
+        "class_id": 42,
+        "label": "End no passing veh > 3.5 tons",
+        "probability": 0.00014893234765622765
+      },
+      {
+        "class_id": 38,
+        "label": "Keep right",
+        "probability": 1.4107848073763307e-05
+      },
+      {
+        "class_id": 6,
+        "label": "End of speed limit (80km/h)",
+        "probability": 8.017447726160754e-06
+      },
+      {
+        "class_id": 20,
+        "label": "Dangerous curve right",
+        "probability": 5.502938165591331e-06
+      }
+    ],
+    "crop": "crops/annotated-19500-21.png",
+    "reproduced_prediction": true,
+    "speech_veto": null,
+    "crop_size_px": [
+      38,
+      37
+    ],
+    "aspect_ratio": 1.027027027027027,
+    "top1_top2_margin": 0.999668975462555
+  },
+  {
+    "tag": "annotated",
+    "frame_id": 19500,
+    "clipped_box": [
+      751,
+      163,
+      794,
+      202
+    ],
+    "detected_box": [
+      751.1783447265625,
+      163.8402557373047,
+      793.4375,
+      201.2609405517578
+    ],
+    "recorded_prediction_id": 13,
+    "recorded_top1": 1.0,
+    "timestamp_ms": 650000.0,
+    "ground_truth_id": 13,
+    "ground_truth_box": [
+      747,
+      164,
+      796,
+      207
+    ],
+    "iou": 0.744939270272283,
+    "top5": [
+      {
+        "class_id": 13,
+        "label": "Yield",
+        "probability": 1.0
+      },
+      {
+        "class_id": 12,
+        "label": "Priority road",
+        "probability": 7.322744188797969e-09
+      },
+      {
+        "class_id": 39,
+        "label": "Keep left",
+        "probability": 8.259176675906588e-10
+      },
+      {
+        "class_id": 32,
+        "label": "End speed + passing limits",
+        "probability": 5.9330662605106e-10
+      },
+      {
+        "class_id": 15,
+        "label": "No vehicles",
+        "probability": 1.5538498265854628e-10
+      }
+    ],
+    "crop": "crops/annotated-19500-22.png",
+    "reproduced_prediction": true,
+    "speech_veto": null,
+    "crop_size_px": [
+      43,
+      39
+    ],
+    "aspect_ratio": 1.1025641025641026,
+    "top1_top2_margin": 0.9999999926772558
+  },
+  {
+    "tag": "annotated",
+    "frame_id": 19500,
+    "clipped_box": [
+      462,
+      294,
+      481,
+      314
+    ],
+    "detected_box": [
+      462.595458984375,
+      294.6014404296875,
+      480.1546630859375,
+      313.1630859375
+    ],
+    "recorded_prediction_id": 32,
+    "recorded_top1": 0.9979298114776611,
+    "timestamp_ms": 650000.0,
+    "ground_truth_id": 13,
+    "ground_truth_box": [
+      457,
+      291,
+      477,
+      313
+    ],
+    "iou": 0.5290880514596182,
+    "top5": [
+      {
+        "class_id": 32,
+        "label": "End speed + passing limits",
+        "probability": 0.9979298114776611
+      },
+      {
+        "class_id": 6,
+        "label": "End of speed limit (80km/h)",
+        "probability": 0.0011285825166851282
+      },
+      {
+        "class_id": 39,
+        "label": "Keep left",
+        "probability": 0.0007496502948924899
+      },
+      {
+        "class_id": 0,
+        "label": "Speed limit (20km/h)",
+        "probability": 0.00010092837328556925
+      },
+      {
+        "class_id": 13,
+        "label": "Yield",
+        "probability": 4.372831972432323e-05
+      }
+    ],
+    "crop": "crops/annotated-19500-23.png",
+    "reproduced_prediction": true,
+    "speech_veto": "speed_face_unverified",
+    "crop_size_px": [
+      19,
+      20
+    ],
+    "aspect_ratio": 0.95,
+    "top1_top2_margin": 0.996801228960976
+  },
+  {
+    "tag": "city",
+    "frame_id": 464,
+    "clipped_box": [
+      904,
+      267,
+      932,
+      295
+    ],
+    "detected_box": [
+      904.7156982421875,
+      267.0303649902344,
+      931.0909423828125,
+      294.0305480957031
+    ],
+    "recorded_prediction_id": 38,
+    "recorded_top1": 0.8605319261550903,
+    "timestamp_ms": 15466.666666666666,
+    "track_id": 17,
+    "aggregate": null,
+    "source_frame": 464,
+    "ground_truth_id": 12,
+    "examined_track": true,
+    "first_yolo_at": 4467.4138077,
+    "first_cnn_at": 4467.4561279,
+    "top5": [
+      {
+        "class_id": 38,
+        "label": "Keep right",
+        "probability": 0.8605319857597351
+      },
+      {
+        "class_id": 17,
+        "label": "No entry",
+        "probability": 0.06059669703245163
+      },
+      {
+        "class_id": 5,
+        "label": "Speed limit (80km/h)",
+        "probability": 0.021803464740514755
+      },
+      {
+        "class_id": 3,
+        "label": "Speed limit (60km/h)",
+        "probability": 0.010355446487665176
+      },
+      {
+        "class_id": 15,
+        "label": "No vehicles",
+        "probability": 0.009643347933888435
+      }
+    ],
+    "crop": "crops/city-464-87.png",
+    "reproduced_prediction": true,
+    "speech_veto": "mandatory_blue_face_unverified",
+    "crop_size_px": [
+      28,
+      28
+    ],
+    "aspect_ratio": 1.0,
+    "top1_top2_margin": 0.7999352887272835
+  },
+  {
+    "tag": "city",
+    "frame_id": 469,
+    "clipped_box": [
+      928,
+      258,
+      961,
+      291
+    ],
+    "detected_box": [
+      928.26513671875,
+      258.0278015136719,
+      960.1883544921875,
+      290.2991027832031
+    ],
+    "recorded_prediction_id": 38,
+    "recorded_top1": 0.9707791209220886,
+    "timestamp_ms": 15633.333333333334,
+    "track_id": 17,
+    "aggregate": 38,
+    "source_frame": 469,
+    "ground_truth_id": 12,
+    "examined_track": true,
+    "first_yolo_at": 4467.7255066,
+    "first_cnn_at": 4467.766661,
+    "top5": [
+      {
+        "class_id": 38,
+        "label": "Keep right",
+        "probability": 0.9707791805267334
+      },
+      {
+        "class_id": 12,
+        "label": "Priority road",
+        "probability": 0.019394606351852417
+      },
+      {
+        "class_id": 17,
+        "label": "No entry",
+        "probability": 0.003689299803227186
+      },
+      {
+        "class_id": 5,
+        "label": "Speed limit (80km/h)",
+        "probability": 0.001957427943125367
+      },
+      {
+        "class_id": 15,
+        "label": "No vehicles",
+        "probability": 0.0014034542255103588
+      }
+    ],
+    "crop": "crops/city-469-90.png",
+    "reproduced_prediction": true,
+    "speech_veto": "mandatory_blue_face_unverified",
+    "crop_size_px": [
+      33,
+      33
+    ],
+    "aspect_ratio": 1.0,
+    "top1_top2_margin": 0.951384574174881
+  },
+  {
+    "tag": "city",
+    "frame_id": 479,
+    "clipped_box": [
+      1002,
+      235,
+      1043,
+      278
+    ],
+    "detected_box": [
+      1002.39990234375,
+      235.38824462890625,
+      1042.815185546875,
+      277.613037109375
+    ],
+    "recorded_prediction_id": 38,
+    "recorded_top1": 0.9755762219429016,
+    "timestamp_ms": 15966.666666666666,
+    "track_id": 17,
+    "aggregate": 38,
+    "source_frame": 479,
+    "ground_truth_id": 12,
+    "examined_track": true,
+    "first_yolo_at": 4467.9122372,
+    "first_cnn_at": 4467.9579135,
+    "top5": [
+      {
+        "class_id": 38,
+        "label": "Keep right",
+        "probability": 0.9755762219429016
+      },
+      {
+        "class_id": 12,
+        "label": "Priority road",
+        "probability": 0.012601051479578018
+      },
+      {
+        "class_id": 15,
+        "label": "No vehicles",
+        "probability": 0.0037196530029177666
+      },
+      {
+        "class_id": 40,
+        "label": "Roundabout mandatory",
+        "probability": 0.0021692002192139626
+      },
+      {
+        "class_id": 5,
+        "label": "Speed limit (80km/h)",
+        "probability": 0.0020380995701998472
+      }
+    ],
+    "crop": "crops/city-479-91.png",
+    "reproduced_prediction": true,
+    "speech_veto": "mandatory_blue_face_unverified",
+    "crop_size_px": [
+      41,
+      43
+    ],
+    "aspect_ratio": 0.9534883720930233,
+    "top1_top2_margin": 0.9629751704633236
+  },
+  {
+    "tag": "city",
+    "frame_id": 855,
+    "clipped_box": [
+      437,
+      284,
+      452,
+      298
+    ],
+    "detected_box": [
+      437.69512939453125,
+      284.7265930175781,
+      451.07415771484375,
+      297.6985778808594
+    ],
+    "recorded_prediction_id": 13,
+    "recorded_top1": 0.9999675750732422,
+    "timestamp_ms": 28500.0,
+    "track_id": 32,
+    "aggregate": null,
+    "source_frame": 855,
+    "ground_truth_id": null,
+    "examined_track": true,
+    "first_yolo_at": 4480.5036725,
+    "first_cnn_at": 4480.5427998,
+    "top5": [
+      {
+        "class_id": 13,
+        "label": "Yield",
+        "probability": 0.9999675750732422
+      },
+      {
+        "class_id": 11,
+        "label": "Right-of-way at intersection",
+        "probability": 2.007050352403894e-05
+      },
+      {
+        "class_id": 10,
+        "label": "No passing veh over 3.5 tons",
+        "probability": 7.971572813403327e-06
+      },
+      {
+        "class_id": 18,
+        "label": "General caution",
+        "probability": 1.7873534261525492e-06
+      },
+      {
+        "class_id": 12,
+        "label": "Priority road",
+        "probability": 1.2029823892589775e-06
+      }
+    ],
+    "crop": "crops/city-855-124.png",
+    "reproduced_prediction": true,
+    "speech_veto": null,
+    "crop_size_px": [
+      15,
+      14
+    ],
+    "aspect_ratio": 1.0714285714285714,
+    "top1_top2_margin": 0.9999475045697181
+  },
+  {
+    "tag": "city",
+    "frame_id": 862,
+    "clipped_box": [
+      435,
+      284,
+      449,
+      299
+    ],
+    "detected_box": [
+      435.9571533203125,
+      284.8209228515625,
+      448.81951904296875,
+      298.1708984375
+    ],
+    "recorded_prediction_id": 13,
+    "recorded_top1": 0.9823355078697205,
+    "timestamp_ms": 28733.333333333332,
+    "track_id": 32,
+    "aggregate": 13,
+    "source_frame": 862,
+    "ground_truth_id": null,
+    "examined_track": true,
+    "first_yolo_at": 4480.7029576,
+    "first_cnn_at": 4480.7431548,
+    "top5": [
+      {
+        "class_id": 13,
+        "label": "Yield",
+        "probability": 0.98233562707901
+      },
+      {
+        "class_id": 12,
+        "label": "Priority road",
+        "probability": 0.012951195240020752
+      },
+      {
+        "class_id": 18,
+        "label": "General caution",
+        "probability": 0.0042787883430719376
+      },
+      {
+        "class_id": 42,
+        "label": "End no passing veh > 3.5 tons",
+        "probability": 0.00013549417781177908
+      },
+      {
+        "class_id": 11,
+        "label": "Right-of-way at intersection",
+        "probability": 0.00010301936708856374
+      }
+    ],
+    "crop": "crops/city-862-125.png",
+    "reproduced_prediction": true,
+    "speech_veto": null,
+    "crop_size_px": [
+      14,
+      15
+    ],
+    "aspect_ratio": 0.9333333333333333,
+    "top1_top2_margin": 0.9693844318389893
+  },
+  {
+    "tag": "repeat",
+    "frame_id": 433,
+    "clipped_box": [
+      831,
+      293,
+      850,
+      310
+    ],
+    "detected_box": [
+      831.4376220703125,
+      293.0469970703125,
+      849.949951171875,
+      309.978759765625
+    ],
+    "recorded_prediction_id": 38,
+    "recorded_top1": 0.9871802926063538,
+    "timestamp_ms": 14433.333333333334,
+    "track_id": 22,
+    "aggregate": null,
+    "source_frame": 433,
+    "ground_truth_id": 12,
+    "examined_track": true,
+    "first_yolo_at": 4685.5137197,
+    "first_cnn_at": 4685.5614131,
+    "top5": [
+      {
+        "class_id": 38,
+        "label": "Keep right",
+        "probability": 0.9871802926063538
+      },
+      {
+        "class_id": 40,
+        "label": "Roundabout mandatory",
+        "probability": 0.007115480024367571
+      },
+      {
+        "class_id": 12,
+        "label": "Priority road",
+        "probability": 0.004220573231577873
+      },
+      {
+        "class_id": 17,
+        "label": "No entry",
+        "probability": 0.0005984342424198985
+      },
+      {
+        "class_id": 32,
+        "label": "End speed + passing limits",
+        "probability": 0.0003693077014759183
+      }
+    ],
+    "crop": "crops/repeat-433-253.png",
+    "reproduced_prediction": true,
+    "speech_veto": "mandatory_blue_face_unverified",
+    "crop_size_px": [
+      19,
+      17
+    ],
+    "aspect_ratio": 1.1176470588235294,
+    "top1_top2_margin": 0.9800648125819862
+  },
+  {
+    "tag": "repeat",
+    "frame_id": 446,
+    "clipped_box": [
+      851,
+      283,
+      873,
+      305
+    ],
+    "detected_box": [
+      851.95068359375,
+      283.8252258300781,
+      872.2535400390625,
+      304.4927673339844
+    ],
+    "recorded_prediction_id": 38,
+    "recorded_top1": 0.9209083914756775,
+    "timestamp_ms": 14866.666666666666,
+    "track_id": 22,
+    "aggregate": 38,
+    "source_frame": 446,
+    "ground_truth_id": 12,
+    "examined_track": true,
+    "first_yolo_at": 4685.7770035,
+    "first_cnn_at": 4685.8282942,
+    "top5": [
+      {
+        "class_id": 38,
+        "label": "Keep right",
+        "probability": 0.9209082722663879
+      },
+      {
+        "class_id": 40,
+        "label": "Roundabout mandatory",
+        "probability": 0.049508411437273026
+      },
+      {
+        "class_id": 15,
+        "label": "No vehicles",
+        "probability": 0.0254061222076416
+      },
+      {
+        "class_id": 12,
+        "label": "Priority road",
+        "probability": 0.0015720758819952607
+      },
+      {
+        "class_id": 35,
+        "label": "Ahead only",
+        "probability": 0.0013594269985333085
+      }
+    ],
+    "crop": "crops/repeat-446-255.png",
+    "reproduced_prediction": true,
+    "speech_veto": "mandatory_blue_face_unverified",
+    "crop_size_px": [
+      22,
+      22
+    ],
+    "aspect_ratio": 1.0,
+    "top1_top2_margin": 0.8713998608291149
+  },
+  {
+    "tag": "repeat",
+    "frame_id": 454,
+    "clipped_box": [
+      871,
+      279,
+      892,
+      302
+    ],
+    "detected_box": [
+      871.68212890625,
+      279.69830322265625,
+      891.16845703125,
+      301.82745361328125
+    ],
+    "recorded_prediction_id": 38,
+    "recorded_top1": 0.8109900951385498,
+    "timestamp_ms": 15133.333333333334,
+    "track_id": 22,
+    "aggregate": 38,
+    "source_frame": 454,
+    "ground_truth_id": 12,
+    "examined_track": true,
+    "first_yolo_at": 4685.9914623,
+    "first_cnn_at": 4686.0429373,
+    "top5": [
+      {
+        "class_id": 38,
+        "label": "Keep right",
+        "probability": 0.8109903931617737
+      },
+      {
+        "class_id": 17,
+        "label": "No entry",
+        "probability": 0.07387839257717133
+      },
+      {
+        "class_id": 34,
+        "label": "Turn left ahead",
+        "probability": 0.018176231533288956
+      },
+      {
+        "class_id": 5,
+        "label": "Speed limit (80km/h)",
+        "probability": 0.01594093255698681
+      },
+      {
+        "class_id": 3,
+        "label": "Speed limit (60km/h)",
+        "probability": 0.015431469306349754
+      }
+    ],
+    "crop": "crops/repeat-454-259.png",
+    "reproduced_prediction": true,
+    "speech_veto": "mandatory_blue_face_unverified",
+    "crop_size_px": [
+      21,
+      23
+    ],
+    "aspect_ratio": 0.9130434782608695,
+    "top1_top2_margin": 0.7371120005846024
+  },
+  {
+    "tag": "repeat",
+    "frame_id": 460,
+    "clipped_box": [
+      889,
+      272,
+      914,
+      299
+    ],
+    "detected_box": [
+      889.2964477539062,
+      272.6249084472656,
+      913.4246215820312,
+      298.1860046386719
+    ],
+    "recorded_prediction_id": 38,
+    "recorded_top1": 0.9539462924003601,
+    "timestamp_ms": 15333.333333333334,
+    "track_id": 22,
+    "aggregate": 38,
+    "source_frame": 460,
+    "ground_truth_id": 12,
+    "examined_track": true,
+    "first_yolo_at": 4686.2270262,
+    "first_cnn_at": 4686.2749294,
+    "top5": [
+      {
+        "class_id": 38,
+        "label": "Keep right",
+        "probability": 0.9539462327957153
+      },
+      {
+        "class_id": 17,
+        "label": "No entry",
+        "probability": 0.023221340030431747
+      },
+      {
+        "class_id": 12,
+        "label": "Priority road",
+        "probability": 0.004211711697280407
+      },
+      {
+        "class_id": 15,
+        "label": "No vehicles",
+        "probability": 0.0038623011205345392
+      },
+      {
+        "class_id": 3,
+        "label": "Speed limit (60km/h)",
+        "probability": 0.0030601941980421543
+      }
+    ],
+    "crop": "crops/repeat-460-261.png",
+    "reproduced_prediction": true,
+    "speech_veto": "mandatory_blue_face_unverified",
+    "crop_size_px": [
+      25,
+      27
+    ],
+    "aspect_ratio": 0.9259259259259259,
+    "top1_top2_margin": 0.9307248927652836
+  },
+  {
+    "tag": "repeat",
+    "frame_id": 467,
+    "clipped_box": [
+      918,
+      262,
+      947,
+      292
+    ],
+    "detected_box": [
+      918.52099609375,
+      262.3175048828125,
+      946.888916015625,
+      291.06695556640625
+    ],
+    "recorded_prediction_id": 38,
+    "recorded_top1": 0.8743255138397217,
+    "timestamp_ms": 15566.666666666666,
+    "track_id": 22,
+    "aggregate": 38,
+    "source_frame": 467,
+    "ground_truth_id": 12,
+    "examined_track": true,
+    "first_yolo_at": 4686.5561651,
+    "first_cnn_at": 4686.5939655,
+    "top5": [
+      {
+        "class_id": 38,
+        "label": "Keep right",
+        "probability": 0.8743258118629456
+      },
+      {
+        "class_id": 17,
+        "label": "No entry",
+        "probability": 0.07518881559371948
+      },
+      {
+        "class_id": 15,
+        "label": "No vehicles",
+        "probability": 0.015769217163324356
+      },
+      {
+        "class_id": 32,
+        "label": "End speed + passing limits",
+        "probability": 0.006901901215314865
+      },
+      {
+        "class_id": 3,
+        "label": "Speed limit (60km/h)",
+        "probability": 0.00585172651335597
+      }
+    ],
+    "crop": "crops/repeat-467-265.png",
+    "reproduced_prediction": true,
+    "speech_veto": "mandatory_blue_face_unverified",
+    "crop_size_px": [
+      29,
+      30
+    ],
+    "aspect_ratio": 0.9666666666666667,
+    "top1_top2_margin": 0.7991369962692261
+  },
+  {
+    "tag": "repeat",
+    "frame_id": 477,
+    "clipped_box": [
+      983,
+      241,
+      1021,
+      280
+    ],
+    "detected_box": [
+      983.12451171875,
+      241.13723754882812,
+      1020.94775390625,
+      279.1701965332031
+    ],
+    "recorded_prediction_id": 38,
+    "recorded_top1": 0.9824537038803101,
+    "timestamp_ms": 15900.0,
+    "track_id": 22,
+    "aggregate": 38,
+    "source_frame": 477,
+    "ground_truth_id": 12,
+    "examined_track": true,
+    "first_yolo_at": 4686.7914236,
+    "first_cnn_at": 4686.8350521,
+    "top5": [
+      {
+        "class_id": 38,
+        "label": "Keep right",
+        "probability": 0.9824537038803101
+      },
+      {
+        "class_id": 12,
+        "label": "Priority road",
+        "probability": 0.006188052240759134
+      },
+      {
+        "class_id": 17,
+        "label": "No entry",
+        "probability": 0.0061209131963551044
+      },
+      {
+        "class_id": 15,
+        "label": "No vehicles",
+        "probability": 0.002434968017041683
+      },
+      {
+        "class_id": 3,
+        "label": "Speed limit (60km/h)",
+        "probability": 0.0007098768837749958
+      }
+    ],
+    "crop": "crops/repeat-477-268.png",
+    "reproduced_prediction": true,
+    "speech_veto": "mandatory_blue_face_unverified",
+    "crop_size_px": [
+      38,
+      39
+    ],
+    "aspect_ratio": 0.9743589743589743,
+    "top1_top2_margin": 0.9762656516395509
+  },
+  {
+    "tag": "repeat",
+    "frame_id": 484,
+    "clipped_box": [
+      1055,
+      217,
+      1108,
+      267
+    ],
+    "detected_box": [
+      1055.7181396484375,
+      217.99502563476562,
+      1107.4146728515625,
+      266.9015197753906
+    ],
+    "recorded_prediction_id": 38,
+    "recorded_top1": 0.9866808652877808,
+    "timestamp_ms": 16133.333333333334,
+    "track_id": 22,
+    "aggregate": 38,
+    "source_frame": 484,
+    "ground_truth_id": 12,
+    "examined_track": true,
+    "first_yolo_at": 4687.7100997,
+    "first_cnn_at": 4687.7508292,
+    "top5": [
+      {
+        "class_id": 38,
+        "label": "Keep right",
+        "probability": 0.9866808652877808
+      },
+      {
+        "class_id": 15,
+        "label": "No vehicles",
+        "probability": 0.009360852651298046
+      },
+      {
+        "class_id": 12,
+        "label": "Priority road",
+        "probability": 0.002752865431830287
+      },
+      {
+        "class_id": 17,
+        "label": "No entry",
+        "probability": 0.0005361840594559908
+      },
+      {
+        "class_id": 40,
+        "label": "Roundabout mandatory",
+        "probability": 0.0004986575222574174
+      }
+    ],
+    "crop": "crops/repeat-484-270.png",
+    "reproduced_prediction": true,
+    "speech_veto": "mandatory_blue_face_unverified",
+    "crop_size_px": [
+      53,
+      50
+    ],
+    "aspect_ratio": 1.06,
+    "top1_top2_margin": 0.9773200126364827
+  },
+  {
+    "tag": "motorway",
+    "frame_id": 106,
+    "clipped_box": [
+      446,
+      216,
+      468,
+      237
+    ],
+    "detected_box": [
+      446.2770690917969,
+      216.32650756835938,
+      467.3389587402344,
+      236.78302001953125
+    ],
+    "recorded_prediction_id": 4,
+    "recorded_top1": 0.5453829169273376,
+    "timestamp_ms": 3533.3333333333335,
+    "track_id": 2,
+    "aggregate": null,
+    "source_frame": 8746,
+    "ground_truth_id": 7,
+    "examined_track": true,
+    "first_yolo_at": 4777.7082573,
+    "first_cnn_at": 4777.7528357,
+    "top5": [
+      {
+        "class_id": 4,
+        "label": "Speed limit (70km/h)",
+        "probability": 0.545383870601654
+      },
+      {
+        "class_id": 0,
+        "label": "Speed limit (20km/h)",
+        "probability": 0.4102049767971039
+      },
+      {
+        "class_id": 8,
+        "label": "Speed limit (120km/h)",
+        "probability": 0.022157374769449234
+      },
+      {
+        "class_id": 2,
+        "label": "Speed limit (50km/h)",
+        "probability": 0.009080014191567898
+      },
+      {
+        "class_id": 14,
+        "label": "Stop",
+        "probability": 0.00812440924346447
+      }
+    ],
+    "crop": "crops/motorway-106-356.png",
+    "reproduced_prediction": true,
+    "speech_veto": "dark_red_sign_face",
+    "crop_size_px": [
+      22,
+      21
+    ],
+    "aspect_ratio": 1.0476190476190477,
+    "top1_top2_margin": 0.13517889380455017
+  },
+  {
+    "tag": "motorway",
+    "frame_id": 117,
+    "clipped_box": [
+      458,
+      198,
+      484,
+      224
+    ],
+    "detected_box": [
+      458.67681884765625,
+      198.68353271484375,
+      483.02081298828125,
+      223.2103271484375
+    ],
+    "recorded_prediction_id": 4,
+    "recorded_top1": 0.6479426622390747,
+    "timestamp_ms": 3900.0,
+    "track_id": 2,
+    "aggregate": 4,
+    "source_frame": 8757,
+    "ground_truth_id": 7,
+    "examined_track": true,
+    "first_yolo_at": 4778.027489,
+    "first_cnn_at": 4778.0622435,
+    "top5": [
+      {
+        "class_id": 4,
+        "label": "Speed limit (70km/h)",
+        "probability": 0.6479423642158508
+      },
+      {
+        "class_id": 0,
+        "label": "Speed limit (20km/h)",
+        "probability": 0.21253490447998047
+      },
+      {
+        "class_id": 1,
+        "label": "Speed limit (30km/h)",
+        "probability": 0.11477114260196686
+      },
+      {
+        "class_id": 15,
+        "label": "No vehicles",
+        "probability": 0.013501369394361973
+      },
+      {
+        "class_id": 2,
+        "label": "Speed limit (50km/h)",
+        "probability": 0.0067305536940693855
+      }
+    ],
+    "crop": "crops/motorway-117-357.png",
+    "reproduced_prediction": true,
+    "speech_veto": "dark_red_sign_face",
+    "crop_size_px": [
+      26,
+      26
+    ],
+    "aspect_ratio": 1.0,
+    "top1_top2_margin": 0.43540745973587036
+  },
+  {
+    "tag": "motorway",
+    "frame_id": 121,
+    "clipped_box": [
+      464,
+      191,
+      489,
+      215
+    ],
+    "detected_box": [
+      464.48394775390625,
+      191.35220336914062,
+      488.47576904296875,
+      214.87521362304688
+    ],
+    "recorded_prediction_id": 0,
+    "recorded_top1": 0.9805622696876526,
+    "timestamp_ms": 4033.3333333333335,
+    "track_id": 2,
+    "aggregate": null,
+    "source_frame": 8761,
+    "ground_truth_id": 7,
+    "examined_track": true,
+    "first_yolo_at": 4778.1874878,
+    "first_cnn_at": 4778.2313068,
+    "top5": [
+      {
+        "class_id": 0,
+        "label": "Speed limit (20km/h)",
+        "probability": 0.9805623292922974
+      },
+      {
+        "class_id": 8,
+        "label": "Speed limit (120km/h)",
+        "probability": 0.008958227001130581
+      },
+      {
+        "class_id": 2,
+        "label": "Speed limit (50km/h)",
+        "probability": 0.007765590213239193
+      },
+      {
+        "class_id": 35,
+        "label": "Ahead only",
+        "probability": 0.0008685270440764725
+      },
+      {
+        "class_id": 3,
+        "label": "Speed limit (60km/h)",
+        "probability": 0.0006846057367511094
+      }
+    ],
+    "crop": "crops/motorway-121-360.png",
+    "reproduced_prediction": true,
+    "speech_veto": "dark_red_sign_face",
+    "crop_size_px": [
+      25,
+      24
+    ],
+    "aspect_ratio": 1.0416666666666667,
+    "top1_top2_margin": 0.9716041022911668
+  },
+  {
+    "tag": "motorway",
+    "frame_id": 125,
+    "clipped_box": [
+      468,
+      182,
+      495,
+      209
+    ],
+    "detected_box": [
+      468.98919677734375,
+      182.6836700439453,
+      494.39910888671875,
+      208.40599060058594
+    ],
+    "recorded_prediction_id": 1,
+    "recorded_top1": 0.44796282052993774,
+    "timestamp_ms": 4166.666666666667,
+    "track_id": 2,
+    "aggregate": null,
+    "source_frame": 8765,
+    "ground_truth_id": 7,
+    "examined_track": true,
+    "first_yolo_at": 4778.3489741,
+    "first_cnn_at": 4778.3889321,
+    "top5": [
+      {
+        "class_id": 1,
+        "label": "Speed limit (30km/h)",
+        "probability": 0.4479621946811676
+      },
+      {
+        "class_id": 4,
+        "label": "Speed limit (70km/h)",
+        "probability": 0.2976420819759369
+      },
+      {
+        "class_id": 0,
+        "label": "Speed limit (20km/h)",
+        "probability": 0.15930429100990295
+      },
+      {
+        "class_id": 25,
+        "label": "Road work",
+        "probability": 0.04225862771272659
+      },
+      {
+        "class_id": 35,
+        "label": "Ahead only",
+        "probability": 0.021651368588209152
+      }
+    ],
+    "crop": "crops/motorway-125-362.png",
+    "reproduced_prediction": true,
+    "speech_veto": "dark_red_sign_face",
+    "crop_size_px": [
+      27,
+      27
+    ],
+    "aspect_ratio": 1.0,
+    "top1_top2_margin": 0.1503201127052307
+  },
+  {
+    "tag": "motorway",
+    "frame_id": 131,
+    "clipped_box": [
+      477,
+      166,
+      503,
+      193
+    ],
+    "detected_box": [
+      477.0633544921875,
+      166.90887451171875,
+      502.0548095703125,
+      192.68756103515625
+    ],
+    "recorded_prediction_id": 34,
+    "recorded_top1": 0.6310041546821594,
+    "timestamp_ms": 4366.666666666667,
+    "track_id": 2,
+    "aggregate": null,
+    "source_frame": 8771,
+    "ground_truth_id": 7,
+    "examined_track": true,
+    "first_yolo_at": 4778.5097586,
+    "first_cnn_at": 4778.5436934,
+    "top5": [
+      {
+        "class_id": 34,
+        "label": "Turn left ahead",
+        "probability": 0.6310036778450012
+      },
+      {
+        "class_id": 12,
+        "label": "Priority road",
+        "probability": 0.13892768323421478
+      },
+      {
+        "class_id": 8,
+        "label": "Speed limit (120km/h)",
+        "probability": 0.1035780981183052
+      },
+      {
+        "class_id": 33,
+        "label": "Turn right ahead",
+        "probability": 0.04568904638290405
+      },
+      {
+        "class_id": 25,
+        "label": "Road work",
+        "probability": 0.044149331748485565
+      }
+    ],
+    "crop": "crops/motorway-131-365.png",
+    "reproduced_prediction": true,
+    "speech_veto": "dark_red_sign_face",
+    "crop_size_px": [
+      26,
+      27
+    ],
+    "aspect_ratio": 0.9629629629629629,
+    "top1_top2_margin": 0.49207599461078644
+  }
+]

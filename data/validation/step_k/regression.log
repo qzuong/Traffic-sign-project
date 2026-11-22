@@ -1,0 +1,41 @@
+﻿python : ............YOLO worker error: worker startup failed
+At line:15 char:1
++ python -m unittest discover -s tests 2>&1 | Tee-Object -FilePath (Joi ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (............YOL... startup failed:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+AI inference failed.
+Traceback (most recent call last):
+  File "D:\Traffic-sign-project\src\traffic_sign_demo\inference_service.py", line 660, in _run
+    result = self._infer(request)
+  File "D:\Traffic-sign-project\src\traffic_sign_demo\inference_service.py", line 689, in _infer
+    yolo_client = self._get_client("yolo")
+  File "D:\Traffic-sign-project\src\traffic_sign_demo\inference_service.py", line 599, in _get_client
+    client = self._worker_factory(worker_name, arguments, self.project_root)
+  File "D:\Traffic-sign-project\tests\test_ai_pipeline.py", line 421, in failing_factory
+    raise InferenceServiceError("worker startup failed")
+src.traffic_sign_demo.inference_service.InferenceServiceError: worker startup failed
+.YOLO worker sys.executable: C:\Program Files\Python313\python.exe
+....YOLO worker sys.executable: D:\Traffic-sign-project\.venv-yolo\Scripts\python.exe
+Creating new Ultralytics Settings v0.0.8 file  
+View Ultralytics Settings with 'yolo settings' or at 
+'C:\Users\Admin\AppData\Local\Temp\traffic-sign-demo-yolo-1m8ba0rz\Ultralytics\settings.json'
+Update Settings with 'yolo settings key=value', i.e. 'yolo settings runs_dir=path/to/dir'. For help see 
+https://docs.ultralytics.com/usage/settings
+CNN worker sys.executable: C:\Program Files\Python313\python.exe
+2026-11-22 10:52:43.621702: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly 
+different numerical results due to floating-point round-off errors from different computation orders. To turn them 
+off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-11-22 10:52:49.514335: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly 
+different numerical results due to floating-point round-off errors from different computation orders. To turn them 
+off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-11-22 10:52:55.538594: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized 
+to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE3 SSE4.1 SSE4.2 AVX AVX2 FMA, in other operations, rebuild TensorFlow with 
+the appropriate compiler flags.
+...............................................................................
+----------------------------------------------------------------------
+Ran 96 tests in 34.792s
+
+OK

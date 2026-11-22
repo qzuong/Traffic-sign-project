@@ -1,0 +1,2354 @@
+{
+  "counts": {
+    "images": 366,
+    "fp": 1,
+    "fn": 366,
+    "baseline_incorrect": 1,
+    "candidate_incorrect": 1
+  },
+  "per_class": {
+    "0": {
+      "images": 12
+    },
+    "1": {
+      "images": 12
+    },
+    "2": {
+      "images": 12
+    },
+    "3": {
+      "images": 12
+    },
+    "4": {
+      "images": 12
+    },
+    "5": {
+      "images": 12
+    },
+    "6": {
+      "images": 12
+    },
+    "7": {
+      "images": 12
+    },
+    "8": {
+      "images": 12
+    },
+    "9": {
+      "images": 12
+    },
+    "10": {
+      "images": 6
+    },
+    "11": {
+      "images": 6
+    },
+    "12": {
+      "images": 12
+    },
+    "13": {
+      "images": 12
+    },
+    "14": {
+      "images": 12
+    },
+    "15": {
+      "images": 12
+    },
+    "16": {
+      "images": 12
+    },
+    "17": {
+      "images": 12
+    },
+    "18": {
+      "images": 6
+    },
+    "19": {
+      "images": 6
+    },
+    "20": {
+      "images": 6
+    },
+    "21": {
+      "images": 6
+    },
+    "22": {
+      "images": 6
+    },
+    "23": {
+      "images": 6
+    },
+    "24": {
+      "images": 6
+    },
+    "25": {
+      "images": 6
+    },
+    "26": {
+      "images": 6
+    },
+    "27": {
+      "images": 6,
+      "baseline_incorrect": 1,
+      "candidate_incorrect": 1
+    },
+    "28": {
+      "images": 6
+    },
+    "29": {
+      "images": 6
+    },
+    "30": {
+      "images": 6
+    },
+    "31": {
+      "images": 6
+    },
+    "32": {
+      "images": 6
+    },
+    "33": {
+      "images": 6
+    },
+    "34": {
+      "images": 6
+    },
+    "35": {
+      "images": 6
+    },
+    "36": {
+      "images": 6
+    },
+    "37": {
+      "images": 6
+    },
+    "38": {
+      "images": 12
+    },
+    "39": {
+      "images": 6
+    },
+    "40": {
+      "images": 12
+    },
+    "41": {
+      "images": 6
+    },
+    "42": {
+      "images": 6
+    }
+  },
+  "mean_iou": null,
+  "voices": [
+    {
+      "path": "Test/03420.png",
+      "truth": 0,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/10406.png",
+      "truth": 0,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/02160.png",
+      "truth": 0,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/03474.png",
+      "truth": 0,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/01853.png",
+      "truth": 0,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/01279.png",
+      "truth": 0,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/04726.png",
+      "truth": 0,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/00809.png",
+      "truth": 0,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/00778.png",
+      "truth": 0,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/06333.png",
+      "truth": 0,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/11718.png",
+      "truth": 0,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/02045.png",
+      "truth": 0,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/04657.png",
+      "truth": 1,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/02244.png",
+      "truth": 1,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/00445.png",
+      "truth": 1,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/01176.png",
+      "truth": 1,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/05011.png",
+      "truth": 1,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/11234.png",
+      "truth": 1,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/01788.png",
+      "truth": 1,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/05896.png",
+      "truth": 1,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/10938.png",
+      "truth": 1,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/12383.png",
+      "truth": 1,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/03691.png",
+      "truth": 1,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/03769.png",
+      "truth": 1,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/06654.png",
+      "truth": 2,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/02935.png",
+      "truth": 2,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/06662.png",
+      "truth": 2,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/03556.png",
+      "truth": 2,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/04506.png",
+      "truth": 2,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/07648.png",
+      "truth": 2,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/12575.png",
+      "truth": 2,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/04018.png",
+      "truth": 2,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/09214.png",
+      "truth": 2,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/08880.png",
+      "truth": 2,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/02727.png",
+      "truth": 2,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/08550.png",
+      "truth": 2,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/03104.png",
+      "truth": 3,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/07423.png",
+      "truth": 3,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/10881.png",
+      "truth": 3,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/07905.png",
+      "truth": 3,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/00176.png",
+      "truth": 3,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/00760.png",
+      "truth": 3,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/04135.png",
+      "truth": 3,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/07613.png",
+      "truth": 3,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/01142.png",
+      "truth": 3,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/02158.png",
+      "truth": 3,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/10135.png",
+      "truth": 3,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/12491.png",
+      "truth": 3,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/11413.png",
+      "truth": 4,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/06101.png",
+      "truth": 4,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/10023.png",
+      "truth": 4,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/02730.png",
+      "truth": 4,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/04695.png",
+      "truth": 4,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/05745.png",
+      "truth": 4,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/01967.png",
+      "truth": 4,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/09876.png",
+      "truth": 4,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/08453.png",
+      "truth": 4,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/10644.png",
+      "truth": 4,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/05901.png",
+      "truth": 4,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/02861.png",
+      "truth": 4,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/12205.png",
+      "truth": 5,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/01787.png",
+      "truth": 5,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/09724.png",
+      "truth": 5,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/02346.png",
+      "truth": 5,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/00246.png",
+      "truth": 5,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/07986.png",
+      "truth": 5,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/05113.png",
+      "truth": 5,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/07906.png",
+      "truth": 5,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/04712.png",
+      "truth": 5,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/05626.png",
+      "truth": 5,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/01538.png",
+      "truth": 5,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/00986.png",
+      "truth": 5,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/04129.png",
+      "truth": 6,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/11745.png",
+      "truth": 6,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/06813.png",
+      "truth": 6,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/09410.png",
+      "truth": 6,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/00335.png",
+      "truth": 6,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/06274.png",
+      "truth": 6,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/11128.png",
+      "truth": 6,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/09370.png",
+      "truth": 6,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/09545.png",
+      "truth": 6,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/09591.png",
+      "truth": 6,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/08208.png",
+      "truth": 6,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/00459.png",
+      "truth": 6,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/11227.png",
+      "truth": 7,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/02249.png",
+      "truth": 7,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/11163.png",
+      "truth": 7,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/04960.png",
+      "truth": 7,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/09423.png",
+      "truth": 7,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/12450.png",
+      "truth": 7,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/03833.png",
+      "truth": 7,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/05303.png",
+      "truth": 7,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/07463.png",
+      "truth": 7,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/04630.png",
+      "truth": 7,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/12020.png",
+      "truth": 7,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/05942.png",
+      "truth": 7,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/11145.png",
+      "truth": 8,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/03411.png",
+      "truth": 8,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/04832.png",
+      "truth": 8,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/04385.png",
+      "truth": 8,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/07447.png",
+      "truth": 8,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/10299.png",
+      "truth": 8,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/07808.png",
+      "truth": 8,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/02338.png",
+      "truth": 8,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/11023.png",
+      "truth": 8,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/07269.png",
+      "truth": 8,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/07037.png",
+      "truth": 8,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/09312.png",
+      "truth": 8,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/06615.png",
+      "truth": 9,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/05384.png",
+      "truth": 9,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/07450.png",
+      "truth": 9,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/08233.png",
+      "truth": 9,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/10889.png",
+      "truth": 9,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/06103.png",
+      "truth": 9,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/10286.png",
+      "truth": 9,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/08860.png",
+      "truth": 9,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/00342.png",
+      "truth": 9,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/08674.png",
+      "truth": 9,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/02587.png",
+      "truth": 9,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/09269.png",
+      "truth": 9,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/10887.png",
+      "truth": 10,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/02156.png",
+      "truth": 10,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/08897.png",
+      "truth": 10,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/02013.png",
+      "truth": 10,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/12257.png",
+      "truth": 10,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/09820.png",
+      "truth": 10,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/06684.png",
+      "truth": 11,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/11039.png",
+      "truth": 11,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/06373.png",
+      "truth": 11,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/09874.png",
+      "truth": 11,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/08593.png",
+      "truth": 11,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/09599.png",
+      "truth": 11,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/02302.png",
+      "truth": 12,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/03698.png",
+      "truth": 12,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/02058.png",
+      "truth": 12,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/11049.png",
+      "truth": 12,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/02501.png",
+      "truth": 12,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/01488.png",
+      "truth": 12,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/07548.png",
+      "truth": 12,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/01109.png",
+      "truth": 12,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/04690.png",
+      "truth": 12,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/12233.png",
+      "truth": 12,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/04451.png",
+      "truth": 12,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/06947.png",
+      "truth": 12,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/10951.png",
+      "truth": 13,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/06164.png",
+      "truth": 13,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/06773.png",
+      "truth": 13,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/09199.png",
+      "truth": 13,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/08680.png",
+      "truth": 13,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/03395.png",
+      "truth": 13,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/00680.png",
+      "truth": 13,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/08878.png",
+      "truth": 13,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/05552.png",
+      "truth": 13,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/06202.png",
+      "truth": 13,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/07325.png",
+      "truth": 13,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/05194.png",
+      "truth": 13,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/01796.png",
+      "truth": 14,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/00686.png",
+      "truth": 14,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/02230.png",
+      "truth": 14,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/00456.png",
+      "truth": 14,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/03708.png",
+      "truth": 14,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/02186.png",
+      "truth": 14,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/01196.png",
+      "truth": 14,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/02581.png",
+      "truth": 14,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/02828.png",
+      "truth": 14,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/03134.png",
+      "truth": 14,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/07465.png",
+      "truth": 14,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/10539.png",
+      "truth": 14,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/08896.png",
+      "truth": 15,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/00797.png",
+      "truth": 15,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/04581.png",
+      "truth": 15,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/06489.png",
+      "truth": 15,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/07251.png",
+      "truth": 15,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/10350.png",
+      "truth": 15,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/03241.png",
+      "truth": 15,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/06134.png",
+      "truth": 15,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/02908.png",
+      "truth": 15,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/02910.png",
+      "truth": 15,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/03253.png",
+      "truth": 15,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/08753.png",
+      "truth": 15,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/04764.png",
+      "truth": 16,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/00161.png",
+      "truth": 16,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/09842.png",
+      "truth": 16,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/07650.png",
+      "truth": 16,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/10898.png",
+      "truth": 16,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/00059.png",
+      "truth": 16,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/09489.png",
+      "truth": 16,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/12097.png",
+      "truth": 16,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/06726.png",
+      "truth": 16,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/01090.png",
+      "truth": 16,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/03472.png",
+      "truth": 16,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/11133.png",
+      "truth": 16,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/10256.png",
+      "truth": 17,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/05584.png",
+      "truth": 17,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/08854.png",
+      "truth": 17,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/05517.png",
+      "truth": 17,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/11850.png",
+      "truth": 17,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/06960.png",
+      "truth": 17,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/11567.png",
+      "truth": 17,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/02304.png",
+      "truth": 17,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/02334.png",
+      "truth": 17,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/12035.png",
+      "truth": 17,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/07789.png",
+      "truth": 17,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/11195.png",
+      "truth": 17,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/02724.png",
+      "truth": 18,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/10545.png",
+      "truth": 18,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/06149.png",
+      "truth": 18,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/03030.png",
+      "truth": 18,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/06393.png",
+      "truth": 18,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/05300.png",
+      "truth": 18,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/03405.png",
+      "truth": 19,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/00368.png",
+      "truth": 19,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/06210.png",
+      "truth": 19,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/04754.png",
+      "truth": 19,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/05068.png",
+      "truth": 19,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/09834.png",
+      "truth": 19,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/09611.png",
+      "truth": 20,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/00250.png",
+      "truth": 20,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/06402.png",
+      "truth": 20,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/01169.png",
+      "truth": 20,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/05295.png",
+      "truth": 20,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/09536.png",
+      "truth": 20,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/07910.png",
+      "truth": 21,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/00149.png",
+      "truth": 21,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/05760.png",
+      "truth": 21,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/11788.png",
+      "truth": 21,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/10573.png",
+      "truth": 21,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/08352.png",
+      "truth": 21,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/10175.png",
+      "truth": 22,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/06102.png",
+      "truth": 22,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/04055.png",
+      "truth": 22,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/11293.png",
+      "truth": 22,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/02962.png",
+      "truth": 22,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/12551.png",
+      "truth": 22,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/04914.png",
+      "truth": 23,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/01683.png",
+      "truth": 23,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/05289.png",
+      "truth": 23,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/06644.png",
+      "truth": 23,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/10563.png",
+      "truth": 23,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/11999.png",
+      "truth": 23,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/12538.png",
+      "truth": 24,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/07824.png",
+      "truth": 24,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/06787.png",
+      "truth": 24,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/05797.png",
+      "truth": 24,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/08428.png",
+      "truth": 24,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/12322.png",
+      "truth": 24,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/03983.png",
+      "truth": 25,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/06756.png",
+      "truth": 25,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/11853.png",
+      "truth": 25,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/10658.png",
+      "truth": 25,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/12120.png",
+      "truth": 25,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/04783.png",
+      "truth": 25,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/09630.png",
+      "truth": 26,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/00491.png",
+      "truth": 26,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/03665.png",
+      "truth": 26,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/10062.png",
+      "truth": 26,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/05228.png",
+      "truth": 26,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/08817.png",
+      "truth": 26,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/02847.png",
+      "truth": 27,
+      "baseline": [
+        {
+          "track_id": 1,
+          "label": 13,
+          "verdict": "incorrect"
+        }
+      ],
+      "candidate": [
+        {
+          "track_id": 1,
+          "label": 13,
+          "verdict": "incorrect"
+        }
+      ]
+    },
+    {
+      "path": "Test/09418.png",
+      "truth": 27,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/04562.png",
+      "truth": 27,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/00904.png",
+      "truth": 27,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/08042.png",
+      "truth": 27,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/08422.png",
+      "truth": 27,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/00857.png",
+      "truth": 28,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/02738.png",
+      "truth": 28,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/06932.png",
+      "truth": 28,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/01661.png",
+      "truth": 28,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/01245.png",
+      "truth": 28,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/10670.png",
+      "truth": 28,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/09550.png",
+      "truth": 29,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/02707.png",
+      "truth": 29,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/05010.png",
+      "truth": 29,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/09854.png",
+      "truth": 29,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/10461.png",
+      "truth": 29,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/00191.png",
+      "truth": 29,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/06529.png",
+      "truth": 30,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/01824.png",
+      "truth": 30,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/02361.png",
+      "truth": 30,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/00237.png",
+      "truth": 30,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/11925.png",
+      "truth": 30,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/05824.png",
+      "truth": 30,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/05610.png",
+      "truth": 31,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/11254.png",
+      "truth": 31,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/04115.png",
+      "truth": 31,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/07667.png",
+      "truth": 31,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/10964.png",
+      "truth": 31,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/07528.png",
+      "truth": 31,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/11230.png",
+      "truth": 32,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/09918.png",
+      "truth": 32,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/05036.png",
+      "truth": 32,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/11207.png",
+      "truth": 32,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/09855.png",
+      "truth": 32,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/02056.png",
+      "truth": 32,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/06546.png",
+      "truth": 33,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/04611.png",
+      "truth": 33,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/09372.png",
+      "truth": 33,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/11485.png",
+      "truth": 33,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/12093.png",
+      "truth": 33,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/04700.png",
+      "truth": 33,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/01336.png",
+      "truth": 34,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/04494.png",
+      "truth": 34,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/04001.png",
+      "truth": 34,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/01646.png",
+      "truth": 34,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/08320.png",
+      "truth": 34,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/07909.png",
+      "truth": 34,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/06951.png",
+      "truth": 35,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/07014.png",
+      "truth": 35,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/10729.png",
+      "truth": 35,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/03023.png",
+      "truth": 35,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/08305.png",
+      "truth": 35,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/00298.png",
+      "truth": 35,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/11479.png",
+      "truth": 36,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/06418.png",
+      "truth": 36,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/07747.png",
+      "truth": 36,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/06119.png",
+      "truth": 36,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/00957.png",
+      "truth": 36,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/06075.png",
+      "truth": 36,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/05791.png",
+      "truth": 37,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/05420.png",
+      "truth": 37,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/08505.png",
+      "truth": 37,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/04458.png",
+      "truth": 37,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/12349.png",
+      "truth": 37,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/12341.png",
+      "truth": 37,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/02754.png",
+      "truth": 38,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/09442.png",
+      "truth": 38,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/02977.png",
+      "truth": 38,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/05510.png",
+      "truth": 38,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/11978.png",
+      "truth": 38,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/08024.png",
+      "truth": 38,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/03953.png",
+      "truth": 38,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/05907.png",
+      "truth": 38,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/07512.png",
+      "truth": 38,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/08288.png",
+      "truth": 38,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/02819.png",
+      "truth": 38,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/07514.png",
+      "truth": 38,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/10582.png",
+      "truth": 39,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/07594.png",
+      "truth": 39,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/12566.png",
+      "truth": 39,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/01772.png",
+      "truth": 39,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/06958.png",
+      "truth": 39,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/11272.png",
+      "truth": 39,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/05359.png",
+      "truth": 40,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/02894.png",
+      "truth": 40,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/00137.png",
+      "truth": 40,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/06516.png",
+      "truth": 40,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/05127.png",
+      "truth": 40,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/00499.png",
+      "truth": 40,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/05369.png",
+      "truth": 40,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/08019.png",
+      "truth": 40,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/00317.png",
+      "truth": 40,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/03704.png",
+      "truth": 40,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/10835.png",
+      "truth": 40,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/04667.png",
+      "truth": 40,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/00611.png",
+      "truth": 41,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/08894.png",
+      "truth": 41,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/03593.png",
+      "truth": 41,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/08727.png",
+      "truth": 41,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/03236.png",
+      "truth": 41,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/10419.png",
+      "truth": 41,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/05727.png",
+      "truth": 42,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/09868.png",
+      "truth": 42,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/07305.png",
+      "truth": 42,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/07575.png",
+      "truth": 42,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/08784.png",
+      "truth": 42,
+      "baseline": [],
+      "candidate": []
+    },
+    {
+      "path": "Test/06948.png",
+      "truth": 42,
+      "baseline": [],
+      "candidate": []
+    }
+  ],
+  "artificial_exposure": "identical still at 0, 200 and 400 ms; isolated trial; simulated audio clock"
+}

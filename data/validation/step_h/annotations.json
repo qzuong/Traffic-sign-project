@@ -1,0 +1,387 @@
+{
+  "video": "data\\videos\\test_video.mp4",
+  "sha256": "8bc57e7b4f67a37c771c6950c7e447c18c31031c0b5bf12e37a8d065f25397fc",
+  "fps": 30,
+  "coordinates": "source, xyxy, visible sign face",
+  "scenes": {
+    "city_priority_direction": [
+      780,
+      1080
+    ],
+    "city_no_entry_keep_right": [
+      1170
+    ],
+    "city_turn_yield": [
+      1300,
+      1326,
+      1345,
+      1358,
+      1372
+    ],
+    "ramp_speed_limit": [
+      1550
+    ],
+    "motorway_speed_gantries": [
+      7470,
+      8780,
+      9350
+    ],
+    "late_intersection": [
+      19500
+    ],
+    "no_identifiable_in_scope_sign_frames": [
+      1260,
+      1980,
+      10080,
+      18000
+    ]
+  },
+  "frames": {
+    "780": [
+      {
+        "label": "Priority road",
+        "class_id": 12,
+        "box": [
+          891,
+          237,
+          913,
+          260
+        ]
+      },
+      {
+        "label": "Ahead only",
+        "class_id": 35,
+        "box": [
+          885,
+          310,
+          908,
+          334
+        ]
+      }
+    ],
+    "1080": [
+      {
+        "label": "Priority road",
+        "class_id": 12,
+        "box": [
+          1090,
+          251,
+          1117,
+          278
+        ]
+      }
+    ],
+    "1170": [
+      {
+        "label": "No entry",
+        "class_id": 17,
+        "box": [
+          562,
+          260,
+          577,
+          277
+        ]
+      },
+      {
+        "label": "Keep right",
+        "class_id": 38,
+        "box": [
+          162,
+          290,
+          177,
+          306
+        ]
+      }
+    ],
+    "1260": [],
+    "1300": [
+      {
+        "label": "Yield",
+        "class_id": 13,
+        "box": [
+          177,
+          201,
+          207,
+          230
+        ]
+      },
+      {
+        "label": "Turn right ahead",
+        "class_id": 33,
+        "box": [
+          160,
+          223,
+          183,
+          247
+        ]
+      }
+    ],
+    "1326": [
+      {
+        "label": "Yield",
+        "class_id": 13,
+        "box": [
+          620,
+          201,
+          649,
+          233
+        ]
+      },
+      {
+        "label": "Turn right ahead",
+        "class_id": 33,
+        "box": [
+          603,
+          228,
+          624,
+          257
+        ]
+      }
+    ],
+    "1345": [
+      {
+        "label": "Yield",
+        "class_id": 13,
+        "box": [
+          794,
+          180,
+          827,
+          222
+        ]
+      },
+      {
+        "label": "Turn right ahead",
+        "class_id": 33,
+        "box": [
+          776,
+          216,
+          801,
+          246
+        ]
+      }
+    ],
+    "1358": [
+      {
+        "label": "Yield",
+        "class_id": 13,
+        "box": [
+          912,
+          153,
+          955,
+          205
+        ]
+      },
+      {
+        "label": "Turn right ahead",
+        "class_id": 33,
+        "box": [
+          886,
+          194,
+          925,
+          233
+        ]
+      }
+    ],
+    "1372": [
+      {
+        "label": "Yield",
+        "class_id": 13,
+        "box": [
+          1059,
+          110,
+          1115,
+          173
+        ]
+      },
+      {
+        "label": "Turn right ahead",
+        "class_id": 33,
+        "box": [
+          1030,
+          158,
+          1066,
+          201
+        ]
+      }
+    ],
+    "1550": [
+      {
+        "label": "Speed limit 30",
+        "class_id": 1,
+        "box": [
+          851,
+          272,
+          868,
+          289
+        ]
+      },
+      {
+        "label": "Speed limit face, value unreadable",
+        "class_id": null,
+        "box": [
+          850,
+          289,
+          867,
+          307
+        ]
+      }
+    ],
+    "1980": [],
+    "10080": [],
+    "18000": [],
+    "19500": [
+      {
+        "label": "Yield",
+        "class_id": 13,
+        "box": [
+          747,
+          164,
+          796,
+          207
+        ]
+      },
+      {
+        "label": "Turn left ahead",
+        "class_id": 34,
+        "box": [
+          749,
+          203,
+          788,
+          239
+        ]
+      },
+      {
+        "label": "Yield",
+        "class_id": 13,
+        "box": [
+          1201,
+          161,
+          1251,
+          204
+        ]
+      },
+      {
+        "label": "Turn right ahead",
+        "class_id": 33,
+        "box": [
+          1203,
+          202,
+          1248,
+          241
+        ]
+      },
+      {
+        "label": "Yield",
+        "class_id": 13,
+        "box": [
+          457,
+          291,
+          477,
+          313
+        ]
+      }
+    ],
+    "7470": [
+      {
+        "box": [
+          510,
+          200,
+          530,
+          222
+        ],
+        "label": "Electronic speed limit, value uncertain",
+        "class_id": null
+      },
+      {
+        "box": [
+          588,
+          207,
+          608,
+          228
+        ],
+        "label": "Electronic speed limit, value uncertain",
+        "class_id": null
+      },
+      {
+        "box": [
+          663,
+          213,
+          684,
+          234
+        ],
+        "label": "Electronic speed limit, value uncertain",
+        "class_id": null
+      }
+    ],
+    "8780": [
+      {
+        "box": [
+          370,
+          114,
+          401,
+          144
+        ],
+        "label": "Electronic speed limit 100",
+        "class_id": 7
+      },
+      {
+        "box": [
+          490,
+          130,
+          519,
+          159
+        ],
+        "label": "Electronic speed limit 100",
+        "class_id": 7
+      },
+      {
+        "box": [
+          604,
+          146,
+          631,
+          174
+        ],
+        "label": "Electronic speed limit 100",
+        "class_id": 7
+      }
+    ],
+    "9350": [
+      {
+        "box": [
+          472,
+          239,
+          489,
+          255
+        ],
+        "label": "Electronic speed limit, value uncertain",
+        "class_id": null
+      },
+      {
+        "box": [
+          533,
+          242,
+          549,
+          258
+        ],
+        "label": "Electronic speed limit, value uncertain",
+        "class_id": null
+      },
+      {
+        "box": [
+          591,
+          243,
+          608,
+          260
+        ],
+        "label": "Electronic speed limit, value uncertain",
+        "class_id": null
+      }
+    ]
+  },
+  "review_notes": [
+    "Manually reviewed existing city boxes against re-decoded PNGs and added highway faces and a second ramp face.",
+    "The initial 1300 Turn right ahead box was above the actual sign. Corrected both 1300 boxes against 1300-grid.png after localization review, then rescored the same model output.",
+    "Parking controls, street placards, and unlit signs are outside the 43-class demo scoring scope.",
+    "Three electronic gantry faces at 8780 have legible 100 values. Unknown speed values are included only in localization."
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "performance-live.json": {
+    "baseline": {
+      "correct": 6,
+      "incorrect": 1,
+      "incorrect_classes": [
+        38
+      ],
+      "played_tracks": [
+        [
+          5,
+          36
+        ],
+        [
+          11,
+          29
+        ],
+        [
+          19,
+          38
+        ],
+        [
+          22,
+          38
+        ],
+        [
+          31,
+          35
+        ],
+        [
+          53,
+          38
+        ],
+        [
+          71,
+          13
+        ]
+      ],
+      "suppressed_tracks": 0,
+      "detection_to_speech_median_max_ms": [
+        1860.8249999997497,
+        2633.259299999736
+      ]
+    },
+    "guarded": {
+      "correct": 7,
+      "incorrect": 0,
+      "incorrect_classes": [],
+      "played_tracks": [
+        [
+          5,
+          36
+        ],
+        [
+          11,
+          29
+        ],
+        [
+          19,
+          38
+        ],
+        [
+          23,
+          35
+        ],
+        [
+          31,
+          35
+        ],
+        [
+          53,
+          38
+        ],
+        [
+          71,
+          13
+        ]
+      ],
+      "suppressed_tracks": 3,
+      "detection_to_speech_median_max_ms": [
+        1860.8249999997497,
+        2498.9207999997234
+      ]
+    },
+    "missed_previously_correct": 0
+  },
+  "motorway-live.json": {
+    "baseline": {
+      "correct": 0,
+      "incorrect": 1,
+      "incorrect_classes": [
+        4
+      ],
+      "played_tracks": [
+        [
+          2,
+          4
+        ]
+      ],
+      "suppressed_tracks": 0,
+      "detection_to_speech_median_max_ms": [
+        2049.0624000003663,
+        2049.0624000003663
+      ]
+    },
+    "guarded": {
+      "correct": 0,
+      "incorrect": 0,
+      "incorrect_classes": [],
+      "played_tracks": [],
+      "suppressed_tracks": 2,
+      "detection_to_speech_median_max_ms": null
+    },
+    "missed_previously_correct": 0
+  },
+  "blue-panel-initial.json": {
+    "baseline": {
+      "correct": 0,
+      "incorrect": 1,
+      "incorrect_classes": [
+        40
+      ],
+      "played_tracks": [
+        [
+          3,
+          40
+        ]
+      ],
+      "suppressed_tracks": 0,
+      "detection_to_speech_median_max_ms": [
+        1939.6227999995972,
+        1939.6227999995972
+      ]
+    },
+    "guarded": {
+      "correct": 0,
+      "incorrect": 0,
+      "incorrect_classes": [],
+      "played_tracks": [],
+      "suppressed_tracks": 1,
+      "detection_to_speech_median_max_ms": null
+    },
+    "missed_previously_correct": 0
+  }
+}

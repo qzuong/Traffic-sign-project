@@ -1,0 +1,721 @@
+{
+  "archive": "D:\\Traffic-sign-project-backups\\step-h-to-k-evidence-f2f61cb.zip",
+  "archive_sha256": "298c667c717ef479ba508e2c626a9d8813cc92cd457b15e0c52549333dfc5a64",
+  "files": [
+    {
+      "path": "step_h/annotations.json",
+      "size": 7137,
+      "sha256": "93f39da39c830717883cd144139ca1b1133a9a6da3d9af4882411c459a090167"
+    },
+    {
+      "path": "step_h/city-live.json",
+      "size": 219066,
+      "sha256": "64a486edd6cb55e7847900d3cf1486327ee3eccc06d4d10a7258652ded8967f3"
+    },
+    {
+      "path": "step_h/city-overlay.png",
+      "size": 595750,
+      "sha256": "da004ce97b2acd4d9e5e2a7764763d106c044f0060568b14641ed469066b86fd"
+    },
+    {
+      "path": "step_h/city-voice-context.jpg",
+      "size": 127188,
+      "sha256": "a8d4da79434197cad35205c5bf2c67f494b40e3ec7e1564d30aeff9ad2d34587"
+    },
+    {
+      "path": "step_h/city-voice-crops.png",
+      "size": 331894,
+      "sha256": "4ec5eab150cbae8cdb9e5ebf8ace03979e70ac6d57faf7853ef0b5c9a0f0ec4b"
+    },
+    {
+      "path": "step_h/detections.json",
+      "size": 23222,
+      "sha256": "b93b8466850055673bda78b14f22db3e8a474d1b4a77d7acdfc6e70277f59d15"
+    },
+    {
+      "path": "step_h/frame-1300-review.png",
+      "size": 100056,
+      "sha256": "c01abec3c882ac825cfe97f37c24449ab181e7cd04f37dd6ba32ce7606568757"
+    },
+    {
+      "path": "step_h/motorway-live.json",
+      "size": 63173,
+      "sha256": "3f27d45a2e020e8e388e2673c6645a864d0a08340c8054012b44e49f2444d2da"
+    },
+    {
+      "path": "step_h/motorway-voice-crop.png",
+      "size": 38571,
+      "sha256": "ca97d33c7fb0f12e093e80a341bd1fb11354b8570c69c788d8d2bc526b2778eb"
+    },
+    {
+      "path": "step_h/native-ui-probe.py",
+      "size": 7155,
+      "sha256": "ac5734057e32cb36596857e4def94bd4e409f3883618cfabd67e43c4fdba6061"
+    },
+    {
+      "path": "step_h/performance-live.json",
+      "size": 317938,
+      "sha256": "300d2da98867b20f34788c1701a27b43bfcd975afac54282a05c9fa012fa7439"
+    },
+    {
+      "path": "step_h/regression.log",
+      "size": 5600,
+      "sha256": "0342ac837ef97edcb671462086d367b5daec721e316cfa7a5e4118f919ddc17c"
+    },
+    {
+      "path": "step_h/run-metadata.json",
+      "size": 1057,
+      "sha256": "1e6a6befc9e8a086ce28a4d7aae5482de2fb6de25fc7d7bdf33b8df9fd355fa7"
+    },
+    {
+      "path": "step_h/tracking-crops.jpg",
+      "size": 359219,
+      "sha256": "d5fdced73bbe5930aa7103e50e008fbb0347e8350b0c516a905fe194dfea8bd0"
+    },
+    {
+      "path": "step_h/tracking-review.json",
+      "size": 1561,
+      "sha256": "435e8015c9c2a0795ad92108bcf491a26b1e752a26bf656c2332e64cd5bfd83b"
+    },
+    {
+      "path": "step_h/unmatched-review.jpg",
+      "size": 83776,
+      "sha256": "eaa5c455c71d743051947f689c08380e13285ac97072d68185afe68098818bd8"
+    },
+    {
+      "path": "step_h/validate_sample.py",
+      "size": 2570,
+      "sha256": "a7ee265d3bdfbf8f72b240672c5f239bee7a2d2bca680b8a77a8d7a723fd11eb"
+    },
+    {
+      "path": "step_h/voice-review.json",
+      "size": 2364,
+      "sha256": "f256d7b8dbee4cfad8d3968a89da55744c769e3e53bae9c54829ef8ffb1f2571"
+    },
+    {
+      "path": "step_h/worker-error-live.json",
+      "size": 4796,
+      "sha256": "0d9ec39fc7b7a3ba557259ceecfa5eaf598463b58643ee374ce0c36aa30901d3"
+    },
+    {
+      "path": "step_i/blue-panel-crop.png",
+      "size": 21453,
+      "sha256": "008d5c2fefd305e3652aa097d8c252733da5a9a532e1b8f27d85c1aad26fa82a"
+    },
+    {
+      "path": "step_i/blue-panel-forensics.json",
+      "size": 2171,
+      "sha256": "204b50c113edd9bbdf645832b5e0875fbbba9bca45ddbe6a5746f833b4e7dd1f"
+    },
+    {
+      "path": "step_i/blue-panel-initial.json",
+      "size": 62932,
+      "sha256": "ccabf48b2befe7837a0dd52b327c652143a1b15cfc5df08b737e60e56103f372"
+    },
+    {
+      "path": "step_i/blue-panel-retest.json",
+      "size": 65469,
+      "sha256": "0a52437a7cc2fcd2a726b1e3da2a1c34e9bc7ce3ecceed1dc8de54e214878dff"
+    },
+    {
+      "path": "step_i/city-live.json",
+      "size": 209644,
+      "sha256": "4b53785a3ace38f01b5846c76b1890be75cc925608965f5ce0e90074a00c1ba2"
+    },
+    {
+      "path": "step_i/city-overlay.png",
+      "size": 592038,
+      "sha256": "581598cff56ba27fd6d2a7db8ee8e5579094e3ce29fa024ad5de7fcd59156b3a"
+    },
+    {
+      "path": "step_i/city-suppressed-crops.jpg",
+      "size": 87352,
+      "sha256": "1b7273e91b3af982e607e8f1d6e8bcdf31fb953309e2d03e64201eab1ff58e03"
+    },
+    {
+      "path": "step_i/city-voice-crops.png",
+      "size": 220414,
+      "sha256": "9c11c836a927f4b9e5452e7b8d47fe7c71c3f086bde30f59dd07eb0ecb0ee872"
+    },
+    {
+      "path": "step_i/cnn-forensics.json",
+      "size": 473888,
+      "sha256": "b4210426858b71c347d692fc5f34308742b49172ef52b781e7c916f94cd72e38"
+    },
+    {
+      "path": "step_i/crop-policy-review.json",
+      "size": 59024,
+      "sha256": "a11fe847fc432ef6b56b6466e94d24d0ec847ff3c4d2dd7e9296d029396878e0"
+    },
+    {
+      "path": "step_i/crops/annotated-1080-2.png",
+      "size": 2532,
+      "sha256": "e5267fbdd96e9976f3e8e2f316509428ab74fb9e98ba5cf8cabe4402e796a9ad"
+    },
+    {
+      "path": "step_i/crops/annotated-1300-3.png",
+      "size": 1453,
+      "sha256": "58a1aee61e559d38f5c368663d0fed1ae6a6b7d107c34d540d2b39ce998ef308"
+    },
+    {
+      "path": "step_i/crops/annotated-1300-4.png",
+      "size": 2976,
+      "sha256": "20abba757b77afdf0d2062f449f80c6be8e5fcd596e3ea9364364b36cb6bf2d8"
+    },
+    {
+      "path": "step_i/crops/annotated-1326-5.png",
+      "size": 2670,
+      "sha256": "35305e255cc3f7bd70fdb5a00e16c36dc2d35c627160dba187691e864b3eb589"
+    },
+    {
+      "path": "step_i/crops/annotated-1326-6.png",
+      "size": 1553,
+      "sha256": "1db22eb896b67b6f4e3dd2e778e10cdce8a1a4150c7ef6b15fc19f54b5fb345a"
+    },
+    {
+      "path": "step_i/crops/annotated-1345-7.png",
+      "size": 2432,
+      "sha256": "3515fa6ae637d918c491b4ebceb94257300e4d352709544a1d3fa027a165586c"
+    },
+    {
+      "path": "step_i/crops/annotated-1345-8.png",
+      "size": 3592,
+      "sha256": "d40ea18b560422ef33b16088b446e11b776acfa743bd4289e21222147b5dbbe1"
+    },
+    {
+      "path": "step_i/crops/annotated-1358-10.png",
+      "size": 3070,
+      "sha256": "4850c98b6d2507a613afc6c76dc4602316da4fa226df9dc55c7e06883715fdb7"
+    },
+    {
+      "path": "step_i/crops/annotated-1358-9.png",
+      "size": 4328,
+      "sha256": "db8cbea545217526626031b6b1b29de524eb31dd59c1d0832bb26370a08405ce"
+    },
+    {
+      "path": "step_i/crops/annotated-1372-11.png",
+      "size": 6059,
+      "sha256": "07bb608072e38dabf247bdb9dd75677d88cc2a1e4389a9796dc610fe7f330588"
+    },
+    {
+      "path": "step_i/crops/annotated-1372-12.png",
+      "size": 4069,
+      "sha256": "95e4d72c019e95f3a44d66283260ec1acde70a1bf0f6188c5946f7360cbe98f9"
+    },
+    {
+      "path": "step_i/crops/annotated-19500-19.png",
+      "size": 3906,
+      "sha256": "6e76eeae278ca18e82ba4f1fa12b500e0a8f282e30cb093a8b9f248efe35be7b"
+    },
+    {
+      "path": "step_i/crops/annotated-19500-20.png",
+      "size": 2340,
+      "sha256": "542d0b17939672e7db10ca2005e3d94ae427ac9e115a9b6a3c6312f8e40de6f7"
+    },
+    {
+      "path": "step_i/crops/annotated-19500-21.png",
+      "size": 2348,
+      "sha256": "ab69e1c33242631f5f3d6edb42695596c67c586e9ad1511df7548080f5d3e5bb"
+    },
+    {
+      "path": "step_i/crops/annotated-19500-22.png",
+      "size": 3737,
+      "sha256": "f33e8ae25813ad6745e090830e71660b3ed464529c1514558c9c0d427c8cb843"
+    },
+    {
+      "path": "step_i/crops/annotated-19500-23.png",
+      "size": 957,
+      "sha256": "d1a612ddabbb6d5d12f138fd7d90069ec22a7345e033068ad7dd343380e09902"
+    },
+    {
+      "path": "step_i/crops/annotated-7470-13.png",
+      "size": 1598,
+      "sha256": "1ffc548426a1eec50e32ba0c9c72fded9eabc7f05d087c348c0dc48cf50a426c"
+    },
+    {
+      "path": "step_i/crops/annotated-7470-14.png",
+      "size": 1784,
+      "sha256": "7744f118aec6f398e37f9c85a329bec9827a34b881dcfb2c94e4e06851341005"
+    },
+    {
+      "path": "step_i/crops/annotated-7470-15.png",
+      "size": 1748,
+      "sha256": "3ae2a834c5332231ee3c91c3aa115a9129dd1a8fe5551c002464178dd6d1dba3"
+    },
+    {
+      "path": "step_i/crops/annotated-780-0.png",
+      "size": 1623,
+      "sha256": "ead0d7cd1f0f57f8b02b8d63bf74aa88bf694cd9f7a84a8cb777975920d52664"
+    },
+    {
+      "path": "step_i/crops/annotated-780-1.png",
+      "size": 1494,
+      "sha256": "df0626334f48b40836ff6df5306dd8e3753a27b97a61c10ae2bed97173b1b8b9"
+    },
+    {
+      "path": "step_i/crops/annotated-8780-16.png",
+      "size": 3081,
+      "sha256": "71244579d178097445bbf08faf0a2b81258b700a40ad1fc01dec72eba3cdd9fe"
+    },
+    {
+      "path": "step_i/crops/annotated-8780-17.png",
+      "size": 2821,
+      "sha256": "aced1728e1f6bcea059088b9357ea9b0e4ede468cca49727ad4c07dfd45e780a"
+    },
+    {
+      "path": "step_i/crops/annotated-8780-18.png",
+      "size": 2950,
+      "sha256": "53dda1b90d832544d1bc9b771c0fde464b4388e58cde0568532912855206c7be"
+    },
+    {
+      "path": "step_i/crops/blue-panel-320.png",
+      "size": 692,
+      "sha256": "837c14f8bbe655723cdef5b3f1aaa6b08243d62bd9d8114b7c4b83c20b9be08d"
+    },
+    {
+      "path": "step_i/crops/blue-panel-326.png",
+      "size": 808,
+      "sha256": "6b0c55740e73338dd8b04e57e9f4602d39ce8f58834dfb238100105b51519048"
+    },
+    {
+      "path": "step_i/crops/city-464-87.png",
+      "size": 1885,
+      "sha256": "c1c66f40cb75a4c18b8e712081c744f6d6343c16ca2560b754a60bcce35c4311"
+    },
+    {
+      "path": "step_i/crops/city-469-90.png",
+      "size": 2639,
+      "sha256": "b71347fb929172bf116f3d32b756ff40c76fc4c52132fe29b468e899dc9910e3"
+    },
+    {
+      "path": "step_i/crops/city-479-91.png",
+      "size": 4077,
+      "sha256": "bb72e6d0a0d642da50b3c84f8cc43693bc761f872c0a55e67b56c809c13cfb28"
+    },
+    {
+      "path": "step_i/crops/city-855-124.png",
+      "size": 680,
+      "sha256": "2f5fef9e632aaa6083a12ef367dc3822c36bca2a590233d7554fcc5cab1c9ea9"
+    },
+    {
+      "path": "step_i/crops/city-862-125.png",
+      "size": 713,
+      "sha256": "cb92ed329ed8e9d1a43a3de015dfd9ec991d7ac472e36ec657ec2491987c57a5"
+    },
+    {
+      "path": "step_i/crops/motorway-106-356.png",
+      "size": 1386,
+      "sha256": "b902bdad1b157663b3dc8defa6ec935c0efa2d5a65870b9557a9c044bfe6d096"
+    },
+    {
+      "path": "step_i/crops/motorway-117-357.png",
+      "size": 1924,
+      "sha256": "3b92c98f3b41609128d7bd769c7202d9cd0b65be597ff80626cb2fb7e08f0269"
+    },
+    {
+      "path": "step_i/crops/motorway-121-360.png",
+      "size": 1786,
+      "sha256": "df4b95ca76096257d9ee9f93cdfca47e108654e80cd4c6d6bc5e879a8f607f33"
+    },
+    {
+      "path": "step_i/crops/motorway-125-362.png",
+      "size": 2067,
+      "sha256": "3990cca2e0bad5011bf912192849bb374ef0ae9c382cfbff54f3b63e1d2b9d21"
+    },
+    {
+      "path": "step_i/crops/motorway-131-365.png",
+      "size": 2016,
+      "sha256": "92d0a8b476f969183fecb21392b3cabc8fdae455d63d40a63b5a100ec98de4c6"
+    },
+    {
+      "path": "step_i/crops/repeat-433-253.png",
+      "size": 973,
+      "sha256": "cbbf3fd1d3bccec5a8428302cf7695e2a34d471c9f8e9ce53bd3efed1be75704"
+    },
+    {
+      "path": "step_i/crops/repeat-446-255.png",
+      "size": 1346,
+      "sha256": "760d82674a9f2d853fa122bf65d78c5b9e48f38d8e8d54586cfd782897276aba"
+    },
+    {
+      "path": "step_i/crops/repeat-454-259.png",
+      "size": 1257,
+      "sha256": "2117344a3637e500888b0ec5be9fd5d8f37a137e6742ecbc87d9e106365b10fd"
+    },
+    {
+      "path": "step_i/crops/repeat-460-261.png",
+      "size": 1672,
+      "sha256": "38b7ccebc03e64d81b2635b59d877c5006c99d7391866c47c1c647781a2798f4"
+    },
+    {
+      "path": "step_i/crops/repeat-467-265.png",
+      "size": 2101,
+      "sha256": "d36b19357a8a8a2da5bc2fd22ccb3c94dffd9ba81b4cb36010afd329a485a030"
+    },
+    {
+      "path": "step_i/crops/repeat-477-268.png",
+      "size": 3239,
+      "sha256": "327940275858e7ff956c3c3e31ce8a26e9952e5cb98d6507a0bd852045b3d429"
+    },
+    {
+      "path": "step_i/crops/repeat-484-270.png",
+      "size": 5662,
+      "sha256": "237f2d7d7092566d11a2fbd79fff2bc8aa2bd7c9d43f7f826624d0f614192ca7"
+    },
+    {
+      "path": "step_i/inspect_blue_panel.py",
+      "size": 1563,
+      "sha256": "998e70c0e59bf67e104c01facd8a68da9b27a550fa379665bee9d270541f6f00"
+    },
+    {
+      "path": "step_i/inspect_crops.py",
+      "size": 4719,
+      "sha256": "cc92e7235c5dc96c57c46251add5cc9634ca9ec0aaa56d9bdc841417d72ed40d"
+    },
+    {
+      "path": "step_i/matched-replay.json",
+      "size": 183069,
+      "sha256": "985db6d3fe13c32b17ec36736e25bcc230f8c6d28b1aca3e3ed357c07a9778d1"
+    },
+    {
+      "path": "step_i/misclassifications.json",
+      "size": 27959,
+      "sha256": "4cafd7aa1187911345cf3fd52ae7a6cbf3c6fbaf16427a16f13e98c834bf807e"
+    },
+    {
+      "path": "step_i/motorway-live.json",
+      "size": 55137,
+      "sha256": "34222560555b0e35c8f9e19995655fb66a38d6c582831d691f8014f6813a17be"
+    },
+    {
+      "path": "step_i/motorway-overlay.png",
+      "size": 644421,
+      "sha256": "05646f19357f8ea7a0cf71246cd79546f9920e8dbb6514f905b36dba8a3e9a27"
+    },
+    {
+      "path": "step_i/motorway-speed-suppression.json",
+      "size": 59747,
+      "sha256": "7408ccb52d49b32389e5bd2938d404824e571694d5ba0d0aae3352cf7b80807d"
+    },
+    {
+      "path": "step_i/regression.log",
+      "size": 2808,
+      "sha256": "f17e516727cdea05ef087cd08419e0ae113c89cce049d73dabfe37a1894ea923"
+    },
+    {
+      "path": "step_i/replay-manual-review.jpg",
+      "size": 70726,
+      "sha256": "7e6e3f52d1315cbc9a1a0448716c093107835ed6aab9a86648829580b3247916"
+    },
+    {
+      "path": "step_i/replay-metrics.json",
+      "size": 2646,
+      "sha256": "6276fd9b283c1928201b91ec3c9fa686e3d3ce4fbe263cbbea32bb831c7273ab"
+    },
+    {
+      "path": "step_i/replay_alerts.py",
+      "size": 5228,
+      "sha256": "7e74e33cf1e0f2bc815ab91056f80d1d35a37dec6c09e3ba5a2bf059d4e3e086"
+    },
+    {
+      "path": "step_j/compare_speech.py",
+      "size": 5807,
+      "sha256": "613c46d915f3f634122d2d986764df33bd8070e2b4f79505685d4b53ac87dee6"
+    },
+    {
+      "path": "step_j/compare_static_tracking.py",
+      "size": 1420,
+      "sha256": "333ebe518a0ecc3a6b397910b2224c1a068bcd8feee9f459f45248a198868a61"
+    },
+    {
+      "path": "step_j/evaluate_gtsdb.py",
+      "size": 5847,
+      "sha256": "02bda805e5c9f1d7ec144de7a1b5dc373a6d0cfd5e4958d3dbf70f173fa96a67"
+    },
+    {
+      "path": "step_j/evaluate_gtsrb.py",
+      "size": 3896,
+      "sha256": "ec5ad42d7e62b2f3b1052ed1b8cc41d5940f4ee02fa2709afa93e0184933618a"
+    },
+    {
+      "path": "step_j/evaluate_oracle_rois.py",
+      "size": 2227,
+      "sha256": "3c7897c01b8fe8c09dc15aa0cb3ea74a4a5b6f7596ce85b93e6f36a2085ba61a"
+    },
+    {
+      "path": "step_j/existing-tracker-regression.json",
+      "size": 171,
+      "sha256": "b5cea6b0fe1af8f00f1a7220f723149257d7a653e51d8dfc0597ee3e16f5e390"
+    },
+    {
+      "path": "step_j/gtsdb-results.json",
+      "size": 94937,
+      "sha256": "21c9a582e7a034ce6cfda54572ff4ef17a4cfa3374fea04c9009b91c820d15af"
+    },
+    {
+      "path": "step_j/gtsdb-sample.json",
+      "size": 24033,
+      "sha256": "5290966977db9408a59d06c5c3d444fdf3f5ef2765f0635184c2095d92e45fcb"
+    },
+    {
+      "path": "step_j/gtsrb-results.json",
+      "size": 134993,
+      "sha256": "062ef6da4b1e2220ac3faf71aa8caa96e0cca8760505548c88c91d2e8995add7"
+    },
+    {
+      "path": "step_j/gtsrb-roi-results.json",
+      "size": 1013307,
+      "sha256": "2789501710ac03513601e48bcade13c843cafd18840e925448f86f7d0d96d38f"
+    },
+    {
+      "path": "step_j/highway-baseline-detections.jpg",
+      "size": 79893,
+      "sha256": "3a3a21a12f034beda725e300532e8caf8f3f9c20de298bdfb043c876939d780e"
+    },
+    {
+      "path": "step_j/highway-baseline-live.json",
+      "size": 32168,
+      "sha256": "62a20d4149968e8334ee2379a332a3c0c8862bbba3d0598688ba227c66d64aac"
+    },
+    {
+      "path": "step_j/highway-candidate-detections.jpg",
+      "size": 53819,
+      "sha256": "a9c050bcc41a5d68458ef10dd048e325aebf1c49a885ecd3f4517d4c47964881"
+    },
+    {
+      "path": "step_j/highway-candidate-live.json",
+      "size": 31409,
+      "sha256": "d90bb02143b2c750affe5b7817850df0d7942d1fbe81a60a3de7fa0c715ad065"
+    },
+    {
+      "path": "step_j/independent-video-contact.jpg",
+      "size": 649429,
+      "sha256": "97dcf9d06f8d45d20047b423a2a3ea4b820d2c5879e7e6bf7659be7a111ae747"
+    },
+    {
+      "path": "step_j/matched-static-tracking.json",
+      "size": 145,
+      "sha256": "7a20ee7a9d0fe8174ace775de35ec456e0af90ed806565110eb6f2659d3f104b"
+    },
+    {
+      "path": "step_j/matched-still-speech.json",
+      "size": 43928,
+      "sha256": "bc9526e65045688d8d4a25f45de10b7d3a94f0e3d63c38ed8e35cf76bf72c6e9"
+    },
+    {
+      "path": "step_j/native_probe.py",
+      "size": 7845,
+      "sha256": "763dd76b26453aceb9d4a7dad4d0b01869009928f33a130f39c5387bc5761c5b"
+    },
+    {
+      "path": "step_j/official_archive.py",
+      "size": 2223,
+      "sha256": "f10027379714e0802502fa3c4340695c7ce93fa43c21e4c41071d0301e7b8ecb"
+    },
+    {
+      "path": "step_j/positive-regression-live.json",
+      "size": 306279,
+      "sha256": "58dcdf1bda99e09ae3b63d45d70598041f526327fce813433cf49d9486d40384"
+    },
+    {
+      "path": "step_j/positive-regression-voice.png",
+      "size": 302011,
+      "sha256": "7dc5cd617cf2e1cd9751dc39f03a6ce89f9f27aa9262bf12caa86244124ac156"
+    },
+    {
+      "path": "step_j/published-split-overlap.json",
+      "size": 1331,
+      "sha256": "6599d79e1be981bd19f956d76b6bcd0b84f6175d36a105ac7cb7316161f10be3"
+    },
+    {
+      "path": "step_j/regression.log",
+      "size": 2808,
+      "sha256": "913fb575600e8b68f703733384c91ea827746e2388f58d36d88c47d09eed2cfd"
+    },
+    {
+      "path": "step_j/report_split_overlap.py",
+      "size": 1735,
+      "sha256": "5b77af22f16d114e98e6a99b00a85b6a48175a9b8f6c4088e3f2a7478070caa1"
+    },
+    {
+      "path": "step_j/review_highway_detections.py",
+      "size": 1417,
+      "sha256": "a9eb612a0eed65f908777f907de1a8509ac091192c91bf191f6e28f5931c924a"
+    },
+    {
+      "path": "step_j/sample_gtsdb.py",
+      "size": 3858,
+      "sha256": "3ca1e4b7d3aacf514f7c56747d2c0e1d043e0a41f55c8fc6e04b92f686f9ff6c"
+    },
+    {
+      "path": "step_j/screen_overlap.py",
+      "size": 1010,
+      "sha256": "8f8bca1fd93422de68af9124865fab7f8eed7b527e023bacfb1dea1b6c13c164"
+    },
+    {
+      "path": "step_j/video-overlap-screen.json",
+      "size": 1963,
+      "sha256": "47bc613ab4a58cce5ae0e18d611c7819e7eb00fa32eaf19a335d3b02fcf8bad8"
+    },
+    {
+      "path": "step_k/analyze_tuning.py",
+      "size": 3547,
+      "sha256": "32bdb5e265a7a11f024b639d3dd75484c11308f6b4bc31acd387ce318760d817"
+    },
+    {
+      "path": "step_k/audit_integrity.py",
+      "size": 1552,
+      "sha256": "698a389cab91f6c102b8cf82587c8453e6da5a16c96eff5e9827716445705b43"
+    },
+    {
+      "path": "step_k/audit_metrics.py",
+      "size": 3047,
+      "sha256": "0e5f002adfa98739ce10dd60d1d59055feb1305468fe16a1ba37e472c9d67895"
+    },
+    {
+      "path": "step_k/belgian-class-review.jpg",
+      "size": 61937,
+      "sha256": "26d0acc03cef1af6315e170ccc646ead943ee953d255d50ec6f4316edd86eb21"
+    },
+    {
+      "path": "step_k/belgian-direction-label-review.jpg",
+      "size": 175591,
+      "sha256": "2e0b61ee5d0be91fe7955322b0a48cccb2c5a472caca1cbe13feeb1d54a5e2cb"
+    },
+    {
+      "path": "step_k/belgian-direction-sample-ids.json",
+      "size": 385,
+      "sha256": "b088d477df9bb0ba203a9f7790175195803b3fffd4bd3c7c70ad8505cf143f12"
+    },
+    {
+      "path": "step_k/belgian-speed-label-review.jpg",
+      "size": 319893,
+      "sha256": "7eb7a9eb9e152be6af41ef17df57b7c104bcbb1b0784f828765a1209da65db16"
+    },
+    {
+      "path": "step_k/belgian-speed-sample-ids.json",
+      "size": 579,
+      "sha256": "2ab9702df8a47307ba7ebb2557a44fb6b692ffce52063c64cf00daf294b77652"
+    },
+    {
+      "path": "step_k/belgian_sample.py",
+      "size": 2294,
+      "sha256": "09966cc94309a2bbec579d6047cd7b070f22aadf51351366aa6dbafd1768135b"
+    },
+    {
+      "path": "step_k/belgium-gtsrb-overlap.json",
+      "size": 87,
+      "sha256": "6659f72e71bafb0e5746e5e192189820b8b8c591377595bc6362a0e6da8a8128"
+    },
+    {
+      "path": "step_k/belgium-holdout-results.json",
+      "size": 484221,
+      "sha256": "a6c83e30e57fb50b957ba98a7de7ed87572cc0c8c5068905b40f481f62d9bd79"
+    },
+    {
+      "path": "step_k/belgium-label-map.json",
+      "size": 1068,
+      "sha256": "41c9351e9b81fbc630bd0082d64835e6836e8edc8fe0f920f9ec33f25b8d8a6e"
+    },
+    {
+      "path": "step_k/correct-withheld-contact.jpg",
+      "size": 113505,
+      "sha256": "547602412292cb6a32633f8628372c40d1d747f5c5c221b548bbf67275cfcdd1"
+    },
+    {
+      "path": "step_k/crop_evidence.py",
+      "size": 3190,
+      "sha256": "22771f127942a94698573f8085207e9f01ee91c5d34389b62bc397650b57f59a"
+    },
+    {
+      "path": "step_k/dataset-integrity.json",
+      "size": 2331,
+      "sha256": "cb1699a980035fcd7886dce539ea96a12ca67dfe7eda57a51b1d0ee044f3bd82"
+    },
+    {
+      "path": "step_k/eligible-wrong-contact.jpg",
+      "size": 213222,
+      "sha256": "3a7314e071458606497b2cffa7e42a8b8718412806da8e938460714d46d978ad"
+    },
+    {
+      "path": "step_k/evaluate_holdouts.py",
+      "size": 8990,
+      "sha256": "dc1d5f4c871132e06ed53c32cc7ac45055f8e2ceb84babafa5b4967e24efb35c"
+    },
+    {
+      "path": "step_k/fetch_gtsdb_holdout.py",
+      "size": 3042,
+      "sha256": "d2c2b2297f55398bd4d9447eace750aa527f7c74bf404319d5f2994b8febbcb3"
+    },
+    {
+      "path": "step_k/gtsdb-holdout-results.json",
+      "size": 124459,
+      "sha256": "d8cdc4257c251c2bffe015e7b14973181e17ef6e09ff43911a3978e62e7c3241"
+    },
+    {
+      "path": "step_k/gtsrb-tuning-features.json",
+      "size": 4376846,
+      "sha256": "74614884674436fb74720ad63aa13f03449e5d5ca90249c1e0509f6a6907989a"
+    },
+    {
+      "path": "step_k/holdout-gtsdb-manifest.json",
+      "size": 33416,
+      "sha256": "7d71787cd42f06de7bd0579aa243d953f27456b2f8ddffe6b2c4bf109c94563e"
+    },
+    {
+      "path": "step_k/known-live-observation-replay.json",
+      "size": 8738,
+      "sha256": "80765f28bc2286fef54aa01ee2985afa40e46ad88f28cdc58a919ecd05be0ff4"
+    },
+    {
+      "path": "step_k/per-class-coverage.csv",
+      "size": 16965,
+      "sha256": "bcc60d0fdffe1f725c5725e194482babc249e45f5da4f656808fa8a5368fecb9"
+    },
+    {
+      "path": "step_k/policies.py",
+      "size": 891,
+      "sha256": "d0577b42017991cf034356242b481dcb3f23aa58a9accd85b068170dc4d0030d"
+    },
+    {
+      "path": "step_k/policy-lock.json",
+      "size": 623,
+      "sha256": "d5c6b5a9f6b692b6c2ad8beb0de811f47e67d7591ddc9250fc8c20887738bbc6"
+    },
+    {
+      "path": "step_k/regression.log",
+      "size": 2808,
+      "sha256": "9425e34e2ea732e109817f4f09630895e058d97370364ccd35927e91f8dce662"
+    },
+    {
+      "path": "step_k/replay_known_scenes.py",
+      "size": 2946,
+      "sha256": "de008204917f2976c76c90de8af5e35a3db05aec3cc1922b8e409a052f83069a"
+    },
+    {
+      "path": "step_k/stable-native-voice.png",
+      "size": 384620,
+      "sha256": "47c6520e4fafa083a5df099a62fca25dc08b9136c9fbcdd0610f301866eebc41"
+    },
+    {
+      "path": "step_k/stable-native-yield-review.jpg",
+      "size": 33070,
+      "sha256": "22d2b31660d83d2c4de92a094a79d90b71f48e56346aa826faf6516109e73e89"
+    },
+    {
+      "path": "step_k/stable-native.json",
+      "size": 309833,
+      "sha256": "120b13ee1cb4b42281d23009d620ae758b0be8a0880d794a844a9a515a2df1cc"
+    },
+    {
+      "path": "step_k/tuning-audit.json",
+      "size": 184429,
+      "sha256": "535fedbb4fdad9df847d39d2c7f27a09cfee9cda7accec0f781bfc072e2e04ea"
+    },
+    {
+      "path": "step_k/tuning-with-exact-overlap-excluded.json",
+      "size": 746,
+      "sha256": "bd5245b084d865f702d8e88a40bcb525e22bffc72c9ed5d34299f60b706eee0b"
+    }
+  ]
+}

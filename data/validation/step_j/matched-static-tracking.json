@@ -1,0 +1,6 @@
+{
+  "measurement": "repeated static scenes; no motion robustness inference",
+  "matched_signs": 75,
+  "stable_ids": 75,
+  "id_switches": 0
+}

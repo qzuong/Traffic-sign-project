@@ -1,0 +1,1651 @@
+{
+  "video": "D:\\TSR\\10364-224234516.mp4",
+  "frames": [
+    0,
+    777
+  ],
+  "eof": true,
+  "errors": [],
+  "startup_ready_s": 17.633146500000294,
+  "startup_first_overlay_s": 22.83327680000002,
+  "open_to_first_overlay_s": 21.7814214,
+  "display_fps": 9.683842003732336,
+  "ai_fps": 3.4378748771154823,
+  "workers": {
+    "yolo": {
+      "state": "ready",
+      "python": "D:\\Traffic-sign-project\\.venv-yolo\\Scripts\\python.exe",
+      "pid": 6784,
+      "startup_seconds": 6.978535700000066,
+      "error": null,
+      "started_monotonic": 6336.9915906,
+      "ready_message": {
+        "type": "ready",
+        "python": "D:\\Traffic-sign-project\\.venv-yolo\\Scripts\\python.exe",
+        "task": "detect",
+        "classes": 1,
+        "imgsz": 640
+      }
+    },
+    "cnn": {
+      "state": "ready",
+      "python": "C:\\Program Files\\Python313\\python.exe",
+      "pid": 16732,
+      "startup_seconds": 9.248936900000444,
+      "error": null,
+      "started_monotonic": 6344.1206607,
+      "ready_message": {
+        "type": "ready",
+        "python": "C:\\Program Files\\Python313\\python.exe",
+        "input_shape": [
+          null,
+          30,
+          30,
+          3
+        ],
+        "output_shape": [
+          null,
+          43
+        ]
+      }
+    }
+  },
+  "controls": {
+    "open": true,
+    "eof_idle": true,
+    "stop": true,
+    "replay": true
+  },
+  "status": "AI Processing",
+  "peaks": {
+    "generated": 0,
+    "accepted": 0,
+    "played": 0,
+    "expired": 0,
+    "duplicates_suppressed": 0,
+    "peak_queue": 0,
+    "cancelled": 0,
+    "tracks_created": 5,
+    "tracks_lost": 5,
+    "ambiguous_associations": 0,
+    "unresolved_associations": 0,
+    "unconfirmed_tracks_lost": 5,
+    "confirmed_classes": [],
+    "pending": 0,
+    "speech_latency_ms": [],
+    "measurements": [],
+    "played_tracks": []
+  },
+  "trace": [
+    {
+      "event": "yolo_valid",
+      "monotonic": 6357.323994,
+      "video_ms": 2516.6666666666665,
+      "generation": 1,
+      "track_id": 1,
+      "frame_id": 151
+    },
+    {
+      "event": "track_created",
+      "monotonic": 6358.7845038,
+      "video_ms": 2516.6666666666665,
+      "generation": 1,
+      "track_id": 1,
+      "frame_id": 151
+    },
+    {
+      "event": "cnn_valid",
+      "monotonic": 6357.3654415,
+      "video_ms": 2516.6666666666665,
+      "generation": 1,
+      "track_id": 1,
+      "frame_id": 151
+    },
+    {
+      "event": "yolo_valid",
+      "monotonic": 6357.5657554,
+      "video_ms": 2866.6666666666665,
+      "generation": 1,
+      "track_id": 2,
+      "frame_id": 172
+    },
+    {
+      "event": "track_created",
+      "monotonic": 6359.1410246,
+      "video_ms": 2866.6666666666665,
+      "generation": 1,
+      "track_id": 2,
+      "frame_id": 172
+    },
+    {
+      "event": "cnn_valid",
+      "monotonic": 6357.6050777,
+      "video_ms": 2866.6666666666665,
+      "generation": 1,
+      "track_id": 2,
+      "frame_id": 172
+    },
+    {
+      "event": "yolo_valid",
+      "monotonic": 6358.0685921,
+      "video_ms": 3033.333333333333,
+      "generation": 1,
+      "track_id": 3,
+      "frame_id": 182
+    },
+    {
+      "event": "track_created",
+      "monotonic": 6359.2757871,
+      "video_ms": 3033.333333333333,
+      "generation": 1,
+      "track_id": 3,
+      "frame_id": 182
+    },
+    {
+      "event": "cnn_valid",
+      "monotonic": 6358.1114564,
+      "video_ms": 3033.333333333333,
+      "generation": 1,
+      "track_id": 3,
+      "frame_id": 182
+    },
+    {
+      "event": "yolo_valid",
+      "monotonic": 6365.8307774,
+      "video_ms": 11133.333333333332,
+      "generation": 1,
+      "track_id": 4,
+      "frame_id": 668
+    },
+    {
+      "event": "track_created",
+      "monotonic": 6367.3725659,
+      "video_ms": 11133.333333333332,
+      "generation": 1,
+      "track_id": 4,
+      "frame_id": 668
+    },
+    {
+      "event": "cnn_valid",
+      "monotonic": 6365.8708852,
+      "video_ms": 11133.333333333332,
+      "generation": 1,
+      "track_id": 4,
+      "frame_id": 668
+    },
+    {
+      "event": "yolo_valid",
+      "monotonic": 6366.1156531,
+      "video_ms": 11400.0,
+      "generation": 1,
+      "track_id": 5,
+      "frame_id": 684
+    },
+    {
+      "event": "track_created",
+      "monotonic": 6367.6420052,
+      "video_ms": 11400.0,
+      "generation": 1,
+      "track_id": 5,
+      "frame_id": 684
+    },
+    {
+      "event": "cnn_valid",
+      "monotonic": 6366.1518671,
+      "video_ms": 11400.0,
+      "generation": 1,
+      "track_id": 5,
+      "frame_id": 684
+    }
+  ],
+  "observations": [
+    {
+      "frame": 151,
+      "media_ms": 2516.6666666666665,
+      "detections": [
+        {
+          "bbox": [
+            820.2484130859375,
+            449.5384826660156,
+            839.6451416015625,
+            467.6022033691406
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.6365888714790344,
+          "cnn_class_id": 35,
+          "cnn_class_name": "Ahead only",
+          "cnn_score": 0.86126309633255,
+          "valid_yolo_at": 6357.323994,
+          "valid_cnn_at": 6357.3654415,
+          "speech_veto": "mandatory_blue_face_unverified"
+        }
+      ],
+      "tracks": [
+        [
+          1,
+          [
+            410,
+            224,
+            420,
+            234
+          ],
+          null
+        ]
+      ]
+    },
+    {
+      "frame": 172,
+      "media_ms": 2866.6666666666665,
+      "detections": [
+        {
+          "bbox": [
+            765.9876708984375,
+            438.6647644042969,
+            785.0709228515625,
+            459.3864440917969
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.4197394549846649,
+          "cnn_class_id": 34,
+          "cnn_class_name": "Turn left ahead",
+          "cnn_score": 0.2853349447250366,
+          "valid_yolo_at": 6357.5657554,
+          "valid_cnn_at": 6357.6050777,
+          "speech_veto": "mandatory_blue_face_unverified"
+        }
+      ],
+      "tracks": [
+        [
+          2,
+          [
+            382,
+            219,
+            393,
+            230
+          ],
+          null
+        ]
+      ]
+    },
+    {
+      "frame": 182,
+      "media_ms": 3033.333333333333,
+      "detections": [
+        {
+          "bbox": [
+            305.0616455078125,
+            422.5181579589844,
+            328.96588134765625,
+            448.002685546875
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.3388122022151947,
+          "cnn_class_id": 35,
+          "cnn_class_name": "Ahead only",
+          "cnn_score": 0.9838148951530457,
+          "valid_yolo_at": 6358.0685921,
+          "valid_cnn_at": 6358.1114564,
+          "speech_veto": null
+        },
+        {
+          "bbox": [
+            731.069091796875,
+            428.0819091796875,
+            752.73046875,
+            447.78533935546875
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.3377278447151184,
+          "cnn_class_id": 35,
+          "cnn_class_name": "Ahead only",
+          "cnn_score": 0.45875588059425354,
+          "valid_yolo_at": 6358.0687695,
+          "valid_cnn_at": 6358.1119672,
+          "speech_veto": "mandatory_blue_face_unverified"
+        }
+      ],
+      "tracks": [
+        [
+          3,
+          [
+            152,
+            211,
+            165,
+            225
+          ],
+          null
+        ],
+        [
+          2,
+          [
+            365,
+            214,
+            377,
+            224
+          ],
+          null
+        ]
+      ]
+    },
+    {
+      "frame": 668,
+      "media_ms": 11133.333333333332,
+      "detections": [
+        {
+          "bbox": [
+            393.0238037109375,
+            496.1549377441406,
+            416.618408203125,
+            520.9486694335938
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.7153279185295105,
+          "cnn_class_id": 38,
+          "cnn_class_name": "Keep right",
+          "cnn_score": 0.5619940161705017,
+          "valid_yolo_at": 6365.8307774,
+          "valid_cnn_at": 6365.8708852,
+          "speech_veto": "mandatory_blue_face_unverified"
+        }
+      ],
+      "tracks": [
+        [
+          4,
+          [
+            196,
+            248,
+            209,
+            261
+          ],
+          null
+        ]
+      ]
+    },
+    {
+      "frame": 684,
+      "media_ms": 11400.0,
+      "detections": [
+        {
+          "bbox": [
+            300.84283447265625,
+            490.343994140625,
+            326.4754943847656,
+            516.6414184570312
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.49506518244743347,
+          "cnn_class_id": 38,
+          "cnn_class_name": "Keep right",
+          "cnn_score": 0.7478015422821045,
+          "valid_yolo_at": 6366.1156531,
+          "valid_cnn_at": 6366.1518671,
+          "speech_veto": "mandatory_blue_face_unverified"
+        }
+      ],
+      "tracks": [
+        [
+          5,
+          [
+            150,
+            245,
+            164,
+            259
+          ],
+          null
+        ]
+      ]
+    }
+  ],
+  "actual_audio": [],
+  "results": [
+    {
+      "frame": 0,
+      "session": 1,
+      "elapsed": 173.79309999978432,
+      "turnaround": 16591.70449999965,
+      "submitted": 6337.1463769,
+      "positive": true
+    },
+    {
+      "frame": 1,
+      "session": 1,
+      "elapsed": 134.56049999967945,
+      "turnaround": 135.1678000000902,
+      "submitted": 6354.4597791,
+      "positive": false
+    },
+    {
+      "frame": 6,
+      "session": 1,
+      "elapsed": 216.7224000004353,
+      "turnaround": 245.45900000066467,
+      "submitted": 6354.5673087,
+      "positive": false
+    },
+    {
+      "frame": 20,
+      "session": 1,
+      "elapsed": 207.21599999978935,
+      "turnaround": 234.86989999946672,
+      "submitted": 6354.7862174,
+      "positive": false
+    },
+    {
+      "frame": 32,
+      "session": 1,
+      "elapsed": 153.14200000011624,
+      "turnaround": 180.36410000058822,
+      "submitted": 6354.9955003,
+      "positive": false
+    },
+    {
+      "frame": 41,
+      "session": 1,
+      "elapsed": 193.2625999997981,
+      "turnaround": 226.6909999998461,
+      "submitted": 6355.1438152,
+      "positive": false
+    },
+    {
+      "frame": 54,
+      "session": 1,
+      "elapsed": 233.58749999988504,
+      "turnaround": 255.90069999998377,
+      "submitted": 6355.3493305,
+      "positive": false
+    },
+    {
+      "frame": 67,
+      "session": 1,
+      "elapsed": 291.9387000001734,
+      "turnaround": 317.2027999999045,
+      "submitted": 6355.5810215,
+      "positive": false
+    },
+    {
+      "frame": 85,
+      "session": 1,
+      "elapsed": 228.558100000555,
+      "turnaround": 249.35030000051484,
+      "submitted": 6355.8786965,
+      "positive": false
+    },
+    {
+      "frame": 100,
+      "session": 1,
+      "elapsed": 247.13559999963763,
+      "turnaround": 255.630900000142,
+      "submitted": 6356.1208547,
+      "positive": false
+    },
+    {
+      "frame": 111,
+      "session": 1,
+      "elapsed": 171.8111999998655,
+      "turnaround": 220.06559999954334,
+      "submitted": 6356.3292637,
+      "positive": false
+    },
+    {
+      "frame": 121,
+      "session": 1,
+      "elapsed": 224.5556999996552,
+      "turnaround": 266.53910000004544,
+      "submitted": 6356.5085456,
+      "positive": false
+    },
+    {
+      "frame": 133,
+      "session": 1,
+      "elapsed": 287.8123999998934,
+      "turnaround": 357.96730000038224,
+      "submitted": 6356.7062491,
+      "positive": false
+    },
+    {
+      "frame": 151,
+      "session": 1,
+      "elapsed": 299.84260000037466,
+      "turnaround": 356.337799999892,
+      "submitted": 6357.0097234,
+      "positive": true
+    },
+    {
+      "frame": 172,
+      "session": 1,
+      "elapsed": 237.85169999973732,
+      "turnaround": 256.79549999949813,
+      "submitted": 6357.3485921,
+      "positive": true
+    },
+    {
+      "frame": 182,
+      "session": 1,
+      "elapsed": 505.7107000002361,
+      "turnaround": 588.4042999996382,
+      "submitted": 6357.523763,
+      "positive": true
+    },
+    {
+      "frame": 212,
+      "session": 1,
+      "elapsed": 207.7214000000822,
+      "turnaround": 286.97419999934937,
+      "submitted": 6358.0346876,
+      "positive": false
+    },
+    {
+      "frame": 228,
+      "session": 1,
+      "elapsed": 206.87379999981204,
+      "turnaround": 234.88170000018727,
+      "submitted": 6358.2946285,
+      "positive": false
+    },
+    {
+      "frame": 247,
+      "session": 1,
+      "elapsed": 173.91829999996844,
+      "turnaround": 257.3992999996335,
+      "submitted": 6358.6255283,
+      "positive": false
+    },
+    {
+      "frame": 254,
+      "session": 1,
+      "elapsed": 173.75279999941995,
+      "turnaround": 316.49190000007366,
+      "submitted": 6358.741303,
+      "positive": false
+    },
+    {
+      "frame": 263,
+      "session": 1,
+      "elapsed": 181.08419999953185,
+      "turnaround": 182.79009999969276,
+      "submitted": 6359.1112326,
+      "positive": false
+    },
+    {
+      "frame": 272,
+      "session": 1,
+      "elapsed": 185.58759999996255,
+      "turnaround": 224.02810000039608,
+      "submitted": 6359.2564427,
+      "positive": false
+    },
+    {
+      "frame": 281,
+      "session": 1,
+      "elapsed": 176.2007999996058,
+      "turnaround": 273.6702000001969,
+      "submitted": 6359.3837287,
+      "positive": false
+    },
+    {
+      "frame": 299,
+      "session": 1,
+      "elapsed": 177.25419999987935,
+      "turnaround": 193.42950000009296,
+      "submitted": 6359.6418821,
+      "positive": false
+    },
+    {
+      "frame": 308,
+      "session": 1,
+      "elapsed": 177.48140000003332,
+      "turnaround": 265.1698999998189,
+      "submitted": 6359.7489262,
+      "positive": false
+    },
+    {
+      "frame": 326,
+      "session": 1,
+      "elapsed": 182.86089999946853,
+      "turnaround": 199.40349999978935,
+      "submitted": 6359.9986056,
+      "positive": false
+    },
+    {
+      "frame": 335,
+      "session": 1,
+      "elapsed": 172.63960000036604,
+      "turnaround": 262.64790000004723,
+      "submitted": 6360.1091139,
+      "positive": false
+    },
+    {
+      "frame": 349,
+      "session": 1,
+      "elapsed": 146.47659999991447,
+      "turnaround": 200.37779999984195,
+      "submitted": 6360.3190119,
+      "positive": false
+    },
+    {
+      "frame": 361,
+      "session": 1,
+      "elapsed": 157.14380000008532,
+      "turnaround": 179.08449999958975,
+      "submitted": 6360.4986623,
+      "positive": false
+    },
+    {
+      "frame": 369,
+      "session": 1,
+      "elapsed": 164.95889999987412,
+      "turnaround": 217.31910000016796,
+      "submitted": 6360.6267327,
+      "positive": false
+    },
+    {
+      "frame": 381,
+      "session": 1,
+      "elapsed": 167.4855999999636,
+      "turnaround": 182.39080000057584,
+      "submitted": 6360.8300702,
+      "positive": false
+    },
+    {
+      "frame": 391,
+      "session": 1,
+      "elapsed": 170.98059999989346,
+      "turnaround": 200.20279999971535,
+      "submitted": 6360.9845289,
+      "positive": false
+    },
+    {
+      "frame": 403,
+      "session": 1,
+      "elapsed": 223.74950000084937,
+      "turnaround": 238.05690000062896,
+      "submitted": 6361.1714881,
+      "positive": false
+    },
+    {
+      "frame": 415,
+      "session": 1,
+      "elapsed": 164.54530000009981,
+      "turnaround": 203.06609999988723,
+      "submitted": 6361.3720635,
+      "positive": false
+    },
+    {
+      "frame": 423,
+      "session": 1,
+      "elapsed": 166.91640000044572,
+      "turnaround": 238.2160000006479,
+      "submitted": 6361.5050359,
+      "positive": false
+    },
+    {
+      "frame": 432,
+      "session": 1,
+      "elapsed": 182.18439999964176,
+      "turnaround": 264.3296999995073,
+      "submitted": 6361.6622249,
+      "positive": false
+    },
+    {
+      "frame": 445,
+      "session": 1,
+      "elapsed": 171.67329999938374,
+      "turnaround": 203.82399999925838,
+      "submitted": 6361.8957606,
+      "positive": false
+    },
+    {
+      "frame": 456,
+      "session": 1,
+      "elapsed": 150.01800000027288,
+      "turnaround": 185.05450000066048,
+      "submitted": 6362.0658564,
+      "positive": false
+    },
+    {
+      "frame": 465,
+      "session": 1,
+      "elapsed": 181.69709999983752,
+      "turnaround": 206.2366000000111,
+      "submitted": 6362.2276543,
+      "positive": false
+    },
+    {
+      "frame": 476,
+      "session": 1,
+      "elapsed": 172.69200000009732,
+      "turnaround": 188.3272000004581,
+      "submitted": 6362.4193725,
+      "positive": false
+    },
+    {
+      "frame": 481,
+      "session": 1,
+      "elapsed": 155.47020000030898,
+      "turnaround": 248.68770000011864,
+      "submitted": 6362.5160747,
+      "positive": false
+    },
+    {
+      "frame": 493,
+      "session": 1,
+      "elapsed": 153.87449999980163,
+      "turnaround": 221.85709999939718,
+      "submitted": 6362.6980768,
+      "positive": false
+    },
+    {
+      "frame": 503,
+      "session": 1,
+      "elapsed": 391.9757000003301,
+      "turnaround": 439.760600000227,
+      "submitted": 6362.8734109,
+      "positive": false
+    },
+    {
+      "frame": 529,
+      "session": 1,
+      "elapsed": 192.16409999989992,
+      "turnaround": 207.1989999994912,
+      "submitted": 6363.2994563,
+      "positive": false
+    },
+    {
+      "frame": 539,
+      "session": 1,
+      "elapsed": 173.51139999937004,
+      "turnaround": 205.85279999977502,
+      "submitted": 6363.4754457,
+      "positive": false
+    },
+    {
+      "frame": 545,
+      "session": 1,
+      "elapsed": 171.6284000003725,
+      "turnaround": 279.08490000027086,
+      "submitted": 6363.575019,
+      "positive": false
+    },
+    {
+      "frame": 558,
+      "session": 1,
+      "elapsed": 176.0282000004736,
+      "turnaround": 235.93020000043907,
+      "submitted": 6363.7956526,
+      "positive": false
+    },
+    {
+      "frame": 570,
+      "session": 1,
+      "elapsed": 156.62129999964236,
+      "turnaround": 187.58729999990464,
+      "submitted": 6364.0019272,
+      "positive": false
+    },
+    {
+      "frame": 576,
+      "session": 1,
+      "elapsed": 246.36139999984152,
+      "turnaround": 331.11379999991186,
+      "submitted": 6364.105808,
+      "positive": false
+    },
+    {
+      "frame": 595,
+      "session": 1,
+      "elapsed": 425.5311000006259,
+      "turnaround": 446.7380000005505,
+      "submitted": 6364.4167891,
+      "positive": false
+    },
+    {
+      "frame": 622,
+      "session": 1,
+      "elapsed": 236.4479999996547,
+      "turnaround": 254.2647999998735,
+      "submitted": 6364.8470589,
+      "positive": false
+    },
+    {
+      "frame": 632,
+      "session": 1,
+      "elapsed": 188.97130000004836,
+      "turnaround": 272.6561999998012,
+      "submitted": 6365.0187824,
+      "positive": false
+    },
+    {
+      "frame": 644,
+      "session": 1,
+      "elapsed": 343.1464999994205,
+      "turnaround": 395.43719999983296,
+      "submitted": 6365.2402856,
+      "positive": false
+    },
+    {
+      "frame": 668,
+      "session": 1,
+      "elapsed": 234.0807999999015,
+      "turnaround": 261.88080000065384,
+      "submitted": 6365.6093839,
+      "positive": true
+    },
+    {
+      "frame": 684,
+      "session": 1,
+      "elapsed": 279.68329999930575,
+      "turnaround": 286.59930000048917,
+      "submitted": 6365.8655614,
+      "positive": true
+    },
+    {
+      "frame": 698,
+      "session": 1,
+      "elapsed": 477.22499999963475,
+      "turnaround": 511.00899999983085,
+      "submitted": 6366.1194532,
+      "positive": false
+    },
+    {
+      "frame": 728,
+      "session": 1,
+      "elapsed": 432.6986999994915,
+      "turnaround": 458.6481999995158,
+      "submitted": 6366.6056599,
+      "positive": false
+    },
+    {
+      "frame": 750,
+      "session": 1,
+      "elapsed": 256.30589999946096,
+      "turnaround": 332.8901999993832,
+      "submitted": 6366.9891224,
+      "positive": false
+    },
+    {
+      "frame": 767,
+      "session": 1,
+      "elapsed": 236.622599999464,
+      "turnaround": 291.2464999999429,
+      "submitted": 6367.2684284,
+      "positive": false
+    },
+    {
+      "frame": 772,
+      "session": 1,
+      "elapsed": 175.23440000059054,
+      "turnaround": 380.0451000006433,
+      "submitted": 6367.3561923,
+      "positive": false
+    },
+    {
+      "frame": 777,
+      "session": 1,
+      "elapsed": 233.46529999980703,
+      "turnaround": 407.4540999999954,
+      "submitted": 6367.5634662,
+      "positive": false
+    }
+  ],
+  "overlays": [
+    [
+      151,
+      6358.7861851,
+      1462.1910999994725,
+      [
+        35
+      ]
+    ],
+    [
+      172,
+      6359.1424933,
+      1576.7378999998982,
+      [
+        34
+      ]
+    ],
+    [
+      182,
+      6359.278117,
+      1209.524899999451,
+      [
+        35,
+        35
+      ]
+    ],
+    [
+      668,
+      6367.374117,
+      1543.3395999998538,
+      [
+        38
+      ]
+    ],
+    [
+      684,
+      6367.6433379,
+      1527.6848000003156,
+      [
+        38
+      ]
+    ]
+  ],
+  "views": [
+    [
+      0,
+      6337.1463313
+    ],
+    [
+      1,
+      6356.2649526
+    ],
+    [
+      6,
+      6356.3505097
+    ],
+    [
+      12,
+      6356.4313348
+    ],
+    [
+      17,
+      6356.5298618
+    ],
+    [
+      22,
+      6356.6305914
+    ],
+    [
+      28,
+      6356.7283988
+    ],
+    [
+      35,
+      6356.8227993
+    ],
+    [
+      41,
+      6356.9227673
+    ],
+    [
+      46,
+      6357.0289652
+    ],
+    [
+      51,
+      6357.1190191
+    ],
+    [
+      56,
+      6357.195332
+    ],
+    [
+      62,
+      6357.2726665
+    ],
+    [
+      67,
+      6357.3649052
+    ],
+    [
+      72,
+      6357.4467346
+    ],
+    [
+      78,
+      6357.5434965
+    ],
+    [
+      82,
+      6357.6431029
+    ],
+    [
+      90,
+      6357.7534853
+    ],
+    [
+      97,
+      6357.8570981
+    ],
+    [
+      102,
+      6357.9529983
+    ],
+    [
+      107,
+      6358.0535484
+    ],
+    [
+      111,
+      6358.1404015
+    ],
+    [
+      116,
+      6358.2212272
+    ],
+    [
+      121,
+      6358.3146993
+    ],
+    [
+      127,
+      6358.4219111
+    ],
+    [
+      133,
+      6358.5265289
+    ],
+    [
+      144,
+      6358.6442213
+    ],
+    [
+      151,
+      6358.7861851
+    ],
+    [
+      172,
+      6359.1424933
+    ],
+    [
+      182,
+      6359.278117
+    ],
+    [
+      188,
+      6359.40222
+    ],
+    [
+      194,
+      6359.5308714
+    ],
+    [
+      200,
+      6359.659654
+    ],
+    [
+      212,
+      6359.7675371
+    ],
+    [
+      218,
+      6359.8850971
+    ],
+    [
+      223,
+      6360.0163131
+    ],
+    [
+      228,
+      6360.1275602
+    ],
+    [
+      234,
+      6360.2380933
+    ],
+    [
+      240,
+      6360.3389956
+    ],
+    [
+      247,
+      6360.4229332
+    ],
+    [
+      254,
+      6360.5159954
+    ],
+    [
+      263,
+      6360.6470182
+    ],
+    [
+      272,
+      6360.7676234
+    ],
+    [
+      281,
+      6360.9378268
+    ],
+    [
+      290,
+      6361.0885223
+    ],
+    [
+      299,
+      6361.2228532
+    ],
+    [
+      308,
+      6361.3904915
+    ],
+    [
+      317,
+      6361.5241762
+    ],
+    [
+      326,
+      6361.6828394
+    ],
+    [
+      335,
+      6361.8398632
+    ],
+    [
+      343,
+      6361.9649468
+    ],
+    [
+      349,
+      6362.0879716
+    ],
+    [
+      355,
+      6362.1636589
+    ],
+    [
+      361,
+      6362.2782407
+    ],
+    [
+      366,
+      6362.361129
+    ],
+    [
+      369,
+      6362.4389409
+    ],
+    [
+      377,
+      6362.5378355
+    ],
+    [
+      381,
+      6362.6357297
+    ],
+    [
+      388,
+      6362.7175714
+    ],
+    [
+      394,
+      6362.8063572
+    ],
+    [
+      397,
+      6362.8934453
+    ],
+    [
+      403,
+      6362.9823119
+    ],
+    [
+      408,
+      6363.0582933
+    ],
+    [
+      415,
+      6363.1486508
+    ],
+    [
+      418,
+      6363.2263399
+    ],
+    [
+      423,
+      6363.3179074
+    ],
+    [
+      427,
+      6363.4001036
+    ],
+    [
+      432,
+      6363.4950138
+    ],
+    [
+      439,
+      6363.595343
+    ],
+    [
+      445,
+      6363.7072396
+    ],
+    [
+      453,
+      6363.8180791
+    ],
+    [
+      460,
+      6363.9185946
+    ],
+    [
+      465,
+      6364.0216031
+    ],
+    [
+      472,
+      6364.1233553
+    ],
+    [
+      476,
+      6364.2360645
+    ],
+    [
+      481,
+      6364.3327658
+    ],
+    [
+      488,
+      6364.4364009
+    ],
+    [
+      493,
+      6364.5292766
+    ],
+    [
+      503,
+      6364.6295798
+    ],
+    [
+      509,
+      6364.7275665
+    ],
+    [
+      514,
+      6364.8670683
+    ],
+    [
+      519,
+      6364.9499782
+    ],
+    [
+      524,
+      6365.0403607
+    ],
+    [
+      534,
+      6365.1463849
+    ],
+    [
+      539,
+      6365.2600729
+    ],
+    [
+      545,
+      6365.3644764
+    ],
+    [
+      551,
+      6365.4590914
+    ],
+    [
+      558,
+      6365.5503157
+    ],
+    [
+      564,
+      6365.6713711
+    ],
+    [
+      570,
+      6365.7506758
+    ],
+    [
+      576,
+      6365.8844847
+    ],
+    [
+      583,
+      6365.9676581
+    ],
+    [
+      589,
+      6366.0528308
+    ],
+    [
+      595,
+      6366.1931317
+    ],
+    [
+      601,
+      6366.2978002
+    ],
+    [
+      607,
+      6366.3883694
+    ],
+    [
+      613,
+      6366.4611673
+    ],
+    [
+      618,
+      6366.5406485
+    ],
+    [
+      622,
+      6366.6256309
+    ],
+    [
+      627,
+      6366.7176828
+    ],
+    [
+      632,
+      6366.8061253
+    ],
+    [
+      638,
+      6366.9187583
+    ],
+    [
+      644,
+      6367.0075392
+    ],
+    [
+      651,
+      6367.1070077
+    ],
+    [
+      657,
+      6367.1895976
+    ],
+    [
+      663,
+      6367.2881525
+    ],
+    [
+      668,
+      6367.374117
+    ],
+    [
+      680,
+      6367.5848301
+    ],
+    [
+      684,
+      6367.6433379
+    ],
+    [
+      688,
+      6367.7013141
+    ],
+    [
+      693,
+      6367.779703
+    ],
+    [
+      698,
+      6367.874539
+    ],
+    [
+      702,
+      6367.9384551
+    ],
+    [
+      707,
+      6368.0166883
+    ],
+    [
+      713,
+      6368.1286811
+    ],
+    [
+      718,
+      6368.2022347
+    ],
+    [
+      723,
+      6368.2791114
+    ],
+    [
+      728,
+      6368.3781412
+    ],
+    [
+      733,
+      6368.4586146
+    ],
+    [
+      738,
+      6368.5330161
+    ],
+    [
+      744,
+      6368.625264
+    ],
+    [
+      750,
+      6368.740385
+    ],
+    [
+      756,
+      6368.8278919
+    ],
+    [
+      761,
+      6368.9068426
+    ],
+    [
+      767,
+      6369.0194343
+    ],
+    [
+      772,
+      6369.0986953
+    ],
+    [
+      777,
+      6369.1730525
+    ],
+    [
+      0,
+      6369.2895619
+    ]
+  ],
+  "system": [
+    [
+      6353.5860548,
+      {
+        "yolo": [
+          0.03125,
+          4300800
+        ],
+        "cnn": [
+          7.03125,
+          396808192
+        ],
+        "ui": [
+          1.265625,
+          104329216
+        ],
+        "yolo_child_1": [
+          9.6875,
+          386207744
+        ]
+      }
+    ],
+    [
+      6355.384013,
+      {
+        "yolo": [
+          0.03125,
+          4300800
+        ],
+        "cnn": [
+          7.03125,
+          396808192
+        ],
+        "ui": [
+          2.9375,
+          167297024
+        ],
+        "yolo_child_1": [
+          13.171875,
+          386301952
+        ]
+      }
+    ],
+    [
+      6357.1965513,
+      {
+        "yolo": [
+          0.03125,
+          4300800
+        ],
+        "cnn": [
+          7.03125,
+          396808192
+        ],
+        "ui": [
+          5.90625,
+          178069504
+        ],
+        "yolo_child_1": [
+          19.078125,
+          392577024
+        ]
+      }
+    ],
+    [
+      6359.0131775,
+      {
+        "yolo": [
+          0.03125,
+          4300800
+        ],
+        "cnn": [
+          7.140625,
+          399216640
+        ],
+        "ui": [
+          8.859375,
+          151687168
+        ],
+        "yolo_child_1": [
+          24.953125,
+          393220096
+        ]
+      }
+    ],
+    [
+      6360.8312896,
+      {
+        "yolo": [
+          0.03125,
+          4300800
+        ],
+        "cnn": [
+          7.140625,
+          399216640
+        ],
+        "ui": [
+          12.140625,
+          155627520
+        ],
+        "yolo_child_1": [
+          31.765625,
+          393220096
+        ]
+      }
+    ],
+    [
+      6362.6363022,
+      {
+        "yolo": [
+          0.03125,
+          4300800
+        ],
+        "cnn": [
+          7.140625,
+          399216640
+        ],
+        "ui": [
+          15.140625,
+          180768768
+        ],
+        "yolo_child_1": [
+          38.640625,
+          387002368
+        ]
+      }
+    ],
+    [
+      6364.438595,
+      {
+        "yolo": [
+          0.03125,
+          4300800
+        ],
+        "cnn": [
+          7.140625,
+          399216640
+        ],
+        "ui": [
+          18.21875,
+          154091520
+        ],
+        "yolo_child_1": [
+          45.09375,
+          386834432
+        ]
+      }
+    ],
+    [
+      6366.1936984,
+      {
+        "yolo": [
+          0.03125,
+          4300800
+        ],
+        "cnn": [
+          7.203125,
+          399511552
+        ],
+        "ui": [
+          21.171875,
+          164720640
+        ],
+        "yolo_child_1": [
+          50.515625,
+          392753152
+        ]
+      }
+    ],
+    [
+      6368.0168093,
+      {
+        "yolo": [
+          0.03125,
+          4288512
+        ],
+        "cnn": [
+          7.203125,
+          399511552
+        ],
+        "ui": [
+          23.546875,
+          100352000
+        ],
+        "yolo_child_1": [
+          56.03125,
+          386076672
+        ]
+      }
+    ]
+  ],
+  "logical_cpus": 8,
+  "pids": {
+    "yolo": 6784,
+    "cnn": 16732,
+    "ui": 16612,
+    "yolo_child_1": 18452
+  }
+}

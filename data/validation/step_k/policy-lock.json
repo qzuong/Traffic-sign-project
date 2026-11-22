@@ -1,0 +1,19 @@
+{
+  "design": [
+    "Step H and Step I real-video error cases",
+    "Step J already inspected data"
+  ],
+  "tuning": "All local GTSRB Test ROIs, after Step J exposure",
+  "heldout": [
+    "BelgiumTSC Testing labeled before model inference",
+    "New official GTSDB scenes distinct from Step J by content CRC"
+  ],
+  "policy_sha256": "d0577b42017991cf034356242b481dcb3f23aa58a9accd85b068170dc4d0030d",
+  "label_map_sha256": "41c9351e9b81fbc630bd0082d64835e6836e8edc8fe0f920f9ec33f25b8d8a6e",
+  "candidates": [
+    "stable",
+    "margin_only",
+    "selective_speed"
+  ],
+  "production_revision": "f2f61cb"
+}

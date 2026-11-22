@@ -1,0 +1,3289 @@
+{
+  "video": "C:\\Users\\Admin\\AppData\\Local\\Temp\\traffic-step-h\\motorway-288-304.mp4",
+  "frames": [
+    0,
+    479
+  ],
+  "eof": true,
+  "errors": [],
+  "startup_ready_s": 17.671516899999915,
+  "startup_first_overlay_s": 22.672956200000044,
+  "open_to_first_overlay_s": 21.924041600000237,
+  "display_fps": 22.11122458486448,
+  "ai_fps": 6.512032359716263,
+  "workers": {
+    "yolo": {
+      "state": "ready",
+      "python": "D:\\Traffic-sign-project\\.venv-yolo\\Scripts\\python.exe",
+      "pid": 11716,
+      "startup_seconds": 7.648273400000107,
+      "error": null,
+      "started_monotonic": 5573.0430513,
+      "ready_message": {
+        "type": "ready",
+        "python": "D:\\Traffic-sign-project\\.venv-yolo\\Scripts\\python.exe",
+        "task": "detect",
+        "classes": 1,
+        "imgsz": 640
+      }
+    },
+    "cnn": {
+      "state": "ready",
+      "python": "C:\\Program Files\\Python313\\python.exe",
+      "pid": 352,
+      "startup_seconds": 8.80381860000034,
+      "error": null,
+      "started_monotonic": 5580.9268378,
+      "ready_message": {
+        "type": "ready",
+        "python": "C:\\Program Files\\Python313\\python.exe",
+        "input_shape": [
+          null,
+          30,
+          30,
+          3
+        ],
+        "output_shape": [
+          null,
+          43
+        ]
+      }
+    }
+  },
+  "controls": {
+    "open": true,
+    "eof_idle": true,
+    "stop": true,
+    "replay": true
+  },
+  "status": "AI Processing",
+  "peaks": {
+    "generated": 0,
+    "accepted": 0,
+    "played": 0,
+    "expired": 0,
+    "duplicates_suppressed": 0,
+    "peak_queue": 0,
+    "tracks_with_speech_suppression": 1,
+    "speech_suppressed_dark_red_sign_face": 1,
+    "cancelled": 0,
+    "tracks_created": 8,
+    "tracks_lost": 7,
+    "ambiguous_associations": 0,
+    "unresolved_associations": 0,
+    "unconfirmed_tracks_lost": 7,
+    "confirmed_classes": [
+      0
+    ],
+    "pending": 0,
+    "speech_latency_ms": [],
+    "measurements": [],
+    "played_tracks": []
+  },
+  "trace": [
+    {
+      "event": "yolo_valid",
+      "monotonic": 5593.3034562,
+      "video_ms": 3166.6666666666665,
+      "generation": 1,
+      "track_id": 1,
+      "frame_id": 95
+    },
+    {
+      "event": "track_created",
+      "monotonic": 5594.9806317,
+      "video_ms": 3166.6666666666665,
+      "generation": 1,
+      "track_id": 1,
+      "frame_id": 95
+    },
+    {
+      "event": "cnn_valid",
+      "monotonic": 5593.3487725,
+      "video_ms": 3166.6666666666665,
+      "generation": 1,
+      "track_id": 1,
+      "frame_id": 95
+    },
+    {
+      "event": "yolo_valid",
+      "monotonic": 5593.9662114,
+      "video_ms": 3666.6666666666665,
+      "generation": 1,
+      "track_id": 2,
+      "frame_id": 110
+    },
+    {
+      "event": "track_created",
+      "monotonic": 5595.4503622,
+      "video_ms": 3666.6666666666665,
+      "generation": 1,
+      "track_id": 2,
+      "frame_id": 110
+    },
+    {
+      "event": "cnn_valid",
+      "monotonic": 5594.0083827,
+      "video_ms": 3666.6666666666665,
+      "generation": 1,
+      "track_id": 2,
+      "frame_id": 110
+    },
+    {
+      "event": "yolo_valid",
+      "monotonic": 5593.9663791,
+      "video_ms": 3666.6666666666665,
+      "generation": 1,
+      "track_id": 3,
+      "frame_id": 110
+    },
+    {
+      "event": "track_created",
+      "monotonic": 5595.4503622,
+      "video_ms": 3666.6666666666665,
+      "generation": 1,
+      "track_id": 3,
+      "frame_id": 110
+    },
+    {
+      "event": "cnn_valid",
+      "monotonic": 5594.0086844,
+      "video_ms": 3666.6666666666665,
+      "generation": 1,
+      "track_id": 3,
+      "frame_id": 110
+    },
+    {
+      "event": "yolo_valid",
+      "monotonic": 5594.2184833,
+      "video_ms": 4033.333333333333,
+      "generation": 1,
+      "track_id": 4,
+      "frame_id": 121
+    },
+    {
+      "event": "track_created",
+      "monotonic": 5595.8171602,
+      "video_ms": 4033.333333333333,
+      "generation": 1,
+      "track_id": 4,
+      "frame_id": 121
+    },
+    {
+      "event": "cnn_valid",
+      "monotonic": 5594.2675932,
+      "video_ms": 4033.333333333333,
+      "generation": 1,
+      "track_id": 4,
+      "frame_id": 121
+    },
+    {
+      "event": "speech_suppressed",
+      "monotonic": 5595.8185101,
+      "video_ms": 4033.333333333333,
+      "generation": 1,
+      "track_id": 3,
+      "frame_id": 121,
+      "class_id": 0,
+      "reason": "dark_red_sign_face"
+    },
+    {
+      "event": "yolo_valid",
+      "monotonic": 5594.7547821,
+      "video_ms": 4633.333333333334,
+      "generation": 1,
+      "track_id": 5,
+      "frame_id": 139
+    },
+    {
+      "event": "track_created",
+      "monotonic": 5596.4296288,
+      "video_ms": 4633.333333333334,
+      "generation": 1,
+      "track_id": 5,
+      "frame_id": 139
+    },
+    {
+      "event": "cnn_valid",
+      "monotonic": 5594.7934436,
+      "video_ms": 4633.333333333334,
+      "generation": 1,
+      "track_id": 5,
+      "frame_id": 139
+    },
+    {
+      "event": "yolo_valid",
+      "monotonic": 5595.0932828,
+      "video_ms": 4966.666666666667,
+      "generation": 1,
+      "track_id": 6,
+      "frame_id": 149
+    },
+    {
+      "event": "track_created",
+      "monotonic": 5596.7575331,
+      "video_ms": 4966.666666666667,
+      "generation": 1,
+      "track_id": 6,
+      "frame_id": 149
+    },
+    {
+      "event": "cnn_valid",
+      "monotonic": 5595.132502,
+      "video_ms": 4966.666666666667,
+      "generation": 1,
+      "track_id": 6,
+      "frame_id": 149
+    },
+    {
+      "event": "yolo_valid",
+      "monotonic": 5604.4033987,
+      "video_ms": 14266.666666666668,
+      "generation": 1,
+      "track_id": 7,
+      "frame_id": 428
+    },
+    {
+      "event": "track_created",
+      "monotonic": 5606.0468917,
+      "video_ms": 14266.666666666668,
+      "generation": 1,
+      "track_id": 7,
+      "frame_id": 428
+    },
+    {
+      "event": "cnn_valid",
+      "monotonic": 5604.4405734,
+      "video_ms": 14266.666666666668,
+      "generation": 1,
+      "track_id": 7,
+      "frame_id": 428
+    },
+    {
+      "event": "yolo_valid",
+      "monotonic": 5605.3070772,
+      "video_ms": 15166.666666666666,
+      "generation": 1,
+      "track_id": 8,
+      "frame_id": 455
+    },
+    {
+      "event": "track_created",
+      "monotonic": 5606.9364377,
+      "video_ms": 15166.666666666666,
+      "generation": 1,
+      "track_id": 8,
+      "frame_id": 455
+    },
+    {
+      "event": "cnn_valid",
+      "monotonic": 5605.3472791,
+      "video_ms": 15166.666666666666,
+      "generation": 1,
+      "track_id": 8,
+      "frame_id": 455
+    }
+  ],
+  "observations": [
+    {
+      "frame": 95,
+      "media_ms": 3166.6666666666665,
+      "detections": [
+        {
+          "bbox": [
+            381.4632568359375,
+            223.60150146484375,
+            398.8543701171875,
+            241.21942138671875
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.29522696137428284,
+          "cnn_class_id": 14,
+          "cnn_class_name": "Stop",
+          "cnn_score": 0.5177550315856934,
+          "valid_yolo_at": 5593.3034562,
+          "valid_cnn_at": 5593.3487725,
+          "speech_veto": null
+        }
+      ],
+      "tracks": [
+        [
+          1,
+          [
+            286,
+            167,
+            300,
+            181
+          ],
+          null
+        ]
+      ]
+    },
+    {
+      "frame": 110,
+      "media_ms": 3666.6666666666665,
+      "detections": [
+        {
+          "bbox": [
+            383.586181640625,
+            201.9767608642578,
+            405.395751953125,
+            224.1367950439453
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.735931932926178,
+          "cnn_class_id": 3,
+          "cnn_class_name": "Speed limit (60km/h)",
+          "cnn_score": 0.7107998132705688,
+          "valid_yolo_at": 5593.9662114,
+          "valid_cnn_at": 5594.0083827,
+          "speech_veto": "speed_face_unverified"
+        },
+        {
+          "bbox": [
+            450.63037109375,
+            210.43499755859375,
+            471.8701171875,
+            231.180908203125
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.2755625247955322,
+          "cnn_class_id": 0,
+          "cnn_class_name": "Speed limit (20km/h)",
+          "cnn_score": 0.8884045481681824,
+          "valid_yolo_at": 5593.9663791,
+          "valid_cnn_at": 5594.0086844,
+          "speech_veto": "dark_red_sign_face"
+        }
+      ],
+      "tracks": [
+        [
+          2,
+          [
+            287,
+            151,
+            305,
+            169
+          ],
+          null
+        ],
+        [
+          3,
+          [
+            337,
+            157,
+            354,
+            174
+          ],
+          null
+        ]
+      ]
+    },
+    {
+      "frame": 121,
+      "media_ms": 4033.333333333333,
+      "detections": [
+        {
+          "bbox": [
+            539.9515380859375,
+            200.93312072753906,
+            563.8001708984375,
+            225.5012969970703
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.7886911034584045,
+          "cnn_class_id": 0,
+          "cnn_class_name": "Speed limit (20km/h)",
+          "cnn_score": 0.5559442043304443,
+          "valid_yolo_at": 5594.2184833,
+          "valid_cnn_at": 5594.2675932,
+          "speech_veto": "dark_red_sign_face"
+        },
+        {
+          "bbox": [
+            464.48394775390625,
+            191.35220336914062,
+            488.47576904296875,
+            214.87521362304688
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.32557961344718933,
+          "cnn_class_id": 0,
+          "cnn_class_name": "Speed limit (20km/h)",
+          "cnn_score": 0.9805622696876526,
+          "valid_yolo_at": 5594.2192945,
+          "valid_cnn_at": 5594.2679242,
+          "speech_veto": "dark_red_sign_face"
+        },
+        {
+          "bbox": [
+            385.656005859375,
+            180.94952392578125,
+            408.9078369140625,
+            205.99884033203125
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.2883303761482239,
+          "cnn_class_id": 1,
+          "cnn_class_name": "Speed limit (30km/h)",
+          "cnn_score": 0.9290224313735962,
+          "valid_yolo_at": 5594.2193782,
+          "valid_cnn_at": 5594.2682049,
+          "speech_veto": "speed_face_unverified"
+        }
+      ],
+      "tracks": [
+        [
+          4,
+          [
+            404,
+            150,
+            423,
+            170
+          ],
+          null
+        ],
+        [
+          3,
+          [
+            348,
+            143,
+            367,
+            162
+          ],
+          0
+        ],
+        [
+          2,
+          [
+            289,
+            135,
+            307,
+            155
+          ],
+          null
+        ]
+      ]
+    },
+    {
+      "frame": 128,
+      "media_ms": 4266.666666666667,
+      "detections": [
+        {
+          "bbox": [
+            558.4784545898438,
+            185.51702880859375,
+            583.8775024414062,
+            212.41098022460938
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.7071248888969421,
+          "cnn_class_id": 1,
+          "cnn_class_name": "Speed limit (30km/h)",
+          "cnn_score": 0.40140587091445923,
+          "valid_yolo_at": 5594.3964835,
+          "valid_cnn_at": 5594.4334154,
+          "speech_veto": "dark_red_sign_face"
+        },
+        {
+          "bbox": [
+            473.084228515625,
+            174.78553771972656,
+            498.8326416015625,
+            200.93238830566406
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.6780521869659424,
+          "cnn_class_id": 25,
+          "cnn_class_name": "Road work",
+          "cnn_score": 0.94696444272995,
+          "valid_yolo_at": 5594.396666,
+          "valid_cnn_at": 5594.4337381,
+          "speech_veto": "dark_red_sign_face"
+        }
+      ],
+      "tracks": [
+        [
+          4,
+          [
+            418,
+            139,
+            438,
+            160
+          ],
+          null
+        ],
+        [
+          3,
+          [
+            354,
+            131,
+            375,
+            151
+          ],
+          0
+        ]
+      ]
+    },
+    {
+      "frame": 133,
+      "media_ms": 4433.333333333334,
+      "detections": [
+        {
+          "bbox": [
+            478.83447265625,
+            160.103759765625,
+            506.487060546875,
+            187.34426879882812
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.822695791721344,
+          "cnn_class_id": 0,
+          "cnn_class_name": "Speed limit (20km/h)",
+          "cnn_score": 0.9759107828140259,
+          "valid_yolo_at": 5594.5967253,
+          "valid_cnn_at": 5594.6391562,
+          "speech_veto": "dark_red_sign_face"
+        },
+        {
+          "bbox": [
+            573.87060546875,
+            171.62533569335938,
+            600.288818359375,
+            198.53463745117188
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.7366809248924255,
+          "cnn_class_id": 25,
+          "cnn_class_name": "Road work",
+          "cnn_score": 0.8327276110649109,
+          "valid_yolo_at": 5594.5969682,
+          "valid_cnn_at": 5594.6394729,
+          "speech_veto": "dark_red_sign_face"
+        }
+      ],
+      "tracks": [
+        [
+          3,
+          [
+            359,
+            120,
+            380,
+            141
+          ],
+          0
+        ],
+        [
+          4,
+          [
+            430,
+            128,
+            451,
+            149
+          ],
+          null
+        ]
+      ]
+    },
+    {
+      "frame": 139,
+      "media_ms": 4633.333333333334,
+      "detections": [
+        {
+          "bbox": [
+            594.23681640625,
+            149.6002197265625,
+            624.7191162109375,
+            181.04937744140625
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.8948498368263245,
+          "cnn_class_id": 25,
+          "cnn_class_name": "Road work",
+          "cnn_score": 0.4880317449569702,
+          "valid_yolo_at": 5594.754437,
+          "valid_cnn_at": 5594.7928927,
+          "speech_veto": "dark_red_sign_face"
+        },
+        {
+          "bbox": [
+            486.5545654296875,
+            135.898193359375,
+            517.67529296875,
+            168.08197021484375
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.7719531655311584,
+          "cnn_class_id": 8,
+          "cnn_class_name": "Speed limit (120km/h)",
+          "cnn_score": 0.5709070563316345,
+          "valid_yolo_at": 5594.7546984,
+          "valid_cnn_at": 5594.7932498,
+          "speech_veto": "dark_red_sign_face"
+        },
+        {
+          "bbox": [
+            373.196044921875,
+            123.8387451171875,
+            404.23760986328125,
+            154.00323486328125
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.4646938443183899,
+          "cnn_class_id": 1,
+          "cnn_class_name": "Speed limit (30km/h)",
+          "cnn_score": 0.9092615842819214,
+          "valid_yolo_at": 5594.7547821,
+          "valid_cnn_at": 5594.7934436,
+          "speech_veto": "dark_red_sign_face"
+        }
+      ],
+      "tracks": [
+        [
+          4,
+          [
+            445,
+            112,
+            469,
+            136
+          ],
+          null
+        ],
+        [
+          3,
+          [
+            364,
+            101,
+            389,
+            127
+          ],
+          0
+        ],
+        [
+          5,
+          [
+            279,
+            92,
+            304,
+            116
+          ],
+          null
+        ]
+      ]
+    },
+    {
+      "frame": 149,
+      "media_ms": 4966.666666666667,
+      "detections": [
+        {
+          "bbox": [
+            499.4183349609375,
+            78.59915161132812,
+            539.0439453125,
+            117.92361450195312
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.9008188247680664,
+          "cnn_class_id": 33,
+          "cnn_class_name": "Turn right ahead",
+          "cnn_score": 0.9300074577331543,
+          "valid_yolo_at": 5595.0930299,
+          "valid_cnn_at": 5595.1317967,
+          "speech_veto": "dark_red_sign_face"
+        },
+        {
+          "bbox": [
+            641.54248046875,
+            98.13929748535156,
+            678.988037109375,
+            136.22679138183594
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.8942367434501648,
+          "cnn_class_id": 33,
+          "cnn_class_name": "Turn right ahead",
+          "cnn_score": 0.39859825372695923,
+          "valid_yolo_at": 5595.0931941,
+          "valid_cnn_at": 5595.1321945,
+          "speech_veto": "dark_red_sign_face"
+        },
+        {
+          "bbox": [
+            348.50469970703125,
+            57.4573974609375,
+            389.44805908203125,
+            99.010498046875
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.8833491802215576,
+          "cnn_class_id": 33,
+          "cnn_class_name": "Turn right ahead",
+          "cnn_score": 0.6034480929374695,
+          "valid_yolo_at": 5595.0932828,
+          "valid_cnn_at": 5595.132502,
+          "speech_veto": "dark_red_sign_face"
+        }
+      ],
+      "tracks": [
+        [
+          3,
+          [
+            374,
+            58,
+            405,
+            89
+          ],
+          null
+        ],
+        [
+          4,
+          [
+            481,
+            73,
+            510,
+            103
+          ],
+          null
+        ],
+        [
+          6,
+          [
+            261,
+            43,
+            293,
+            75
+          ],
+          null
+        ]
+      ]
+    },
+    {
+      "frame": 158,
+      "media_ms": 5266.666666666667,
+      "detections": [
+        {
+          "bbox": [
+            715.84375,
+            5.121131896972656,
+            767.4383544921875,
+            58.74517822265625
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.8044701218605042,
+          "cnn_class_id": 2,
+          "cnn_class_name": "Speed limit (50km/h)",
+          "cnn_score": 0.22462330758571625,
+          "valid_yolo_at": 5595.3705528,
+          "valid_cnn_at": 5595.4073701,
+          "speech_veto": "speed_face_unverified"
+        }
+      ],
+      "tracks": [
+        [
+          4,
+          [
+            536,
+            3,
+            576,
+            45
+          ],
+          null
+        ]
+      ]
+    },
+    {
+      "frame": 428,
+      "media_ms": 14266.666666666668,
+      "detections": [
+        {
+          "bbox": [
+            887.4368286132812,
+            187.51968383789062,
+            928.2769165039062,
+            223.51266479492188
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.2730315327644348,
+          "cnn_class_id": 13,
+          "cnn_class_name": "Yield",
+          "cnn_score": 0.7918351292610168,
+          "valid_yolo_at": 5604.4033987,
+          "valid_cnn_at": 5604.4405734,
+          "speech_veto": null
+        }
+      ],
+      "tracks": [
+        [
+          7,
+          [
+            665,
+            140,
+            697,
+            168
+          ],
+          null
+        ]
+      ]
+    },
+    {
+      "frame": 455,
+      "media_ms": 15166.666666666666,
+      "detections": [
+        {
+          "bbox": [
+            790.31640625,
+            317.94696044921875,
+            813.33251953125,
+            340.22283935546875
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.2897636890411377,
+          "cnn_class_id": 31,
+          "cnn_class_name": "Wild animals crossing",
+          "cnn_score": 0.2525915205478668,
+          "valid_yolo_at": 5605.3070772,
+          "valid_cnn_at": 5605.3472791,
+          "speech_veto": null
+        }
+      ],
+      "tracks": [
+        [
+          8,
+          [
+            592,
+            238,
+            610,
+            256
+          ],
+          null
+        ]
+      ]
+    }
+  ],
+  "actual_audio": [],
+  "results": [
+    {
+      "frame": 0,
+      "session": 1,
+      "elapsed": 432.42689999988215,
+      "turnaround": 17232.15809999965,
+      "submitted": 5573.1204673,
+      "positive": false
+    },
+    {
+      "frame": 9,
+      "session": 1,
+      "elapsed": 164.61489999983314,
+      "turnaround": 164.933199999723,
+      "submitted": 5591.236376,
+      "positive": false
+    },
+    {
+      "frame": 36,
+      "session": 1,
+      "elapsed": 174.23340000004828,
+      "turnaround": 192.01860000066517,
+      "submitted": 5591.3839315,
+      "positive": false
+    },
+    {
+      "frame": 48,
+      "session": 1,
+      "elapsed": 150.73899999970308,
+      "turnaround": 166.9062999999369,
+      "submitted": 5591.5600943,
+      "positive": false
+    },
+    {
+      "frame": 52,
+      "session": 1,
+      "elapsed": 341.9816000005085,
+      "turnaround": 367.5167999999758,
+      "submitted": 5591.7019238,
+      "positive": false
+    },
+    {
+      "frame": 63,
+      "session": 1,
+      "elapsed": 243.97619999945164,
+      "turnaround": 244.92649999956484,
+      "submitted": 5592.0688453,
+      "positive": false
+    },
+    {
+      "frame": 70,
+      "session": 1,
+      "elapsed": 404.7427000004973,
+      "turnaround": 412.64289999980974,
+      "submitted": 5592.3064922,
+      "positive": false
+    },
+    {
+      "frame": 82,
+      "session": 1,
+      "elapsed": 137.547799999993,
+      "turnaround": 154.9352000001818,
+      "submitted": 5592.702085,
+      "positive": false
+    },
+    {
+      "frame": 86,
+      "session": 1,
+      "elapsed": 143.68969999941328,
+      "turnaround": 173.57300000003306,
+      "submitted": 5592.8276067,
+      "positive": false
+    },
+    {
+      "frame": 90,
+      "session": 1,
+      "elapsed": 145.46539999992092,
+      "turnaround": 177.87050000060844,
+      "submitted": 5592.9691317,
+      "positive": false
+    },
+    {
+      "frame": 95,
+      "session": 1,
+      "elapsed": 202.4119999996401,
+      "turnaround": 223.49990000020625,
+      "submitted": 5593.1262191,
+      "positive": true
+    },
+    {
+      "frame": 100,
+      "session": 1,
+      "elapsed": 318.1858000007196,
+      "turnaround": 351.25070000049163,
+      "submitted": 5593.3170199,
+      "positive": true
+    },
+    {
+      "frame": 110,
+      "session": 1,
+      "elapsed": 339.963299998999,
+      "turnaround": 372.16669999997976,
+      "submitted": 5593.6367014,
+      "positive": true
+    },
+    {
+      "frame": 121,
+      "session": 1,
+      "elapsed": 259.9775000007867,
+      "turnaround": 268.84140000038315,
+      "submitted": 5594.0003257,
+      "positive": true
+    },
+    {
+      "frame": 128,
+      "session": 1,
+      "elapsed": 164.4536000003427,
+      "turnaround": 180.657699999756,
+      "submitted": 5594.2533842,
+      "positive": true
+    },
+    {
+      "frame": 133,
+      "session": 1,
+      "elapsed": 204.95990000108577,
+      "turnaround": 233.61639999984618,
+      "submitted": 5594.4060495,
+      "positive": true
+    },
+    {
+      "frame": 139,
+      "session": 1,
+      "elapsed": 153.39320000020962,
+      "turnaround": 188.03590000061376,
+      "submitted": 5594.605589,
+      "positive": true
+    },
+    {
+      "frame": 149,
+      "session": 1,
+      "elapsed": 188.31959999988612,
+      "turnaround": 193.1006000004345,
+      "submitted": 5594.9396847,
+      "positive": true
+    },
+    {
+      "frame": 158,
+      "session": 1,
+      "elapsed": 144.9664000001576,
+      "turnaround": 147.12609999969573,
+      "submitted": 5595.2605598,
+      "positive": true
+    },
+    {
+      "frame": 163,
+      "session": 1,
+      "elapsed": 121.55459999939922,
+      "turnaround": 126.9243999995524,
+      "submitted": 5595.4029184,
+      "positive": false
+    },
+    {
+      "frame": 166,
+      "session": 1,
+      "elapsed": 441.0359999992579,
+      "turnaround": 459.3070999999327,
+      "submitted": 5595.5118716,
+      "positive": false
+    },
+    {
+      "frame": 179,
+      "session": 1,
+      "elapsed": 220.6944999998086,
+      "turnaround": 237.78690000017377,
+      "submitted": 5595.9544306,
+      "positive": false
+    },
+    {
+      "frame": 186,
+      "session": 1,
+      "elapsed": 115.98979999962467,
+      "turnaround": 131.64419999975507,
+      "submitted": 5596.1772307,
+      "positive": false
+    },
+    {
+      "frame": 189,
+      "session": 1,
+      "elapsed": 121.2481000002299,
+      "turnaround": 148.1236000008721,
+      "submitted": 5596.2826215,
+      "positive": false
+    },
+    {
+      "frame": 193,
+      "session": 1,
+      "elapsed": 104.31539999990491,
+      "turnaround": 128.399499999432,
+      "submitted": 5596.4069993,
+      "positive": false
+    },
+    {
+      "frame": 195,
+      "session": 1,
+      "elapsed": 160.73059999962425,
+      "turnaround": 205.06199999999808,
+      "submitted": 5596.4915652,
+      "positive": false
+    },
+    {
+      "frame": 201,
+      "session": 1,
+      "elapsed": 127.82549999974435,
+      "turnaround": 131.52400000035414,
+      "submitted": 5596.693659,
+      "positive": false
+    },
+    {
+      "frame": 205,
+      "session": 1,
+      "elapsed": 146.84570000008534,
+      "turnaround": 170.84710000017367,
+      "submitted": 5596.8015868,
+      "positive": false
+    },
+    {
+      "frame": 212,
+      "session": 1,
+      "elapsed": 128.27199999992445,
+      "turnaround": 169.258599999921,
+      "submitted": 5597.0372568,
+      "positive": false
+    },
+    {
+      "frame": 219,
+      "session": 1,
+      "elapsed": 113.96270000022923,
+      "turnaround": 115.62510000021575,
+      "submitted": 5597.2913847,
+      "positive": false
+    },
+    {
+      "frame": 222,
+      "session": 1,
+      "elapsed": 154.39380000043457,
+      "turnaround": 188.4860000000117,
+      "submitted": 5597.3736359,
+      "positive": false
+    },
+    {
+      "frame": 227,
+      "session": 1,
+      "elapsed": 120.68270000054326,
+      "turnaround": 132.84569999996165,
+      "submitted": 5597.5503803,
+      "positive": false
+    },
+    {
+      "frame": 231,
+      "session": 1,
+      "elapsed": 349.8399000000063,
+      "turnaround": 361.3357000003816,
+      "submitted": 5597.6722162,
+      "positive": false
+    },
+    {
+      "frame": 241,
+      "session": 1,
+      "elapsed": 194.08999999996013,
+      "turnaround": 208.6961999993946,
+      "submitted": 5598.0194594,
+      "positive": false
+    },
+    {
+      "frame": 247,
+      "session": 1,
+      "elapsed": 155.53110000018933,
+      "turnaround": 174.0164000002551,
+      "submitted": 5598.2102662,
+      "positive": false
+    },
+    {
+      "frame": 252,
+      "session": 1,
+      "elapsed": 137.37750000018423,
+      "turnaround": 152.3446999999578,
+      "submitted": 5598.3697319,
+      "positive": false
+    },
+    {
+      "frame": 256,
+      "session": 1,
+      "elapsed": 267.01409999986936,
+      "turnaround": 278.6327000003439,
+      "submitted": 5598.5109685,
+      "positive": false
+    },
+    {
+      "frame": 264,
+      "session": 1,
+      "elapsed": 131.70609999997396,
+      "turnaround": 139.5729999994728,
+      "submitted": 5598.7822063,
+      "positive": false
+    },
+    {
+      "frame": 268,
+      "session": 1,
+      "elapsed": 142.62789999975212,
+      "turnaround": 159.99699999974837,
+      "submitted": 5598.9049335,
+      "positive": false
+    },
+    {
+      "frame": 273,
+      "session": 1,
+      "elapsed": 120.65200000051846,
+      "turnaround": 125.05240000064077,
+      "submitted": 5599.061105,
+      "positive": false
+    },
+    {
+      "frame": 276,
+      "session": 1,
+      "elapsed": 108.53409999981523,
+      "turnaround": 130.66539999999804,
+      "submitted": 5599.1648438,
+      "positive": false
+    },
+    {
+      "frame": 279,
+      "session": 1,
+      "elapsed": 113.3785000001808,
+      "turnaround": 134.69219999933557,
+      "submitted": 5599.274723,
+      "positive": false
+    },
+    {
+      "frame": 282,
+      "session": 1,
+      "elapsed": 159.45840000040334,
+      "turnaround": 182.41180000040913,
+      "submitted": 5599.387048,
+      "positive": false
+    },
+    {
+      "frame": 287,
+      "session": 1,
+      "elapsed": 113.43659999965894,
+      "turnaround": 130.33590000031836,
+      "submitted": 5599.5531691,
+      "positive": false
+    },
+    {
+      "frame": 291,
+      "session": 1,
+      "elapsed": 106.30700000001525,
+      "turnaround": 117.01050000010582,
+      "submitted": 5599.673334,
+      "positive": false
+    },
+    {
+      "frame": 294,
+      "session": 1,
+      "elapsed": 103.0068999998548,
+      "turnaround": 114.89720000008674,
+      "submitted": 5599.7789576,
+      "positive": false
+    },
+    {
+      "frame": 297,
+      "session": 1,
+      "elapsed": 165.1979999996911,
+      "turnaround": 175.51019999973505,
+      "submitted": 5599.884003,
+      "positive": false
+    },
+    {
+      "frame": 302,
+      "session": 1,
+      "elapsed": 114.78749999969295,
+      "turnaround": 125.74119999953837,
+      "submitted": 5600.0491847,
+      "positive": false
+    },
+    {
+      "frame": 306,
+      "session": 1,
+      "elapsed": 113.38179999984277,
+      "turnaround": 115.23740000029647,
+      "submitted": 5600.1736151,
+      "positive": false
+    },
+    {
+      "frame": 309,
+      "session": 1,
+      "elapsed": 113.04349999954866,
+      "turnaround": 119.72650000006979,
+      "submitted": 5600.2829003,
+      "positive": false
+    },
+    {
+      "frame": 312,
+      "session": 1,
+      "elapsed": 145.3406000000541,
+      "turnaround": 156.62460000021383,
+      "submitted": 5600.3918867,
+      "positive": false
+    },
+    {
+      "frame": 316,
+      "session": 1,
+      "elapsed": 136.42450000043027,
+      "turnaround": 169.32420000011916,
+      "submitted": 5600.5161994,
+      "positive": false
+    },
+    {
+      "frame": 321,
+      "session": 1,
+      "elapsed": 118.42430000069726,
+      "turnaround": 120.89640000067448,
+      "submitted": 5600.683601,
+      "positive": false
+    },
+    {
+      "frame": 324,
+      "session": 1,
+      "elapsed": 110.47489999964455,
+      "turnaround": 123.11589999990247,
+      "submitted": 5600.7923301,
+      "positive": false
+    },
+    {
+      "frame": 328,
+      "session": 1,
+      "elapsed": 137.36009999956877,
+      "turnaround": 145.63089999955992,
+      "submitted": 5600.9080437,
+      "positive": false
+    },
+    {
+      "frame": 331,
+      "session": 1,
+      "elapsed": 138.07230000020354,
+      "turnaround": 170.65220000040426,
+      "submitted": 5601.0216364,
+      "positive": false
+    },
+    {
+      "frame": 336,
+      "session": 1,
+      "elapsed": 141.63699999971868,
+      "turnaround": 156.2578000002759,
+      "submitted": 5601.178341,
+      "positive": false
+    },
+    {
+      "frame": 340,
+      "session": 1,
+      "elapsed": 140.1888999998846,
+      "turnaround": 171.47529999965627,
+      "submitted": 5601.3043292,
+      "positive": false
+    },
+    {
+      "frame": 345,
+      "session": 1,
+      "elapsed": 131.57439999940834,
+      "turnaround": 135.9536999998454,
+      "submitted": 5601.4720614,
+      "positive": false
+    },
+    {
+      "frame": 348,
+      "session": 1,
+      "elapsed": 260.52380000055564,
+      "turnaround": 281.4427000002979,
+      "submitted": 5601.5875901,
+      "positive": false
+    },
+    {
+      "frame": 356,
+      "session": 1,
+      "elapsed": 143.44380000056844,
+      "turnaround": 164.39310000077967,
+      "submitted": 5601.8486895,
+      "positive": false
+    },
+    {
+      "frame": 360,
+      "session": 1,
+      "elapsed": 199.38700000056997,
+      "turnaround": 237.54180000014458,
+      "submitted": 5601.9755064,
+      "positive": false
+    },
+    {
+      "frame": 367,
+      "session": 1,
+      "elapsed": 143.44049999999697,
+      "turnaround": 148.8921999998638,
+      "submitted": 5602.2086536,
+      "positive": false
+    },
+    {
+      "frame": 371,
+      "session": 1,
+      "elapsed": 229.04029999972408,
+      "turnaround": 238.79609999949025,
+      "submitted": 5602.3482112,
+      "positive": false
+    },
+    {
+      "frame": 378,
+      "session": 1,
+      "elapsed": 128.83139999939885,
+      "turnaround": 143.85109999966517,
+      "submitted": 5602.5723127,
+      "positive": false
+    },
+    {
+      "frame": 382,
+      "session": 1,
+      "elapsed": 158.21860000050947,
+      "turnaround": 171.43050000049698,
+      "submitted": 5602.7033126,
+      "positive": false
+    },
+    {
+      "frame": 386,
+      "session": 1,
+      "elapsed": 164.12990000026184,
+      "turnaround": 189.9422999995295,
+      "submitted": 5602.849288,
+      "positive": false
+    },
+    {
+      "frame": 392,
+      "session": 1,
+      "elapsed": 600.0794999999925,
+      "turnaround": 603.2002000001739,
+      "submitted": 5603.0365888,
+      "positive": false
+    },
+    {
+      "frame": 410,
+      "session": 1,
+      "elapsed": 110.60790000010456,
+      "turnaround": 118.03770000005898,
+      "submitted": 5603.6327009,
+      "positive": false
+    },
+    {
+      "frame": 413,
+      "session": 1,
+      "elapsed": 136.04619999932765,
+      "turnaround": 147.9773999999452,
+      "submitted": 5603.7393181,
+      "positive": false
+    },
+    {
+      "frame": 417,
+      "session": 1,
+      "elapsed": 131.4210999998977,
+      "turnaround": 133.1690000006347,
+      "submitted": 5603.8862727,
+      "positive": false
+    },
+    {
+      "frame": 421,
+      "session": 1,
+      "elapsed": 114.49780000020837,
+      "turnaround": 127.62199999997392,
+      "submitted": 5604.0068093,
+      "positive": false
+    },
+    {
+      "frame": 424,
+      "session": 1,
+      "elapsed": 131.35349999993196,
+      "turnaround": 150.14679999967484,
+      "submitted": 5604.1164416,
+      "positive": false
+    },
+    {
+      "frame": 428,
+      "session": 1,
+      "elapsed": 173.82509999970353,
+      "turnaround": 199.38339999953314,
+      "submitted": 5604.2415907,
+      "positive": true
+    },
+    {
+      "frame": 433,
+      "session": 1,
+      "elapsed": 111.83789999995497,
+      "turnaround": 131.8777999995291,
+      "submitted": 5604.4214289,
+      "positive": false
+    },
+    {
+      "frame": 437,
+      "session": 1,
+      "elapsed": 104.19650000039837,
+      "turnaround": 122.98860000009881,
+      "submitted": 5604.5350403,
+      "positive": false
+    },
+    {
+      "frame": 440,
+      "session": 1,
+      "elapsed": 137.15719999981957,
+      "turnaround": 164.04489999968064,
+      "submitted": 5604.631612,
+      "positive": false
+    },
+    {
+      "frame": 444,
+      "session": 1,
+      "elapsed": 132.14779999998427,
+      "turnaround": 149.04099999967002,
+      "submitted": 5604.7796269,
+      "positive": false
+    },
+    {
+      "frame": 448,
+      "session": 1,
+      "elapsed": 112.87659999925381,
+      "turnaround": 137.73899999978312,
+      "submitted": 5604.9046467,
+      "positive": false
+    },
+    {
+      "frame": 451,
+      "session": 1,
+      "elapsed": 125.36629999976867,
+      "turnaround": 158.29699999994773,
+      "submitted": 5605.0098679,
+      "positive": false
+    },
+    {
+      "frame": 455,
+      "session": 1,
+      "elapsed": 178.55340000005526,
+      "turnaround": 197.71030000083556,
+      "submitted": 5605.1498698,
+      "positive": true
+    },
+    {
+      "frame": 461,
+      "session": 1,
+      "elapsed": 139.04220000040368,
+      "turnaround": 140.94850000037695,
+      "submitted": 5605.3462451,
+      "positive": false
+    },
+    {
+      "frame": 465,
+      "session": 1,
+      "elapsed": 109.00880000008328,
+      "turnaround": 125.38150000000314,
+      "submitted": 5605.4713561,
+      "positive": false
+    },
+    {
+      "frame": 468,
+      "session": 1,
+      "elapsed": 112.57280000063474,
+      "turnaround": 135.7398000000103,
+      "submitted": 5605.5741807,
+      "positive": false
+    },
+    {
+      "frame": 471,
+      "session": 1,
+      "elapsed": 134.9887000005765,
+      "turnaround": 157.1726000001945,
+      "submitted": 5605.6883876,
+      "positive": false
+    },
+    {
+      "frame": 476,
+      "session": 1,
+      "elapsed": 143.04189999984374,
+      "turnaround": 146.17090000047028,
+      "submitted": 5605.8427778,
+      "positive": false
+    },
+    {
+      "frame": 479,
+      "session": 1,
+      "elapsed": 109.8917999997866,
+      "turnaround": 148.54029999969498,
+      "submitted": 5605.9510025,
+      "positive": false
+    }
+  ],
+  "overlays": [
+    [
+      95,
+      5594.9830651,
+      1679.6088999999483,
+      [
+        14
+      ]
+    ],
+    [
+      110,
+      5595.4520972,
+      1485.885799999778,
+      [
+        3,
+        0
+      ]
+    ],
+    [
+      121,
+      5595.819546,
+      1601.062699999602,
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    [
+      128,
+      5596.0612405,
+      1664.7570000004634,
+      [
+        1,
+        25
+      ]
+    ],
+    [
+      133,
+      5596.2232879,
+      1626.5626000003977,
+      [
+        0,
+        25
+      ]
+    ],
+    [
+      139,
+      5596.4320147,
+      1677.5777000002563,
+      [
+        25,
+        8,
+        1
+      ]
+    ],
+    [
+      149,
+      5596.7602582,
+      1667.228299999806,
+      [
+        33,
+        33,
+        33
+      ]
+    ],
+    [
+      158,
+      5597.0611109,
+      1690.5581000000893,
+      [
+        2
+      ]
+    ],
+    [
+      428,
+      5606.0482843,
+      1644.885599999725,
+      [
+        13
+      ]
+    ],
+    [
+      455,
+      5606.9374218,
+      1630.3446000001713,
+      [
+        31
+      ]
+    ]
+  ],
+  "views": [
+    [
+      0,
+      5573.1204444
+    ],
+    [
+      9,
+      5592.0852325
+    ],
+    [
+      18,
+      5592.3839247
+    ],
+    [
+      27,
+      5592.6852556
+    ],
+    [
+      36,
+      5592.9870569
+    ],
+    [
+      43,
+      5593.2229777
+    ],
+    [
+      44,
+      5593.2612683
+    ],
+    [
+      45,
+      5593.3003218
+    ],
+    [
+      47,
+      5593.333432
+    ],
+    [
+      48,
+      5593.3662033
+    ],
+    [
+      49,
+      5593.4028015
+    ],
+    [
+      50,
+      5593.4379895
+    ],
+    [
+      51,
+      5593.4706025
+    ],
+    [
+      52,
+      5593.5053232
+    ],
+    [
+      53,
+      5593.5338876
+    ],
+    [
+      54,
+      5593.571498
+    ],
+    [
+      55,
+      5593.6102661
+    ],
+    [
+      56,
+      5593.6530041
+    ],
+    [
+      57,
+      5593.6869076
+    ],
+    [
+      58,
+      5593.7190967
+    ],
+    [
+      59,
+      5593.7557425
+    ],
+    [
+      60,
+      5593.7906184
+    ],
+    [
+      61,
+      5593.8288982
+    ],
+    [
+      62,
+      5593.8640807
+    ],
+    [
+      64,
+      5593.9035397
+    ],
+    [
+      65,
+      5593.9400746
+    ],
+    [
+      66,
+      5593.9759435
+    ],
+    [
+      67,
+      5594.0159712
+    ],
+    [
+      68,
+      5594.0472417
+    ],
+    [
+      69,
+      5594.0841406
+    ],
+    [
+      70,
+      5594.1234687
+    ],
+    [
+      71,
+      5594.158186
+    ],
+    [
+      72,
+      5594.19749
+    ],
+    [
+      74,
+      5594.2358362
+    ],
+    [
+      75,
+      5594.2700901
+    ],
+    [
+      76,
+      5594.3048601
+    ],
+    [
+      77,
+      5594.3413066
+    ],
+    [
+      78,
+      5594.3787137
+    ],
+    [
+      79,
+      5594.4219788
+    ],
+    [
+      80,
+      5594.4585757
+    ],
+    [
+      81,
+      5594.4973151
+    ],
+    [
+      83,
+      5594.5377166
+    ],
+    [
+      84,
+      5594.5778331
+    ],
+    [
+      85,
+      5594.6244438
+    ],
+    [
+      86,
+      5594.6574847
+    ],
+    [
+      87,
+      5594.6996612
+    ],
+    [
+      89,
+      5594.7353182
+    ],
+    [
+      90,
+      5594.769397
+    ],
+    [
+      91,
+      5594.8070919
+    ],
+    [
+      92,
+      5594.8438864
+    ],
+    [
+      93,
+      5594.8916662
+    ],
+    [
+      94,
+      5594.9238293
+    ],
+    [
+      95,
+      5594.9830651
+    ],
+    [
+      105,
+      5595.2768018
+    ],
+    [
+      106,
+      5595.3203429
+    ],
+    [
+      107,
+      5595.3562587
+    ],
+    [
+      108,
+      5595.3874193
+    ],
+    [
+      110,
+      5595.4520972
+    ],
+    [
+      111,
+      5595.4934774
+    ],
+    [
+      112,
+      5595.5346829
+    ],
+    [
+      114,
+      5595.5738816
+    ],
+    [
+      115,
+      5595.6101744
+    ],
+    [
+      116,
+      5595.652447
+    ],
+    [
+      117,
+      5595.6856741
+    ],
+    [
+      118,
+      5595.7167877
+    ],
+    [
+      119,
+      5595.7486021
+    ],
+    [
+      121,
+      5595.819546
+    ],
+    [
+      122,
+      5595.8588024
+    ],
+    [
+      123,
+      5595.896639
+    ],
+    [
+      124,
+      5595.9351889
+    ],
+    [
+      126,
+      5595.973799
+    ],
+    [
+      127,
+      5596.0106193
+    ],
+    [
+      128,
+      5596.0612405
+    ],
+    [
+      129,
+      5596.106759
+    ],
+    [
+      131,
+      5596.1473063
+    ],
+    [
+      133,
+      5596.2232879
+    ],
+    [
+      134,
+      5596.2663916
+    ],
+    [
+      135,
+      5596.300587
+    ],
+    [
+      137,
+      5596.3352577
+    ],
+    [
+      139,
+      5596.4320147
+    ],
+    [
+      140,
+      5596.4732151
+    ],
+    [
+      142,
+      5596.5148862
+    ],
+    [
+      143,
+      5596.5579311
+    ],
+    [
+      144,
+      5596.5966796
+    ],
+    [
+      145,
+      5596.6352942
+    ],
+    [
+      147,
+      5596.6736035
+    ],
+    [
+      148,
+      5596.711097
+    ],
+    [
+      149,
+      5596.7602582
+    ],
+    [
+      158,
+      5597.0611109
+    ],
+    [
+      166,
+      5597.3088234
+    ],
+    [
+      167,
+      5597.355587
+    ],
+    [
+      168,
+      5597.3922773
+    ],
+    [
+      170,
+      5597.4530018
+    ],
+    [
+      171,
+      5597.492753
+    ],
+    [
+      172,
+      5597.5288322
+    ],
+    [
+      174,
+      5597.5693212
+    ],
+    [
+      175,
+      5597.6195035
+    ],
+    [
+      176,
+      5597.6553131
+    ],
+    [
+      177,
+      5597.6897831
+    ],
+    [
+      178,
+      5597.7201132
+    ],
+    [
+      179,
+      5597.7556956
+    ],
+    [
+      180,
+      5597.7894598
+    ],
+    [
+      182,
+      5597.8448676
+    ],
+    [
+      183,
+      5597.8829352
+    ],
+    [
+      184,
+      5597.9168836
+    ],
+    [
+      185,
+      5597.9570857
+    ],
+    [
+      186,
+      5597.998795
+    ],
+    [
+      188,
+      5598.0400987
+    ],
+    [
+      189,
+      5598.0698752
+    ],
+    [
+      190,
+      5598.1072705
+    ],
+    [
+      191,
+      5598.1570301
+    ],
+    [
+      192,
+      5598.1938027
+    ],
+    [
+      193,
+      5598.2312589
+    ],
+    [
+      195,
+      5598.2718206
+    ],
+    [
+      197,
+      5598.3531542
+    ],
+    [
+      198,
+      5598.38803
+    ],
+    [
+      199,
+      5598.4231427
+    ],
+    [
+      200,
+      5598.4573438
+    ],
+    [
+      201,
+      5598.4944682
+    ],
+    [
+      203,
+      5598.555914
+    ],
+    [
+      204,
+      5598.5945488
+    ],
+    [
+      205,
+      5598.6296939
+    ],
+    [
+      206,
+      5598.6579975
+    ],
+    [
+      207,
+      5598.6912268
+    ],
+    [
+      208,
+      5598.7314897
+    ],
+    [
+      209,
+      5598.767468
+    ],
+    [
+      210,
+      5598.801481
+    ],
+    [
+      212,
+      5598.836097
+    ],
+    [
+      219,
+      5599.0794872
+    ],
+    [
+      221,
+      5599.1482405
+    ],
+    [
+      222,
+      5599.1837718
+    ],
+    [
+      223,
+      5599.2192315
+    ],
+    [
+      224,
+      5599.2574092
+    ],
+    [
+      225,
+      5599.2938901
+    ],
+    [
+      226,
+      5599.32957
+    ],
+    [
+      227,
+      5599.3690504
+    ],
+    [
+      229,
+      5599.4056122
+    ],
+    [
+      230,
+      5599.4413394
+    ],
+    [
+      231,
+      5599.4913176
+    ],
+    [
+      232,
+      5599.5338256
+    ],
+    [
+      234,
+      5599.5765439
+    ],
+    [
+      235,
+      5599.6216978
+    ],
+    [
+      236,
+      5599.657654
+    ],
+    [
+      237,
+      5599.6945251
+    ],
+    [
+      238,
+      5599.7244816
+    ],
+    [
+      239,
+      5599.7622819
+    ],
+    [
+      240,
+      5599.7975739
+    ],
+    [
+      241,
+      5599.827551
+    ],
+    [
+      242,
+      5599.8644536
+    ],
+    [
+      243,
+      5599.9047863
+    ],
+    [
+      245,
+      5599.9437055
+    ],
+    [
+      246,
+      5599.9917591
+    ],
+    [
+      247,
+      5600.03203
+    ],
+    [
+      248,
+      5600.0720004
+    ],
+    [
+      250,
+      5600.1120009
+    ],
+    [
+      251,
+      5600.1566852
+    ],
+    [
+      252,
+      5600.1901401
+    ],
+    [
+      253,
+      5600.2281763
+    ],
+    [
+      254,
+      5600.2675655
+    ],
+    [
+      256,
+      5600.3015813
+    ],
+    [
+      257,
+      5600.3374544
+    ],
+    [
+      258,
+      5600.3748063
+    ],
+    [
+      259,
+      5600.4113083
+    ],
+    [
+      260,
+      5600.4598991
+    ],
+    [
+      261,
+      5600.4994157
+    ],
+    [
+      263,
+      5600.5372092
+    ],
+    [
+      264,
+      5600.5777672
+    ],
+    [
+      265,
+      5600.6270547
+    ],
+    [
+      266,
+      5600.6664763
+    ],
+    [
+      268,
+      5600.7006447
+    ],
+    [
+      269,
+      5600.7378067
+    ],
+    [
+      270,
+      5600.7756815
+    ],
+    [
+      271,
+      5600.8109855
+    ],
+    [
+      272,
+      5600.8433885
+    ],
+    [
+      273,
+      5600.8897309
+    ],
+    [
+      274,
+      5600.9234995
+    ],
+    [
+      275,
+      5600.9663271
+    ],
+    [
+      276,
+      5601.0026409
+    ],
+    [
+      278,
+      5601.0398914
+    ],
+    [
+      279,
+      5601.0720227
+    ],
+    [
+      280,
+      5601.1113153
+    ],
+    [
+      281,
+      5601.159384
+    ],
+    [
+      282,
+      5601.1985174
+    ],
+    [
+      283,
+      5601.2366528
+    ],
+    [
+      285,
+      5601.2762282
+    ],
+    [
+      286,
+      5601.3229066
+    ],
+    [
+      287,
+      5601.3601001
+    ],
+    [
+      289,
+      5601.4134111
+    ],
+    [
+      290,
+      5601.4540799
+    ],
+    [
+      291,
+      5601.4900085
+    ],
+    [
+      292,
+      5601.5292705
+    ],
+    [
+      293,
+      5601.5690875
+    ],
+    [
+      295,
+      5601.6061491
+    ],
+    [
+      296,
+      5601.6400692
+    ],
+    [
+      297,
+      5601.6755698
+    ],
+    [
+      298,
+      5601.709008
+    ],
+    [
+      300,
+      5601.7917193
+    ],
+    [
+      301,
+      5601.8316496
+    ],
+    [
+      302,
+      5601.8684042
+    ],
+    [
+      303,
+      5601.9046463
+    ],
+    [
+      305,
+      5601.9464112
+    ],
+    [
+      306,
+      5601.9959983
+    ],
+    [
+      307,
+      5602.028918
+    ],
+    [
+      308,
+      5602.0686387
+    ],
+    [
+      310,
+      5602.1081355
+    ],
+    [
+      311,
+      5602.1467658
+    ],
+    [
+      312,
+      5602.1795835
+    ],
+    [
+      314,
+      5602.2595081
+    ],
+    [
+      315,
+      5602.2957876
+    ],
+    [
+      316,
+      5602.3319524
+    ],
+    [
+      317,
+      5602.3697798
+    ],
+    [
+      319,
+      5602.4043654
+    ],
+    [
+      320,
+      5602.4385449
+    ],
+    [
+      321,
+      5602.47455
+    ],
+    [
+      322,
+      5602.5134562
+    ],
+    [
+      323,
+      5602.5431844
+    ],
+    [
+      324,
+      5602.5890724
+    ],
+    [
+      325,
+      5602.6246341
+    ],
+    [
+      327,
+      5602.6854095
+    ],
+    [
+      328,
+      5602.7216364
+    ],
+    [
+      329,
+      5602.7574144
+    ],
+    [
+      330,
+      5602.7951785
+    ],
+    [
+      331,
+      5602.8328147
+    ],
+    [
+      332,
+      5602.8676565
+    ],
+    [
+      333,
+      5602.9033177
+    ],
+    [
+      335,
+      5602.9407245
+    ],
+    [
+      336,
+      5602.9754205
+    ],
+    [
+      337,
+      5603.0102632
+    ],
+    [
+      338,
+      5603.0522943
+    ],
+    [
+      340,
+      5603.1182092
+    ],
+    [
+      341,
+      5603.150386
+    ],
+    [
+      342,
+      5603.1826199
+    ],
+    [
+      343,
+      5603.2127142
+    ],
+    [
+      344,
+      5603.2438045
+    ],
+    [
+      345,
+      5603.2750516
+    ],
+    [
+      346,
+      5603.3088689
+    ],
+    [
+      347,
+      5603.3559103
+    ],
+    [
+      348,
+      5603.3875725
+    ],
+    [
+      349,
+      5603.4212244
+    ],
+    [
+      350,
+      5603.4554229
+    ],
+    [
+      351,
+      5603.4890599
+    ],
+    [
+      353,
+      5603.5536983
+    ],
+    [
+      354,
+      5603.5841357
+    ],
+    [
+      355,
+      5603.6154981
+    ],
+    [
+      356,
+      5603.6513756
+    ],
+    [
+      357,
+      5603.6877909
+    ],
+    [
+      358,
+      5603.7222947
+    ],
+    [
+      360,
+      5603.7903605
+    ],
+    [
+      361,
+      5603.8315189
+    ],
+    [
+      362,
+      5603.8690471
+    ],
+    [
+      364,
+      5603.9038265
+    ],
+    [
+      365,
+      5603.9431511
+    ],
+    [
+      367,
+      5604.0246767
+    ],
+    [
+      368,
+      5604.0589291
+    ],
+    [
+      369,
+      5604.0965588
+    ],
+    [
+      371,
+      5604.1358956
+    ],
+    [
+      372,
+      5604.173216
+    ],
+    [
+      373,
+      5604.2124782
+    ],
+    [
+      374,
+      5604.2602528
+    ],
+    [
+      375,
+      5604.2948982
+    ],
+    [
+      376,
+      5604.3370778
+    ],
+    [
+      378,
+      5604.3749817
+    ],
+    [
+      379,
+      5604.4106006
+    ],
+    [
+      380,
+      5604.4366881
+    ],
+    [
+      381,
+      5604.4688427
+    ],
+    [
+      382,
+      5604.5082845
+    ],
+    [
+      383,
+      5604.5530749
+    ],
+    [
+      384,
+      5604.5791349
+    ],
+    [
+      385,
+      5604.6162669
+    ],
+    [
+      386,
+      5604.6495187
+    ],
+    [
+      387,
+      5604.6857204
+    ],
+    [
+      388,
+      5604.7262274
+    ],
+    [
+      389,
+      5604.7635362
+    ],
+    [
+      390,
+      5604.7979451
+    ],
+    [
+      392,
+      5604.8481967
+    ],
+    [
+      393,
+      5604.8873127
+    ],
+    [
+      394,
+      5604.923099
+    ],
+    [
+      395,
+      5604.9570215
+    ],
+    [
+      396,
+      5604.9906284
+    ],
+    [
+      397,
+      5605.0289281
+    ],
+    [
+      398,
+      5605.0591016
+    ],
+    [
+      399,
+      5605.0988521
+    ],
+    [
+      400,
+      5605.1343921
+    ],
+    [
+      402,
+      5605.1677823
+    ],
+    [
+      403,
+      5605.2177502
+    ],
+    [
+      404,
+      5605.2560762
+    ],
+    [
+      405,
+      5605.2958111
+    ],
+    [
+      406,
+      5605.3315802
+    ],
+    [
+      407,
+      5605.3620005
+    ],
+    [
+      408,
+      5605.4005601
+    ],
+    [
+      410,
+      5605.4426868
+    ],
+    [
+      411,
+      5605.489186
+    ],
+    [
+      412,
+      5605.5265152
+    ],
+    [
+      413,
+      5605.5631596
+    ],
+    [
+      414,
+      5605.5949648
+    ],
+    [
+      415,
+      5605.6318164
+    ],
+    [
+      417,
+      5605.6705506
+    ],
+    [
+      418,
+      5605.7069746
+    ],
+    [
+      420,
+      5605.7891967
+    ],
+    [
+      421,
+      5605.8258771
+    ],
+    [
+      422,
+      5605.860953
+    ],
+    [
+      423,
+      5605.8985068
+    ],
+    [
+      424,
+      5605.9336293
+    ],
+    [
+      426,
+      5605.9692042
+    ],
+    [
+      428,
+      5606.0482843
+    ],
+    [
+      433,
+      5606.2303296
+    ],
+    [
+      434,
+      5606.252459
+    ],
+    [
+      435,
+      5606.2693318
+    ],
+    [
+      437,
+      5606.3372227
+    ],
+    [
+      438,
+      5606.3704233
+    ],
+    [
+      439,
+      5606.4069785
+    ],
+    [
+      440,
+      5606.4324586
+    ],
+    [
+      441,
+      5606.4638784
+    ],
+    [
+      442,
+      5606.5003049
+    ],
+    [
+      443,
+      5606.524171
+    ],
+    [
+      444,
+      5606.5723706
+    ],
+    [
+      445,
+      5606.6056669
+    ],
+    [
+      446,
+      5606.6366282
+    ],
+    [
+      447,
+      5606.6681756
+    ],
+    [
+      448,
+      5606.6984069
+    ],
+    [
+      449,
+      5606.7305506
+    ],
+    [
+      450,
+      5606.7599786
+    ],
+    [
+      451,
+      5606.7922511
+    ],
+    [
+      452,
+      5606.8387213
+    ],
+    [
+      453,
+      5606.8704704
+    ],
+    [
+      454,
+      5606.9045693
+    ],
+    [
+      455,
+      5606.9374218
+    ],
+    [
+      458,
+      5607.0545513
+    ],
+    [
+      459,
+      5607.0685491
+    ],
+    [
+      460,
+      5607.1056472
+    ],
+    [
+      461,
+      5607.1371901
+    ],
+    [
+      462,
+      5607.1675316
+    ],
+    [
+      463,
+      5607.1995215
+    ],
+    [
+      465,
+      5607.2628351
+    ],
+    [
+      466,
+      5607.2927345
+    ],
+    [
+      467,
+      5607.339509
+    ],
+    [
+      468,
+      5607.3729119
+    ],
+    [
+      469,
+      5607.4040983
+    ],
+    [
+      470,
+      5607.4337707
+    ],
+    [
+      471,
+      5607.4647497
+    ],
+    [
+      472,
+      5607.4967227
+    ],
+    [
+      473,
+      5607.526282
+    ],
+    [
+      474,
+      5607.5587885
+    ],
+    [
+      475,
+      5607.6098314
+    ],
+    [
+      476,
+      5607.6257647
+    ],
+    [
+      477,
+      5607.671392
+    ],
+    [
+      478,
+      5607.7028492
+    ],
+    [
+      479,
+      5607.7333934
+    ],
+    [
+      0,
+      5607.8184486
+    ]
+  ],
+  "system": [
+    [
+      5589.9816258,
+      {
+        "yolo": [
+          0.03125,
+          4304896
+        ],
+        "cnn": [
+          6.703125,
+          396578816
+        ],
+        "ui": [
+          0.984375,
+          83898368
+        ],
+        "yolo_child_1": [
+          9.15625,
+          376721408
+        ]
+      }
+    ],
+    [
+      5591.7332067,
+      {
+        "yolo": [
+          0.03125,
+          4304896
+        ],
+        "cnn": [
+          6.703125,
+          396578816
+        ],
+        "ui": [
+          1.484375,
+          113553408
+        ],
+        "yolo_child_1": [
+          10.859375,
+          381419520
+        ]
+      }
+    ],
+    [
+      5593.5059276,
+      {
+        "yolo": [
+          0.03125,
+          4304896
+        ],
+        "cnn": [
+          6.75,
+          396861440
+        ],
+        "ui": [
+          2.921875,
+          173944832
+        ],
+        "yolo_child_1": [
+          16.5625,
+          381042688
+        ]
+      }
+    ],
+    [
+      5595.2775012,
+      {
+        "yolo": [
+          0.03125,
+          4304896
+        ],
+        "cnn": [
+          7.015625,
+          401858560
+        ],
+        "ui": [
+          5.15625,
+          152260608
+        ],
+        "yolo_child_1": [
+          24.015625,
+          382357504
+        ]
+      }
+    ],
+    [
+      5597.2557439,
+      {
+        "yolo": [
+          0.03125,
+          4304896
+        ],
+        "cnn": [
+          7.0625,
+          401866752
+        ],
+        "ui": [
+          7.328125,
+          166268928
+        ],
+        "yolo_child_1": [
+          32.75,
+          381825024
+        ]
+      }
+    ],
+    [
+      5599.0307207,
+      {
+        "yolo": [
+          0.03125,
+          4304896
+        ],
+        "cnn": [
+          7.0625,
+          401866752
+        ],
+        "ui": [
+          9.453125,
+          175120384
+        ],
+        "yolo_child_1": [
+          39.78125,
+          384217088
+        ]
+      }
+    ],
+    [
+      5600.8155163,
+      {
+        "yolo": [
+          0.03125,
+          4304896
+        ],
+        "cnn": [
+          7.0625,
+          401866752
+        ],
+        "ui": [
+          11.59375,
+          164663296
+        ],
+        "yolo_child_1": [
+          48.796875,
+          381644800
+        ]
+      }
+    ],
+    [
+      5602.589634,
+      {
+        "yolo": [
+          0.03125,
+          4304896
+        ],
+        "cnn": [
+          7.0625,
+          401866752
+        ],
+        "ui": [
+          13.796875,
+          164696064
+        ],
+        "yolo_child_1": [
+          55.84375,
+          381562880
+        ]
+      }
+    ],
+    [
+      5604.4107769,
+      {
+        "yolo": [
+          0.03125,
+          4288512
+        ],
+        "cnn": [
+          7.078125,
+          401866752
+        ],
+        "ui": [
+          15.96875,
+          171884544
+        ],
+        "yolo_child_1": [
+          63.625,
+          381652992
+        ]
+      }
+    ],
+    [
+      5606.2143854,
+      {
+        "yolo": [
+          0.03125,
+          4288512
+        ],
+        "cnn": [
+          7.171875,
+          401874944
+        ],
+        "ui": [
+          18.140625,
+          154423296
+        ],
+        "yolo_child_1": [
+          72.5,
+          381718528
+        ]
+      }
+    ]
+  ],
+  "logical_cpus": 8,
+  "pids": {
+    "yolo": 11716,
+    "cnn": 352,
+    "ui": 17268,
+    "yolo_child_1": 17180
+  }
+}

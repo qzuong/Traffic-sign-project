@@ -1,0 +1,1354 @@
+{
+  "seed": "step-k-frozen-external-scenes-v1",
+  "gt_sha256": "43e91e93cf8c5d8e2391b6faf81b6e3c7800445f3a872beeff7cbde5f832cc3e",
+  "archive": "https://sid.erda.dk/public/archives/ff17dc924eba88d5d01a807357d6614c/TestIJCNN2013.zip",
+  "rows": [
+    {
+      "frame": 614,
+      "archive_member": "TestIJCNN2013Download/00014.ppm",
+      "image_sha256": "8111d02390cd9f23a052704f2863cfbdf6a1615bf0841781fdfc359666e2855e",
+      "references": [],
+      "prior_step_j_crc_overlap": false,
+      "excluded_published_detector_train": true
+    },
+    {
+      "frame": 666,
+      "archive_member": "TestIJCNN2013Download/00066.ppm",
+      "image_sha256": "d5dd6ad1140d56c6e8cecb27739bce2282fe681a541c884abe54b8e677c9860c",
+      "references": [],
+      "prior_step_j_crc_overlap": false,
+      "excluded_published_detector_train": true
+    },
+    {
+      "frame": 677,
+      "archive_member": "TestIJCNN2013Download/00077.ppm",
+      "image_sha256": "c9aa646d8d216dae8626516a7146094b3400fadb88149b148a928a7f723927ba",
+      "references": [],
+      "prior_step_j_crc_overlap": false,
+      "excluded_published_detector_train": true
+    },
+    {
+      "frame": 684,
+      "archive_member": "TestIJCNN2013Download/00084.ppm",
+      "image_sha256": "c139aef65a0c44ac41fc6c603fb342d592f729de172cb3b0f9d6946efc497ffb",
+      "references": [],
+      "prior_step_j_crc_overlap": false,
+      "excluded_published_detector_train": true
+    },
+    {
+      "frame": 687,
+      "archive_member": "TestIJCNN2013Download/00087.ppm",
+      "image_sha256": "a67b2938bbb9e89c8f820d942f44ef5476c44cb15b6170ce123c2acf9d8cba24",
+      "references": [],
+      "prior_step_j_crc_overlap": false,
+      "excluded_published_detector_train": true
+    },
+    {
+      "frame": 701,
+      "archive_member": "TestIJCNN2013Download/00101.ppm",
+      "image_sha256": "3724a2d5ffcf1d5646fa5647748b327776397f68098925709fb1a389c1ecff93",
+      "references": [
+        {
+          "box": [
+            1042,
+            396,
+            1089,
+            443
+          ],
+          "class_id": 2
+        },
+        {
+          "box": [
+            1032,
+            333,
+            1097,
+            397
+          ],
+          "class_id": 12
+        }
+      ],
+      "prior_step_j_crc_overlap": false,
+      "excluded_published_detector_train": true
+    },
+    {
+      "frame": 702,
+      "archive_member": "TestIJCNN2013Download/00102.ppm",
+      "image_sha256": "e722bb5556f8a6da61698f4e8e7d2ae2ff9f9657ae35122afcb945383fe2e67f",
+      "references": [
+        {
+          "box": [
+            688,
+            446,
+            708,
+            469
+          ],
+          "class_id": 12
+        }
+      ],
+      "prior_step_j_crc_overlap": false,
+      "excluded_published_detector_train": true
+    },
+    {
+      "frame": 706,
+      "archive_member": "TestIJCNN2013Download/00106.ppm",
+      "image_sha256": "bf21c4c4be401405fcc95a2117dcfb87e4f00adfa914bbebfa9de0cff31762c9",
+      "references": [
+        {
+          "box": [
+            866,
+            371,
+            900,
+            403
+          ],
+          "class_id": 1
+        }
+      ],
+      "prior_step_j_crc_overlap": false,
+      "excluded_published_detector_train": true
+    },
+    {
+      "frame": 707,
+      "archive_member": "TestIJCNN2013Download/00107.ppm",
+      "image_sha256": "4a69e1e59a0cc8a8e9144effb9179b7f3416dbd44127b88711b66634aa4b88c6",
+      "references": [
+        {
+          "box": [
+            907,
+            383,
+            944,
+            420
+          ],
+          "class_id": 4
+        }
+      ],
+      "prior_step_j_crc_overlap": false,
+      "excluded_published_detector_train": true
+    },
+    {
+      "frame": 710,
+      "archive_member": "TestIJCNN2013Download/00110.ppm",
+      "image_sha256": "169de9a9ddc6c16f3b1878f5f5b9f17e188c84c4ab17f278909f0f1ce14c5066",
+      "references": [
+        {
+          "box": [
+            1084,
+            201,
+            1165,
+            284
+          ],
+          "class_id": 2
+        }
+      ],
+      "prior_step_j_crc_overlap": false,
+      "excluded_published_detector_train": true
+    },
+    {
+      "frame": 712,
+      "archive_member": "TestIJCNN2013Download/00112.ppm",
+      "image_sha256": "8edf1fd05947f2da77a847a87d7fb0e6f2e6d1bf306f32ddb504f6fd1c228eeb",
+      "references": [
+        {
+          "box": [
+            932,
+            361,
+            985,
+            414
+          ],
+          "class_id": 9
+        }
+      ],
+      "prior_step_j_crc_overlap": false,
+      "excluded_published_detector_train": true
+    },
+    {
+      "frame": 715,
+      "archive_member": "TestIJCNN2013Download/00115.ppm",
+      "image_sha256": "95f85fdadd73ddab8db4ee75ab0e9d1c454a1297f7f551e7f3b42058c3cb88b7",
+      "references": [
+        {
+          "box": [
+            285,
+            346,
+            352,
+            413
+          ],
+          "class_id": 38
+        }
+      ],
+      "prior_step_j_crc_overlap": false,
+      "excluded_published_detector_train": true
+    },
+    {
+      "frame": 717,
+      "archive_member": "TestIJCNN2013Download/00117.ppm",
+      "image_sha256": "d4a7ba5b7dda6519f11005afd6f09464d9d76562156bbe7943eed1a493f16963",
+      "references": [
+        {
+          "box": [
+            835,
+            435,
+            860,
+            460
+          ],
+          "class_id": 4
+        }
+      ],
+      "prior_step_j_crc_overlap": false,
+      "excluded_published_detector_train": true
+    },
+    {
+      "frame": 733,
+      "archive_member": "TestIJCNN2013Download/00133.ppm",
+      "image_sha256": "4c69e910b1624186dc1006894a8ab12560ccb6463fcc3098a35401370f58b9e9",
+      "references": [
+        {
+          "box": [
+            442,
+            583,
+            491,
+            633
+          ],
+          "class_id": 38
+        },
+        {
+          "box": [
+            508,
+            426,
+            544,
+            463
+          ],
+          "class_id": 4
+        },
+        {
+          "box": [
+            937,
+            523,
+            966,
+            552
+          ],
+          "class_id": 4
+        }
+      ],
+      "prior_step_j_crc_overlap": false,
+      "excluded_published_detector_train": true
+    },
+    {
+      "frame": 737,
+      "archive_member": "TestIJCNN2013Download/00137.ppm",
+      "image_sha256": "6521c7127e9fbceed32d37734302af6f82cb1068270b587d069750c6e4f1989a",
+      "references": [
+        {
+          "box": [
+            603,
+            444,
+            639,
+            477
+          ],
+          "class_id": 13
+        },
+        {
+          "box": [
+            470,
+            449,
+            508,
+            484
+          ],
+          "class_id": 13
+        }
+      ],
+      "prior_step_j_crc_overlap": false,
+      "excluded_published_detector_train": true
+    },
+    {
+      "frame": 739,
+      "archive_member": "TestIJCNN2013Download/00139.ppm",
+      "image_sha256": "c4294c76077c2da48b8c5276d3a470f39bb47cbcfad1f488f448bddff5bb9fd7",
+      "references": [],
+      "prior_step_j_crc_overlap": false,
+      "excluded_published_detector_train": true
+    },
+    {
+      "frame": 740,
+      "archive_member": "TestIJCNN2013Download/00140.ppm",
+      "image_sha256": "5e16f18d5949374ca4ed73023f4e54c1e75ea456d1b326c714f5fc37cbea92eb",
+      "references": [
+        {
+          "box": [
+            1163,
+            510,
+            1214,
+            561
+          ],
+          "class_id": 5
+        },
+        {
+          "box": [
+            489,
+            513,
+            535,
+            559
+          ],
+          "class_id": 5
+        },
+        {
+          "box": [
+            1071,
+            554,
+            1095,
+            578
+          ],
+          "class_id": 13
+        }
+      ],
+      "prior_step_j_crc_overlap": false,
+      "excluded_published_detector_train": true
+    },
+    {
+      "frame": 741,
+      "archive_member": "TestIJCNN2013Download/00141.ppm",
+      "image_sha256": "eb70357eb07bfabcd309d8f903a3d5041d29b61c99580570b4e5cab37e5297f5",
+      "references": [
+        {
+          "box": [
+            438,
+            558,
+            466,
+            586
+          ],
+          "class_id": 10
+        },
+        {
+          "box": [
+            972,
+            555,
+            1001,
+            584
+          ],
+          "class_id": 10
+        }
+      ],
+      "prior_step_j_crc_overlap": false,
+      "excluded_published_detector_train": true
+    },
+    {
+      "frame": 743,
+      "archive_member": "TestIJCNN2013Download/00143.ppm",
+      "image_sha256": "a2ecf65a4902abf44e97d5bd324d268527f4a02f88ed7979df68cbc7b3371799",
+      "references": [],
+      "prior_step_j_crc_overlap": false,
+      "excluded_published_detector_train": true
+    },
+    {
+      "frame": 746,
+      "archive_member": "TestIJCNN2013Download/00146.ppm",
+      "image_sha256": "768ff28b55658ac1a13a8b5edff728f2875c400729f7e96a99efaaf6b3b8ef0f",
+      "references": [
+        {
+          "box": [
+            1135,
+            492,
+            1182,
+            538
+          ],
+          "class_id": 8
+        },
+        {
+          "box": [
+            235,
+            469,
+            282,
+            516
+          ],
+          "class_id": 8
+        },
+        {
+          "box": [
+            236,
+            515,
+            281,
+            562
+          ],
+          "class_id": 10
+        },
+        {
+          "box": [
+            1138,
+            537,
+            1183,
+            580
+          ],
+          "class_id": 10
+        }
+      ],
+      "prior_step_j_crc_overlap": false,
+      "excluded_published_detector_train": true
+    },
+    {
+      "frame": 759,
+      "archive_member": "TestIJCNN2013Download/00159.ppm",
+      "image_sha256": "151a405ec7ae57aeaf051956d7bea3ade6ce1eff03111fbf03ab89959d466c93",
+      "references": [],
+      "prior_step_j_crc_overlap": false,
+      "excluded_published_detector_train": true
+    },
+    {
+      "frame": 761,
+      "archive_member": "TestIJCNN2013Download/00161.ppm",
+      "image_sha256": "75bf83a18443d57a0120bd7b00b65ab36fbd55e84d61404bba987a217d154207",
+      "references": [
+        {
+          "box": [
+            35,
+            541,
+            96,
+            598
+          ],
+          "class_id": 38
+        }
+      ],
+      "prior_step_j_crc_overlap": false,
+      "excluded_published_detector_train": true
+    },
+    {
+      "frame": 762,
+      "archive_member": "TestIJCNN2013Download/00162.ppm",
+      "image_sha256": "1491586496b01937ad0f066ec8ece232cc73011c31c4cf557298ab2f8dfc75b2",
+      "references": [
+        {
+          "box": [
+            334,
+            378,
+            402,
+            439
+          ],
+          "class_id": 13
+        },
+        {
+          "box": [
+            1154,
+            405,
+            1219,
+            466
+          ],
+          "class_id": 13
+        }
+      ],
+      "prior_step_j_crc_overlap": false,
+      "excluded_published_detector_train": true
+    },
+    {
+      "frame": 770,
+      "archive_member": "TestIJCNN2013Download/00170.ppm",
+      "image_sha256": "9d2206e8398c5a67d6628e4645f25ef2764d98b29f670ee7feb0aae1593dabd5",
+      "references": [
+        {
+          "box": [
+            1059,
+            503,
+            1096,
+            540
+          ],
+          "class_id": 41
+        },
+        {
+          "box": [
+            468,
+            535,
+            498,
+            565
+          ],
+          "class_id": 17
+        },
+        {
+          "box": [
+            526,
+            578,
+            556,
+            608
+          ],
+          "class_id": 38
+        }
+      ],
+      "prior_step_j_crc_overlap": false,
+      "excluded_published_detector_train": true
+    },
+    {
+      "frame": 772,
+      "archive_member": "TestIJCNN2013Download/00172.ppm",
+      "image_sha256": "017de61fd50fdac7b3b28c4b9a122d7449ce17e6a92a66a6e39346f1cbd0ac37",
+      "references": [
+        {
+          "box": [
+            842,
+            553,
+            865,
+            574
+          ],
+          "class_id": 18
+        }
+      ],
+      "prior_step_j_crc_overlap": false,
+      "excluded_published_detector_train": true
+    },
+    {
+      "frame": 774,
+      "archive_member": "TestIJCNN2013Download/00174.ppm",
+      "image_sha256": "a9caf07d9d519b126eec299b39241a4e669b16edd0a444ecd7de47023002e0b4",
+      "references": [
+        {
+          "box": [
+            929,
+            516,
+            962,
+            549
+          ],
+          "class_id": 1
+        }
+      ],
+      "prior_step_j_crc_overlap": false,
+      "excluded_published_detector_train": true
+    },
+    {
+      "frame": 776,
+      "archive_member": "TestIJCNN2013Download/00176.ppm",
+      "image_sha256": "7f152559aadeffd8c84873f640d17330ae67f5c80d50c6d3d516535eac255f5b",
+      "references": [
+        {
+          "box": [
+            861,
+            505,
+            894,
+            538
+          ],
+          "class_id": 1
+        },
+        {
+          "box": [
+            1076,
+            315,
+            1189,
+            428
+          ],
+          "class_id": 12
+        },
+        {
+          "box": [
+            646,
+            604,
+            668,
+            626
+          ],
+          "class_id": 38
+        }
+      ],
+      "prior_step_j_crc_overlap": false,
+      "excluded_published_detector_train": true
+    },
+    {
+      "frame": 780,
+      "archive_member": "TestIJCNN2013Download/00180.ppm",
+      "image_sha256": "c78afc71071223b4777780a7d46996860b25a6b9a0fad7bfa81ab0a9ffa6bc3a",
+      "references": [
+        {
+          "box": [
+            365,
+            468,
+            467,
+            559
+          ],
+          "class_id": 25
+        },
+        {
+          "box": [
+            1165,
+            572,
+            1228,
+            637
+          ],
+          "class_id": 3
+        },
+        {
+          "box": [
+            1142,
+            487,
+            1238,
+            576
+          ],
+          "class_id": 25
+        },
+        {
+          "box": [
+            380,
+            557,
+            445,
+            622
+          ],
+          "class_id": 3
+        }
+      ],
+      "prior_step_j_crc_overlap": false,
+      "excluded_published_detector_train": true
+    },
+    {
+      "frame": 783,
+      "archive_member": "TestIJCNN2013Download/00183.ppm",
+      "image_sha256": "0ae45f3d7624ace5f0c00989cfac1fbc9ca93e4010ef034aced93d7e6d895b89",
+      "references": [
+        {
+          "box": [
+            276,
+            568,
+            320,
+            615
+          ],
+          "class_id": 38
+        }
+      ],
+      "prior_step_j_crc_overlap": false,
+      "excluded_published_detector_train": true
+    },
+    {
+      "frame": 788,
+      "archive_member": "TestIJCNN2013Download/00188.ppm",
+      "image_sha256": "701fc84a7c98d6f522ddc6b28b9c1f1b1733d190e609a6ba4d9ce050e0acbd13",
+      "references": [
+        {
+          "box": [
+            959,
+            501,
+            1043,
+            587
+          ],
+          "class_id": 18
+        }
+      ],
+      "prior_step_j_crc_overlap": false,
+      "excluded_published_detector_train": true
+    },
+    {
+      "frame": 793,
+      "archive_member": "TestIJCNN2013Download/00193.ppm",
+      "image_sha256": "40725d030604e08682986b32d50242410813e9a6132e3da09536abae964e15a3",
+      "references": [],
+      "prior_step_j_crc_overlap": false,
+      "excluded_published_detector_train": true
+    },
+    {
+      "frame": 796,
+      "archive_member": "TestIJCNN2013Download/00196.ppm",
+      "image_sha256": "15cdfaa75d73eba058e490bc8934d64daabdbd2491f4acd0dcda9182c8ca5409",
+      "references": [],
+      "prior_step_j_crc_overlap": false,
+      "excluded_published_detector_train": true
+    },
+    {
+      "frame": 803,
+      "archive_member": "TestIJCNN2013Download/00203.ppm",
+      "image_sha256": "af9f8a57d27c8e3bf58e3c6ed2d7780fc08b920cd8aad230afa64335b02313fd",
+      "references": [
+        {
+          "box": [
+            771,
+            232,
+            836,
+            296
+          ],
+          "class_id": 1
+        },
+        {
+          "box": [
+            772,
+            322,
+            838,
+            388
+          ],
+          "class_id": 9
+        }
+      ],
+      "prior_step_j_crc_overlap": false,
+      "excluded_published_detector_train": true
+    },
+    {
+      "frame": 807,
+      "archive_member": "TestIJCNN2013Download/00207.ppm",
+      "image_sha256": "b50ca1c44fcb51b9eabd83522067842bc4d1d78867803ec111da39d18276854b",
+      "references": [
+        {
+          "box": [
+            823,
+            370,
+            868,
+            409
+          ],
+          "class_id": 11
+        }
+      ],
+      "prior_step_j_crc_overlap": false,
+      "excluded_published_detector_train": true
+    },
+    {
+      "frame": 809,
+      "archive_member": "TestIJCNN2013Download/00209.ppm",
+      "image_sha256": "66caff251366a60dce936112dcf1e05aca4879fab95490b8824a50f97e311e2e",
+      "references": [
+        {
+          "box": [
+            689,
+            359,
+            721,
+            393
+          ],
+          "class_id": 14
+        }
+      ],
+      "prior_step_j_crc_overlap": false,
+      "excluded_published_detector_train": true
+    },
+    {
+      "frame": 810,
+      "archive_member": "TestIJCNN2013Download/00210.ppm",
+      "image_sha256": "def7ff46446f1ee21b191459660224591b99c22efb5141952f088f4263178c73",
+      "references": [
+        {
+          "box": [
+            622,
+            319,
+            693,
+            386
+          ],
+          "class_id": 11
+        },
+        {
+          "box": [
+            460,
+            385,
+            493,
+            416
+          ],
+          "class_id": 18
+        }
+      ],
+      "prior_step_j_crc_overlap": false,
+      "excluded_published_detector_train": true
+    },
+    {
+      "frame": 813,
+      "archive_member": "TestIJCNN2013Download/00213.ppm",
+      "image_sha256": "693bfb4a765dd5aab13e12b30391efb23b18a2e5de2777e446e960ec65b4f86f",
+      "references": [
+        {
+          "box": [
+            928,
+            250,
+            1011,
+            334
+          ],
+          "class_id": 33
+        },
+        {
+          "box": [
+            913,
+            147,
+            1023,
+            251
+          ],
+          "class_id": 13
+        }
+      ],
+      "prior_step_j_crc_overlap": false,
+      "excluded_published_detector_train": true
+    },
+    {
+      "frame": 821,
+      "archive_member": "TestIJCNN2013Download/00221.ppm",
+      "image_sha256": "222c5b1d1243807d5e9bb19dd84014b84c800dd9bb499167bc43ec29347d6bce",
+      "references": [
+        {
+          "box": [
+            859,
+            444,
+            883,
+            467
+          ],
+          "class_id": 5
+        },
+        {
+          "box": [
+            333,
+            442,
+            357,
+            467
+          ],
+          "class_id": 5
+        }
+      ],
+      "prior_step_j_crc_overlap": false,
+      "excluded_published_detector_train": true
+    },
+    {
+      "frame": 824,
+      "archive_member": "TestIJCNN2013Download/00224.ppm",
+      "image_sha256": "5e8cc81110389eb6a0d85c83c5e06c484f4822e995c8a1e450f1f8d366ad084f",
+      "references": [
+        {
+          "box": [
+            232,
+            416,
+            268,
+            452
+          ],
+          "class_id": 15
+        }
+      ],
+      "prior_step_j_crc_overlap": false,
+      "excluded_published_detector_train": true
+    },
+    {
+      "frame": 829,
+      "archive_member": "TestIJCNN2013Download/00229.ppm",
+      "image_sha256": "25f97d9afaddc14691f538b09e8640844b8cd978f7d6909eea297fb0307c651a",
+      "references": [
+        {
+          "box": [
+            553,
+            399,
+            577,
+            423
+          ],
+          "class_id": 1
+        },
+        {
+          "box": [
+            1004,
+            253,
+            1115,
+            374
+          ],
+          "class_id": 12
+        }
+      ],
+      "prior_step_j_crc_overlap": false,
+      "excluded_published_detector_train": true
+    },
+    {
+      "frame": 833,
+      "archive_member": "TestIJCNN2013Download/00233.ppm",
+      "image_sha256": "1c51779d52207e2b4d0c3500f220882520334d8612d76aee2f496684109f79d9",
+      "references": [
+        {
+          "box": [
+            776,
+            332,
+            823,
+            379
+          ],
+          "class_id": 1
+        }
+      ],
+      "prior_step_j_crc_overlap": false,
+      "excluded_published_detector_train": true
+    },
+    {
+      "frame": 836,
+      "archive_member": "TestIJCNN2013Download/00236.ppm",
+      "image_sha256": "c73052b3cf6baed7017ba0014f230edbb49cf7669f046cf89eee066b852ee01f",
+      "references": [
+        {
+          "box": [
+            57,
+            363,
+            93,
+            396
+          ],
+          "class_id": 13
+        }
+      ],
+      "prior_step_j_crc_overlap": false,
+      "excluded_published_detector_train": true
+    },
+    {
+      "frame": 839,
+      "archive_member": "TestIJCNN2013Download/00239.ppm",
+      "image_sha256": "cf9616e7eecccca32ba4c14e8c5673585789aff12485e959de72a7d92fb64326",
+      "references": [
+        {
+          "box": [
+            1234,
+            297,
+            1280,
+            343
+          ],
+          "class_id": 2
+        },
+        {
+          "box": [
+            1234,
+            343,
+            1281,
+            389
+          ],
+          "class_id": 9
+        },
+        {
+          "box": [
+            303,
+            365,
+            347,
+            410
+          ],
+          "class_id": 2
+        },
+        {
+          "box": [
+            305,
+            409,
+            349,
+            455
+          ],
+          "class_id": 9
+        }
+      ],
+      "prior_step_j_crc_overlap": false,
+      "excluded_published_detector_train": true
+    },
+    {
+      "frame": 841,
+      "archive_member": "TestIJCNN2013Download/00241.ppm",
+      "image_sha256": "20e3164dbcd0103991a05e5bceb1d640b2361c80e61a02a621c43579f6ad117e",
+      "references": [
+        {
+          "box": [
+            593,
+            482,
+            624,
+            513
+          ],
+          "class_id": 38
+        }
+      ],
+      "prior_step_j_crc_overlap": false,
+      "excluded_published_detector_train": true
+    },
+    {
+      "frame": 842,
+      "archive_member": "TestIJCNN2013Download/00242.ppm",
+      "image_sha256": "e7278889698a4a1086131f762a39b1959798515827feecb771134c214b1ec021",
+      "references": [
+        {
+          "box": [
+            1025,
+            227,
+            1087,
+            289
+          ],
+          "class_id": 14
+        }
+      ],
+      "prior_step_j_crc_overlap": false,
+      "excluded_published_detector_train": true
+    },
+    {
+      "frame": 843,
+      "archive_member": "TestIJCNN2013Download/00243.ppm",
+      "image_sha256": "c7ff97caa0ce7c699d41d15caee74a18c8c586e9187e079837dff5e8ee0de1f4",
+      "references": [],
+      "prior_step_j_crc_overlap": false,
+      "excluded_published_detector_train": true
+    },
+    {
+      "frame": 848,
+      "archive_member": "TestIJCNN2013Download/00248.ppm",
+      "image_sha256": "c70496ae6f5f7044a05dc88edbeee04038b9f55cd26582cf918768e1366dd708",
+      "references": [
+        {
+          "box": [
+            982,
+            241,
+            1055,
+            314
+          ],
+          "class_id": 1
+        }
+      ],
+      "prior_step_j_crc_overlap": false,
+      "excluded_published_detector_train": true
+    },
+    {
+      "frame": 849,
+      "archive_member": "TestIJCNN2013Download/00249.ppm",
+      "image_sha256": "cd95ef2d0b8740d2e44aa727b2a4d76cd586c886f15510ca51977b3688539f59",
+      "references": [
+        {
+          "box": [
+            398,
+            359,
+            442,
+            413
+          ],
+          "class_id": 14
+        },
+        {
+          "box": [
+            400,
+            412,
+            436,
+            448
+          ],
+          "class_id": 33
+        }
+      ],
+      "prior_step_j_crc_overlap": false,
+      "excluded_published_detector_train": true
+    },
+    {
+      "frame": 850,
+      "archive_member": "TestIJCNN2013Download/00250.ppm",
+      "image_sha256": "fde64537373d5cdd1a7b6dd43a1630b62c1a3b4c442c5bcf4287f8a98b6776d5",
+      "references": [
+        {
+          "box": [
+            973,
+            373,
+            1006,
+            406
+          ],
+          "class_id": 1
+        }
+      ],
+      "prior_step_j_crc_overlap": false,
+      "excluded_published_detector_train": true
+    },
+    {
+      "frame": 852,
+      "archive_member": "TestIJCNN2013Download/00252.ppm",
+      "image_sha256": "e4f0a946957d6dc2fc366b3650f3e73c7e958fd55338e548df99282b25abe222",
+      "references": [
+        {
+          "box": [
+            1091,
+            278,
+            1144,
+            329
+          ],
+          "class_id": 29
+        }
+      ],
+      "prior_step_j_crc_overlap": false,
+      "excluded_published_detector_train": true
+    },
+    {
+      "frame": 854,
+      "archive_member": "TestIJCNN2013Download/00254.ppm",
+      "image_sha256": "be296eafcfd07c6009a4ae13d35e9e7960b115ed607aa37f19d321c3a2f78059",
+      "references": [
+        {
+          "box": [
+            1182,
+            254,
+            1256,
+            328
+          ],
+          "class_id": 2
+        }
+      ],
+      "prior_step_j_crc_overlap": false,
+      "excluded_published_detector_train": true
+    },
+    {
+      "frame": 856,
+      "archive_member": "TestIJCNN2013Download/00256.ppm",
+      "image_sha256": "f975a05e8c87a5e9bb6586b430511515eda0d7dbffc430cd1cc6565aa96d722b",
+      "references": [],
+      "prior_step_j_crc_overlap": false,
+      "excluded_published_detector_train": true
+    },
+    {
+      "frame": 860,
+      "archive_member": "TestIJCNN2013Download/00260.ppm",
+      "image_sha256": "098fc5a6e5bb3d56db3d3676fe4e95572d65037dadc0daae03c839960575ab6e",
+      "references": [
+        {
+          "box": [
+            1077,
+            144,
+            1169,
+            232
+          ],
+          "class_id": 2
+        }
+      ],
+      "prior_step_j_crc_overlap": false,
+      "excluded_published_detector_train": true
+    },
+    {
+      "frame": 865,
+      "archive_member": "TestIJCNN2013Download/00265.ppm",
+      "image_sha256": "5c901eecb01dab80b48129848e2787223fbfc07c3f9c29e990e26e2a77a1df21",
+      "references": [
+        {
+          "box": [
+            342,
+            186,
+            430,
+            274
+          ],
+          "class_id": 14
+        },
+        {
+          "box": [
+            573,
+            490,
+            598,
+            515
+          ],
+          "class_id": 38
+        }
+      ],
+      "prior_step_j_crc_overlap": false,
+      "excluded_published_detector_train": true
+    },
+    {
+      "frame": 868,
+      "archive_member": "TestIJCNN2013Download/00268.ppm",
+      "image_sha256": "45eb3122555205dd335673b96c42758c8f0c65921861aab994ce43c5d111f041",
+      "references": [
+        {
+          "box": [
+            590,
+            470,
+            611,
+            489
+          ],
+          "class_id": 26
+        },
+        {
+          "box": [
+            876,
+            450,
+            897,
+            470
+          ],
+          "class_id": 26
+        }
+      ],
+      "prior_step_j_crc_overlap": false,
+      "excluded_published_detector_train": true
+    },
+    {
+      "frame": 870,
+      "archive_member": "TestIJCNN2013Download/00270.ppm",
+      "image_sha256": "3a513b6cc65f8884295e4ca8e39146c6448fd637b1b9816bd3a0f9d4f043c2b5",
+      "references": [
+        {
+          "box": [
+            569,
+            456,
+            591,
+            478
+          ],
+          "class_id": 5
+        },
+        {
+          "box": [
+            1030,
+            441,
+            1051,
+            462
+          ],
+          "class_id": 5
+        }
+      ],
+      "prior_step_j_crc_overlap": false,
+      "excluded_published_detector_train": true
+    },
+    {
+      "frame": 876,
+      "archive_member": "TestIJCNN2013Download/00276.ppm",
+      "image_sha256": "d2d84a06f259ce6abb8f9099efe70ab93f35e470ea5fa1c99e478caa54b474d1",
+      "references": [
+        {
+          "box": [
+            466,
+            469,
+            492,
+            495
+          ],
+          "class_id": 3
+        },
+        {
+          "box": [
+            776,
+            477,
+            797,
+            498
+          ],
+          "class_id": 3
+        }
+      ],
+      "prior_step_j_crc_overlap": false,
+      "excluded_published_detector_train": true
+    },
+    {
+      "frame": 879,
+      "archive_member": "TestIJCNN2013Download/00279.ppm",
+      "image_sha256": "f6d761d39e18115a5f1902df1442f61f22f35965bf9f1c0a13ac542a550bfaa5",
+      "references": [
+        {
+          "box": [
+            301,
+            535,
+            342,
+            576
+          ],
+          "class_id": 32
+        },
+        {
+          "box": [
+            988,
+            506,
+            1030,
+            548
+          ],
+          "class_id": 32
+        }
+      ],
+      "prior_step_j_crc_overlap": false,
+      "excluded_published_detector_train": true
+    },
+    {
+      "frame": 882,
+      "archive_member": "TestIJCNN2013Download/00282.ppm",
+      "image_sha256": "5ca607c9f2704966c68ba2e4c51226e6a6f85f6f6d017c1a8cd248b76f1c1094",
+      "references": [
+        {
+          "box": [
+            244,
+            546,
+            318,
+            618
+          ],
+          "class_id": 5
+        }
+      ],
+      "prior_step_j_crc_overlap": false,
+      "excluded_published_detector_train": true
+    },
+    {
+      "frame": 884,
+      "archive_member": "TestIJCNN2013Download/00284.ppm",
+      "image_sha256": "72e9f3cd240e4e9f8e737c86952d3f67d0a85cbe1657df3f2e923d79ab7662b3",
+      "references": [
+        {
+          "box": [
+            855,
+            477,
+            891,
+            513
+          ],
+          "class_id": 4
+        },
+        {
+          "box": [
+            854,
+            512,
+            890,
+            546
+          ],
+          "class_id": 10
+        }
+      ],
+      "prior_step_j_crc_overlap": false,
+      "excluded_published_detector_train": true
+    },
+    {
+      "frame": 887,
+      "archive_member": "TestIJCNN2013Download/00287.ppm",
+      "image_sha256": "11232f176e5a47728445598c43de7a7351098be612b6cc4fa01113289af9116a",
+      "references": [
+        {
+          "box": [
+            852,
+            523,
+            880,
+            551
+          ],
+          "class_id": 36
+        }
+      ],
+      "prior_step_j_crc_overlap": false,
+      "excluded_published_detector_train": true
+    },
+    {
+      "frame": 888,
+      "archive_member": "TestIJCNN2013Download/00288.ppm",
+      "image_sha256": "45a1cfd2882a7f4358d512511c98db7e0c295a5a02a2292746bed3bd1c15c14c",
+      "references": [
+        {
+          "box": [
+            989,
+            315,
+            1044,
+            371
+          ],
+          "class_id": 35
+        },
+        {
+          "box": [
+            779,
+            546,
+            803,
+            570
+          ],
+          "class_id": 12
+        }
+      ],
+      "prior_step_j_crc_overlap": false,
+      "excluded_published_detector_train": true
+    },
+    {
+      "frame": 898,
+      "archive_member": "TestIJCNN2013Download/00298.ppm",
+      "image_sha256": "3a97ecb2ece52b382f958bc0f6f442b58c9c80786a0c93e43d98137f0acec1a0",
+      "references": [
+        {
+          "box": [
+            323,
+            504,
+            356,
+            537
+          ],
+          "class_id": 4
+        },
+        {
+          "box": [
+            817,
+            510,
+            850,
+            543
+          ],
+          "class_id": 4
+        }
+      ],
+      "prior_step_j_crc_overlap": false,
+      "excluded_published_detector_train": true
+    },
+    {
+      "frame": 899,
+      "archive_member": "TestIJCNN2013Download/00299.ppm",
+      "image_sha256": "b07b323e6ff3ab1b39332439e154aaa5f0f6ecc67fb7c682fc54e0217ec78c31",
+      "references": [
+        {
+          "box": [
+            864,
+            484,
+            922,
+            535
+          ],
+          "class_id": 24
+        }
+      ],
+      "prior_step_j_crc_overlap": false,
+      "excluded_published_detector_train": true
+    }
+  ]
+}

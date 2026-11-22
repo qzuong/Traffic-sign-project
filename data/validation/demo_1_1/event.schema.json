@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Traffic Sign Demo 1.1 simulation observation",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "event_id", "session_id", "event_type", "class_id",
+    "class_name_vi", "track_id", "video_timestamp_ms", "source_frame_id", "confirmed",
+    "decision_status", "suggested_action", "parameters", "evidence", "created_at"],
+  "properties": {
+    "schema_version": {"const": "1.0"},
+    "event_id": {"type": "string", "pattern": "^[a-f0-9]{32}:track-[1-9][0-9]*$"},
+    "session_id": {"type": "string", "pattern": "^[a-f0-9]{32}$"},
+    "event_type": {"type": "string", "pattern": "^[A-Z][A-Z0-9_]*$"},
+    "class_id": {"type": "integer", "minimum": 0, "maximum": 42},
+    "class_name_vi": {"type": "string", "minLength": 1},
+    "track_id": {"type": "integer", "minimum": 1},
+    "video_timestamp_ms": {"type": "number", "minimum": 0},
+    "source_frame_id": {"type": "integer", "minimum": 0},
+    "confirmed": {"const": true},
+    "decision_status": {"enum": ["confirmed", "withheld"]},
+    "suggested_action": {"type": ["string", "null"]},
+    "parameters": {"type": "object", "additionalProperties": {"type": ["string", "number"]}},
+    "created_at": {"type": "string", "format": "date-time"},
+    "evidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["observation_count", "aggregation_score", "speech_evidence_block",
+        "bbox_xyxy", "bbox_frame_size"],
+      "properties": {
+        "observation_count": {"type": "integer", "minimum": 2, "maximum": 5},
+        "aggregation_score": {"type": "number", "minimum": 0, "maximum": 1},
+        "speech_evidence_block": {"type": ["string", "null"]},
+        "bbox_xyxy": {"type": "array", "minItems": 4, "maxItems": 4,
+          "items": {"type": "integer", "minimum": 0}},
+        "bbox_frame_size": {"type": "array", "minItems": 2, "maxItems": 2,
+          "items": {"type": "integer", "minimum": 1}}
+      }
+    }
+  },
+  "if": {"properties": {"decision_status": {"const": "withheld"}}},
+  "then": {"properties": {
+    "suggested_action": {"type": "null"},
+    "parameters": {"maxProperties": 0},
+    "evidence": {"properties": {"speech_evidence_block": {"type": "string", "minLength": 1}}}
+  }},
+  "else": {"properties": {
+    "suggested_action": {"type": "string", "minLength": 1},
+    "evidence": {"properties": {"speech_evidence_block": {"type": "null"}}}
+  }}
+}

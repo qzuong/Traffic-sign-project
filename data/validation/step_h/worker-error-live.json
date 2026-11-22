@@ -1,0 +1,320 @@
+{
+  "video": "D:\\Traffic-sign-project\\data\\videos\\test_video.mp4",
+  "frames": [
+    0,
+    60
+  ],
+  "eof": false,
+  "errors": [],
+  "startup_ready_s": null,
+  "startup_first_overlay_s": null,
+  "open_to_first_overlay_s": null,
+  "display_fps": null,
+  "ai_fps": 0.0,
+  "workers": {
+    "yolo": {
+      "state": "error",
+      "python": null,
+      "pid": null,
+      "startup_seconds": null,
+      "error": "No compatible YOLO Python. Set TRAFFIC_SIGN_YOLO_PYTHON to the full path of a Python with numpy, cv2, torch, ultralytics. Checked: C:\\Users\\Admin\\AppData\\Local\\Temp\\traffic-step-h\\intentionally-missing-yolo.exe (interpreter not found)",
+      "started_monotonic": 4792.7951933
+    },
+    "cnn": {
+      "state": "not started",
+      "python": null,
+      "pid": null,
+      "startup_seconds": null,
+      "error": null
+    }
+  },
+  "controls": {
+    "open": true,
+    "pause": true,
+    "resume": true,
+    "eof_idle": null,
+    "stop": true,
+    "replay": true
+  },
+  "status": "AI Error: YOLO worker: No compatible YOLO Python. Set TRAFFIC_SIGN_YOLO_PYTHON to the full path of a Python with numpy, cv2, torch, ultralytics. Checked: C:\\Users\\Admin\\AppData\\Local\\Temp\\traffic-step-h\\intentionally-missing-yolo.exe (interpreter not found)",
+  "peaks": {
+    "generated": 0,
+    "accepted": 0,
+    "played": 0,
+    "expired": 0,
+    "duplicates_suppressed": 0,
+    "peak_queue": 0,
+    "tracks_created": 0,
+    "tracks_lost": 0,
+    "ambiguous_associations": 0,
+    "unresolved_associations": 0,
+    "unconfirmed_tracks_lost": 0,
+    "confirmed_classes": [],
+    "pending": 0,
+    "speech_latency_ms": [],
+    "measurements": [],
+    "played_tracks": []
+  },
+  "trace": [],
+  "observations": [],
+  "actual_audio": [],
+  "results": [],
+  "overlays": [],
+  "views": [
+    [
+      0,
+      4792.8829522
+    ],
+    [
+      1,
+      4794.7178744
+    ],
+    [
+      2,
+      4794.7477813
+    ],
+    [
+      3,
+      4794.7802813
+    ],
+    [
+      4,
+      4794.8073721
+    ],
+    [
+      5,
+      4794.8423329
+    ],
+    [
+      6,
+      4794.8718949
+    ],
+    [
+      7,
+      4794.9204746
+    ],
+    [
+      8,
+      4794.9493292
+    ],
+    [
+      9,
+      4794.9858337
+    ],
+    [
+      10,
+      4795.0125477
+    ],
+    [
+      11,
+      4795.0488212
+    ],
+    [
+      12,
+      4795.0836808
+    ],
+    [
+      13,
+      4795.11129
+    ],
+    [
+      14,
+      4795.1395117
+    ],
+    [
+      15,
+      4795.1824154
+    ],
+    [
+      16,
+      4795.216092
+    ],
+    [
+      17,
+      4795.2469855
+    ],
+    [
+      18,
+      4795.2767871
+    ],
+    [
+      19,
+      4795.3079803
+    ],
+    [
+      20,
+      4795.3403616
+    ],
+    [
+      21,
+      4795.3739136
+    ],
+    [
+      22,
+      4795.4176252
+    ],
+    [
+      23,
+      4795.4492951
+    ],
+    [
+      24,
+      4795.482664
+    ],
+    [
+      25,
+      4795.5133609
+    ],
+    [
+      26,
+      4795.5429012
+    ],
+    [
+      27,
+      4795.5748313
+    ],
+    [
+      28,
+      4795.6063532
+    ],
+    [
+      29,
+      4795.6517185
+    ],
+    [
+      30,
+      4795.6868506
+    ],
+    [
+      31,
+      4795.7138348
+    ],
+    [
+      32,
+      4795.7469169
+    ],
+    [
+      33,
+      4795.7767283
+    ],
+    [
+      34,
+      4795.8118118
+    ],
+    [
+      35,
+      4795.8425659
+    ],
+    [
+      36,
+      4795.8708516
+    ],
+    [
+      37,
+      4795.9043337
+    ],
+    [
+      38,
+      4795.9513235
+    ],
+    [
+      39,
+      4795.9839048
+    ],
+    [
+      40,
+      4796.0162124
+    ],
+    [
+      41,
+      4796.0477439
+    ],
+    [
+      42,
+      4796.0763637
+    ],
+    [
+      43,
+      4796.108697
+    ],
+    [
+      44,
+      4796.1395708
+    ],
+    [
+      45,
+      4796.1716614
+    ],
+    [
+      46,
+      4796.2191382
+    ],
+    [
+      47,
+      4796.2528024
+    ],
+    [
+      48,
+      4796.2797168
+    ],
+    [
+      49,
+      4796.3113358
+    ],
+    [
+      50,
+      4796.3433567
+    ],
+    [
+      51,
+      4796.3722377
+    ],
+    [
+      52,
+      4796.4048834
+    ],
+    [
+      53,
+      4796.4489943
+    ],
+    [
+      54,
+      4796.4847244
+    ],
+    [
+      55,
+      4796.5154346
+    ],
+    [
+      56,
+      4796.5457314
+    ],
+    [
+      57,
+      4796.5758168
+    ],
+    [
+      58,
+      4796.6070473
+    ],
+    [
+      59,
+      4796.6382282
+    ],
+    [
+      60,
+      4796.6846969
+    ],
+    [
+      60,
+      4796.8906032
+    ],
+    [
+      0,
+      4796.9655879
+    ]
+  ],
+  "system": [],
+  "logical_cpus": 8,
+  "pids": {}
+}

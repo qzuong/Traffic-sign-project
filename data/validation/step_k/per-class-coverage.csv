@@ -1,0 +1,244 @@
+dataset,policy,true_class_id,true_class,crops,correct_eligible,correct_withheld,incorrect_eligible,incorrect_withheld,correct_eligible_pct_of_class,wrong_eligible_pct_of_class
+gtsrb_tuning,stable,0,Speed limit (20km/h),60,30,30,0,0,50.0,0.0
+gtsrb_tuning,stable,1,Speed limit (30km/h),720,395,318,4,3,54.86,0.56
+gtsrb_tuning,stable,2,Speed limit (50km/h),750,293,415,13,29,39.07,1.73
+gtsrb_tuning,stable,3,Speed limit (60km/h),450,60,355,2,33,13.33,0.44
+gtsrb_tuning,stable,4,Speed limit (70km/h),660,116,529,12,3,17.58,1.82
+gtsrb_tuning,stable,5,Speed limit (80km/h),630,175,449,3,3,27.78,0.48
+gtsrb_tuning,stable,6,End of speed limit (80km/h),150,2,148,0,0,1.33,0.0
+gtsrb_tuning,stable,7,Speed limit (100km/h),450,56,350,0,44,12.44,0.0
+gtsrb_tuning,stable,8,Speed limit (120km/h),450,31,405,1,13,6.89,0.22
+gtsrb_tuning,stable,9,No passing,480,449,27,4,0,93.54,0.83
+gtsrb_tuning,stable,10,No passing veh over 3.5 tons,660,594,64,2,0,90.0,0.3
+gtsrb_tuning,stable,11,Right-of-way at intersection,420,284,131,0,5,67.62,0.0
+gtsrb_tuning,stable,12,Priority road,690,627,3,10,50,90.87,1.45
+gtsrb_tuning,stable,13,Yield,720,650,68,0,2,90.28,0.0
+gtsrb_tuning,stable,14,Stop,270,163,107,0,0,60.37,0.0
+gtsrb_tuning,stable,15,No vehicles,210,198,9,1,2,94.29,0.48
+gtsrb_tuning,stable,16,Veh > 3.5 tons prohibited,150,149,1,0,0,99.33,0.0
+gtsrb_tuning,stable,17,No entry,360,296,45,13,6,82.22,3.61
+gtsrb_tuning,stable,18,General caution,390,298,75,12,5,76.41,3.08
+gtsrb_tuning,stable,19,Dangerous curve left,60,59,0,1,0,98.33,1.67
+gtsrb_tuning,stable,20,Dangerous curve right,90,66,24,0,0,73.33,0.0
+gtsrb_tuning,stable,21,Double curve,90,60,0,16,14,66.67,17.78
+gtsrb_tuning,stable,22,Bumpy road,120,103,0,13,4,85.83,10.83
+gtsrb_tuning,stable,23,Slippery road,150,126,24,0,0,84.0,0.0
+gtsrb_tuning,stable,24,Road narrows on the right,90,58,29,2,1,64.44,2.22
+gtsrb_tuning,stable,25,Road work,480,389,70,21,0,81.04,4.38
+gtsrb_tuning,stable,26,Traffic signals,180,76,98,2,4,42.22,1.11
+gtsrb_tuning,stable,27,Pedestrians,60,21,16,22,1,35.0,36.67
+gtsrb_tuning,stable,28,Children crossing,150,111,38,1,0,74.0,0.67
+gtsrb_tuning,stable,29,Bicycles crossing,90,50,37,3,0,55.56,3.33
+gtsrb_tuning,stable,30,Beware of ice/snow,150,141,0,9,0,94.0,6.0
+gtsrb_tuning,stable,31,Wild animals crossing,270,183,87,0,0,67.78,0.0
+gtsrb_tuning,stable,32,End speed + passing limits,60,30,30,0,0,50.0,0.0
+gtsrb_tuning,stable,33,Turn right ahead,210,207,1,2,0,98.57,0.95
+gtsrb_tuning,stable,34,Turn left ahead,120,119,1,0,0,99.17,0.0
+gtsrb_tuning,stable,35,Ahead only,390,337,52,0,1,86.41,0.0
+gtsrb_tuning,stable,36,Go straight or right,120,113,6,0,1,94.17,0.0
+gtsrb_tuning,stable,37,Go straight or left,60,60,0,0,0,100.0,0.0
+gtsrb_tuning,stable,38,Keep right,690,556,130,4,0,80.58,0.58
+gtsrb_tuning,stable,39,Keep left,90,60,30,0,0,66.67,0.0
+gtsrb_tuning,stable,40,Roundabout mandatory,90,0,73,16,1,0.0,17.78
+gtsrb_tuning,stable,41,End of no passing,60,60,0,0,0,100.0,0.0
+gtsrb_tuning,stable,42,End no passing veh > 3.5 tons,90,90,0,0,0,100.0,0.0
+gtsrb_tuning,margin_only,0,Speed limit (20km/h),60,30,30,0,0,50.0,0.0
+gtsrb_tuning,margin_only,1,Speed limit (30km/h),720,393,320,1,6,54.58,0.14
+gtsrb_tuning,margin_only,2,Speed limit (50km/h),750,286,422,7,35,38.13,0.93
+gtsrb_tuning,margin_only,3,Speed limit (60km/h),450,57,358,1,34,12.67,0.22
+gtsrb_tuning,margin_only,4,Speed limit (70km/h),660,108,537,10,5,16.36,1.52
+gtsrb_tuning,margin_only,5,Speed limit (80km/h),630,173,451,3,3,27.46,0.48
+gtsrb_tuning,margin_only,6,End of speed limit (80km/h),150,2,148,0,0,1.33,0.0
+gtsrb_tuning,margin_only,7,Speed limit (100km/h),450,56,350,0,44,12.44,0.0
+gtsrb_tuning,margin_only,8,Speed limit (120km/h),450,31,405,1,13,6.89,0.22
+gtsrb_tuning,margin_only,9,No passing,480,440,36,0,4,91.67,0.0
+gtsrb_tuning,margin_only,10,No passing veh over 3.5 tons,660,594,64,0,2,90.0,0.0
+gtsrb_tuning,margin_only,11,Right-of-way at intersection,420,284,131,0,5,67.62,0.0
+gtsrb_tuning,margin_only,12,Priority road,690,611,19,6,54,88.55,0.87
+gtsrb_tuning,margin_only,13,Yield,720,649,69,0,2,90.14,0.0
+gtsrb_tuning,margin_only,14,Stop,270,163,107,0,0,60.37,0.0
+gtsrb_tuning,margin_only,15,No vehicles,210,194,13,0,3,92.38,0.0
+gtsrb_tuning,margin_only,16,Veh > 3.5 tons prohibited,150,149,1,0,0,99.33,0.0
+gtsrb_tuning,margin_only,17,No entry,360,285,56,1,18,79.17,0.28
+gtsrb_tuning,margin_only,18,General caution,390,298,75,12,5,76.41,3.08
+gtsrb_tuning,margin_only,19,Dangerous curve left,60,59,0,1,0,98.33,1.67
+gtsrb_tuning,margin_only,20,Dangerous curve right,90,66,24,0,0,73.33,0.0
+gtsrb_tuning,margin_only,21,Double curve,90,60,0,16,14,66.67,17.78
+gtsrb_tuning,margin_only,22,Bumpy road,120,103,0,13,4,85.83,10.83
+gtsrb_tuning,margin_only,23,Slippery road,150,126,24,0,0,84.0,0.0
+gtsrb_tuning,margin_only,24,Road narrows on the right,90,58,29,2,1,64.44,2.22
+gtsrb_tuning,margin_only,25,Road work,480,389,70,19,2,81.04,3.96
+gtsrb_tuning,margin_only,26,Traffic signals,180,76,98,2,4,42.22,1.11
+gtsrb_tuning,margin_only,27,Pedestrians,60,21,16,22,1,35.0,36.67
+gtsrb_tuning,margin_only,28,Children crossing,150,111,38,1,0,74.0,0.67
+gtsrb_tuning,margin_only,29,Bicycles crossing,90,50,37,3,0,55.56,3.33
+gtsrb_tuning,margin_only,30,Beware of ice/snow,150,141,0,8,1,94.0,5.33
+gtsrb_tuning,margin_only,31,Wild animals crossing,270,183,87,0,0,67.78,0.0
+gtsrb_tuning,margin_only,32,End speed + passing limits,60,30,30,0,0,50.0,0.0
+gtsrb_tuning,margin_only,33,Turn right ahead,210,206,2,1,1,98.1,0.48
+gtsrb_tuning,margin_only,34,Turn left ahead,120,119,1,0,0,99.17,0.0
+gtsrb_tuning,margin_only,35,Ahead only,390,336,53,0,1,86.15,0.0
+gtsrb_tuning,margin_only,36,Go straight or right,120,112,7,0,1,93.33,0.0
+gtsrb_tuning,margin_only,37,Go straight or left,60,60,0,0,0,100.0,0.0
+gtsrb_tuning,margin_only,38,Keep right,690,556,130,0,4,80.58,0.0
+gtsrb_tuning,margin_only,39,Keep left,90,60,30,0,0,66.67,0.0
+gtsrb_tuning,margin_only,40,Roundabout mandatory,90,0,73,9,8,0.0,10.0
+gtsrb_tuning,margin_only,41,End of no passing,60,60,0,0,0,100.0,0.0
+gtsrb_tuning,margin_only,42,End no passing veh > 3.5 tons,90,90,0,0,0,100.0,0.0
+gtsrb_tuning,selective_speed,0,Speed limit (20km/h),60,33,27,0,0,55.0,0.0
+gtsrb_tuning,selective_speed,1,Speed limit (30km/h),720,490,223,1,6,68.06,0.14
+gtsrb_tuning,selective_speed,2,Speed limit (50km/h),750,324,384,7,35,43.2,0.93
+gtsrb_tuning,selective_speed,3,Speed limit (60km/h),450,109,306,1,34,24.22,0.22
+gtsrb_tuning,selective_speed,4,Speed limit (70km/h),660,142,503,10,5,21.52,1.52
+gtsrb_tuning,selective_speed,5,Speed limit (80km/h),630,272,352,3,3,43.17,0.48
+gtsrb_tuning,selective_speed,6,End of speed limit (80km/h),150,2,148,0,0,1.33,0.0
+gtsrb_tuning,selective_speed,7,Speed limit (100km/h),450,57,349,0,44,12.67,0.0
+gtsrb_tuning,selective_speed,8,Speed limit (120km/h),450,76,360,1,13,16.89,0.22
+gtsrb_tuning,selective_speed,9,No passing,480,440,36,0,4,91.67,0.0
+gtsrb_tuning,selective_speed,10,No passing veh over 3.5 tons,660,594,64,0,2,90.0,0.0
+gtsrb_tuning,selective_speed,11,Right-of-way at intersection,420,284,131,0,5,67.62,0.0
+gtsrb_tuning,selective_speed,12,Priority road,690,611,19,6,54,88.55,0.87
+gtsrb_tuning,selective_speed,13,Yield,720,649,69,0,2,90.14,0.0
+gtsrb_tuning,selective_speed,14,Stop,270,163,107,0,0,60.37,0.0
+gtsrb_tuning,selective_speed,15,No vehicles,210,194,13,0,3,92.38,0.0
+gtsrb_tuning,selective_speed,16,Veh > 3.5 tons prohibited,150,149,1,0,0,99.33,0.0
+gtsrb_tuning,selective_speed,17,No entry,360,285,56,1,18,79.17,0.28
+gtsrb_tuning,selective_speed,18,General caution,390,298,75,12,5,76.41,3.08
+gtsrb_tuning,selective_speed,19,Dangerous curve left,60,59,0,1,0,98.33,1.67
+gtsrb_tuning,selective_speed,20,Dangerous curve right,90,66,24,0,0,73.33,0.0
+gtsrb_tuning,selective_speed,21,Double curve,90,60,0,16,14,66.67,17.78
+gtsrb_tuning,selective_speed,22,Bumpy road,120,103,0,13,4,85.83,10.83
+gtsrb_tuning,selective_speed,23,Slippery road,150,126,24,0,0,84.0,0.0
+gtsrb_tuning,selective_speed,24,Road narrows on the right,90,58,29,2,1,64.44,2.22
+gtsrb_tuning,selective_speed,25,Road work,480,389,70,19,2,81.04,3.96
+gtsrb_tuning,selective_speed,26,Traffic signals,180,76,98,2,4,42.22,1.11
+gtsrb_tuning,selective_speed,27,Pedestrians,60,21,16,22,1,35.0,36.67
+gtsrb_tuning,selective_speed,28,Children crossing,150,111,38,1,0,74.0,0.67
+gtsrb_tuning,selective_speed,29,Bicycles crossing,90,50,37,3,0,55.56,3.33
+gtsrb_tuning,selective_speed,30,Beware of ice/snow,150,141,0,8,1,94.0,5.33
+gtsrb_tuning,selective_speed,31,Wild animals crossing,270,183,87,0,0,67.78,0.0
+gtsrb_tuning,selective_speed,32,End speed + passing limits,60,30,30,0,0,50.0,0.0
+gtsrb_tuning,selective_speed,33,Turn right ahead,210,206,2,1,1,98.1,0.48
+gtsrb_tuning,selective_speed,34,Turn left ahead,120,119,1,0,0,99.17,0.0
+gtsrb_tuning,selective_speed,35,Ahead only,390,336,53,0,1,86.15,0.0
+gtsrb_tuning,selective_speed,36,Go straight or right,120,112,7,0,1,93.33,0.0
+gtsrb_tuning,selective_speed,37,Go straight or left,60,60,0,0,0,100.0,0.0
+gtsrb_tuning,selective_speed,38,Keep right,690,556,130,0,4,80.58,0.0
+gtsrb_tuning,selective_speed,39,Keep left,90,60,30,0,0,66.67,0.0
+gtsrb_tuning,selective_speed,40,Roundabout mandatory,90,0,73,9,8,0.0,10.0
+gtsrb_tuning,selective_speed,41,End of no passing,60,60,0,0,0,100.0,0.0
+gtsrb_tuning,selective_speed,42,End no passing veh > 3.5 tons,90,90,0,0,0,100.0,0.0
+belgium_holdout,stable,2,Speed limit (50km/h),45,30,11,4,0,66.67,8.89
+belgium_holdout,stable,4,Speed limit (70km/h),90,67,17,6,0,74.44,6.67
+belgium_holdout,stable,9,No passing,68,53,8,5,2,77.94,7.35
+belgium_holdout,stable,12,Priority road,72,53,9,1,9,73.61,1.39
+belgium_holdout,stable,13,Yield,68,68,0,0,0,100.0,0.0
+belgium_holdout,stable,14,Stop,45,16,25,1,3,35.56,2.22
+belgium_holdout,stable,15,No vehicles,51,46,0,2,3,90.2,3.92
+belgium_holdout,stable,17,No entry,61,52,6,2,1,85.25,3.28
+belgium_holdout,stable,35,Ahead only,9,6,0,3,0,66.67,33.33
+belgium_holdout,stable,38,Keep right,52,7,0,42,3,13.46,80.77
+belgium_holdout,stable,39,Keep left,15,12,0,3,0,80.0,20.0
+belgium_holdout,stable,40,Roundabout mandatory,31,0,27,4,0,0.0,12.9
+belgium_holdout,margin_only,2,Speed limit (50km/h),45,29,12,2,2,64.44,4.44
+belgium_holdout,margin_only,4,Speed limit (70km/h),90,64,20,4,2,71.11,4.44
+belgium_holdout,margin_only,9,No passing,68,52,9,2,5,76.47,2.94
+belgium_holdout,margin_only,12,Priority road,72,51,11,1,9,70.83,1.39
+belgium_holdout,margin_only,13,Yield,68,68,0,0,0,100.0,0.0
+belgium_holdout,margin_only,14,Stop,45,16,25,1,3,35.56,2.22
+belgium_holdout,margin_only,15,No vehicles,51,42,4,2,3,82.35,3.92
+belgium_holdout,margin_only,17,No entry,61,51,7,2,1,83.61,3.28
+belgium_holdout,margin_only,35,Ahead only,9,6,0,0,3,66.67,0.0
+belgium_holdout,margin_only,38,Keep right,52,1,6,27,18,1.92,51.92
+belgium_holdout,margin_only,39,Keep left,15,9,3,1,2,60.0,6.67
+belgium_holdout,margin_only,40,Roundabout mandatory,31,0,27,2,2,0.0,6.45
+belgium_holdout,selective_speed,2,Speed limit (50km/h),45,36,5,2,2,80.0,4.44
+belgium_holdout,selective_speed,4,Speed limit (70km/h),90,73,11,4,2,81.11,4.44
+belgium_holdout,selective_speed,9,No passing,68,52,9,2,5,76.47,2.94
+belgium_holdout,selective_speed,12,Priority road,72,51,11,1,9,70.83,1.39
+belgium_holdout,selective_speed,13,Yield,68,68,0,0,0,100.0,0.0
+belgium_holdout,selective_speed,14,Stop,45,16,25,1,3,35.56,2.22
+belgium_holdout,selective_speed,15,No vehicles,51,42,4,2,3,82.35,3.92
+belgium_holdout,selective_speed,17,No entry,61,51,7,2,1,83.61,3.28
+belgium_holdout,selective_speed,35,Ahead only,9,6,0,0,3,66.67,0.0
+belgium_holdout,selective_speed,38,Keep right,52,1,6,27,18,1.92,51.92
+belgium_holdout,selective_speed,39,Keep left,15,9,3,1,2,60.0,6.67
+belgium_holdout,selective_speed,40,Roundabout mandatory,31,0,27,2,2,0.0,6.45
+gtsdb_holdout,stable,-1,unmatched candidate,1,0,0,0,1,0.0,0.0
+gtsdb_holdout,stable,1,Speed limit (30km/h),8,5,3,0,0,62.5,0.0
+gtsdb_holdout,stable,2,Speed limit (50km/h),6,3,3,0,0,50.0,0.0
+gtsdb_holdout,stable,3,Speed limit (60km/h),4,0,4,0,0,0.0,0.0
+gtsdb_holdout,stable,4,Speed limit (70km/h),7,2,5,0,0,28.57,0.0
+gtsdb_holdout,stable,5,Speed limit (80km/h),7,0,7,0,0,0.0,0.0
+gtsdb_holdout,stable,8,Speed limit (120km/h),2,0,2,0,0,0.0,0.0
+gtsdb_holdout,stable,9,No passing,4,3,1,0,0,75.0,0.0
+gtsdb_holdout,stable,10,No passing veh over 3.5 tons,5,5,0,0,0,100.0,0.0
+gtsdb_holdout,stable,11,Right-of-way at intersection,2,2,0,0,0,100.0,0.0
+gtsdb_holdout,stable,12,Priority road,4,4,0,0,0,100.0,0.0
+gtsdb_holdout,stable,13,Yield,6,5,1,0,0,83.33,0.0
+gtsdb_holdout,stable,14,Stop,4,2,2,0,0,50.0,0.0
+gtsdb_holdout,stable,15,No vehicles,1,1,0,0,0,100.0,0.0
+gtsdb_holdout,stable,17,No entry,1,1,0,0,0,100.0,0.0
+gtsdb_holdout,stable,18,General caution,3,3,0,0,0,100.0,0.0
+gtsdb_holdout,stable,24,Road narrows on the right,1,1,0,0,0,100.0,0.0
+gtsdb_holdout,stable,25,Road work,2,2,0,0,0,100.0,0.0
+gtsdb_holdout,stable,26,Traffic signals,1,1,0,0,0,100.0,0.0
+gtsdb_holdout,stable,29,Bicycles crossing,1,0,1,0,0,0.0,0.0
+gtsdb_holdout,stable,32,End speed + passing limits,2,2,0,0,0,100.0,0.0
+gtsdb_holdout,stable,33,Turn right ahead,2,2,0,0,0,100.0,0.0
+gtsdb_holdout,stable,35,Ahead only,1,1,0,0,0,100.0,0.0
+gtsdb_holdout,stable,36,Go straight or right,1,1,0,0,0,100.0,0.0
+gtsdb_holdout,stable,38,Keep right,7,7,0,0,0,100.0,0.0
+gtsdb_holdout,stable,41,End of no passing,1,1,0,0,0,100.0,0.0
+gtsdb_holdout,margin_only,-1,unmatched candidate,1,0,0,0,1,0.0,0.0
+gtsdb_holdout,margin_only,1,Speed limit (30km/h),8,5,3,0,0,62.5,0.0
+gtsdb_holdout,margin_only,2,Speed limit (50km/h),6,3,3,0,0,50.0,0.0
+gtsdb_holdout,margin_only,3,Speed limit (60km/h),4,0,4,0,0,0.0,0.0
+gtsdb_holdout,margin_only,4,Speed limit (70km/h),7,2,5,0,0,28.57,0.0
+gtsdb_holdout,margin_only,5,Speed limit (80km/h),7,0,7,0,0,0.0,0.0
+gtsdb_holdout,margin_only,8,Speed limit (120km/h),2,0,2,0,0,0.0,0.0
+gtsdb_holdout,margin_only,9,No passing,4,3,1,0,0,75.0,0.0
+gtsdb_holdout,margin_only,10,No passing veh over 3.5 tons,5,5,0,0,0,100.0,0.0
+gtsdb_holdout,margin_only,11,Right-of-way at intersection,2,2,0,0,0,100.0,0.0
+gtsdb_holdout,margin_only,12,Priority road,4,4,0,0,0,100.0,0.0
+gtsdb_holdout,margin_only,13,Yield,6,5,1,0,0,83.33,0.0
+gtsdb_holdout,margin_only,14,Stop,4,2,2,0,0,50.0,0.0
+gtsdb_holdout,margin_only,15,No vehicles,1,1,0,0,0,100.0,0.0
+gtsdb_holdout,margin_only,17,No entry,1,1,0,0,0,100.0,0.0
+gtsdb_holdout,margin_only,18,General caution,3,3,0,0,0,100.0,0.0
+gtsdb_holdout,margin_only,24,Road narrows on the right,1,1,0,0,0,100.0,0.0
+gtsdb_holdout,margin_only,25,Road work,2,2,0,0,0,100.0,0.0
+gtsdb_holdout,margin_only,26,Traffic signals,1,1,0,0,0,100.0,0.0
+gtsdb_holdout,margin_only,29,Bicycles crossing,1,0,1,0,0,0.0,0.0
+gtsdb_holdout,margin_only,32,End speed + passing limits,2,2,0,0,0,100.0,0.0
+gtsdb_holdout,margin_only,33,Turn right ahead,2,2,0,0,0,100.0,0.0
+gtsdb_holdout,margin_only,35,Ahead only,1,1,0,0,0,100.0,0.0
+gtsdb_holdout,margin_only,36,Go straight or right,1,1,0,0,0,100.0,0.0
+gtsdb_holdout,margin_only,38,Keep right,7,7,0,0,0,100.0,0.0
+gtsdb_holdout,margin_only,41,End of no passing,1,1,0,0,0,100.0,0.0
+gtsdb_holdout,selective_speed,-1,unmatched candidate,1,0,0,0,1,0.0,0.0
+gtsdb_holdout,selective_speed,1,Speed limit (30km/h),8,5,3,0,0,62.5,0.0
+gtsdb_holdout,selective_speed,2,Speed limit (50km/h),6,3,3,0,0,50.0,0.0
+gtsdb_holdout,selective_speed,3,Speed limit (60km/h),4,0,4,0,0,0.0,0.0
+gtsdb_holdout,selective_speed,4,Speed limit (70km/h),7,2,5,0,0,28.57,0.0
+gtsdb_holdout,selective_speed,5,Speed limit (80km/h),7,0,7,0,0,0.0,0.0
+gtsdb_holdout,selective_speed,8,Speed limit (120km/h),2,1,1,0,0,50.0,0.0
+gtsdb_holdout,selective_speed,9,No passing,4,3,1,0,0,75.0,0.0
+gtsdb_holdout,selective_speed,10,No passing veh over 3.5 tons,5,5,0,0,0,100.0,0.0
+gtsdb_holdout,selective_speed,11,Right-of-way at intersection,2,2,0,0,0,100.0,0.0
+gtsdb_holdout,selective_speed,12,Priority road,4,4,0,0,0,100.0,0.0
+gtsdb_holdout,selective_speed,13,Yield,6,5,1,0,0,83.33,0.0
+gtsdb_holdout,selective_speed,14,Stop,4,2,2,0,0,50.0,0.0
+gtsdb_holdout,selective_speed,15,No vehicles,1,1,0,0,0,100.0,0.0
+gtsdb_holdout,selective_speed,17,No entry,1,1,0,0,0,100.0,0.0
+gtsdb_holdout,selective_speed,18,General caution,3,3,0,0,0,100.0,0.0
+gtsdb_holdout,selective_speed,24,Road narrows on the right,1,1,0,0,0,100.0,0.0
+gtsdb_holdout,selective_speed,25,Road work,2,2,0,0,0,100.0,0.0
+gtsdb_holdout,selective_speed,26,Traffic signals,1,1,0,0,0,100.0,0.0
+gtsdb_holdout,selective_speed,29,Bicycles crossing,1,0,1,0,0,0.0,0.0
+gtsdb_holdout,selective_speed,32,End speed + passing limits,2,2,0,0,0,100.0,0.0
+gtsdb_holdout,selective_speed,33,Turn right ahead,2,2,0,0,0,100.0,0.0
+gtsdb_holdout,selective_speed,35,Ahead only,1,1,0,0,0,100.0,0.0
+gtsdb_holdout,selective_speed,36,Go straight or right,1,1,0,0,0,100.0,0.0
+gtsdb_holdout,selective_speed,38,Keep right,7,7,0,0,0,100.0,0.0
+gtsdb_holdout,selective_speed,41,End of no passing,1,1,0,0,0,100.0,0.0

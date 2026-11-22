@@ -3,13 +3,7 @@ __pycache__/
 .venv*/
 .env
 .env.*
-*.md
-!/README.md
 *.log
+!/data/validation/**/regression.log
 logs/
-docs/
-report/
-data/
-assets/
-models/*
-!models/model.py
+/h -u origin main

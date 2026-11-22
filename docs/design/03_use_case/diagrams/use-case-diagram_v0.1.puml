@@ -1,0 +1,34 @@
+@startuml
+left to right direction
+
+actor "User" as User
+
+rectangle "Hệ thống phát hiện, nhận diện và cảnh báo biển báo giao thông từ video" {
+
+    usecase "UC-01\nPhân tích video\nbiển báo giao thông" as UC01
+
+    usecase "UC-02\nPhát cảnh báo\nbiển báo" as UC02
+
+    usecase "UC-03\nTạm dừng xử lý\nvideo" as UC03
+
+    usecase "UC-04\nTiếp tục xử lý\nvideo" as UC04
+
+    usecase "UC-05\nDừng xử lý\nvideo" as UC05
+
+}
+
+User -- UC01
+User -- UC02
+User -- UC03
+User -- UC04
+User -- UC05
+
+UC02 ..> UC01 : <<extend>>\n[Track ID chưa cảnh báo và thỏa tiêu chí FR-09/FR-10]
+
+note right of UC01
+  Extension point:
+  Sau khi xác định trạng thái Track ID,
+  tại bước đánh giá quyết định cảnh báo.
+end note
+
+@enduml

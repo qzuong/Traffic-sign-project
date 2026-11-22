@@ -1,0 +1,11 @@
+{
+  "source": "https://raw.githubusercontent.com/dinesh181/German-Traffic_sign_Detection/4553ff5396823dd8fc50299e53daff60e66dee33/runs/detect/train/weights/best.pt",
+  "commit": "4553ff5396823dd8fc50299e53daff60e66dee33",
+  "git_blob_sha1": "ba3f7df59489ef63bf1025f17b42a75baf684b56",
+  "bytes": 6232042,
+  "sha256": "f1d5b008c38ea080aca89e82725fbf9080f70ea239378011df95b855f2e5797e",
+  "dataset": "GTSDB",
+  "classes": [
+    "traffic_sign"
+  ]
+}

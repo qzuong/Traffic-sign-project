@@ -1,0 +1,68 @@
+{
+  "baseline": {
+    "frames": [
+      0,
+      1500
+    ],
+    "display_fps": 16.117315424674892,
+    "ai_fps_at_endpoint": 7.1791684980387,
+    "ai_results_per_sec_after_frame_zero": 4.481964519476671,
+    "ai_result_count": 231,
+    "warm_turnaround_ms": 190.07090000013704,
+    "google_plays": 8,
+    "overlays": 80,
+    "speech_latency_median_ms": 1878.5469000004014,
+    "expired": 7,
+    "simulation": {}
+  },
+  "candidate-uncontended": {
+    "frames": [
+      0,
+      1503
+    ],
+    "display_fps": 16.649103834605324,
+    "ai_fps_at_endpoint": 1.2251947329614028,
+    "ai_results_per_sec_after_frame_zero": 4.51655946964709,
+    "ai_result_count": 231,
+    "warm_turnaround_ms": 185.67860000075598,
+    "google_plays": 8,
+    "overlays": 87,
+    "speech_latency_median_ms": 1861.951850000878,
+    "expired": 6,
+    "simulation": {
+      "panel": "Confirmed Sign: Nhường đường  |  Track ID: 65  |  Event: YIELD_SIGN\nSuggested Action: Chuẩn bị nhường đường",
+      "status": "Simulator: Not Connected",
+      "exported_errors": 0,
+      "dropped": 0,
+      "session": "9c0e8e09f8a34687b54ea6186e4e8d99"
+    },
+    "jsonl_events": 16,
+    "withheld_events": 1,
+    "events_with_expired_audio": 6
+  },
+  "eof": {
+    "frames": [
+      0,
+      224
+    ],
+    "display_fps": 20.991533315584014,
+    "ai_fps_at_endpoint": 5.159253875988779,
+    "ai_results_per_sec_after_frame_zero": 3.8981211257802784,
+    "ai_result_count": 29,
+    "warm_turnaround_ms": 199.57379999868863,
+    "google_plays": 2,
+    "overlays": 28,
+    "speech_latency_median_ms": 2031.7031000004135,
+    "expired": 3,
+    "simulation": {
+      "panel": "Confirmed Sign: —\nSuggested Action: —",
+      "status": "Simulator: Not Connected",
+      "exported_errors": 0,
+      "dropped": 0,
+      "session": null
+    },
+    "jsonl_events": 8,
+    "withheld_events": 0,
+    "events_with_expired_audio": 3
+  }
+}

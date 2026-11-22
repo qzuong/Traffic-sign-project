@@ -1,0 +1,308 @@
+{
+  "generator": "gTTS 2.5.4",
+  "lang": "vi",
+  "wav_encoding": "FFmpeg PCM s16le",
+  "clips": {
+    "0": {
+      "text": "Phía trước có biển báo tốc độ tối đa 20 ki lô mét trên giờ.",
+      "duration_seconds": 5.184,
+      "mp3_sha256": "53cdd0f76a5dd54aeda71f316fdad65c8d64b7a12b1192ae90fab3e946e153d6",
+      "wav_sha256": "da89dd36e81508676ac9ea33f12a9b6efb2c50257c6b1a78c07793a1790e8ffb",
+      "approved_preview": false
+    },
+    "1": {
+      "text": "Phía trước có biển báo tốc độ tối đa 30 ki lô mét trên giờ.",
+      "duration_seconds": 5.16,
+      "mp3_sha256": "74321f218feef0e74dc7da3456cfa9c41af0b7dc906f6847c8087bac2022c375",
+      "wav_sha256": "65c0055f2c82923d1acd3f29d5244e88f8c57498c0b1c04ecfc3d45a5b994088",
+      "approved_preview": false
+    },
+    "2": {
+      "text": "Phía trước có biển báo tốc độ tối đa 50 ki lô mét trên giờ.",
+      "duration_seconds": 5.184,
+      "mp3_sha256": "2797f19d2ac1158949ba1021613929e19c41dde036550a368c943470c28853b6",
+      "wav_sha256": "40568970ca003bdc02a1c63092797eae3c38e12a4428d14c5a98c815a2c05911",
+      "approved_preview": false
+    },
+    "3": {
+      "text": "Phía trước có biển báo tốc độ tối đa 60 ki lô mét trên giờ.",
+      "duration_seconds": 5.256,
+      "mp3_sha256": "eb9c6669c5a4c0b933ee7412ae8567cb6388d64ab724903303dedb49aa31cd28",
+      "wav_sha256": "d2c6487463063aa47bc60c6676da44630332e368c1c63ff08ee24daf31adb415",
+      "approved_preview": false
+    },
+    "4": {
+      "text": "Phía trước có biển báo tốc độ tối đa 70 ki lô mét trên giờ.",
+      "duration_seconds": 5.28,
+      "mp3_sha256": "8977197495ac153a26b0c41e37c2c395adbb2c2855ba6bd017309b8b56819a45",
+      "wav_sha256": "efbc79b879abecb9686740238a276ac3c4a5b8599ad4401ed7d6e9d660742e0d",
+      "approved_preview": false
+    },
+    "5": {
+      "text": "Phía trước có biển báo tốc độ tối đa 80 ki lô mét trên giờ.",
+      "duration_seconds": 5.256,
+      "mp3_sha256": "db299b7f567cee7ff22154c122b0874d4805d7f1cb03b5edd2ccdf50a3ba264d",
+      "wav_sha256": "01ff66be256dab4082826dc26595101651162a9badb982af15aa6f79106df0f7",
+      "approved_preview": false
+    },
+    "6": {
+      "text": "Phía trước có biển báo hết hạn chế tốc độ 80 ki lô mét trên giờ.",
+      "duration_seconds": 5.4,
+      "mp3_sha256": "56a73cd3093841990cfeb343b568f440fdecb80e494d6a27f4fe4d3ed55eb581",
+      "wav_sha256": "b76ae3fe6cd75373fbd847a2384acdf01d5a877a56c5a04c6ffceb6addf777b6",
+      "approved_preview": false
+    },
+    "7": {
+      "text": "Phía trước có biển báo tốc độ tối đa 100 ki lô mét trên giờ.",
+      "duration_seconds": 5.304,
+      "mp3_sha256": "901c6cc9b13e57e7fead7632043d861fa6a3ce8073dbd0bf810e304759b88839",
+      "wav_sha256": "613a33720b2f963521daccf91505999855bb6dc443bddb94683b1c2cf59c1875",
+      "approved_preview": true
+    },
+    "8": {
+      "text": "Phía trước có biển báo tốc độ tối đa 120 ki lô mét trên giờ.",
+      "duration_seconds": 5.64,
+      "mp3_sha256": "916485d9cd7a0e02af1cfc313cb3ffd13e133601d80e6812bbbd0cec1f5245e4",
+      "wav_sha256": "1a9ed4e4a0622f6e0deba841e8f287de17e4d33cd65878043db65e36d8820e19",
+      "approved_preview": false
+    },
+    "9": {
+      "text": "Phía trước có biển cấm vượt.",
+      "duration_seconds": 2.376,
+      "mp3_sha256": "f068c86bfa08621ab3df50c6fe2eb276ebf8162d61658ccb941365b8c903468f",
+      "wav_sha256": "662d98049795fcca6a448ddb51e07dd0b91c52ccc60ef6dc85ac664a56d7f862",
+      "approved_preview": false
+    },
+    "10": {
+      "text": "Phía trước có biển cấm xe tải vượt.",
+      "duration_seconds": 2.904,
+      "mp3_sha256": "9f5947cd1992d86171c87677090a6fec060a9349484a6942cd086f2c3f666d14",
+      "wav_sha256": "8cf8b294acdbe39530583d3fc96d27af45f50e3ec57ff48a63666dc73b163458",
+      "approved_preview": false
+    },
+    "11": {
+      "text": "Phía trước có biển báo giao nhau với đường ưu tiên.",
+      "duration_seconds": 3.624,
+      "mp3_sha256": "56910af5e6efa8d64c1449ca6fff036e4f9d0052fcd54e4ec70fb6bde1001494",
+      "wav_sha256": "0a04d873ee23d5792d3dd4d0fb0c143f477646a4df8c65d0fbb49868495c2de9",
+      "approved_preview": false
+    },
+    "12": {
+      "text": "Phía trước có biển báo đường ưu tiên.",
+      "duration_seconds": 2.928,
+      "mp3_sha256": "243c74f2ce216230f0eb8e472af96787ec1e1a995c128608ab88f480117cf351",
+      "wav_sha256": "5d3b8bb639e1a6be03cd976867a3ec5cbc957aa668a1f965409038112f4d092f",
+      "approved_preview": false
+    },
+    "13": {
+      "text": "Phía trước có biển nhường đường.",
+      "duration_seconds": 2.424,
+      "mp3_sha256": "33055822409240278503b2158352c5baf623c8c4671cce9f13cc2c577d6b3981",
+      "wav_sha256": "d7a001317c58e32343ac9c62de4c7f40050965383f7348749934796b8569cb4a",
+      "approved_preview": true
+    },
+    "14": {
+      "text": "Phía trước có biển dừng lại.",
+      "duration_seconds": 2.304,
+      "mp3_sha256": "5a2a448c359037bd14d56b0dab929e931d7bcda9dc46e1e0d46305b42b4e4d3d",
+      "wav_sha256": "7ca8931ef3a73d94e59f579a3b12de12e24e6b45181c36cb56f1f68ba79edb8e",
+      "approved_preview": false
+    },
+    "15": {
+      "text": "Phía trước có biển báo đường cấm.",
+      "duration_seconds": 2.568,
+      "mp3_sha256": "ed2606b905ca725c1ba2607a3329f7085cd983dd0d46a8258e8aa4ddaf87d58f",
+      "wav_sha256": "1bc6ad25bcb93191be86243ea24f394412cc3a2ad1d6c19678f01223a2540f57",
+      "approved_preview": false
+    },
+    "16": {
+      "text": "Phía trước có biển cấm xe tải trên 3 phẩy 5 tấn.",
+      "duration_seconds": 4.488,
+      "mp3_sha256": "aea44f44b4f5359150a6777e86154cdfd71349e9446c39a710b226466580ca3d",
+      "wav_sha256": "71e696ee97ec4c51017011890b07859ef981d84292209cf4ccfca041d93001ce",
+      "approved_preview": false
+    },
+    "17": {
+      "text": "Phía trước có biển cấm đi ngược chiều.",
+      "duration_seconds": 3.0,
+      "mp3_sha256": "5a8c570a5837c21817ea713c91039ec04d1481470f2b4abaa2eb1e24ac5d5d2a",
+      "wav_sha256": "47a73a731334e93aec43dd51d3a4e9098526489067219c610081a126aa709916",
+      "approved_preview": false
+    },
+    "18": {
+      "text": "Phía trước có biển báo nguy hiểm khác.",
+      "duration_seconds": 2.784,
+      "mp3_sha256": "38935a14adf6164163c44e074bcf98825b07266dc6da7c59c2efda0bdd1ff600",
+      "wav_sha256": "3ab700741e8e3121f8231d05e84749d259d0ff8a7e22000c5d6ffd2cdf0fbf81",
+      "approved_preview": false
+    },
+    "19": {
+      "text": "Phía trước có biển báo chỗ ngoặt nguy hiểm trái.",
+      "duration_seconds": 3.624,
+      "mp3_sha256": "b527e251b8f53efb24daee5a6a878e9048ce54e18f4d24ee19045d036e3c8bf3",
+      "wav_sha256": "4afb1b0a3113e413cc1fefc491497697c719b0e88cd51ede634e214cff91bbf6",
+      "approved_preview": false
+    },
+    "20": {
+      "text": "Phía trước có biển báo chỗ ngoặt nguy hiểm phải.",
+      "duration_seconds": 3.504,
+      "mp3_sha256": "bb61a268016dc11bac817a3d961c9ee7b2ceec299c42f97f6b930a6e9ce72a3a",
+      "wav_sha256": "02a0fe492e08a0e19f6cf31b734161c70b96d50cdf1f01d865354e8c46d8b8d7",
+      "approved_preview": false
+    },
+    "21": {
+      "text": "Phía trước có biển báo đường cong liên tục.",
+      "duration_seconds": 3.024,
+      "mp3_sha256": "4e3d95268ce5876b2efe844d7a3f958b2a37029d0c2c44a6ed88b3ab7419ac8b",
+      "wav_sha256": "720b366f6a665fafe2bc4f9cbde95edb2ae64283765591b7fcefe6bce6247c36",
+      "approved_preview": false
+    },
+    "22": {
+      "text": "Phía trước có biển báo đường gồ ghề.",
+      "duration_seconds": 3.0,
+      "mp3_sha256": "3f7e46c1aa8102d8e564a5dc25d39480acbc8850542084ef3451d4175f9a80b3",
+      "wav_sha256": "e43cca97011500109afd620defa4819e1e34e37a71a3d659b7e84e4c71d8cc6f",
+      "approved_preview": false
+    },
+    "23": {
+      "text": "Phía trước có biển báo đường trơn trượt.",
+      "duration_seconds": 2.88,
+      "mp3_sha256": "92c083367b881171fec093bc5b5b956ec99f03a6f8784410992ee8f13644239d",
+      "wav_sha256": "0118f69b81adf7f7d29650b5e43e5599ff832f718dd274afbbb2c591f40b7cc9",
+      "approved_preview": false
+    },
+    "24": {
+      "text": "Phía trước có biển báo đường hẹp phải.",
+      "duration_seconds": 2.856,
+      "mp3_sha256": "a15d8336e1aa0d8f66fe46edb865d4bfbde0973a0ed28b5b75ade32b3e58ec79",
+      "wav_sha256": "aeb0a847de41b0d7bdf711fe300bf6f74f6d57da934c7730c24a8ee09b093943",
+      "approved_preview": false
+    },
+    "25": {
+      "text": "Phía trước có biển báo công trường.",
+      "duration_seconds": 2.616,
+      "mp3_sha256": "67b6b5ef4cc13b021ecb46cc2635f18a71eebb407a26fd8bdd85369fae3be2d4",
+      "wav_sha256": "d6309b4a38f3574525d38c121c9cd703bcced39708301ea27c1f8c9ba734550d",
+      "approved_preview": false
+    },
+    "26": {
+      "text": "Phía trước có biển báo đèn tín hiệu giao thông.",
+      "duration_seconds": 3.288,
+      "mp3_sha256": "a1c74c0dba12c90cd6a0e3aa114d44739d02ad46c133c73545c62553999c31dd",
+      "wav_sha256": "6ad71a0d91072559717ca0a31b11fcd72518b145904cc68b202039ad029b07a5",
+      "approved_preview": false
+    },
+    "27": {
+      "text": "Phía trước có biển báo đường người đi bộ.",
+      "duration_seconds": 3.024,
+      "mp3_sha256": "0ec91de5ccb2b7d8b6289d27ed251e2029e0626a018e43d4f5dec99e6eebf204",
+      "wav_sha256": "c333159fd1f80325a05a21e0ccc611b5e29ad09eea2de3822c610c8361de33ba",
+      "approved_preview": false
+    },
+    "28": {
+      "text": "Phía trước có biển báo trẻ em qua đường.",
+      "duration_seconds": 3.216,
+      "mp3_sha256": "8f706bbe43bded90e735fe8a0c4062344374863c61161f8d49c1a82c2a836281",
+      "wav_sha256": "1720dd9496504b38941ee98ca2237da7c41ac60cbb6ecd4a09945a18a12fe302",
+      "approved_preview": false
+    },
+    "29": {
+      "text": "Phía trước có biển báo đường xe đạp.",
+      "duration_seconds": 2.76,
+      "mp3_sha256": "2ebe46e75deece2bf715e28369a4a4cc00f3e464499cb5d76bbc8dc42765ce81",
+      "wav_sha256": "57706c47a72b80af9cdd06de6987e37731ffcfb17897b3fe4bf947b11d35c50f",
+      "approved_preview": false
+    },
+    "30": {
+      "text": "Phía trước có biển báo cẩn thận băng tuyết.",
+      "duration_seconds": 3.288,
+      "mp3_sha256": "a6aae61eb1ce1a56f8c3b94e568772fbd19465e1ee4c41a61b80ce86be8f0a26",
+      "wav_sha256": "2c749aaee277556ffbe08cf730c44592f2dd6ec2ccd7dd9202324db94b47c52d",
+      "approved_preview": false
+    },
+    "31": {
+      "text": "Phía trước có biển báo thú rừng qua đường.",
+      "duration_seconds": 3.144,
+      "mp3_sha256": "ed417ecb01d2cb8dba81783ecc579208444724e1496a2c915b8e47d234e25627",
+      "wav_sha256": "d5958138a675e4a5d1bfdbe17ab96687fd549d254fb47fba9a0065adda9e1f36",
+      "approved_preview": false
+    },
+    "32": {
+      "text": "Phía trước có biển báo hết tất cả lệnh cấm.",
+      "duration_seconds": 3.264,
+      "mp3_sha256": "c301e161146ae41152bf2f7bd541be2ac2b8545342c639c6ff06b60623778f00",
+      "wav_sha256": "1e157bef50d11b22689e344ee35a05ff40a5fc6412e7634069390383d34ec7d0",
+      "approved_preview": false
+    },
+    "33": {
+      "text": "Phía trước có biển hiệu lệnh rẽ phải.",
+      "duration_seconds": 2.88,
+      "mp3_sha256": "985e3d06f4b3fab8cdadd4d3bcb598b6a7910bebc53089788fcddcd42b0927ea",
+      "wav_sha256": "c5a3269e261fc409bee725d4920bb07856ba65850cbd592c28038f0481be54ca",
+      "approved_preview": false
+    },
+    "34": {
+      "text": "Phía trước có biển hiệu lệnh rẽ trái.",
+      "duration_seconds": 2.976,
+      "mp3_sha256": "97da5f6bb3e5ea0250b03d08b5d3212db7204da2376e3eaa173e7b1ecbd816a3",
+      "wav_sha256": "5c8a71724cce5254968a53be6d9533c2935ddfdd34be87e3ef096db769226a79",
+      "approved_preview": false
+    },
+    "35": {
+      "text": "Phía trước có biển hiệu lệnh đi thẳng.",
+      "duration_seconds": 2.736,
+      "mp3_sha256": "e1840c81e87c7d53d374ea721452753da5a7a2817bb55bb80115a73a3d75e00f",
+      "wav_sha256": "1307fc74663a1ab910601c268f0cdcc2e7d16696cf99d7c1dbce46cb7a74f79b",
+      "approved_preview": false
+    },
+    "36": {
+      "text": "Phía trước có biển hiệu lệnh đi thẳng hoặc rẽ phải.",
+      "duration_seconds": 3.72,
+      "mp3_sha256": "e5e68566314ef863148497e4e99e9b9bdee709ce7312a7b82aa2d08264a0600d",
+      "wav_sha256": "f6333c02f34014f2db327a275a6966449f0b305fa30b6efe492ca4fb92117207",
+      "approved_preview": false
+    },
+    "37": {
+      "text": "Phía trước có biển hiệu lệnh đi thẳng hoặc rẽ trái.",
+      "duration_seconds": 3.792,
+      "mp3_sha256": "927a9d8e719264e286858f3ebf20219eb03679c29a3baf686ad44142c8550bfd",
+      "wav_sha256": "431140cfcf2223bf548a6384bc83863cb3c926eb188df42e16b71dccc0eb41de",
+      "approved_preview": false
+    },
+    "38": {
+      "text": "Phía trước có biển hiệu lệnh giữ bên phải.",
+      "duration_seconds": 3.144,
+      "mp3_sha256": "4a3ec8556815c71f1ab12287b0029a4d85f875df56b5547aac1831fbc544cb25",
+      "wav_sha256": "4ab72ac8b937b3cabc1bdd2c86371b5ccc8e594394555306cccd2846393565e1",
+      "approved_preview": true
+    },
+    "39": {
+      "text": "Phía trước có biển hiệu lệnh giữ bên trái.",
+      "duration_seconds": 3.216,
+      "mp3_sha256": "5910b23e1928015f5f180fc8476b4cd89cd336cad8faca1bb8b768096d19b23d",
+      "wav_sha256": "4952149cd03aa1d9374593326dc1d31fba4965ca51bf98116d894cac14059a4a",
+      "approved_preview": false
+    },
+    "40": {
+      "text": "Phía trước có biển hiệu lệnh vòng xuyến.",
+      "duration_seconds": 3.048,
+      "mp3_sha256": "19d1e5ce2019eaee94e6d19cc2ae77bfe5dd761781f7b368e0e1d3fc3f7e687b",
+      "wav_sha256": "243865b984592c0cd14e8b30fa46c3eae615f7872a3ea305fcc6485d4cf30a53",
+      "approved_preview": false
+    },
+    "41": {
+      "text": "Phía trước có biển báo hết cấm vượt.",
+      "duration_seconds": 2.808,
+      "mp3_sha256": "aef1a7df4dcf1a1e518c0194ecf216388706425f8b2a0d62bf92f71e5169781a",
+      "wav_sha256": "cc4590ac539bdd82db726d9910a25125398bf35305b88262b33f1d40b098b287",
+      "approved_preview": false
+    },
+    "42": {
+      "text": "Phía trước có biển báo hết cấm xe tải vượt.",
+      "duration_seconds": 3.384,
+      "mp3_sha256": "8cecc7d728c21bae0228b428d95c2c77716f9dede31f3a28d64519cf29e3e838",
+      "wav_sha256": "6aa3d14c0521787b863bfe3374949c3c3feb4f9f4e0f9335deba92d2cd0bd801",
+      "approved_preview": false
+    }
+  }
+}

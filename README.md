@@ -6,7 +6,16 @@
 
 ## Cài đặt trên Windows
 
-Cài **CPython 3.13 x64** với Tkinter. Mở PowerShell trong thư mục chứa README và chạy:
+Cài **CPython 3.13 x64** với Tkinter, Git và Git LFS. Mở PowerShell và đăng nhập GitHub bằng tài khoản có quyền truy cập repo Private.
+
+```powershell
+git lfs install
+git clone https://github.com/qzuong/Traffic-sign-project.git
+Set-Location -LiteralPath '.\Traffic-sign-project' -ErrorAction Stop
+git lfs pull
+```
+
+Tạo hai môi trường riêng để TensorFlow và PyTorch dùng đúng phiên bản thư viện:
 
 ```powershell
 py -3.13 -m venv .venv-cnn
@@ -24,18 +33,19 @@ py -3.13 -m venv .venv-yolo
 
 Tkinter và `winsound` đi kèm Python trên Windows. Hai file requirements ghi phiên bản các thư viện chính. Pip tự cài các phụ thuộc gián tiếp.
 
-## Chuẩn bị model và tài nguyên
+## Model và tài nguyên đi kèm
 
-Repo chỉ chứa mã nguồn. Trước khi chạy nhận diện, chép đúng các model từ nguồn tin cậy mà bạn có quyền sử dụng:
+Git tải model, ảnh và âm thanh cùng mã nguồn. Git LFS tải riêng video mẫu.
 
 | Đường dẫn | Nội dung |
 | --- | --- |
 | `models/candidates/gtsdb_yolov8n.pt` | Checkpoint YOLO mặc định. Ứng dụng kiểm tra SHA-256 của checkpoint. |
 | `models/model.h5` | CNN tương thích với bảng 43 lớp trong `models/model.py`. |
-| `assets/traffic_signs/0.png` đến `42.png` | Ảnh xem trước tùy chọn. |
-| `assets/voice_google/00.wav` đến `42.wav` | WAV tùy chọn cho cảnh báo tiếng Việt. Thư mục `assets/voice_vi/` là nguồn WAV dự phòng. |
+| `assets/traffic_signs/0.png` đến `42.png` | Ảnh xem trước biển báo. |
+| `assets/voice_google/00.wav` đến `42.wav` | Cảnh báo tiếng Việt. Thư mục `assets/voice_vi/` chứa WAV dự phòng. |
+| `data/videos/test_video.mp4` | Video mẫu, khoảng 177 MB, tải bằng Git LFS. |
 
-Không cần gTTS để chạy ứng dụng. Chọn video trên máy qua nút mở video. Model, video, ảnh và WAV được quản lý riêng với repo.
+Ứng dụng phát WAV có sẵn và không cần gTTS hay kết nối mạng khi chạy. Repo dành cho nhóm có quyền truy cập. Chỉ chia sẻ tiếp tài liệu, model và media khi đã xác minh quyền phân phối.
 
 ## Chạy demo
 
@@ -43,6 +53,12 @@ Không cần gTTS để chạy ứng dụng. Chọn video trên máy qua nút m�
 .\.venv-cnn\Scripts\python.exe -m src.traffic_sign_demo
 ```
 
-Chọn video, đợi hai worker báo **Ready** và theo dõi khung nhận diện trên video. Ứng dụng tự phân tích trong lúc phát. Các dấu hiệu đủ điều kiện phát cảnh báo có thể xuất hiện trong **Simulation Events**. Nhật ký sự kiện JSONL mặc định được lưu tại `%LOCALAPPDATA%\TrafficSignDemo\simulation-events`.
+Mở `data/videos/test_video.mp4` trong ứng dụng, đợi hai worker báo **Ready** và theo dõi khung nhận diện trên video. Ứng dụng tự phân tích trong lúc phát. Có thể dùng Pause, Resume, Stop và Replay. Các dấu hiệu đủ điều kiện phát cảnh báo có thể xuất hiện trong **Simulation Events**. Nhật ký sự kiện JSONL mặc định được lưu tại `%LOCALAPPDATA%\TrafficSignDemo\simulation-events`.
 
-Nếu worker báo lỗi, kiểm tra đường dẫn model và quá trình cài thư viện ở đúng môi trường. Nếu dùng môi trường Python ở vị trí khác, đặt biến `TRAFFIC_SIGN_CNN_PYTHON` hoặc `TRAFFIC_SIGN_YOLO_PYTHON` thành đường dẫn đầy đủ tới `python.exe` tương ứng.
+Nếu worker báo lỗi, kiểm tra đường dẫn model và quá trình cài thư viện ở đúng môi trường. Nếu dùng môi trường Python ở vị trí khác, đặt biến `TRAFFIC_SIGN_CNN_PYTHON` hoặc `TRAFFIC_SIGN_YOLO_PYTHON` thành đường dẫn đầy đủ tới `python.exe` tương ứng. Nếu video mẫu chỉ có vài dòng văn bản, chạy lại `git lfs pull`.
+
+## Kiểm thử
+
+```powershell
+.\.venv-cnn\Scripts\python.exe -m unittest discover -s tests
+```

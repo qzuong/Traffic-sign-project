@@ -1,0 +1,3273 @@
+{
+  "video": "C:\\Users\\Admin\\AppData\\Local\\Temp\\traffic-step-l-20261122-110015-766\\eof-sample.mp4",
+  "frames": [
+    0,
+    224
+  ],
+  "eof": true,
+  "errors": [],
+  "startup_ready_s": 27.000763999999435,
+  "startup_first_overlay_s": 29.172453700000005,
+  "open_to_first_overlay_s": 27.867418000000725,
+  "display_fps": 18.00931199616499,
+  "ai_fps": 4.6868202279879485,
+  "workers": {
+    "yolo": {
+      "state": "ready",
+      "python": "D:\\Traffic-sign-project\\.venv-yolo\\Scripts\\python.exe",
+      "pid": 2608,
+      "startup_seconds": 11.876586299999872,
+      "error": null,
+      "started_monotonic": 7994.2069154,
+      "ready_message": {
+        "type": "ready",
+        "python": "D:\\Traffic-sign-project\\.venv-yolo\\Scripts\\python.exe",
+        "task": "detect",
+        "classes": 1,
+        "imgsz": 640
+      }
+    },
+    "cnn": {
+      "state": "ready",
+      "python": "C:\\Program Files\\Python313\\python.exe",
+      "pid": 6960,
+      "startup_seconds": 13.455978999999388,
+      "error": null,
+      "started_monotonic": 8006.2628506,
+      "ready_message": {
+        "type": "ready",
+        "python": "C:\\Program Files\\Python313\\python.exe",
+        "input_shape": [
+          null,
+          30,
+          30,
+          3
+        ],
+        "output_shape": [
+          null,
+          43
+        ]
+      }
+    }
+  },
+  "controls": {
+    "open": true,
+    "eof_idle": true,
+    "stop": true,
+    "replay": true
+  },
+  "status": "AI Processing",
+  "peaks": {
+    "generated": 7,
+    "accepted": 7,
+    "played": 2,
+    "expired": 2,
+    "duplicates_suppressed": 22,
+    "peak_queue": 3,
+    "queued_while_speaking": 6,
+    "expired_sign_left_view": 2,
+    "cancelled": 3,
+    "tracks_created": 15,
+    "tracks_lost": 12,
+    "ambiguous_associations": 0,
+    "unresolved_associations": 0,
+    "unconfirmed_tracks_lost": 8,
+    "confirmed_classes": [
+      12,
+      29,
+      35,
+      36,
+      37
+    ],
+    "pending": 0,
+    "speech_latency_ms": [
+      1835.6438000000708,
+      2566.64660000024
+    ],
+    "measurements": [
+      {
+        "track_id": 4,
+        "class_id": 12,
+        "detection_to_confirmation_ms": 1825.482799999918,
+        "detection_to_speech_ms": 1835.6438000000708,
+        "confirmation_to_speech_ms": 10.161000000152853,
+        "queue_ms": 0.19840000004478497,
+        "wav_ms": 2928.0,
+        "slot_ms": 2716.125,
+        "dispatch_video_ms": 3100.0,
+        "last_seen_video_ms": 3100.0
+      },
+      {
+        "track_id": 10,
+        "class_id": 29,
+        "detection_to_confirmation_ms": 1827.2024999996574,
+        "detection_to_speech_ms": 2566.64660000024,
+        "confirmation_to_speech_ms": 739.4441000005827,
+        "queue_ms": 288.18740000042453,
+        "wav_ms": 2760.0,
+        "slot_ms": 2532.583333333333,
+        "dispatch_video_ms": 5800.0,
+        "last_seen_video_ms": 5533.333333333333
+      }
+    ],
+    "played_tracks": [
+      [
+        4,
+        12
+      ],
+      [
+        10,
+        29
+      ]
+    ]
+  },
+  "trace": [
+    {
+      "event": "yolo_valid",
+      "monotonic": 8020.9337689,
+      "video_ms": 300.0,
+      "generation": 1,
+      "track_id": 1,
+      "frame_id": 9
+    },
+    {
+      "event": "track_created",
+      "monotonic": 8022.0846739,
+      "video_ms": 300.0,
+      "generation": 1,
+      "track_id": 1,
+      "frame_id": 9
+    },
+    {
+      "event": "cnn_valid",
+      "monotonic": 8020.9758322,
+      "video_ms": 300.0,
+      "generation": 1,
+      "track_id": 1,
+      "frame_id": 9
+    },
+    {
+      "event": "yolo_valid",
+      "monotonic": 8020.9339038,
+      "video_ms": 300.0,
+      "generation": 1,
+      "track_id": 2,
+      "frame_id": 9
+    },
+    {
+      "event": "track_created",
+      "monotonic": 8022.0846739,
+      "video_ms": 300.0,
+      "generation": 1,
+      "track_id": 2,
+      "frame_id": 9
+    },
+    {
+      "event": "cnn_valid",
+      "monotonic": 8020.9761322,
+      "video_ms": 300.0,
+      "generation": 1,
+      "track_id": 2,
+      "frame_id": 9
+    },
+    {
+      "event": "yolo_valid",
+      "monotonic": 8022.7957617,
+      "video_ms": 2400.0,
+      "generation": 1,
+      "track_id": 3,
+      "frame_id": 72
+    },
+    {
+      "event": "track_created",
+      "monotonic": 8024.1678676,
+      "video_ms": 2400.0,
+      "generation": 1,
+      "track_id": 3,
+      "frame_id": 72
+    },
+    {
+      "event": "cnn_valid",
+      "monotonic": 8022.8540718,
+      "video_ms": 2400.0,
+      "generation": 1,
+      "track_id": 3,
+      "frame_id": 72
+    },
+    {
+      "event": "yolo_valid",
+      "monotonic": 8023.0084226,
+      "video_ms": 2900.0,
+      "generation": 1,
+      "track_id": 4,
+      "frame_id": 87
+    },
+    {
+      "event": "track_created",
+      "monotonic": 8024.6684323,
+      "video_ms": 2900.0,
+      "generation": 1,
+      "track_id": 4,
+      "frame_id": 87
+    },
+    {
+      "event": "cnn_valid",
+      "monotonic": 8023.0504699,
+      "video_ms": 2900.0,
+      "generation": 1,
+      "track_id": 4,
+      "frame_id": 87
+    },
+    {
+      "event": "yolo_valid",
+      "monotonic": 8023.0085668,
+      "video_ms": 2900.0,
+      "generation": 1,
+      "track_id": 5,
+      "frame_id": 87
+    },
+    {
+      "event": "track_created",
+      "monotonic": 8024.6684323,
+      "video_ms": 2900.0,
+      "generation": 1,
+      "track_id": 5,
+      "frame_id": 87
+    },
+    {
+      "event": "cnn_valid",
+      "monotonic": 8023.0507073,
+      "video_ms": 2900.0,
+      "generation": 1,
+      "track_id": 5,
+      "frame_id": 87
+    },
+    {
+      "event": "yolo_valid",
+      "monotonic": 8023.1997378,
+      "video_ms": 3100.0,
+      "generation": 1,
+      "track_id": 6,
+      "frame_id": 93
+    },
+    {
+      "event": "track_created",
+      "monotonic": 8024.8332067,
+      "video_ms": 3100.0,
+      "generation": 1,
+      "track_id": 6,
+      "frame_id": 93
+    },
+    {
+      "event": "cnn_valid",
+      "monotonic": 8023.241979,
+      "video_ms": 3100.0,
+      "generation": 1,
+      "track_id": 6,
+      "frame_id": 93
+    },
+    {
+      "event": "confirmed",
+      "monotonic": 8024.8339054,
+      "video_ms": 3100.0,
+      "generation": 1,
+      "track_id": 4,
+      "class_id": 12,
+      "detection_to_confirmation_ms": 1825.482799999918
+    },
+    {
+      "event": "offered",
+      "monotonic": 8024.8339054,
+      "video_ms": 3100.0,
+      "generation": 1,
+      "track_id": 4,
+      "class_id": 12,
+      "busy": false
+    },
+    {
+      "event": "accepted",
+      "monotonic": 8024.8339054,
+      "video_ms": 3100.0,
+      "generation": 1,
+      "track_id": 4
+    },
+    {
+      "event": "audio_started",
+      "monotonic": 8024.8440664,
+      "video_ms": 3100.0,
+      "generation": 1,
+      "track_id": 4,
+      "class_id": 12,
+      "detection_to_confirmation_ms": 1825.482799999918,
+      "detection_to_speech_ms": 1835.6438000000708,
+      "confirmation_to_speech_ms": 10.161000000152853,
+      "queue_ms": 0.19840000004478497,
+      "wav_ms": 2928.0,
+      "slot_ms": 2716.125,
+      "dispatch_video_ms": 3100.0,
+      "last_seen_video_ms": 3100.0
+    },
+    {
+      "event": "yolo_valid",
+      "monotonic": 8023.4168531,
+      "video_ms": 3300.0,
+      "generation": 1,
+      "track_id": 7,
+      "frame_id": 99
+    },
+    {
+      "event": "track_created",
+      "monotonic": 8025.0762048,
+      "video_ms": 3300.0,
+      "generation": 1,
+      "track_id": 7,
+      "frame_id": 99
+    },
+    {
+      "event": "cnn_valid",
+      "monotonic": 8023.4662265,
+      "video_ms": 3300.0,
+      "generation": 1,
+      "track_id": 7,
+      "frame_id": 99
+    },
+    {
+      "event": "confirmed",
+      "monotonic": 8025.0771188,
+      "video_ms": 3300.0,
+      "generation": 1,
+      "track_id": 6,
+      "class_id": 36,
+      "detection_to_confirmation_ms": 1877.3810000002413
+    },
+    {
+      "event": "offered",
+      "monotonic": 8025.0771188,
+      "video_ms": 3300.0,
+      "generation": 1,
+      "track_id": 6,
+      "class_id": 36,
+      "busy": true
+    },
+    {
+      "event": "accepted",
+      "monotonic": 8025.0771188,
+      "video_ms": 3300.0,
+      "generation": 1,
+      "track_id": 6
+    },
+    {
+      "event": "confirmed",
+      "monotonic": 8025.2484365,
+      "video_ms": 3500.0,
+      "generation": 1,
+      "track_id": 7,
+      "class_id": 36,
+      "detection_to_confirmation_ms": 1831.5834000004543
+    },
+    {
+      "event": "offered",
+      "monotonic": 8025.2484365,
+      "video_ms": 3500.0,
+      "generation": 1,
+      "track_id": 7,
+      "class_id": 36,
+      "busy": true
+    },
+    {
+      "event": "accepted",
+      "monotonic": 8025.2484365,
+      "video_ms": 3500.0,
+      "generation": 1,
+      "track_id": 7
+    },
+    {
+      "event": "expired",
+      "monotonic": 8026.2018724,
+      "video_ms": 4466.666666666667,
+      "generation": 1,
+      "track_id": 7,
+      "class_id": 36,
+      "reason": "sign_left_view",
+      "busy": true,
+      "queue_ms": 953.4358999999313
+    },
+    {
+      "event": "expired",
+      "monotonic": 8026.2412017,
+      "video_ms": 4500.0,
+      "generation": 1,
+      "track_id": 6,
+      "class_id": 36,
+      "reason": "sign_left_view",
+      "busy": true,
+      "queue_ms": 1164.082899999812
+    },
+    {
+      "event": "yolo_valid",
+      "monotonic": 8024.953137,
+      "video_ms": 4833.333333333333,
+      "generation": 1,
+      "track_id": 8,
+      "frame_id": 145
+    },
+    {
+      "event": "track_created",
+      "monotonic": 8026.5755807,
+      "video_ms": 4833.333333333333,
+      "generation": 1,
+      "track_id": 8,
+      "frame_id": 145
+    },
+    {
+      "event": "cnn_valid",
+      "monotonic": 8025.0052518,
+      "video_ms": 4833.333333333333,
+      "generation": 1,
+      "track_id": 8,
+      "frame_id": 145
+    },
+    {
+      "event": "yolo_valid",
+      "monotonic": 8024.9534158,
+      "video_ms": 4833.333333333333,
+      "generation": 1,
+      "track_id": 9,
+      "frame_id": 145
+    },
+    {
+      "event": "track_created",
+      "monotonic": 8026.5755807,
+      "video_ms": 4833.333333333333,
+      "generation": 1,
+      "track_id": 9,
+      "frame_id": 145
+    },
+    {
+      "event": "cnn_valid",
+      "monotonic": 8025.0055205,
+      "video_ms": 4833.333333333333,
+      "generation": 1,
+      "track_id": 9,
+      "frame_id": 145
+    },
+    {
+      "event": "yolo_valid",
+      "monotonic": 8025.4789013,
+      "video_ms": 5366.666666666666,
+      "generation": 1,
+      "track_id": 10,
+      "frame_id": 161
+    },
+    {
+      "event": "track_created",
+      "monotonic": 8027.1047069,
+      "video_ms": 5366.666666666666,
+      "generation": 1,
+      "track_id": 10,
+      "frame_id": 161
+    },
+    {
+      "event": "cnn_valid",
+      "monotonic": 8025.5228619,
+      "video_ms": 5366.666666666666,
+      "generation": 1,
+      "track_id": 10,
+      "frame_id": 161
+    },
+    {
+      "event": "confirmed",
+      "monotonic": 8027.3061038,
+      "video_ms": 5533.333333333333,
+      "generation": 1,
+      "track_id": 10,
+      "class_id": 29,
+      "detection_to_confirmation_ms": 1827.2024999996574
+    },
+    {
+      "event": "offered",
+      "monotonic": 8027.3061038,
+      "video_ms": 5533.333333333333,
+      "generation": 1,
+      "track_id": 10,
+      "class_id": 29,
+      "busy": true
+    },
+    {
+      "event": "accepted",
+      "monotonic": 8027.3061038,
+      "video_ms": 5533.333333333333,
+      "generation": 1,
+      "track_id": 10
+    },
+    {
+      "event": "yolo_valid",
+      "monotonic": 8025.6415859,
+      "video_ms": 5533.333333333333,
+      "generation": 1,
+      "track_id": 11,
+      "frame_id": 166
+    },
+    {
+      "event": "track_created",
+      "monotonic": 8027.3052526,
+      "video_ms": 5533.333333333333,
+      "generation": 1,
+      "track_id": 11,
+      "frame_id": 166
+    },
+    {
+      "event": "cnn_valid",
+      "monotonic": 8025.6870342,
+      "video_ms": 5533.333333333333,
+      "generation": 1,
+      "track_id": 11,
+      "frame_id": 166
+    },
+    {
+      "event": "confirmed",
+      "monotonic": 8027.494138,
+      "video_ms": 5733.333333333333,
+      "generation": 1,
+      "track_id": 11,
+      "class_id": 37,
+      "detection_to_confirmation_ms": 1852.552100000139
+    },
+    {
+      "event": "offered",
+      "monotonic": 8027.494138,
+      "video_ms": 5733.333333333333,
+      "generation": 1,
+      "track_id": 11,
+      "class_id": 37,
+      "busy": true
+    },
+    {
+      "event": "accepted",
+      "monotonic": 8027.494138,
+      "video_ms": 5733.333333333333,
+      "generation": 1,
+      "track_id": 11
+    },
+    {
+      "event": "audio_finished",
+      "monotonic": 8027.5942663,
+      "video_ms": 5800.0,
+      "generation": 1,
+      "track_id": 4,
+      "class_id": 12,
+      "reason": null
+    },
+    {
+      "event": "yolo_valid",
+      "monotonic": 8026.3092322,
+      "video_ms": 6133.333333333334,
+      "generation": 1,
+      "track_id": 12,
+      "frame_id": 184
+    },
+    {
+      "event": "track_created",
+      "monotonic": 8027.8698267,
+      "video_ms": 6133.333333333334,
+      "generation": 1,
+      "track_id": 12,
+      "frame_id": 184
+    },
+    {
+      "event": "cnn_valid",
+      "monotonic": 8026.3685913,
+      "video_ms": 6133.333333333334,
+      "generation": 1,
+      "track_id": 12,
+      "frame_id": 184
+    },
+    {
+      "event": "yolo_valid",
+      "monotonic": 8026.3094367,
+      "video_ms": 6133.333333333334,
+      "generation": 1,
+      "track_id": 13,
+      "frame_id": 184
+    },
+    {
+      "event": "track_created",
+      "monotonic": 8027.8698267,
+      "video_ms": 6133.333333333334,
+      "generation": 1,
+      "track_id": 13,
+      "frame_id": 184
+    },
+    {
+      "event": "cnn_valid",
+      "monotonic": 8026.3688539,
+      "video_ms": 6133.333333333334,
+      "generation": 1,
+      "track_id": 13,
+      "frame_id": 184
+    },
+    {
+      "event": "audio_started",
+      "monotonic": 8028.0455479,
+      "video_ms": 5800.0,
+      "generation": 1,
+      "track_id": 10,
+      "class_id": 29,
+      "detection_to_confirmation_ms": 1827.2024999996574,
+      "detection_to_speech_ms": 2566.64660000024,
+      "confirmation_to_speech_ms": 739.4441000005827,
+      "queue_ms": 288.18740000042453,
+      "wav_ms": 2760.0,
+      "slot_ms": 2532.583333333333,
+      "dispatch_video_ms": 5800.0,
+      "last_seen_video_ms": 5533.333333333333
+    },
+    {
+      "event": "yolo_valid",
+      "monotonic": 8026.5792253,
+      "video_ms": 6400.0,
+      "generation": 1,
+      "track_id": 14,
+      "frame_id": 192
+    },
+    {
+      "event": "track_created",
+      "monotonic": 8028.1446854,
+      "video_ms": 6400.0,
+      "generation": 1,
+      "track_id": 14,
+      "frame_id": 192
+    },
+    {
+      "event": "cnn_valid",
+      "monotonic": 8026.6281245,
+      "video_ms": 6400.0,
+      "generation": 1,
+      "track_id": 14,
+      "frame_id": 192
+    },
+    {
+      "event": "yolo_valid",
+      "monotonic": 8026.57946,
+      "video_ms": 6400.0,
+      "generation": 1,
+      "track_id": 15,
+      "frame_id": 192
+    },
+    {
+      "event": "track_created",
+      "monotonic": 8028.1446854,
+      "video_ms": 6400.0,
+      "generation": 1,
+      "track_id": 15,
+      "frame_id": 192
+    },
+    {
+      "event": "cnn_valid",
+      "monotonic": 8026.6289994,
+      "video_ms": 6400.0,
+      "generation": 1,
+      "track_id": 15,
+      "frame_id": 192
+    },
+    {
+      "event": "confirmed",
+      "monotonic": 8028.1455637,
+      "video_ms": 6400.0,
+      "generation": 1,
+      "track_id": 13,
+      "class_id": 12,
+      "detection_to_confirmation_ms": 1836.1269999995784
+    },
+    {
+      "event": "offered",
+      "monotonic": 8028.1455637,
+      "video_ms": 6400.0,
+      "generation": 1,
+      "track_id": 13,
+      "class_id": 12,
+      "busy": true
+    },
+    {
+      "event": "accepted",
+      "monotonic": 8028.1455637,
+      "video_ms": 6400.0,
+      "generation": 1,
+      "track_id": 13
+    },
+    {
+      "event": "confirmed",
+      "monotonic": 8028.3955054,
+      "video_ms": 6666.666666666667,
+      "generation": 1,
+      "track_id": 15,
+      "class_id": 35,
+      "detection_to_confirmation_ms": 1816.0453999998936
+    },
+    {
+      "event": "offered",
+      "monotonic": 8028.3955054,
+      "video_ms": 6666.666666666667,
+      "generation": 1,
+      "track_id": 15,
+      "class_id": 35,
+      "busy": true
+    },
+    {
+      "event": "accepted",
+      "monotonic": 8028.3955054,
+      "video_ms": 6666.666666666667,
+      "generation": 1,
+      "track_id": 15
+    },
+    {
+      "event": "cancelled",
+      "monotonic": 8029.1940182,
+      "video_ms": 7433.333333333334,
+      "generation": 1,
+      "track_id": 11,
+      "reason": "end_of_video"
+    },
+    {
+      "event": "cancelled",
+      "monotonic": 8029.1940182,
+      "video_ms": 7433.333333333334,
+      "generation": 1,
+      "track_id": 13,
+      "reason": "end_of_video"
+    },
+    {
+      "event": "cancelled",
+      "monotonic": 8029.1940182,
+      "video_ms": 7433.333333333334,
+      "generation": 1,
+      "track_id": 15,
+      "reason": "end_of_video"
+    }
+  ],
+  "observations": [
+    {
+      "frame": 9,
+      "media_ms": 300.0,
+      "detections": [
+        {
+          "bbox": [
+            104.31048583984375,
+            247.7525634765625,
+            137.10671997070312,
+            280.399169921875
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.92561274766922,
+          "cnn_class_id": 15,
+          "cnn_class_name": "No vehicles",
+          "cnn_score": 1.0,
+          "valid_yolo_at": 8020.9337689,
+          "valid_cnn_at": 8020.9758322,
+          "speech_veto": null
+        },
+        {
+          "bbox": [
+            1169.36474609375,
+            257.7550354003906,
+            1195.3603515625,
+            284.8479309082031
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.9220670461654663,
+          "cnn_class_id": 15,
+          "cnn_class_name": "No vehicles",
+          "cnn_score": 1.0,
+          "valid_yolo_at": 8020.9339038,
+          "valid_cnn_at": 8020.9761322,
+          "speech_veto": null
+        }
+      ],
+      "tracks": [
+        [
+          1,
+          [
+            78,
+            185,
+            103,
+            211
+          ],
+          null
+        ],
+        [
+          2,
+          [
+            877,
+            193,
+            897,
+            214
+          ],
+          null
+        ]
+      ]
+    },
+    {
+      "frame": 72,
+      "media_ms": 2400.0,
+      "detections": [
+        {
+          "bbox": [
+            818.8579711914062,
+            304.352294921875,
+            843.1637573242188,
+            325.9415283203125
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.27223289012908936,
+          "cnn_class_id": 12,
+          "cnn_class_name": "Priority road",
+          "cnn_score": 1.0,
+          "valid_yolo_at": 8022.7957617,
+          "valid_cnn_at": 8022.8540718,
+          "speech_veto": null
+        }
+      ],
+      "tracks": [
+        [
+          3,
+          [
+            614,
+            228,
+            633,
+            245
+          ],
+          null
+        ]
+      ]
+    },
+    {
+      "frame": 87,
+      "media_ms": 2900.0,
+      "detections": [
+        {
+          "bbox": [
+            867.09521484375,
+            294.1700439453125,
+            895.5068359375,
+            322.482177734375
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.773162841796875,
+          "cnn_class_id": 12,
+          "cnn_class_name": "Priority road",
+          "cnn_score": 1.0,
+          "valid_yolo_at": 8023.0084226,
+          "valid_cnn_at": 8023.0504699,
+          "speech_veto": null
+        },
+        {
+          "bbox": [
+            867.486083984375,
+            228.93276977539062,
+            893.224365234375,
+            255.72726440429688
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.6569229364395142,
+          "cnn_class_id": 36,
+          "cnn_class_name": "Go straight or right",
+          "cnn_score": 1.0,
+          "valid_yolo_at": 8023.0085668,
+          "valid_cnn_at": 8023.0507073,
+          "speech_veto": null
+        }
+      ],
+      "tracks": [
+        [
+          4,
+          [
+            650,
+            220,
+            672,
+            242
+          ],
+          null
+        ],
+        [
+          5,
+          [
+            650,
+            171,
+            670,
+            192
+          ],
+          null
+        ]
+      ]
+    },
+    {
+      "frame": 93,
+      "media_ms": 3100.0,
+      "detections": [
+        {
+          "bbox": [
+            266.8660888671875,
+            191.01132202148438,
+            297.57562255859375,
+            221.74917602539062
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.896354615688324,
+          "cnn_class_id": 36,
+          "cnn_class_name": "Go straight or right",
+          "cnn_score": 0.9999998807907104,
+          "valid_yolo_at": 8023.1997378,
+          "valid_cnn_at": 8023.241979,
+          "speech_veto": null
+        },
+        {
+          "bbox": [
+            893.9746704101562,
+            290.22454833984375,
+            923.0930786132812,
+            318.43927001953125
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.8211678266525269,
+          "cnn_class_id": 12,
+          "cnn_class_name": "Priority road",
+          "cnn_score": 1.0,
+          "valid_yolo_at": 8023.199911,
+          "valid_cnn_at": 8023.2424088,
+          "speech_veto": null
+        }
+      ],
+      "tracks": [
+        [
+          6,
+          [
+            200,
+            143,
+            224,
+            167
+          ],
+          null
+        ],
+        [
+          4,
+          [
+            670,
+            217,
+            693,
+            239
+          ],
+          12
+        ]
+      ]
+    },
+    {
+      "frame": 99,
+      "media_ms": 3300.0,
+      "detections": [
+        {
+          "bbox": [
+            923.493896484375,
+            205.9443359375,
+            952.67529296875,
+            235.3275146484375
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.874025821685791,
+          "cnn_class_id": 36,
+          "cnn_class_name": "Go straight or right",
+          "cnn_score": 1.0,
+          "valid_yolo_at": 8023.4168531,
+          "valid_cnn_at": 8023.4662265,
+          "speech_veto": null
+        },
+        {
+          "bbox": [
+            924.4788208007812,
+            286.55584716796875,
+            953.9440307617188,
+            313.6134033203125
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.8200743794441223,
+          "cnn_class_id": 12,
+          "cnn_class_name": "Priority road",
+          "cnn_score": 1.0,
+          "valid_yolo_at": 8023.4170865,
+          "valid_cnn_at": 8023.4666099,
+          "speech_veto": null
+        },
+        {
+          "bbox": [
+            240.9485321044922,
+            177.262939453125,
+            271.77935791015625,
+            208.43820190429688
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.37812167406082153,
+          "cnn_class_id": 36,
+          "cnn_class_name": "Go straight or right",
+          "cnn_score": 0.9998936653137207,
+          "valid_yolo_at": 8023.4172398,
+          "valid_cnn_at": 8023.46676,
+          "speech_veto": null
+        }
+      ],
+      "tracks": [
+        [
+          7,
+          [
+            692,
+            154,
+            715,
+            177
+          ],
+          null
+        ],
+        [
+          4,
+          [
+            693,
+            214,
+            716,
+            236
+          ],
+          12
+        ],
+        [
+          6,
+          [
+            180,
+            132,
+            204,
+            157
+          ],
+          36
+        ]
+      ]
+    },
+    {
+      "frame": 105,
+      "media_ms": 3500.0,
+      "detections": [
+        {
+          "bbox": [
+            957.681396484375,
+            278.7779541015625,
+            992.71435546875,
+            312.971435546875
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.8816514611244202,
+          "cnn_class_id": 12,
+          "cnn_class_name": "Priority road",
+          "cnn_score": 1.0,
+          "valid_yolo_at": 8023.6118194,
+          "valid_cnn_at": 8023.6593603,
+          "speech_veto": null
+        },
+        {
+          "bbox": [
+            959.6474609375,
+            190.8199920654297,
+            992.038330078125,
+            223.56712341308594
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.8472952842712402,
+          "cnn_class_id": 36,
+          "cnn_class_name": "Go straight or right",
+          "cnn_score": 1.0,
+          "valid_yolo_at": 8023.611944,
+          "valid_cnn_at": 8023.6596205,
+          "speech_veto": null
+        },
+        {
+          "bbox": [
+            207.04579162597656,
+            159.002197265625,
+            242.1569061279297,
+            194.2919921875
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.649320125579834,
+          "cnn_class_id": 36,
+          "cnn_class_name": "Go straight or right",
+          "cnn_score": 1.0,
+          "valid_yolo_at": 8023.6120154,
+          "valid_cnn_at": 8023.6598332,
+          "speech_veto": null
+        }
+      ],
+      "tracks": [
+        [
+          4,
+          [
+            718,
+            209,
+            745,
+            235
+          ],
+          12
+        ],
+        [
+          7,
+          [
+            719,
+            143,
+            745,
+            168
+          ],
+          36
+        ],
+        [
+          6,
+          [
+            155,
+            119,
+            182,
+            146
+          ],
+          36
+        ]
+      ]
+    },
+    {
+      "frame": 111,
+      "media_ms": 3700.0,
+      "detections": [
+        {
+          "bbox": [
+            166.2198944091797,
+            138.4004364013672,
+            207.8772430419922,
+            178.51036071777344
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.8948429822921753,
+          "cnn_class_id": 36,
+          "cnn_class_name": "Go straight or right",
+          "cnn_score": 0.9999998807907104,
+          "valid_yolo_at": 8023.7966412,
+          "valid_cnn_at": 8023.8359878,
+          "speech_veto": null
+        },
+        {
+          "bbox": [
+            1003.996337890625,
+            172.16140747070312,
+            1039.108154296875,
+            210.15335083007812
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.8702585101127625,
+          "cnn_class_id": 36,
+          "cnn_class_name": "Go straight or right",
+          "cnn_score": 1.0,
+          "valid_yolo_at": 8023.796779,
+          "valid_cnn_at": 8023.8364692,
+          "speech_veto": null
+        },
+        {
+          "bbox": [
+            1002.4873046875,
+            271.768310546875,
+            1041.01904296875,
+            309.483642578125
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.8522101640701294,
+          "cnn_class_id": 12,
+          "cnn_class_name": "Priority road",
+          "cnn_score": 1.0,
+          "valid_yolo_at": 8023.7968667,
+          "valid_cnn_at": 8023.8366623,
+          "speech_veto": null
+        }
+      ],
+      "tracks": [
+        [
+          6,
+          [
+            124,
+            103,
+            156,
+            134
+          ],
+          36
+        ],
+        [
+          7,
+          [
+            752,
+            129,
+            780,
+            158
+          ],
+          36
+        ],
+        [
+          4,
+          [
+            751,
+            203,
+            781,
+            233
+          ],
+          12
+        ]
+      ]
+    },
+    {
+      "frame": 116,
+      "media_ms": 3866.6666666666665,
+      "detections": [
+        {
+          "bbox": [
+            126.84291076660156,
+            117.65762329101562,
+            172.52418518066406,
+            160.46621704101562
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.8888813257217407,
+          "cnn_class_id": 36,
+          "cnn_class_name": "Go straight or right",
+          "cnn_score": 1.0,
+          "valid_yolo_at": 8024.0120055,
+          "valid_cnn_at": 8024.0487581,
+          "speech_veto": null
+        },
+        {
+          "bbox": [
+            1047.435791015625,
+            155.6390380859375,
+            1085.459228515625,
+            195.4595947265625
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.8859689235687256,
+          "cnn_class_id": 36,
+          "cnn_class_name": "Go straight or right",
+          "cnn_score": 0.9999995231628418,
+          "valid_yolo_at": 8024.0122138,
+          "valid_cnn_at": 8024.0492038,
+          "speech_veto": null
+        },
+        {
+          "bbox": [
+            1047.2962646484375,
+            265.1796875,
+            1088.0985107421875,
+            305.57525634765625
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.8684432506561279,
+          "cnn_class_id": 12,
+          "cnn_class_name": "Priority road",
+          "cnn_score": 1.0,
+          "valid_yolo_at": 8024.0123067,
+          "valid_cnn_at": 8024.0494498,
+          "speech_veto": null
+        }
+      ],
+      "tracks": [
+        [
+          6,
+          [
+            95,
+            88,
+            130,
+            121
+          ],
+          36
+        ],
+        [
+          7,
+          [
+            785,
+            116,
+            815,
+            147
+          ],
+          36
+        ],
+        [
+          4,
+          [
+            785,
+            198,
+            817,
+            230
+          ],
+          12
+        ]
+      ]
+    },
+    {
+      "frame": 123,
+      "media_ms": 4100.0,
+      "detections": [
+        {
+          "bbox": [
+            56.717529296875,
+            80.56194305419922,
+            110.66542053222656,
+            130.34783935546875
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.8846062421798706,
+          "cnn_class_id": 36,
+          "cnn_class_name": "Go straight or right",
+          "cnn_score": 1.0,
+          "valid_yolo_at": 8024.1976205,
+          "valid_cnn_at": 8024.2399704,
+          "speech_veto": null
+        },
+        {
+          "bbox": [
+            1127.7078857421875,
+            253.27813720703125,
+            1171.2735595703125,
+            298.77874755859375
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.8781782388687134,
+          "cnn_class_id": 12,
+          "cnn_class_name": "Priority road",
+          "cnn_score": 1.0,
+          "valid_yolo_at": 8024.1980037,
+          "valid_cnn_at": 8024.2403534,
+          "speech_veto": null
+        },
+        {
+          "bbox": [
+            1128.534912109375,
+            127.1038818359375,
+            1172.705078125,
+            171.97735595703125
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.6540316343307495,
+          "cnn_class_id": 36,
+          "cnn_class_name": "Go straight or right",
+          "cnn_score": 1.0,
+          "valid_yolo_at": 8024.1980901,
+          "valid_cnn_at": 8024.2405053,
+          "speech_veto": null
+        }
+      ],
+      "tracks": [
+        [
+          6,
+          [
+            42,
+            60,
+            83,
+            98
+          ],
+          36
+        ],
+        [
+          4,
+          [
+            845,
+            189,
+            879,
+            225
+          ],
+          12
+        ],
+        [
+          7,
+          [
+            846,
+            95,
+            880,
+            129
+          ],
+          36
+        ]
+      ]
+    },
+    {
+      "frame": 129,
+      "media_ms": 4300.0,
+      "detections": [
+        {
+          "bbox": [
+            1221.13818359375,
+            242.87884521484375,
+            1270.8974609375,
+            293.26605224609375
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.8630009889602661,
+          "cnn_class_id": 12,
+          "cnn_class_name": "Priority road",
+          "cnn_score": 1.0,
+          "valid_yolo_at": 8024.3802663,
+          "valid_cnn_at": 8024.4218099,
+          "speech_veto": null
+        },
+        {
+          "bbox": [
+            1222.373046875,
+            96.01165771484375,
+            1272.990234375,
+            146.74264526367188
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.5050246119499207,
+          "cnn_class_id": 36,
+          "cnn_class_name": "Go straight or right",
+          "cnn_score": 1.0,
+          "valid_yolo_at": 8024.3804046,
+          "valid_cnn_at": 8024.4220547,
+          "speech_veto": null
+        }
+      ],
+      "tracks": [
+        [
+          4,
+          [
+            915,
+            182,
+            954,
+            220
+          ],
+          12
+        ],
+        [
+          7,
+          [
+            916,
+            72,
+            955,
+            111
+          ],
+          36
+        ]
+      ]
+    },
+    {
+      "frame": 145,
+      "media_ms": 4833.333333333333,
+      "detections": [
+        {
+          "bbox": [
+            1217.604248046875,
+            223.23300170898438,
+            1258.376220703125,
+            278.7361145019531
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.6847924590110779,
+          "cnn_class_id": 30,
+          "cnn_class_name": "Beware of ice/snow",
+          "cnn_score": 0.856623113155365,
+          "valid_yolo_at": 8024.953137,
+          "valid_cnn_at": 8025.0052518,
+          "speech_veto": null
+        },
+        {
+          "bbox": [
+            566.5137939453125,
+            270.6572570800781,
+            590.6585693359375,
+            293.0840759277344
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.43064969778060913,
+          "cnn_class_id": 40,
+          "cnn_class_name": "Roundabout mandatory",
+          "cnn_score": 0.6286948919296265,
+          "valid_yolo_at": 8024.9534158,
+          "valid_cnn_at": 8025.0055205,
+          "speech_veto": "roundabout_voice_unverified"
+        }
+      ],
+      "tracks": [
+        [
+          8,
+          [
+            913,
+            167,
+            944,
+            210
+          ],
+          null
+        ],
+        [
+          9,
+          [
+            424,
+            202,
+            443,
+            220
+          ],
+          null
+        ]
+      ]
+    },
+    {
+      "frame": 151,
+      "media_ms": 5033.333333333333,
+      "detections": [
+        {
+          "bbox": [
+            572.5484619140625,
+            267.7786865234375,
+            593.1004638671875,
+            288.64013671875
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.6546379327774048,
+          "cnn_class_id": 35,
+          "cnn_class_name": "Ahead only",
+          "cnn_score": 0.9995095729827881,
+          "valid_yolo_at": 8025.1469884,
+          "valid_cnn_at": 8025.1868042,
+          "speech_veto": null
+        }
+      ],
+      "tracks": [
+        [
+          9,
+          [
+            429,
+            200,
+            445,
+            217
+          ],
+          null
+        ]
+      ]
+    },
+    {
+      "frame": 161,
+      "media_ms": 5366.666666666666,
+      "detections": [
+        {
+          "bbox": [
+            862.7650146484375,
+            254.46923828125,
+            896.3118896484375,
+            289.192138671875
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.3492854833602905,
+          "cnn_class_id": 29,
+          "cnn_class_name": "Bicycles crossing",
+          "cnn_score": 0.9999483823776245,
+          "valid_yolo_at": 8025.4789013,
+          "valid_cnn_at": 8025.5228619,
+          "speech_veto": null
+        }
+      ],
+      "tracks": [
+        [
+          10,
+          [
+            647,
+            190,
+            673,
+            217
+          ],
+          null
+        ]
+      ]
+    },
+    {
+      "frame": 166,
+      "media_ms": 5533.333333333333,
+      "detections": [
+        {
+          "bbox": [
+            896.077392578125,
+            247.68630981445312,
+            930.09033203125,
+            284.0683898925781
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.654579222202301,
+          "cnn_class_id": 29,
+          "cnn_class_name": "Bicycles crossing",
+          "cnn_score": 0.9999996423721313,
+          "valid_yolo_at": 8025.6413821,
+          "valid_cnn_at": 8025.6867749,
+          "speech_veto": null
+        },
+        {
+          "bbox": [
+            196.72463989257812,
+            230.4139404296875,
+            215.75155639648438,
+            250.5443115234375
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.2576686441898346,
+          "cnn_class_id": 37,
+          "cnn_class_name": "Go straight or left",
+          "cnn_score": 0.9999995231628418,
+          "valid_yolo_at": 8025.6415859,
+          "valid_cnn_at": 8025.6870342,
+          "speech_veto": null
+        }
+      ],
+      "tracks": [
+        [
+          10,
+          [
+            672,
+            185,
+            698,
+            214
+          ],
+          29
+        ],
+        [
+          11,
+          [
+            147,
+            172,
+            162,
+            188
+          ],
+          null
+        ]
+      ]
+    },
+    {
+      "frame": 172,
+      "media_ms": 5733.333333333333,
+      "detections": [
+        {
+          "bbox": [
+            183.7996826171875,
+            223.88876342773438,
+            205.14630126953125,
+            246.38595581054688
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.6955634355545044,
+          "cnn_class_id": 37,
+          "cnn_class_name": "Go straight or left",
+          "cnn_score": 1.0,
+          "valid_yolo_at": 8026.0882647,
+          "valid_cnn_at": 8026.134289,
+          "speech_veto": null
+        }
+      ],
+      "tracks": [
+        [
+          11,
+          [
+            137,
+            167,
+            154,
+            185
+          ],
+          37
+        ]
+      ]
+    },
+    {
+      "frame": 184,
+      "media_ms": 6133.333333333334,
+      "detections": [
+        {
+          "bbox": [
+            1087.138671875,
+            200.2996826171875,
+            1142.55810546875,
+            259.7279357910156
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.9229406714439392,
+          "cnn_class_id": 29,
+          "cnn_class_name": "Bicycles crossing",
+          "cnn_score": 0.9995978474617004,
+          "valid_yolo_at": 8026.3092322,
+          "valid_cnn_at": 8026.3685913,
+          "speech_veto": null
+        },
+        {
+          "bbox": [
+            631.9010009765625,
+            299.78851318359375,
+            650.2066650390625,
+            318.93341064453125
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.574555516242981,
+          "cnn_class_id": 12,
+          "cnn_class_name": "Priority road",
+          "cnn_score": 1.0,
+          "valid_yolo_at": 8026.3094367,
+          "valid_cnn_at": 8026.3688539,
+          "speech_veto": null
+        }
+      ],
+      "tracks": [
+        [
+          12,
+          [
+            815,
+            150,
+            857,
+            195
+          ],
+          null
+        ],
+        [
+          13,
+          [
+            473,
+            224,
+            488,
+            240
+          ],
+          null
+        ]
+      ]
+    },
+    {
+      "frame": 192,
+      "media_ms": 6400.0,
+      "detections": [
+        {
+          "bbox": [
+            1245.26611328125,
+            145.49209594726562,
+            1279.9814453125,
+            241.60379028320312
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.7704310417175293,
+          "cnn_class_id": 32,
+          "cnn_class_name": "End speed + passing limits",
+          "cnn_score": 0.6344112157821655,
+          "valid_yolo_at": 8026.5792253,
+          "valid_cnn_at": 8026.6281245,
+          "speech_veto": "dark_red_sign_face"
+        },
+        {
+          "bbox": [
+            126.39778137207031,
+            193.8927459716797,
+            153.2225799560547,
+            220.90892028808594
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.7654533386230469,
+          "cnn_class_id": 37,
+          "cnn_class_name": "Go straight or left",
+          "cnn_score": 0.9999945163726807,
+          "valid_yolo_at": 8026.5793833,
+          "valid_cnn_at": 8026.6286766,
+          "speech_veto": null
+        },
+        {
+          "bbox": [
+            650.0958251953125,
+            235.063720703125,
+            671.5635986328125,
+            256.997802734375
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.6351691484451294,
+          "cnn_class_id": 35,
+          "cnn_class_name": "Ahead only",
+          "cnn_score": 1.0,
+          "valid_yolo_at": 8026.57946,
+          "valid_cnn_at": 8026.6289994,
+          "speech_veto": null
+        },
+        {
+          "bbox": [
+            651.8828735351562,
+            293.68365478515625,
+            672.2929077148438,
+            315.74700927734375
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.34373295307159424,
+          "cnn_class_id": 12,
+          "cnn_class_name": "Priority road",
+          "cnn_score": 1.0,
+          "valid_yolo_at": 8026.5795309,
+          "valid_cnn_at": 8026.6292305,
+          "speech_veto": null
+        }
+      ],
+      "tracks": [
+        [
+          14,
+          [
+            933,
+            109,
+            960,
+            182
+          ],
+          null
+        ],
+        [
+          11,
+          [
+            94,
+            145,
+            115,
+            166
+          ],
+          37
+        ],
+        [
+          15,
+          [
+            487,
+            176,
+            504,
+            193
+          ],
+          null
+        ],
+        [
+          13,
+          [
+            488,
+            220,
+            505,
+            237
+          ],
+          12
+        ]
+      ]
+    },
+    {
+      "frame": 200,
+      "media_ms": 6666.666666666667,
+      "detections": [
+        {
+          "bbox": [
+            96.05020141601562,
+            176.05087280273438,
+            127.30001831054688,
+            207.71517944335938
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.8746909499168396,
+          "cnn_class_id": 37,
+          "cnn_class_name": "Go straight or left",
+          "cnn_score": 0.9999995231628418,
+          "valid_yolo_at": 8026.8690317,
+          "valid_cnn_at": 8026.9283978,
+          "speech_veto": null
+        },
+        {
+          "bbox": [
+            675.5730590820312,
+            221.45236206054688,
+            701.8142700195312,
+            247.87039184570312
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.8682830333709717,
+          "cnn_class_id": 35,
+          "cnn_class_name": "Ahead only",
+          "cnn_score": 1.0,
+          "valid_yolo_at": 8026.8691811,
+          "valid_cnn_at": 8026.9287265,
+          "speech_veto": null
+        }
+      ],
+      "tracks": [
+        [
+          11,
+          [
+            72,
+            132,
+            96,
+            156
+          ],
+          37
+        ],
+        [
+          15,
+          [
+            506,
+            166,
+            527,
+            186
+          ],
+          35
+        ]
+      ]
+    },
+    {
+      "frame": 205,
+      "media_ms": 6833.333333333333,
+      "detections": [
+        {
+          "bbox": [
+            72.57942962646484,
+            163.96224975585938,
+            107.0711441040039,
+            197.1082763671875
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.8844379186630249,
+          "cnn_class_id": 37,
+          "cnn_class_name": "Go straight or left",
+          "cnn_score": 1.0,
+          "valid_yolo_at": 8027.1428378,
+          "valid_cnn_at": 8027.1861795,
+          "speech_veto": null
+        },
+        {
+          "bbox": [
+            696.965087890625,
+            285.2684020996094,
+            723.30859375,
+            312.2864074707031
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.7459123730659485,
+          "cnn_class_id": 12,
+          "cnn_class_name": "Priority road",
+          "cnn_score": 1.0,
+          "valid_yolo_at": 8027.1430453,
+          "valid_cnn_at": 8027.1865652,
+          "speech_veto": null
+        },
+        {
+          "bbox": [
+            697.1312255859375,
+            214.2650146484375,
+            724.0921630859375,
+            241.66729736328125
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.6920640468597412,
+          "cnn_class_id": 35,
+          "cnn_class_name": "Ahead only",
+          "cnn_score": 1.0,
+          "valid_yolo_at": 8027.1431295,
+          "valid_cnn_at": 8027.1867388,
+          "speech_veto": null
+        }
+      ],
+      "tracks": [
+        [
+          11,
+          [
+            54,
+            122,
+            81,
+            148
+          ],
+          37
+        ],
+        [
+          13,
+          [
+            522,
+            213,
+            543,
+            235
+          ],
+          12
+        ],
+        [
+          15,
+          [
+            522,
+            160,
+            544,
+            182
+          ],
+          35
+        ]
+      ]
+    },
+    {
+      "frame": 217,
+      "media_ms": 7233.333333333333,
+      "detections": [
+        {
+          "bbox": [
+            759.2677001953125,
+            186.891357421875,
+            791.0303955078125,
+            220.28411865234375
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.9003785252571106,
+          "cnn_class_id": 35,
+          "cnn_class_name": "Ahead only",
+          "cnn_score": 1.0,
+          "valid_yolo_at": 8027.3840298,
+          "valid_cnn_at": 8027.4362153,
+          "speech_veto": null
+        },
+        {
+          "bbox": [
+            1.3879165649414062,
+            126.50198364257812,
+            43.05938720703125,
+            165.643798828125
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.8548458814620972,
+          "cnn_class_id": 37,
+          "cnn_class_name": "Go straight or left",
+          "cnn_score": 1.0,
+          "valid_yolo_at": 8027.3841835,
+          "valid_cnn_at": 8027.4367099,
+          "speech_veto": null
+        },
+        {
+          "bbox": [
+            761.962646484375,
+            273.78460693359375,
+            786.81884765625,
+            303.45147705078125
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.2933250069618225,
+          "cnn_class_id": 12,
+          "cnn_class_name": "Priority road",
+          "cnn_score": 1.0,
+          "valid_yolo_at": 8027.3842593,
+          "valid_cnn_at": 8027.437036,
+          "speech_veto": null
+        }
+      ],
+      "tracks": [
+        [
+          15,
+          [
+            569,
+            140,
+            594,
+            166
+          ],
+          35
+        ],
+        [
+          11,
+          [
+            1,
+            94,
+            33,
+            125
+          ],
+          37
+        ],
+        [
+          13,
+          [
+            571,
+            205,
+            591,
+            228
+          ],
+          12
+        ]
+      ]
+    }
+  ],
+  "actual_audio": [
+    {
+      "at": 8024.8440095,
+      "frame": 93,
+      "path": "D:\\Traffic-sign-project\\assets\\voice_google\\12.wav"
+    },
+    {
+      "at": 8027.5942426,
+      "frame": 174,
+      "path": null
+    },
+    {
+      "at": 8028.0455186,
+      "frame": 188,
+      "path": "D:\\Traffic-sign-project\\assets\\voice_google\\29.wav"
+    }
+  ],
+  "results": [
+    {
+      "frame": 0,
+      "session": 1,
+      "elapsed": 184.33509999977105,
+      "turnaround": 25796.25339999984,
+      "submitted": 7994.2947561,
+      "positive": true
+    },
+    {
+      "frame": 9,
+      "session": 1,
+      "elapsed": 178.21999999978289,
+      "turnaround": 178.46379999991768,
+      "submitted": 8020.7978638,
+      "positive": true
+    },
+    {
+      "frame": 31,
+      "session": 1,
+      "elapsed": 168.96550000001298,
+      "turnaround": 183.19749999955093,
+      "submitted": 8020.9627809,
+      "positive": false
+    },
+    {
+      "frame": 36,
+      "session": 1,
+      "elapsed": 206.99790000071516,
+      "turnaround": 214.17250000013155,
+      "submitted": 8021.1393348,
+      "positive": false
+    },
+    {
+      "frame": 42,
+      "session": 1,
+      "elapsed": 128.80700000005163,
+      "turnaround": 144.83779999955004,
+      "submitted": 8021.3380972,
+      "positive": false
+    },
+    {
+      "frame": 46,
+      "session": 1,
+      "elapsed": 178.6685999995825,
+      "turnaround": 193.6046000000715,
+      "submitted": 8021.4687803,
+      "positive": false
+    },
+    {
+      "frame": 51,
+      "session": 1,
+      "elapsed": 149.87699999983306,
+      "turnaround": 182.30850000054488,
+      "submitted": 8021.6306902,
+      "positive": false
+    },
+    {
+      "frame": 56,
+      "session": 1,
+      "elapsed": 131.94839999960095,
+      "turnaround": 147.07259999977396,
+      "submitted": 8021.7987431,
+      "positive": false
+    },
+    {
+      "frame": 60,
+      "session": 1,
+      "elapsed": 330.91909999984637,
+      "turnaround": 351.3333999999304,
+      "submitted": 8021.9260007,
+      "positive": false
+    },
+    {
+      "frame": 63,
+      "session": 1,
+      "elapsed": 132.95240000024933,
+      "turnaround": 372.7747000002637,
+      "submitted": 8022.0380201,
+      "positive": false
+    },
+    {
+      "frame": 72,
+      "session": 1,
+      "elapsed": 431.14040000000386,
+      "turnaround": 431.8850999998176,
+      "submitted": 8022.4225173,
+      "positive": true
+    },
+    {
+      "frame": 87,
+      "session": 1,
+      "elapsed": 195.70390000080806,
+      "turnaround": 198.14469999982975,
+      "submitted": 8022.8528144,
+      "positive": true
+    },
+    {
+      "frame": 93,
+      "session": 1,
+      "elapsed": 191.0543999993024,
+      "turnaround": 205.04369999980554,
+      "submitted": 8023.0375096,
+      "positive": true
+    },
+    {
+      "frame": 99,
+      "session": 1,
+      "elapsed": 223.57039999951667,
+      "turnaround": 225.7443999997122,
+      "submitted": 8023.2412486,
+      "positive": true
+    },
+    {
+      "frame": 105,
+      "session": 1,
+      "elapsed": 192.5375000009808,
+      "turnaround": 205.46749999994063,
+      "submitted": 8023.454609,
+      "positive": true
+    },
+    {
+      "frame": 111,
+      "session": 1,
+      "elapsed": 176.25889999999345,
+      "turnaround": 183.0601999999999,
+      "submitted": 8023.6537393,
+      "positive": true
+    },
+    {
+      "frame": 116,
+      "session": 1,
+      "elapsed": 211.79969999957393,
+      "turnaround": 238.31730000074458,
+      "submitted": 8023.8112937,
+      "positive": true
+    },
+    {
+      "frame": 123,
+      "session": 1,
+      "elapsed": 190.2313000000504,
+      "turnaround": 211.79639999991196,
+      "submitted": 8024.0289165,
+      "positive": true
+    },
+    {
+      "frame": 129,
+      "session": 1,
+      "elapsed": 180.742100000316,
+      "turnaround": 189.7930000004635,
+      "submitted": 8024.2325235,
+      "positive": true
+    },
+    {
+      "frame": 134,
+      "session": 1,
+      "elapsed": 136.56059999993886,
+      "turnaround": 160.73360000063985,
+      "submitted": 8024.3988107,
+      "positive": false
+    },
+    {
+      "frame": 138,
+      "session": 1,
+      "elapsed": 130.4706000000806,
+      "turnaround": 156.07579999959853,
+      "submitted": 8024.5348745,
+      "positive": false
+    },
+    {
+      "frame": 142,
+      "session": 1,
+      "elapsed": 111.13029999978608,
+      "turnaround": 113.39489999954822,
+      "submitted": 8024.6892243,
+      "positive": false
+    },
+    {
+      "frame": 145,
+      "session": 1,
+      "elapsed": 202.33159999861527,
+      "turnaround": 231.14309999982652,
+      "submitted": 8024.7743899,
+      "positive": true
+    },
+    {
+      "frame": 151,
+      "session": 1,
+      "elapsed": 181.28760000035982,
+      "turnaround": 194.39599999986967,
+      "submitted": 8024.9929836,
+      "positive": true
+    },
+    {
+      "frame": 157,
+      "session": 1,
+      "elapsed": 136.15800000025047,
+      "turnaround": 138.9753000003111,
+      "submitted": 8025.1851259,
+      "positive": false
+    },
+    {
+      "frame": 161,
+      "session": 1,
+      "elapsed": 198.46330000018497,
+      "turnaround": 200.27389999995648,
+      "submitted": 8025.3228276,
+      "positive": true
+    },
+    {
+      "frame": 166,
+      "session": 1,
+      "elapsed": 163.63150000051974,
+      "turnaround": 196.12030000007508,
+      "submitted": 8025.491173,
+      "positive": true
+    },
+    {
+      "frame": 172,
+      "session": 1,
+      "elapsed": 446.7537999998967,
+      "turnaround": 464.9807999994664,
+      "submitted": 8025.6696447,
+      "positive": true
+    },
+    {
+      "frame": 184,
+      "session": 1,
+      "elapsed": 233.5516999992251,
+      "turnaround": 283.89099999913014,
+      "submitted": 8026.0851011,
+      "positive": true
+    },
+    {
+      "frame": 192,
+      "session": 1,
+      "elapsed": 259.8520000001372,
+      "turnaround": 284.40320000026986,
+      "submitted": 8026.3449898,
+      "positive": true
+    },
+    {
+      "frame": 200,
+      "session": 1,
+      "elapsed": 298.94230000081734,
+      "turnaround": 331.06409999982134,
+      "submitted": 8026.5978653,
+      "positive": true
+    },
+    {
+      "frame": 205,
+      "session": 1,
+      "elapsed": 257.5146000008317,
+      "turnaround": 411.4148999997269,
+      "submitted": 8026.7755402,
+      "positive": true
+    },
+    {
+      "frame": 217,
+      "session": 1,
+      "elapsed": 249.70200000007026,
+      "turnaround": 275.2712999999858,
+      "submitted": 8027.1619781,
+      "positive": true
+    },
+    {
+      "frame": 224,
+      "session": 1,
+      "elapsed": 216.4334000008239,
+      "turnaround": 248.96580000040558,
+      "submitted": 8027.4055755,
+      "positive": true
+    }
+  ],
+  "overlays": [
+    [
+      9,
+      8022.0865196,
+      1152.7507000000696,
+      [
+        15,
+        15
+      ]
+    ],
+    [
+      72,
+      8024.1695527,
+      1373.790999999983,
+      [
+        12
+      ]
+    ],
+    [
+      87,
+      8024.6702077,
+      1661.7851000000883,
+      [
+        12,
+        36
+      ]
+    ],
+    [
+      93,
+      8024.8361677,
+      1636.4299000006213,
+      [
+        36,
+        12
+      ]
+    ],
+    [
+      99,
+      8025.0786478,
+      1661.7947000004278,
+      [
+        36,
+        12,
+        36
+      ]
+    ],
+    [
+      105,
+      8025.2503114,
+      1638.492000000042,
+      [
+        12,
+        36,
+        36
+      ]
+    ],
+    [
+      111,
+      8025.4431454,
+      1646.5041999999812,
+      [
+        36,
+        36,
+        12
+      ]
+    ],
+    [
+      116,
+      8025.6086456,
+      1596.6401000005135,
+      [
+        36,
+        36,
+        12
+      ]
+    ],
+    [
+      123,
+      8025.8933298,
+      1695.7093000000896,
+      [
+        36,
+        12,
+        36
+      ]
+    ],
+    [
+      129,
+      8026.0697558,
+      1689.4895000004908,
+      [
+        12,
+        36
+      ]
+    ],
+    [
+      145,
+      8026.5773122,
+      1624.1751999996268,
+      [
+        30,
+        40
+      ]
+    ],
+    [
+      151,
+      8026.801018,
+      1654.0296000002854,
+      [
+        35
+      ]
+    ],
+    [
+      161,
+      8027.1062436,
+      1627.3423000002367,
+      [
+        29
+      ]
+    ],
+    [
+      166,
+      8027.3075451,
+      1666.163000000779,
+      [
+        29,
+        37
+      ]
+    ],
+    [
+      172,
+      8027.4957923,
+      1407.5276000003214,
+      [
+        37
+      ]
+    ],
+    [
+      184,
+      8027.8708369,
+      1561.6046999994069,
+      [
+        29,
+        12
+      ]
+    ],
+    [
+      192,
+      8028.1463593,
+      1567.1339999998963,
+      [
+        32,
+        37,
+        35,
+        12
+      ]
+    ],
+    [
+      200,
+      8028.3962749,
+      1527.2432000001572,
+      [
+        37,
+        35
+      ]
+    ],
+    [
+      205,
+      8028.5678571,
+      1425.0192999998035,
+      [
+        37,
+        12,
+        35
+      ]
+    ],
+    [
+      217,
+      8028.9589176,
+      1574.887800000397,
+      [
+        35,
+        37,
+        12
+      ]
+    ],
+    [
+      224,
+      8029.1939538,
+      1580.0689999996393,
+      [
+        35,
+        12
+      ]
+    ]
+  ],
+  "views": [
+    [
+      0,
+      7994.2947263
+    ],
+    [
+      9,
+      8022.0865196
+    ],
+    [
+      18,
+      8022.4424487
+    ],
+    [
+      27,
+      8022.6693386
+    ],
+    [
+      29,
+      8022.7253707
+    ],
+    [
+      31,
+      8022.7721626
+    ],
+    [
+      32,
+      8022.8345061
+    ],
+    [
+      34,
+      8022.8789758
+    ],
+    [
+      35,
+      8022.9319586
+    ],
+    [
+      37,
+      8022.9720638
+    ],
+    [
+      38,
+      8023.0125932
+    ],
+    [
+      39,
+      8023.0569313
+    ],
+    [
+      40,
+      8023.0955453
+    ],
+    [
+      42,
+      8023.1528966
+    ],
+    [
+      43,
+      8023.1933525
+    ],
+    [
+      44,
+      8023.2238395
+    ],
+    [
+      45,
+      8023.2598455
+    ],
+    [
+      46,
+      8023.3009429
+    ],
+    [
+      47,
+      8023.3349816
+    ],
+    [
+      49,
+      8023.3832761
+    ],
+    [
+      51,
+      8023.4349525
+    ],
+    [
+      52,
+      8023.4735561
+    ],
+    [
+      53,
+      8023.5099525
+    ],
+    [
+      54,
+      8023.5428031
+    ],
+    [
+      55,
+      8023.5924836
+    ],
+    [
+      56,
+      8023.6340141
+    ],
+    [
+      58,
+      8023.674423
+    ],
+    [
+      59,
+      8023.7117561
+    ],
+    [
+      60,
+      8023.7556256
+    ],
+    [
+      61,
+      8023.7929819
+    ],
+    [
+      62,
+      8023.8283479
+    ],
+    [
+      63,
+      8023.8736342
+    ],
+    [
+      72,
+      8024.1695527
+    ],
+    [
+      76,
+      8024.2954243
+    ],
+    [
+      78,
+      8024.3386949
+    ],
+    [
+      79,
+      8024.3720114
+    ],
+    [
+      80,
+      8024.4182137
+    ],
+    [
+      81,
+      8024.4627674
+    ],
+    [
+      83,
+      8024.5066362
+    ],
+    [
+      84,
+      8024.5568027
+    ],
+    [
+      86,
+      8024.621824
+    ],
+    [
+      87,
+      8024.6702077
+    ],
+    [
+      89,
+      8024.7086057
+    ],
+    [
+      90,
+      8024.7556252
+    ],
+    [
+      91,
+      8024.7957485
+    ],
+    [
+      93,
+      8024.8361677
+    ],
+    [
+      94,
+      8024.874941
+    ],
+    [
+      95,
+      8024.9188071
+    ],
+    [
+      96,
+      8024.9730266
+    ],
+    [
+      98,
+      8025.0212066
+    ],
+    [
+      99,
+      8025.0786478
+    ],
+    [
+      101,
+      8025.130153
+    ],
+    [
+      102,
+      8025.1694807
+    ],
+    [
+      104,
+      8025.2066139
+    ],
+    [
+      105,
+      8025.2503114
+    ],
+    [
+      106,
+      8025.3043758
+    ],
+    [
+      107,
+      8025.3471385
+    ],
+    [
+      109,
+      8025.3988029
+    ],
+    [
+      111,
+      8025.4431454
+    ],
+    [
+      112,
+      8025.5168639
+    ],
+    [
+      114,
+      8025.5661898
+    ],
+    [
+      116,
+      8025.6086456
+    ],
+    [
+      117,
+      8025.654303
+    ],
+    [
+      119,
+      8025.7377507
+    ],
+    [
+      121,
+      8025.777662
+    ],
+    [
+      122,
+      8025.8236982
+    ],
+    [
+      123,
+      8025.8933298
+    ],
+    [
+      126,
+      8025.9387141
+    ],
+    [
+      127,
+      8025.9828866
+    ],
+    [
+      128,
+      8026.0298467
+    ],
+    [
+      129,
+      8026.0697558
+    ],
+    [
+      131,
+      8026.1106898
+    ],
+    [
+      132,
+      8026.1614261
+    ],
+    [
+      134,
+      8026.2030443
+    ],
+    [
+      135,
+      8026.2424764
+    ],
+    [
+      136,
+      8026.285948
+    ],
+    [
+      138,
+      8026.3624012
+    ],
+    [
+      140,
+      8026.4084339
+    ],
+    [
+      141,
+      8026.4488783
+    ],
+    [
+      142,
+      8026.4875611
+    ],
+    [
+      145,
+      8026.5773122
+    ],
+    [
+      146,
+      8026.620819
+    ],
+    [
+      147,
+      8026.6658669
+    ],
+    [
+      148,
+      8026.7089063
+    ],
+    [
+      150,
+      8026.7590849
+    ],
+    [
+      151,
+      8026.801018
+    ],
+    [
+      158,
+      8027.0570618
+    ],
+    [
+      161,
+      8027.1062436
+    ],
+    [
+      163,
+      8027.1795502
+    ],
+    [
+      164,
+      8027.2179397
+    ],
+    [
+      166,
+      8027.3075451
+    ],
+    [
+      168,
+      8027.350181
+    ],
+    [
+      169,
+      8027.3915408
+    ],
+    [
+      171,
+      8027.4578274
+    ],
+    [
+      172,
+      8027.4957923
+    ],
+    [
+      173,
+      8027.529981
+    ],
+    [
+      174,
+      8027.5535155
+    ],
+    [
+      176,
+      8027.6135286
+    ],
+    [
+      177,
+      8027.6311386
+    ],
+    [
+      179,
+      8027.7038356
+    ],
+    [
+      180,
+      8027.7351563
+    ],
+    [
+      182,
+      8027.7974479
+    ],
+    [
+      183,
+      8027.8384499
+    ],
+    [
+      184,
+      8027.8708369
+    ],
+    [
+      186,
+      8027.9375677
+    ],
+    [
+      187,
+      8027.9724356
+    ],
+    [
+      188,
+      8027.9991618
+    ],
+    [
+      190,
+      8028.0647491
+    ],
+    [
+      191,
+      8028.0943349
+    ],
+    [
+      192,
+      8028.1463593
+    ],
+    [
+      193,
+      8028.1616943
+    ],
+    [
+      195,
+      8028.2321338
+    ],
+    [
+      196,
+      8028.2642981
+    ],
+    [
+      197,
+      8028.2981684
+    ],
+    [
+      198,
+      8028.3280763
+    ],
+    [
+      200,
+      8028.3962749
+    ],
+    [
+      201,
+      8028.4261508
+    ],
+    [
+      202,
+      8028.4633748
+    ],
+    [
+      204,
+      8028.5381905
+    ],
+    [
+      205,
+      8028.5678571
+    ],
+    [
+      212,
+      8028.8016233
+    ],
+    [
+      214,
+      8028.8631512
+    ],
+    [
+      215,
+      8028.8962945
+    ],
+    [
+      217,
+      8028.9589176
+    ],
+    [
+      218,
+      8028.9903788
+    ],
+    [
+      219,
+      8029.0382305
+    ],
+    [
+      220,
+      8029.0682997
+    ],
+    [
+      221,
+      8029.0993194
+    ],
+    [
+      223,
+      8029.1615736
+    ],
+    [
+      224,
+      8029.1939538
+    ],
+    [
+      0,
+      8029.283859
+    ]
+  ],
+  "system": [
+    [
+      8019.9148299,
+      {
+        "yolo": [
+          0.0,
+          4304896
+        ],
+        "cnn": [
+          9.25,
+          398749696
+        ],
+        "ui": [
+          1.40625,
+          84738048
+        ],
+        "yolo_child_1": [
+          10.75,
+          383033344
+        ]
+      }
+    ],
+    [
+      8021.7079309,
+      {
+        "yolo": [
+          0.0,
+          4304896
+        ],
+        "cnn": [
+          9.265625,
+          399151104
+        ],
+        "ui": [
+          2.09375,
+          135426048
+        ],
+        "yolo_child_1": [
+          14.359375,
+          385855488
+        ]
+      }
+    ],
+    [
+      8023.5101579,
+      {
+        "yolo": [
+          0.0,
+          4304896
+        ],
+        "cnn": [
+          9.484375,
+          401162240
+        ],
+        "ui": [
+          3.796875,
+          153952256
+        ],
+        "yolo_child_1": [
+          20.9375,
+          386498560
+        ]
+      }
+    ],
+    [
+      8025.3472174,
+      {
+        "yolo": [
+          0.0,
+          4292608
+        ],
+        "cnn": [
+          9.75,
+          401620992
+        ],
+        "ui": [
+          5.78125,
+          167051264
+        ],
+        "yolo_child_1": [
+          28.9375,
+          384585728
+        ]
+      }
+    ],
+    [
+      8027.1066692,
+      {
+        "yolo": [
+          0.0,
+          4292608
+        ],
+        "cnn": [
+          10.046875,
+          403431424
+        ],
+        "ui": [
+          7.6875,
+          154075136
+        ],
+        "yolo_child_1": [
+          35.5,
+          386580480
+        ]
+      }
+    ],
+    [
+      8028.8964314,
+      {
+        "yolo": [
+          0.0,
+          4292608
+        ],
+        "cnn": [
+          10.140625,
+          403701760
+        ],
+        "ui": [
+          8.609375,
+          92553216
+        ],
+        "yolo_child_1": [
+          38.5,
+          383832064
+        ]
+      }
+    ]
+  ],
+  "logical_cpus": 8,
+  "pids": {
+    "yolo": 2608,
+    "cnn": 6960,
+    "ui": 12944,
+    "yolo_child_1": 13300
+  }
+}

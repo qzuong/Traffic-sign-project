@@ -1,0 +1,24 @@
+﻿{
+    "checkpoint":  "57b793b",
+    "cpu":  "Intel Core i7-8550U",
+    "logical_processors":  8,
+    "python":  "3.13.7",
+    "opencv":  "4.12.0",
+    "ultralytics":  "8.4.216",
+    "torch":  "2.15.0+cpu",
+    "tensorflow":  "2.20.0",
+    "detector":  "gtsdb",
+    "imgsz":  640,
+    "confidence":  0.25,
+    "detector_sha256":  "F1D5B008C38EA080ACA89E82725FBF9080F70EA239378011DF95B855F2E5797E",
+    "cnn_sha256":  "8032E2B396DC9996D9BA6CA884C538E40EE39177E05F416C38B9512F02250D70",
+    "motorway_excerpt":  "From test_video.mp4, 288.0–304.0 seconds, H.264 CRF 12 for UI playback only",
+    "motorway_voice":  {
+                           "verdict":  "incorrect",
+                           "last_local_frame":  117,
+                           "track_id":  2,
+                           "expected_class_id":  7,
+                           "spoken_class_id":  4
+                       },
+    "overlay_latency":  "city runs measure verified YOLO response to overlay; motorway probe also exports exact request submission times"
+}

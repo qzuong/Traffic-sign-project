@@ -1,0 +1,33 @@
+{
+  "excluded_test_paths": [
+    "Test/00666.png",
+    "Test/02291.png",
+    "Test/03546.png",
+    "Test/03594.png",
+    "Test/04548.png",
+    "Test/09384.png",
+    "Test/09575.png",
+    "Test/11906.png"
+  ],
+  "rows": 12622,
+  "counts": {
+    "stable": {
+      "correct_eligible": 7933,
+      "correct_withheld": 4275,
+      "incorrect_eligible": 189,
+      "incorrect_withheld": 225
+    },
+    "margin_only": {
+      "correct_eligible": 7867,
+      "correct_withheld": 4341,
+      "incorrect_eligible": 139,
+      "incorrect_withheld": 275
+    },
+    "selective_speed": {
+      "correct_eligible": 8236,
+      "correct_withheld": 3972,
+      "incorrect_eligible": 139,
+      "incorrect_withheld": 275
+    }
+  }
+}

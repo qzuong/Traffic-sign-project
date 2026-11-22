@@ -1,0 +1,94 @@
+[
+  {
+    "excerpt_frame": 320,
+    "source_frame": 6080,
+    "source_timestamp_ms": 202666.66666666666,
+    "bbox": [
+      618.3174438476562,
+      300.40545654296875,
+      635.2868041992188,
+      317.71502685546875
+    ],
+    "clipped_box": [
+      618,
+      300,
+      636,
+      318
+    ],
+    "ground_truth": "blue rectangular panel, exact subset type unresolved",
+    "crop": "crops/blue-panel-320.png",
+    "top5": [
+      {
+        "class_id": 40,
+        "label": "Roundabout mandatory",
+        "probability": 0.9999576807022095
+      },
+      {
+        "class_id": 38,
+        "label": "Keep right",
+        "probability": 3.918703441740945e-05
+      },
+      {
+        "class_id": 3,
+        "label": "Speed limit (60km/h)",
+        "probability": 1.6705157577234786e-06
+      },
+      {
+        "class_id": 5,
+        "label": "Speed limit (80km/h)",
+        "probability": 9.845756494542002e-07
+      },
+      {
+        "class_id": 35,
+        "label": "Ahead only",
+        "probability": 1.2282883687930735e-07
+      }
+    ]
+  },
+  {
+    "excerpt_frame": 326,
+    "source_frame": 6086,
+    "source_timestamp_ms": 202866.66666666666,
+    "bbox": [
+      624.1016845703125,
+      300.8349609375,
+      642.9671630859375,
+      319.384033203125
+    ],
+    "clipped_box": [
+      624,
+      300,
+      643,
+      320
+    ],
+    "ground_truth": "blue rectangular panel, exact subset type unresolved",
+    "crop": "crops/blue-panel-326.png",
+    "top5": [
+      {
+        "class_id": 40,
+        "label": "Roundabout mandatory",
+        "probability": 0.9858221411705017
+      },
+      {
+        "class_id": 38,
+        "label": "Keep right",
+        "probability": 0.013640719465911388
+      },
+      {
+        "class_id": 17,
+        "label": "No entry",
+        "probability": 0.0005046193255111575
+      },
+      {
+        "class_id": 37,
+        "label": "Go straight or left",
+        "probability": 2.3383705411106348e-05
+      },
+      {
+        "class_id": 39,
+        "label": "Keep left",
+        "probability": 6.571898666152265e-06
+      }
+    ]
+  }
+]

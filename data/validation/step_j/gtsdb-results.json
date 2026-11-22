@@ -1,0 +1,4162 @@
+{
+  "summary": {
+    "n": 55,
+    "counts": {
+      "negative_frames": 10,
+      "tp": 75,
+      "fp": 2,
+      "fn": 0,
+      "cnn_correct": 75,
+      "baseline_correct": 45,
+      "candidate_correct": 35,
+      "veto_of_correct": 28,
+      "veto_speed_face_unverified": 21,
+      "veto_dark_red_sign_face": 6,
+      "removed_correct": 14,
+      "fp_on_negative": 0,
+      "veto_of_incorrect": 2,
+      "veto_roundabout_voice_unverified": 3,
+      "added_correct": 4
+    },
+    "per_class": {
+      "7": {
+        "annotations": 4,
+        "localized": 4,
+        "cnn_correct": 4,
+        "correct_veto": 2
+      },
+      "8": {
+        "annotations": 6,
+        "localized": 6,
+        "cnn_correct": 6,
+        "correct_veto": 4
+      },
+      "38": {
+        "annotations": 9,
+        "localized": 9,
+        "cnn_correct": 9
+      },
+      "17": {
+        "annotations": 3,
+        "localized": 3,
+        "cnn_correct": 3
+      },
+      "5": {
+        "annotations": 6,
+        "localized": 6,
+        "cnn_correct": 6,
+        "correct_veto": 6,
+        "incorrect_veto": 1
+      },
+      "9": {
+        "annotations": 3,
+        "localized": 3,
+        "cnn_correct": 3
+      },
+      "2": {
+        "annotations": 4,
+        "localized": 4,
+        "cnn_correct": 4,
+        "correct_veto": 1
+      },
+      "12": {
+        "annotations": 3,
+        "localized": 3,
+        "cnn_correct": 3
+      },
+      "13": {
+        "annotations": 8,
+        "localized": 8,
+        "cnn_correct": 8,
+        "correct_veto": 2
+      },
+      "16": {
+        "annotations": 1,
+        "localized": 1,
+        "cnn_correct": 1,
+        "correct_veto": 1
+      },
+      "4": {
+        "annotations": 3,
+        "localized": 3,
+        "cnn_correct": 3,
+        "correct_veto": 2
+      },
+      "40": {
+        "annotations": 3,
+        "localized": 3,
+        "cnn_correct": 3,
+        "correct_veto": 3
+      },
+      "1": {
+        "annotations": 3,
+        "localized": 3,
+        "cnn_correct": 3
+      },
+      "15": {
+        "annotations": 3,
+        "localized": 3,
+        "cnn_correct": 3
+      },
+      "23": {
+        "annotations": 2,
+        "localized": 2,
+        "cnn_correct": 2
+      },
+      "3": {
+        "annotations": 4,
+        "localized": 4,
+        "cnn_correct": 4,
+        "correct_veto": 4,
+        "incorrect_veto": 1
+      },
+      "6": {
+        "annotations": 2,
+        "localized": 2,
+        "cnn_correct": 2,
+        "correct_veto": 2
+      },
+      "10": {
+        "annotations": 4,
+        "localized": 4,
+        "cnn_correct": 4
+      },
+      "14": {
+        "annotations": 3,
+        "localized": 3,
+        "cnn_correct": 3,
+        "correct_veto": 1
+      },
+      "30": {
+        "annotations": 1,
+        "localized": 1,
+        "cnn_correct": 1
+      }
+    },
+    "incorrect_by_class": {},
+    "iou_mean": 0.9029307740674136,
+    "iou_median": 0.9146059608222971,
+    "controlled_speech_exposure": "three identical observations at 0, 200 and 400ms per isolated road scene, virtual audio clock"
+  },
+  "rows": [
+    {
+      "frame": 601,
+      "references": [
+        {
+          "box": [
+            82,
+            450,
+            146,
+            509
+          ],
+          "class_id": 7
+        }
+      ],
+      "predictions": [
+        {
+          "bbox": [
+            83.42560577392578,
+            449.91656494140625,
+            143.70059204101562,
+            508.8274230957031
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.9300239682197571,
+          "cnn_class_id": 7,
+          "cnn_class_name": "Speed limit (100km/h)",
+          "cnn_score": 0.9984390139579773,
+          "valid_yolo_at": 6736.3530132,
+          "valid_cnn_at": 6736.3896869,
+          "speech_veto": null
+        }
+      ],
+      "matches": {
+        "0": [
+          0,
+          0.9377928799634365
+        ]
+      },
+      "baseline": {
+        "played": [
+          [
+            1,
+            7,
+            true
+          ]
+        ],
+        "suppressed": []
+      },
+      "candidate": {
+        "played": [
+          [
+            1,
+            7,
+            true
+          ]
+        ],
+        "suppressed": []
+      }
+    },
+    {
+      "frame": 602,
+      "references": [
+        {
+          "box": [
+            1268,
+            555,
+            1300,
+            587
+          ],
+          "class_id": 8
+        },
+        {
+          "box": [
+            443,
+            543,
+            475,
+            575
+          ],
+          "class_id": 8
+        }
+      ],
+      "predictions": [
+        {
+          "bbox": [
+            1268.08642578125,
+            554.5889892578125,
+            1299.2947998046875,
+            586.0919799804688
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.9248180985450745,
+          "cnn_class_id": 8,
+          "cnn_class_name": "Speed limit (120km/h)",
+          "cnn_score": 1.0,
+          "valid_yolo_at": 6736.5749094,
+          "valid_cnn_at": 6736.6084228,
+          "speech_veto": null
+        },
+        {
+          "bbox": [
+            442.3231201171875,
+            542.5864868164062,
+            474.00299072265625,
+            575.4066772460938
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.8979023694992065,
+          "cnn_class_id": 8,
+          "cnn_class_name": "Speed limit (120km/h)",
+          "cnn_score": 1.0,
+          "valid_yolo_at": 6736.575014,
+          "valid_cnn_at": 6736.608682,
+          "speech_veto": null
+        }
+      ],
+      "matches": {
+        "0": [
+          0,
+          0.9358650593713547
+        ],
+        "1": [
+          1,
+          0.9257701220320472
+        ]
+      },
+      "baseline": {
+        "played": [
+          [
+            1,
+            8,
+            true
+          ]
+        ],
+        "suppressed": []
+      },
+      "candidate": {
+        "played": [
+          [
+            1,
+            8,
+            true
+          ]
+        ],
+        "suppressed": []
+      }
+    },
+    {
+      "frame": 612,
+      "references": [
+        {
+          "box": [
+            127,
+            521,
+            219,
+            613
+          ],
+          "class_id": 38
+        },
+        {
+          "box": [
+            170,
+            374,
+            247,
+            452
+          ],
+          "class_id": 17
+        }
+      ],
+      "predictions": [
+        {
+          "bbox": [
+            127.91655731201172,
+            521.03369140625,
+            215.78091430664062,
+            611.3380737304688
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.9435939788818359,
+          "cnn_class_id": 38,
+          "cnn_class_name": "Keep right",
+          "cnn_score": 1.0,
+          "valid_yolo_at": 6736.7482725,
+          "valid_cnn_at": 6736.7767168,
+          "speech_veto": null
+        },
+        {
+          "bbox": [
+            171.47776794433594,
+            374.04669189453125,
+            244.740234375,
+            449.56134033203125
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.942345917224884,
+          "cnn_class_id": 17,
+          "cnn_class_name": "No entry",
+          "cnn_score": 1.0,
+          "valid_yolo_at": 6736.7483997,
+          "valid_cnn_at": 6736.7770575,
+          "speech_veto": null
+        }
+      ],
+      "matches": {
+        "0": [
+          0,
+          0.9374452370882104
+        ],
+        "1": [
+          1,
+          0.9211437556070167
+        ]
+      },
+      "baseline": {
+        "played": [
+          [
+            2,
+            17,
+            true
+          ]
+        ],
+        "suppressed": []
+      },
+      "candidate": {
+        "played": [
+          [
+            2,
+            17,
+            true
+          ]
+        ],
+        "suppressed": []
+      }
+    },
+    {
+      "frame": 613,
+      "references": [
+        {
+          "box": [
+            1132,
+            561,
+            1170,
+            599
+          ],
+          "class_id": 5
+        },
+        {
+          "box": [
+            478,
+            546,
+            514,
+            582
+          ],
+          "class_id": 5
+        }
+      ],
+      "predictions": [
+        {
+          "bbox": [
+            478.306640625,
+            545.8392333984375,
+            513.794921875,
+            580.6746826171875
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.9126466512680054,
+          "cnn_class_id": 5,
+          "cnn_class_name": "Speed limit (80km/h)",
+          "cnn_score": 0.9999995231628418,
+          "valid_yolo_at": 6736.9658146,
+          "valid_cnn_at": 6736.9992455,
+          "speech_veto": "speed_face_unverified"
+        },
+        {
+          "bbox": [
+            1131.6600341796875,
+            560.57568359375,
+            1168.3284912109375,
+            597.7422485351562
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.9087916612625122,
+          "cnn_class_id": 5,
+          "cnn_class_name": "Speed limit (80km/h)",
+          "cnn_score": 1.0,
+          "valid_yolo_at": 6736.9659907,
+          "valid_cnn_at": 6736.9996676,
+          "speech_veto": "dark_red_sign_face"
+        }
+      ],
+      "matches": {
+        "0": [
+          1,
+          0.9453329108068627
+        ],
+        "1": [
+          0,
+          0.9067561082439778
+        ]
+      },
+      "baseline": {
+        "played": [
+          [
+            1,
+            5,
+            true
+          ]
+        ],
+        "suppressed": []
+      },
+      "candidate": {
+        "played": [],
+        "suppressed": [
+          {
+            "event": "speech_suppressed",
+            "monotonic": 0.2,
+            "video_ms": 200.0,
+            "generation": 0,
+            "track_id": 1,
+            "frame_id": 1,
+            "class_id": 5,
+            "reason": "speed_face_unverified",
+            "would_be_correct": true
+          },
+          {
+            "event": "speech_suppressed",
+            "monotonic": 0.2,
+            "video_ms": 200.0,
+            "generation": 0,
+            "track_id": 2,
+            "frame_id": 1,
+            "class_id": 5,
+            "reason": "dark_red_sign_face",
+            "would_be_correct": true
+          }
+        ]
+      }
+    },
+    {
+      "frame": 620,
+      "references": [
+        {
+          "box": [
+            863,
+            425,
+            893,
+            455
+          ],
+          "class_id": 9
+        }
+      ],
+      "predictions": [
+        {
+          "bbox": [
+            863.5769653320312,
+            423.8986511230469,
+            892.603515625,
+            453.7743225097656
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.8990045785903931,
+          "cnn_class_id": 9,
+          "cnn_class_name": "No passing",
+          "cnn_score": 1.0,
+          "valid_yolo_at": 6737.1667507,
+          "valid_cnn_at": 6737.1948429,
+          "speech_veto": null
+        }
+      ],
+      "matches": {
+        "0": [
+          0,
+          0.8961884937382066
+        ]
+      },
+      "baseline": {
+        "played": [
+          [
+            1,
+            9,
+            true
+          ]
+        ],
+        "suppressed": []
+      },
+      "candidate": {
+        "played": [
+          [
+            1,
+            9,
+            true
+          ]
+        ],
+        "suppressed": []
+      }
+    },
+    {
+      "frame": 626,
+      "references": [
+        {
+          "box": [
+            857,
+            404,
+            896,
+            443
+          ],
+          "class_id": 2
+        },
+        {
+          "box": [
+            857,
+            444,
+            894,
+            481
+          ],
+          "class_id": 9
+        }
+      ],
+      "predictions": [
+        {
+          "bbox": [
+            857.8541870117188,
+            403.9062805175781,
+            894.8397216796875,
+            441.93389892578125
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.9289811849594116,
+          "cnn_class_id": 2,
+          "cnn_class_name": "Speed limit (50km/h)",
+          "cnn_score": 1.0,
+          "valid_yolo_at": 6737.3952749,
+          "valid_cnn_at": 6737.4325444,
+          "speech_veto": null
+        },
+        {
+          "bbox": [
+            856.461181640625,
+            441.9883728027344,
+            893.534912109375,
+            480.53179931640625
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.9087410569190979,
+          "cnn_class_id": 9,
+          "cnn_class_name": "No passing",
+          "cnn_score": 1.0,
+          "valid_yolo_at": 6737.395451,
+          "valid_cnn_at": 6737.4327841,
+          "speech_veto": null
+        }
+      ],
+      "matches": {
+        "0": [
+          0,
+          0.9203257335824133
+        ],
+        "1": [
+          1,
+          0.9121302917660322
+        ]
+      },
+      "baseline": {
+        "played": [
+          [
+            1,
+            2,
+            true
+          ]
+        ],
+        "suppressed": []
+      },
+      "candidate": {
+        "played": [
+          [
+            1,
+            2,
+            true
+          ]
+        ],
+        "suppressed": []
+      }
+    },
+    {
+      "frame": 627,
+      "references": [],
+      "predictions": [],
+      "matches": {},
+      "baseline": {
+        "played": [],
+        "suppressed": []
+      },
+      "candidate": {
+        "played": [],
+        "suppressed": []
+      }
+    },
+    {
+      "frame": 635,
+      "references": [
+        {
+          "box": [
+            826,
+            423,
+            865,
+            462
+          ],
+          "class_id": 9
+        }
+      ],
+      "predictions": [
+        {
+          "bbox": [
+            826.4183959960938,
+            423.6796875,
+            864.3635864257812,
+            461.9849548339844
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.9160448908805847,
+          "cnn_class_id": 9,
+          "cnn_class_name": "No passing",
+          "cnn_score": 1.0,
+          "valid_yolo_at": 6737.7941314,
+          "valid_cnn_at": 6737.8220466,
+          "speech_veto": null
+        }
+      ],
+      "matches": {
+        "0": [
+          0,
+          0.9556217379672092
+        ]
+      },
+      "baseline": {
+        "played": [
+          [
+            1,
+            9,
+            true
+          ]
+        ],
+        "suppressed": []
+      },
+      "candidate": {
+        "played": [
+          [
+            1,
+            9,
+            true
+          ]
+        ],
+        "suppressed": []
+      }
+    },
+    {
+      "frame": 641,
+      "references": [
+        {
+          "box": [
+            26,
+            425,
+            69,
+            468
+          ],
+          "class_id": 17
+        }
+      ],
+      "predictions": [
+        {
+          "bbox": [
+            26.349727630615234,
+            423.7213439941406,
+            68.93392944335938,
+            466.9664306640625
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.8834702372550964,
+          "cnn_class_id": 17,
+          "cnn_class_name": "No entry",
+          "cnn_score": 1.0,
+          "valid_yolo_at": 6737.998007,
+          "valid_cnn_at": 6738.023762,
+          "speech_veto": null
+        }
+      ],
+      "matches": {
+        "0": [
+          0,
+          0.9388775332647196
+        ]
+      },
+      "baseline": {
+        "played": [
+          [
+            1,
+            17,
+            true
+          ]
+        ],
+        "suppressed": []
+      },
+      "candidate": {
+        "played": [
+          [
+            1,
+            17,
+            true
+          ]
+        ],
+        "suppressed": []
+      }
+    },
+    {
+      "frame": 642,
+      "references": [
+        {
+          "box": [
+            860,
+            327,
+            935,
+            402
+          ],
+          "class_id": 12
+        },
+        {
+          "box": [
+            434,
+            496,
+            458,
+            519
+          ],
+          "class_id": 38
+        }
+      ],
+      "predictions": [
+        {
+          "bbox": [
+            859.985595703125,
+            328.6767578125,
+            934.626953125,
+            401.5411682128906
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.91059809923172,
+          "cnn_class_id": 12,
+          "cnn_class_name": "Priority road",
+          "cnn_score": 1.0,
+          "valid_yolo_at": 6738.2657143,
+          "valid_cnn_at": 6738.3014954,
+          "speech_veto": null
+        },
+        {
+          "bbox": [
+            435.1604919433594,
+            497.4371643066406,
+            456.0274658203125,
+            519.5924682617188
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.48218515515327454,
+          "cnn_class_id": 38,
+          "cnn_class_name": "Keep right",
+          "cnn_score": 0.9999998807907104,
+          "valid_yolo_at": 6738.265852,
+          "valid_cnn_at": 6738.3017953,
+          "speech_veto": null
+        }
+      ],
+      "matches": {
+        "0": [
+          0,
+          0.9665128045640153
+        ],
+        "1": [
+          1,
+          0.7972725238685673
+        ]
+      },
+      "baseline": {
+        "played": [
+          [
+            1,
+            12,
+            true
+          ]
+        ],
+        "suppressed": []
+      },
+      "candidate": {
+        "played": [
+          [
+            1,
+            12,
+            true
+          ]
+        ],
+        "suppressed": []
+      }
+    },
+    {
+      "frame": 646,
+      "references": [
+        {
+          "box": [
+            1059,
+            440,
+            1091,
+            470
+          ],
+          "class_id": 13
+        },
+        {
+          "box": [
+            560,
+            434,
+            591,
+            461
+          ],
+          "class_id": 13
+        }
+      ],
+      "predictions": [
+        {
+          "bbox": [
+            558.7284545898438,
+            433.30889892578125,
+            591.8527221679688,
+            462.1861877441406
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.8381429314613342,
+          "cnn_class_id": 13,
+          "cnn_class_name": "Yield",
+          "cnn_score": 1.0,
+          "valid_yolo_at": 6738.5686805,
+          "valid_cnn_at": 6738.6026315,
+          "speech_veto": null
+        },
+        {
+          "bbox": [
+            1058.279296875,
+            438.2326965332031,
+            1092.279541015625,
+            468.48455810546875
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.8226800560951233,
+          "cnn_class_id": 13,
+          "cnn_class_name": "Yield",
+          "cnn_score": 1.0,
+          "valid_yolo_at": 6738.5688708,
+          "valid_cnn_at": 6738.6029887,
+          "speech_veto": null
+        }
+      ],
+      "matches": {
+        "0": [
+          1,
+          0.8750296260449356
+        ],
+        "1": [
+          0,
+          0.8462869110815098
+        ]
+      },
+      "baseline": {
+        "played": [
+          [
+            1,
+            13,
+            true
+          ]
+        ],
+        "suppressed": []
+      },
+      "candidate": {
+        "played": [
+          [
+            1,
+            13,
+            true
+          ]
+        ],
+        "suppressed": []
+      }
+    },
+    {
+      "frame": 657,
+      "references": [
+        {
+          "box": [
+            991,
+            400,
+            1027,
+            436
+          ],
+          "class_id": 16
+        }
+      ],
+      "predictions": [
+        {
+          "bbox": [
+            990.88671875,
+            399.5981750488281,
+            1025.5533447265625,
+            434.4541320800781
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.9182102084159851,
+          "cnn_class_id": 16,
+          "cnn_class_name": "Veh > 3.5 tons prohibited",
+          "cnn_score": 1.0,
+          "valid_yolo_at": 6738.802655,
+          "valid_cnn_at": 6738.838162,
+          "speech_veto": "dark_red_sign_face"
+        }
+      ],
+      "matches": {
+        "0": [
+          0,
+          0.9061315808759566
+        ]
+      },
+      "baseline": {
+        "played": [
+          [
+            1,
+            16,
+            true
+          ]
+        ],
+        "suppressed": []
+      },
+      "candidate": {
+        "played": [],
+        "suppressed": [
+          {
+            "event": "speech_suppressed",
+            "monotonic": 0.2,
+            "video_ms": 200.0,
+            "generation": 0,
+            "track_id": 1,
+            "frame_id": 1,
+            "class_id": 16,
+            "reason": "dark_red_sign_face",
+            "would_be_correct": true
+          }
+        ]
+      }
+    },
+    {
+      "frame": 659,
+      "references": [
+        {
+          "box": [
+            993,
+            430,
+            1034,
+            471
+          ],
+          "class_id": 2
+        }
+      ],
+      "predictions": [
+        {
+          "bbox": [
+            994.6492309570312,
+            430.327392578125,
+            1032.358642578125,
+            468.4931335449219
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.9041892886161804,
+          "cnn_class_id": 2,
+          "cnn_class_name": "Speed limit (50km/h)",
+          "cnn_score": 0.9996383190155029,
+          "valid_yolo_at": 6739.1707204,
+          "valid_cnn_at": 6739.2058779,
+          "speech_veto": null
+        }
+      ],
+      "matches": {
+        "0": [
+          0,
+          0.8561615918744699
+        ]
+      },
+      "baseline": {
+        "played": [
+          [
+            1,
+            2,
+            true
+          ]
+        ],
+        "suppressed": []
+      },
+      "candidate": {
+        "played": [
+          [
+            1,
+            2,
+            true
+          ]
+        ],
+        "suppressed": []
+      }
+    },
+    {
+      "frame": 663,
+      "references": [
+        {
+          "box": [
+            830,
+            307,
+            897,
+            368
+          ],
+          "class_id": 13
+        }
+      ],
+      "predictions": [
+        {
+          "bbox": [
+            831.4552612304688,
+            307.2381286621094,
+            896.438720703125,
+            366.4374084472656
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.9121432900428772,
+          "cnn_class_id": 13,
+          "cnn_class_name": "Yield",
+          "cnn_score": 1.0,
+          "valid_yolo_at": 6739.4580613,
+          "valid_cnn_at": 6739.4926257,
+          "speech_veto": "dark_red_sign_face"
+        },
+        {
+          "bbox": [
+            0.2789050340652466,
+            526.3380126953125,
+            16.78990936279297,
+            588.235595703125
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.4033781588077545,
+          "cnn_class_id": 5,
+          "cnn_class_name": "Speed limit (80km/h)",
+          "cnn_score": 0.2375251203775406,
+          "valid_yolo_at": 6739.4582466,
+          "valid_cnn_at": 6739.4930528,
+          "speech_veto": "speed_face_unverified"
+        }
+      ],
+      "matches": {
+        "0": [
+          0,
+          0.9412708585096989
+        ]
+      },
+      "baseline": {
+        "played": [
+          [
+            1,
+            13,
+            true
+          ]
+        ],
+        "suppressed": []
+      },
+      "candidate": {
+        "played": [],
+        "suppressed": [
+          {
+            "event": "speech_suppressed",
+            "monotonic": 0.2,
+            "video_ms": 200.0,
+            "generation": 0,
+            "track_id": 1,
+            "frame_id": 1,
+            "class_id": 13,
+            "reason": "dark_red_sign_face",
+            "would_be_correct": true
+          },
+          {
+            "event": "speech_suppressed",
+            "monotonic": 0.2,
+            "video_ms": 200.0,
+            "generation": 0,
+            "track_id": 2,
+            "frame_id": 1,
+            "class_id": 5,
+            "reason": "speed_face_unverified",
+            "would_be_correct": false
+          }
+        ]
+      }
+    },
+    {
+      "frame": 670,
+      "references": [
+        {
+          "box": [
+            997,
+            306,
+            1065,
+            374
+          ],
+          "class_id": 4
+        }
+      ],
+      "predictions": [
+        {
+          "bbox": [
+            997.0440673828125,
+            306.9383239746094,
+            1063.6409912109375,
+            372.88604736328125
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.9411669373512268,
+          "cnn_class_id": 4,
+          "cnn_class_name": "Speed limit (70km/h)",
+          "cnn_score": 1.0,
+          "valid_yolo_at": 6739.7011159,
+          "valid_cnn_at": 6739.7373521,
+          "speech_veto": null
+        }
+      ],
+      "matches": {
+        "0": [
+          0,
+          0.949808717810043
+        ]
+      },
+      "baseline": {
+        "played": [
+          [
+            1,
+            4,
+            true
+          ]
+        ],
+        "suppressed": []
+      },
+      "candidate": {
+        "played": [
+          [
+            1,
+            4,
+            true
+          ]
+        ],
+        "suppressed": []
+      }
+    },
+    {
+      "frame": 675,
+      "references": [
+        {
+          "box": [
+            641,
+            503,
+            677,
+            539
+          ],
+          "class_id": 38
+        },
+        {
+          "box": [
+            1008,
+            388,
+            1044,
+            423
+          ],
+          "class_id": 13
+        },
+        {
+          "box": [
+            1012,
+            421,
+            1038,
+            448
+          ],
+          "class_id": 40
+        }
+      ],
+      "predictions": [
+        {
+          "bbox": [
+            1007.5538330078125,
+            389.1414489746094,
+            1041.8681640625,
+            421.6990966796875
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.8903762698173523,
+          "cnn_class_id": 13,
+          "cnn_class_name": "Yield",
+          "cnn_score": 1.0,
+          "valid_yolo_at": 6739.9015934,
+          "valid_cnn_at": 6739.9379434,
+          "speech_veto": null
+        },
+        {
+          "bbox": [
+            641.6626586914062,
+            502.65606689453125,
+            675.3277587890625,
+            537.4654541015625
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.8848233819007874,
+          "cnn_class_id": 38,
+          "cnn_class_name": "Keep right",
+          "cnn_score": 1.0,
+          "valid_yolo_at": 6739.9017594,
+          "valid_cnn_at": 6739.9383677,
+          "speech_veto": null
+        },
+        {
+          "bbox": [
+            1012.3994140625,
+            420.6009216308594,
+            1037.686279296875,
+            446.8572082519531
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.8570741415023804,
+          "cnn_class_id": 40,
+          "cnn_class_name": "Roundabout mandatory",
+          "cnn_score": 0.9998028874397278,
+          "valid_yolo_at": 6739.901839,
+          "valid_cnn_at": 6739.9385999,
+          "speech_veto": "roundabout_voice_unverified"
+        }
+      ],
+      "matches": {
+        "2": [
+          2,
+          0.918207554275122
+        ],
+        "1": [
+          0,
+          0.8873524033903651
+        ],
+        "0": [
+          1,
+          0.8651589894110039
+        ]
+      },
+      "baseline": {
+        "played": [
+          [
+            1,
+            13,
+            true
+          ]
+        ],
+        "suppressed": []
+      },
+      "candidate": {
+        "played": [
+          [
+            1,
+            13,
+            true
+          ]
+        ],
+        "suppressed": [
+          {
+            "event": "speech_suppressed",
+            "monotonic": 0.2,
+            "video_ms": 200.0,
+            "generation": 0,
+            "track_id": 3,
+            "frame_id": 1,
+            "class_id": 40,
+            "reason": "roundabout_voice_unverified",
+            "would_be_correct": true
+          }
+        ]
+      }
+    },
+    {
+      "frame": 676,
+      "references": [],
+      "predictions": [],
+      "matches": {},
+      "baseline": {
+        "played": [],
+        "suppressed": []
+      },
+      "candidate": {
+        "played": [],
+        "suppressed": []
+      }
+    },
+    {
+      "frame": 681,
+      "references": [
+        {
+          "box": [
+            820,
+            434,
+            847,
+            461
+          ],
+          "class_id": 1
+        }
+      ],
+      "predictions": [
+        {
+          "bbox": [
+            820.7555541992188,
+            435.4022216796875,
+            847.1723022460938,
+            460.8961486816406
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.8735575675964355,
+          "cnn_class_id": 1,
+          "cnn_class_name": "Speed limit (30km/h)",
+          "cnn_score": 0.9999983310699463,
+          "valid_yolo_at": 6740.4027929,
+          "valid_cnn_at": 6740.4404112,
+          "speech_veto": null
+        }
+      ],
+      "matches": {
+        "0": [
+          0,
+          0.9122998103705989
+        ]
+      },
+      "baseline": {
+        "played": [
+          [
+            1,
+            1,
+            true
+          ]
+        ],
+        "suppressed": []
+      },
+      "candidate": {
+        "played": [
+          [
+            1,
+            1,
+            true
+          ]
+        ],
+        "suppressed": []
+      }
+    },
+    {
+      "frame": 692,
+      "references": [
+        {
+          "box": [
+            1050,
+            357,
+            1092,
+            398
+          ],
+          "class_id": 15
+        }
+      ],
+      "predictions": [
+        {
+          "bbox": [
+            1051.2313232421875,
+            357.48358154296875,
+            1090.2664794921875,
+            397.5146179199219
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.9047082662582397,
+          "cnn_class_id": 15,
+          "cnn_class_name": "No vehicles",
+          "cnn_score": 1.0,
+          "valid_yolo_at": 6740.7266633,
+          "valid_cnn_at": 6740.7611374,
+          "speech_veto": null
+        }
+      ],
+      "matches": {
+        "0": [
+          0,
+          0.9074435306758415
+        ]
+      },
+      "baseline": {
+        "played": [
+          [
+            1,
+            15,
+            true
+          ]
+        ],
+        "suppressed": []
+      },
+      "candidate": {
+        "played": [
+          [
+            1,
+            15,
+            true
+          ]
+        ],
+        "suppressed": []
+      }
+    },
+    {
+      "frame": 704,
+      "references": [
+        {
+          "box": [
+            766,
+            411,
+            794,
+            439
+          ],
+          "class_id": 2
+        }
+      ],
+      "predictions": [
+        {
+          "bbox": [
+            766.7457275390625,
+            410.9634094238281,
+            793.6428833007812,
+            439.2907409667969
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.9048171639442444,
+          "cnn_class_id": 2,
+          "cnn_class_name": "Speed limit (50km/h)",
+          "cnn_score": 1.0,
+          "valid_yolo_at": 6740.9876067,
+          "valid_cnn_at": 6741.0215099,
+          "speech_veto": null
+        }
+      ],
+      "matches": {
+        "0": [
+          0,
+          0.9499448643320036
+        ]
+      },
+      "baseline": {
+        "played": [
+          [
+            1,
+            2,
+            true
+          ]
+        ],
+        "suppressed": []
+      },
+      "candidate": {
+        "played": [
+          [
+            1,
+            2,
+            true
+          ]
+        ],
+        "suppressed": []
+      }
+    },
+    {
+      "frame": 705,
+      "references": [
+        {
+          "box": [
+            955,
+            343,
+            992,
+            379
+          ],
+          "class_id": 1
+        }
+      ],
+      "predictions": [
+        {
+          "bbox": [
+            954.9707641601562,
+            342.6737060546875,
+            990.6446533203125,
+            378.49627685546875
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.9324595928192139,
+          "cnn_class_id": 1,
+          "cnn_class_name": "Speed limit (30km/h)",
+          "cnn_score": 1.0,
+          "valid_yolo_at": 6741.392388,
+          "valid_cnn_at": 6741.4299286,
+          "speech_veto": null
+        }
+      ],
+      "matches": {
+        "0": [
+          0,
+          0.940933473649219
+        ]
+      },
+      "baseline": {
+        "played": [
+          [
+            1,
+            1,
+            true
+          ]
+        ],
+        "suppressed": []
+      },
+      "candidate": {
+        "played": [
+          [
+            1,
+            1,
+            true
+          ]
+        ],
+        "suppressed": []
+      }
+    },
+    {
+      "frame": 708,
+      "references": [],
+      "predictions": [],
+      "matches": {},
+      "baseline": {
+        "played": [],
+        "suppressed": []
+      },
+      "candidate": {
+        "played": [],
+        "suppressed": []
+      }
+    },
+    {
+      "frame": 713,
+      "references": [],
+      "predictions": [],
+      "matches": {},
+      "baseline": {
+        "played": [],
+        "suppressed": []
+      },
+      "candidate": {
+        "played": [],
+        "suppressed": []
+      }
+    },
+    {
+      "frame": 723,
+      "references": [
+        {
+          "box": [
+            746,
+            360,
+            801,
+            409
+          ],
+          "class_id": 23
+        },
+        {
+          "box": [
+            180,
+            366,
+            237,
+            415
+          ],
+          "class_id": 23
+        },
+        {
+          "box": [
+            696,
+            424,
+            718,
+            447
+          ],
+          "class_id": 4
+        }
+      ],
+      "predictions": [
+        {
+          "bbox": [
+            746.6106567382812,
+            357.62652587890625,
+            800.3701171875,
+            406.48516845703125
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.9184059500694275,
+          "cnn_class_id": 23,
+          "cnn_class_name": "Slippery road",
+          "cnn_score": 1.0,
+          "valid_yolo_at": 6742.3965053,
+          "valid_cnn_at": 6742.4334145,
+          "speech_veto": null
+        },
+        {
+          "bbox": [
+            181.947509765625,
+            364.2676696777344,
+            236.293701171875,
+            414.55572509765625
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.9067046046257019,
+          "cnn_class_id": 23,
+          "cnn_class_name": "Slippery road",
+          "cnn_score": 1.0,
+          "valid_yolo_at": 6742.3966589,
+          "valid_cnn_at": 6742.4337113,
+          "speech_veto": null
+        },
+        {
+          "bbox": [
+            695.4232788085938,
+            424.2757263183594,
+            716.4810791015625,
+            445.02813720703125
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.3284740149974823,
+          "cnn_class_id": 4,
+          "cnn_class_name": "Speed limit (70km/h)",
+          "cnn_score": 0.9999394416809082,
+          "valid_yolo_at": 6742.3967388,
+          "valid_cnn_at": 6742.4339061,
+          "speech_veto": "speed_face_unverified"
+        }
+      ],
+      "matches": {
+        "1": [
+          1,
+          0.9139888098843151
+        ],
+        "0": [
+          0,
+          0.8853611944070024
+        ],
+        "2": [
+          2,
+          0.8205747798057678
+        ]
+      },
+      "baseline": {
+        "played": [
+          [
+            1,
+            23,
+            true
+          ]
+        ],
+        "suppressed": []
+      },
+      "candidate": {
+        "played": [
+          [
+            1,
+            23,
+            true
+          ]
+        ],
+        "suppressed": [
+          {
+            "event": "speech_suppressed",
+            "monotonic": 0.2,
+            "video_ms": 200.0,
+            "generation": 0,
+            "track_id": 3,
+            "frame_id": 1,
+            "class_id": 4,
+            "reason": "speed_face_unverified",
+            "would_be_correct": true
+          }
+        ]
+      }
+    },
+    {
+      "frame": 729,
+      "references": [
+        {
+          "box": [
+            536,
+            489,
+            571,
+            524
+          ],
+          "class_id": 3
+        }
+      ],
+      "predictions": [
+        {
+          "bbox": [
+            537.2803955078125,
+            488.4085693359375,
+            570.9482421875,
+            522.7752075195312
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.9028521776199341,
+          "cnn_class_id": 3,
+          "cnn_class_name": "Speed limit (60km/h)",
+          "cnn_score": 0.9999964237213135,
+          "valid_yolo_at": 6742.5946625,
+          "valid_cnn_at": 6742.6249789,
+          "speech_veto": "speed_face_unverified"
+        }
+      ],
+      "matches": {
+        "0": [
+          0,
+          0.9134286828871836
+        ]
+      },
+      "baseline": {
+        "played": [
+          [
+            1,
+            3,
+            true
+          ]
+        ],
+        "suppressed": []
+      },
+      "candidate": {
+        "played": [],
+        "suppressed": [
+          {
+            "event": "speech_suppressed",
+            "monotonic": 0.2,
+            "video_ms": 200.0,
+            "generation": 0,
+            "track_id": 1,
+            "frame_id": 1,
+            "class_id": 3,
+            "reason": "speed_face_unverified",
+            "would_be_correct": true
+          }
+        ]
+      }
+    },
+    {
+      "frame": 730,
+      "references": [
+        {
+          "box": [
+            466,
+            443,
+            513,
+            491
+          ],
+          "class_id": 3
+        },
+        {
+          "box": [
+            1053,
+            517,
+            1084,
+            548
+          ],
+          "class_id": 3
+        }
+      ],
+      "predictions": [
+        {
+          "bbox": [
+            467.2505798339844,
+            443.37890625,
+            512.6118774414062,
+            488.6572570800781
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.9107739925384521,
+          "cnn_class_id": 3,
+          "cnn_class_name": "Speed limit (60km/h)",
+          "cnn_score": 1.0,
+          "valid_yolo_at": 6743.0647287,
+          "valid_cnn_at": 6743.1025992,
+          "speech_veto": "speed_face_unverified"
+        },
+        {
+          "bbox": [
+            1052.638427734375,
+            517.35986328125,
+            1083.8291015625,
+            547.8037109375
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.8873245120048523,
+          "cnn_class_id": 3,
+          "cnn_class_name": "Speed limit (60km/h)",
+          "cnn_score": 1.0,
+          "valid_yolo_at": 6743.0649297,
+          "valid_cnn_at": 6743.103091,
+          "speech_veto": "speed_face_unverified"
+        }
+      ],
+      "matches": {
+        "1": [
+          1,
+          0.9655854770379912
+        ],
+        "0": [
+          0,
+          0.9104099056633117
+        ]
+      },
+      "baseline": {
+        "played": [
+          [
+            1,
+            3,
+            true
+          ]
+        ],
+        "suppressed": []
+      },
+      "candidate": {
+        "played": [],
+        "suppressed": [
+          {
+            "event": "speech_suppressed",
+            "monotonic": 0.2,
+            "video_ms": 200.0,
+            "generation": 0,
+            "track_id": 1,
+            "frame_id": 1,
+            "class_id": 3,
+            "reason": "speed_face_unverified",
+            "would_be_correct": true
+          },
+          {
+            "event": "speech_suppressed",
+            "monotonic": 0.2,
+            "video_ms": 200.0,
+            "generation": 0,
+            "track_id": 2,
+            "frame_id": 1,
+            "class_id": 3,
+            "reason": "speed_face_unverified",
+            "would_be_correct": true
+          }
+        ]
+      }
+    },
+    {
+      "frame": 734,
+      "references": [
+        {
+          "box": [
+            1090,
+            450,
+            1167,
+            529
+          ],
+          "class_id": 3
+        }
+      ],
+      "predictions": [
+        {
+          "bbox": [
+            1089.7032470703125,
+            450.8382873535156,
+            1168.5321044921875,
+            528.1237182617188
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.9437454342842102,
+          "cnn_class_id": 3,
+          "cnn_class_name": "Speed limit (60km/h)",
+          "cnn_score": 0.9996271133422852,
+          "valid_yolo_at": 6743.272147,
+          "valid_cnn_at": 6743.3104406,
+          "speech_veto": "speed_face_unverified"
+        }
+      ],
+      "matches": {
+        "0": [
+          0,
+          0.9560811785952159
+        ]
+      },
+      "baseline": {
+        "played": [
+          [
+            1,
+            3,
+            true
+          ]
+        ],
+        "suppressed": []
+      },
+      "candidate": {
+        "played": [],
+        "suppressed": [
+          {
+            "event": "speech_suppressed",
+            "monotonic": 0.2,
+            "video_ms": 200.0,
+            "generation": 0,
+            "track_id": 1,
+            "frame_id": 1,
+            "class_id": 3,
+            "reason": "speed_face_unverified",
+            "would_be_correct": true
+          }
+        ]
+      }
+    },
+    {
+      "frame": 738,
+      "references": [
+        {
+          "box": [
+            555,
+            605,
+            585,
+            635
+          ],
+          "class_id": 38
+        }
+      ],
+      "predictions": [
+        {
+          "bbox": [
+            555.1441650390625,
+            603.8634643554688,
+            584.4175415039062,
+            634.0132446289062
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.9119530916213989,
+          "cnn_class_id": 38,
+          "cnn_class_name": "Keep right",
+          "cnn_score": 1.0,
+          "valid_yolo_at": 6743.4641823,
+          "valid_cnn_at": 6743.4964147,
+          "speech_veto": null
+        }
+      ],
+      "matches": {
+        "0": [
+          0,
+          0.910042557792915
+        ]
+      },
+      "baseline": {
+        "played": [
+          [
+            1,
+            38,
+            true
+          ]
+        ],
+        "suppressed": []
+      },
+      "candidate": {
+        "played": [
+          [
+            1,
+            38,
+            true
+          ]
+        ],
+        "suppressed": []
+      }
+    },
+    {
+      "frame": 742,
+      "references": [
+        {
+          "box": [
+            334,
+            562,
+            369,
+            597
+          ],
+          "class_id": 7
+        },
+        {
+          "box": [
+            960,
+            554,
+            996,
+            588
+          ],
+          "class_id": 7
+        }
+      ],
+      "predictions": [
+        {
+          "bbox": [
+            960.9751586914062,
+            553.5371704101562,
+            995.2051391601562,
+            586.7943115234375
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.912359356880188,
+          "cnn_class_id": 7,
+          "cnn_class_name": "Speed limit (100km/h)",
+          "cnn_score": 0.9999997615814209,
+          "valid_yolo_at": 6743.6694448,
+          "valid_cnn_at": 6743.702339,
+          "speech_veto": "speed_face_unverified"
+        },
+        {
+          "bbox": [
+            334.6705017089844,
+            561.9544067382812,
+            368.3727111816406,
+            596.2130126953125
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.8959027528762817,
+          "cnn_class_id": 7,
+          "cnn_class_name": "Speed limit (100km/h)",
+          "cnn_score": 0.9999932050704956,
+          "valid_yolo_at": 6743.6696116,
+          "valid_cnn_at": 6743.702583,
+          "speech_veto": "speed_face_unverified"
+        }
+      ],
+      "matches": {
+        "1": [
+          0,
+          0.9400894571846198
+        ],
+        "0": [
+          1,
+          0.9053960556256782
+        ]
+      },
+      "baseline": {
+        "played": [
+          [
+            1,
+            7,
+            true
+          ]
+        ],
+        "suppressed": []
+      },
+      "candidate": {
+        "played": [],
+        "suppressed": [
+          {
+            "event": "speech_suppressed",
+            "monotonic": 0.2,
+            "video_ms": 200.0,
+            "generation": 0,
+            "track_id": 1,
+            "frame_id": 1,
+            "class_id": 7,
+            "reason": "speed_face_unverified",
+            "would_be_correct": true
+          },
+          {
+            "event": "speech_suppressed",
+            "monotonic": 0.2,
+            "video_ms": 200.0,
+            "generation": 0,
+            "track_id": 2,
+            "frame_id": 1,
+            "class_id": 7,
+            "reason": "speed_face_unverified",
+            "would_be_correct": true
+          }
+        ]
+      }
+    },
+    {
+      "frame": 747,
+      "references": [
+        {
+          "box": [
+            298,
+            489,
+            346,
+            539
+          ],
+          "class_id": 6
+        },
+        {
+          "box": [
+            1148,
+            506,
+            1197,
+            554
+          ],
+          "class_id": 6
+        }
+      ],
+      "predictions": [
+        {
+          "bbox": [
+            1147.2646484375,
+            504.6349792480469,
+            1195.6453857421875,
+            553.7076416015625
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.9208520650863647,
+          "cnn_class_id": 6,
+          "cnn_class_name": "End of speed limit (80km/h)",
+          "cnn_score": 1.0,
+          "valid_yolo_at": 6743.8750113,
+          "valid_cnn_at": 6743.9062773,
+          "speech_veto": "speed_face_unverified"
+        },
+        {
+          "bbox": [
+            298.9490661621094,
+            490.233154296875,
+            345.3512878417969,
+            538.4598388671875
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.7273402810096741,
+          "cnn_class_id": 6,
+          "cnn_class_name": "End of speed limit (80km/h)",
+          "cnn_score": 0.9999982118606567,
+          "valid_yolo_at": 6743.8751741,
+          "valid_cnn_at": 6743.906689,
+          "speech_veto": "speed_face_unverified"
+        }
+      ],
+      "matches": {
+        "1": [
+          0,
+          0.9324272117950022
+        ],
+        "0": [
+          1,
+          0.9265941244387621
+        ]
+      },
+      "baseline": {
+        "played": [
+          [
+            1,
+            6,
+            true
+          ]
+        ],
+        "suppressed": []
+      },
+      "candidate": {
+        "played": [],
+        "suppressed": [
+          {
+            "event": "speech_suppressed",
+            "monotonic": 0.2,
+            "video_ms": 200.0,
+            "generation": 0,
+            "track_id": 1,
+            "frame_id": 1,
+            "class_id": 6,
+            "reason": "speed_face_unverified",
+            "would_be_correct": true
+          },
+          {
+            "event": "speech_suppressed",
+            "monotonic": 0.2,
+            "video_ms": 200.0,
+            "generation": 0,
+            "track_id": 2,
+            "frame_id": 1,
+            "class_id": 6,
+            "reason": "speed_face_unverified",
+            "would_be_correct": true
+          }
+        ]
+      }
+    },
+    {
+      "frame": 749,
+      "references": [
+        {
+          "box": [
+            301,
+            551,
+            347,
+            597
+          ],
+          "class_id": 5
+        },
+        {
+          "box": [
+            1153,
+            546,
+            1201,
+            594
+          ],
+          "class_id": 5
+        }
+      ],
+      "predictions": [
+        {
+          "bbox": [
+            301.35888671875,
+            551.3135375976562,
+            346.2790832519531,
+            596.1315307617188
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.9253891110420227,
+          "cnn_class_id": 5,
+          "cnn_class_name": "Speed limit (80km/h)",
+          "cnn_score": 0.999953031539917,
+          "valid_yolo_at": 6744.0698037,
+          "valid_cnn_at": 6744.1053957,
+          "speech_veto": "speed_face_unverified"
+        },
+        {
+          "bbox": [
+            1153.65087890625,
+            546.1005249023438,
+            1199.953125,
+            593.677001953125
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.9156983494758606,
+          "cnn_class_id": 5,
+          "cnn_class_name": "Speed limit (80km/h)",
+          "cnn_score": 0.9999971389770508,
+          "valid_yolo_at": 6744.0699634,
+          "valid_cnn_at": 6744.1057613,
+          "speech_veto": "speed_face_unverified"
+        }
+      ],
+      "matches": {
+        "1": [
+          1,
+          0.9561188145307824
+        ],
+        "0": [
+          0,
+          0.9514333937398117
+        ]
+      },
+      "baseline": {
+        "played": [
+          [
+            1,
+            5,
+            true
+          ]
+        ],
+        "suppressed": []
+      },
+      "candidate": {
+        "played": [],
+        "suppressed": [
+          {
+            "event": "speech_suppressed",
+            "monotonic": 0.2,
+            "video_ms": 200.0,
+            "generation": 0,
+            "track_id": 1,
+            "frame_id": 1,
+            "class_id": 5,
+            "reason": "speed_face_unverified",
+            "would_be_correct": true
+          },
+          {
+            "event": "speech_suppressed",
+            "monotonic": 0.2,
+            "video_ms": 200.0,
+            "generation": 0,
+            "track_id": 2,
+            "frame_id": 1,
+            "class_id": 5,
+            "reason": "speed_face_unverified",
+            "would_be_correct": true
+          }
+        ]
+      }
+    },
+    {
+      "frame": 750,
+      "references": [],
+      "predictions": [],
+      "matches": {},
+      "baseline": {
+        "played": [],
+        "suppressed": []
+      },
+      "candidate": {
+        "played": [],
+        "suppressed": []
+      }
+    },
+    {
+      "frame": 758,
+      "references": [
+        {
+          "box": [
+            982,
+            521,
+            1015,
+            554
+          ],
+          "class_id": 8
+        },
+        {
+          "box": [
+            374,
+            515,
+            407,
+            548
+          ],
+          "class_id": 8
+        },
+        {
+          "box": [
+            376,
+            548,
+            408,
+            580
+          ],
+          "class_id": 10
+        },
+        {
+          "box": [
+            982,
+            553,
+            1016,
+            587
+          ],
+          "class_id": 10
+        }
+      ],
+      "predictions": [
+        {
+          "bbox": [
+            374.8844909667969,
+            547.7216796875,
+            406.73095703125,
+            579.1550903320312
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.9168444871902466,
+          "cnn_class_id": 10,
+          "cnn_class_name": "No passing veh over 3.5 tons",
+          "cnn_score": 0.9999899864196777,
+          "valid_yolo_at": 6744.6375375,
+          "valid_cnn_at": 6744.6745704,
+          "speech_veto": null
+        },
+        {
+          "bbox": [
+            374.0380554199219,
+            515.5991821289062,
+            406.3353576660156,
+            547.1312866210938
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.9056936502456665,
+          "cnn_class_id": 8,
+          "cnn_class_name": "Speed limit (120km/h)",
+          "cnn_score": 1.0,
+          "valid_yolo_at": 6744.6376933,
+          "valid_cnn_at": 6744.6749159,
+          "speech_veto": "speed_face_unverified"
+        },
+        {
+          "bbox": [
+            981.2468872070312,
+            521.03369140625,
+            1013.6069946289062,
+            553.2479248046875
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.9054659605026245,
+          "cnn_class_id": 8,
+          "cnn_class_name": "Speed limit (120km/h)",
+          "cnn_score": 1.0,
+          "valid_yolo_at": 6744.6377744,
+          "valid_cnn_at": 6744.675101,
+          "speech_veto": "speed_face_unverified"
+        },
+        {
+          "bbox": [
+            982.4281616210938,
+            552.5114135742188,
+            1015.3284301757812,
+            585.18701171875
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.9033925533294678,
+          "cnn_class_id": 10,
+          "cnn_class_name": "No passing veh over 3.5 tons",
+          "cnn_score": 1.0,
+          "valid_yolo_at": 6744.6378426,
+          "valid_cnn_at": 6744.6753005,
+          "speech_veto": null
+        }
+      ],
+      "matches": {
+        "1": [
+          1,
+          0.9351716338288247
+        ],
+        "2": [
+          0,
+          0.9146059608222971
+        ],
+        "3": [
+          3,
+          0.9034930944458716
+        ],
+        "0": [
+          2,
+          0.8967873970699245
+        ]
+      },
+      "baseline": {
+        "played": [
+          [
+            1,
+            10,
+            true
+          ]
+        ],
+        "suppressed": []
+      },
+      "candidate": {
+        "played": [
+          [
+            1,
+            10,
+            true
+          ]
+        ],
+        "suppressed": [
+          {
+            "event": "speech_suppressed",
+            "monotonic": 0.2,
+            "video_ms": 200.0,
+            "generation": 0,
+            "track_id": 2,
+            "frame_id": 1,
+            "class_id": 8,
+            "reason": "speed_face_unverified",
+            "would_be_correct": true
+          },
+          {
+            "event": "speech_suppressed",
+            "monotonic": 0.2,
+            "video_ms": 200.0,
+            "generation": 0,
+            "track_id": 3,
+            "frame_id": 1,
+            "class_id": 8,
+            "reason": "speed_face_unverified",
+            "would_be_correct": true
+          }
+        ]
+      }
+    },
+    {
+      "frame": 760,
+      "references": [
+        {
+          "box": [
+            591,
+            538,
+            617,
+            564
+          ],
+          "class_id": 8
+        },
+        {
+          "box": [
+            591,
+            563,
+            617,
+            588
+          ],
+          "class_id": 10
+        },
+        {
+          "box": [
+            1023,
+            542,
+            1050,
+            570
+          ],
+          "class_id": 8
+        },
+        {
+          "box": [
+            1024,
+            568,
+            1049,
+            593
+          ],
+          "class_id": 10
+        }
+      ],
+      "predictions": [
+        {
+          "bbox": [
+            590.664306640625,
+            538.080078125,
+            615.5297241210938,
+            562.327392578125
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.8998238444328308,
+          "cnn_class_id": 8,
+          "cnn_class_name": "Speed limit (120km/h)",
+          "cnn_score": 1.0,
+          "valid_yolo_at": 6744.8275252,
+          "valid_cnn_at": 6744.8615576,
+          "speech_veto": "speed_face_unverified"
+        },
+        {
+          "bbox": [
+            1024.4453125,
+            566.5428466796875,
+            1049.818603515625,
+            591.9257202148438
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.8544749617576599,
+          "cnn_class_id": 10,
+          "cnn_class_name": "No passing veh over 3.5 tons",
+          "cnn_score": 1.0,
+          "valid_yolo_at": 6744.8276587,
+          "valid_cnn_at": 6744.8619149,
+          "speech_veto": null
+        },
+        {
+          "bbox": [
+            592.13818359375,
+            562.0181884765625,
+            615.0913696289062,
+            584.7745971679688
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.8424398303031921,
+          "cnn_class_id": 10,
+          "cnn_class_name": "No passing veh over 3.5 tons",
+          "cnn_score": 0.9999998807907104,
+          "valid_yolo_at": 6744.8277233,
+          "valid_cnn_at": 6744.862114,
+          "speech_veto": null
+        },
+        {
+          "bbox": [
+            1022.945556640625,
+            542.87060546875,
+            1049.9888916015625,
+            567.5813598632812
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.8338186144828796,
+          "cnn_class_id": 8,
+          "cnn_class_name": "Speed limit (120km/h)",
+          "cnn_score": 1.0,
+          "valid_yolo_at": 6744.8277764,
+          "valid_cnn_at": 6744.8622978,
+          "speech_veto": "speed_face_unverified"
+        }
+      ],
+      "matches": {
+        "3": [
+          2,
+          0.8805967893653908
+        ],
+        "0": [
+          0,
+          0.8693837923199441
+        ],
+        "1": [
+          3,
+          0.8619782788963645
+        ],
+        "2": [
+          1,
+          0.7431521891592325
+        ]
+      },
+      "baseline": {
+        "played": [
+          [
+            1,
+            8,
+            true
+          ]
+        ],
+        "suppressed": []
+      },
+      "candidate": {
+        "played": [
+          [
+            2,
+            10,
+            true
+          ]
+        ],
+        "suppressed": [
+          {
+            "event": "speech_suppressed",
+            "monotonic": 0.2,
+            "video_ms": 200.0,
+            "generation": 0,
+            "track_id": 1,
+            "frame_id": 1,
+            "class_id": 8,
+            "reason": "speed_face_unverified",
+            "would_be_correct": true
+          },
+          {
+            "event": "speech_suppressed",
+            "monotonic": 0.2,
+            "video_ms": 200.0,
+            "generation": 0,
+            "track_id": 4,
+            "frame_id": 1,
+            "class_id": 8,
+            "reason": "speed_face_unverified",
+            "would_be_correct": true
+          }
+        ]
+      }
+    },
+    {
+      "frame": 765,
+      "references": [],
+      "predictions": [],
+      "matches": {},
+      "baseline": {
+        "played": [],
+        "suppressed": []
+      },
+      "candidate": {
+        "played": [],
+        "suppressed": []
+      }
+    },
+    {
+      "frame": 766,
+      "references": [
+        {
+          "box": [
+            256,
+            495,
+            290,
+            534
+          ],
+          "class_id": 15
+        }
+      ],
+      "predictions": [
+        {
+          "bbox": [
+            256.4976806640625,
+            496.3165283203125,
+            290.8005676269531,
+            532.8796997070312
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.8729782700538635,
+          "cnn_class_id": 15,
+          "cnn_class_name": "No vehicles",
+          "cnn_score": 1.0,
+          "valid_yolo_at": 6745.2046059,
+          "valid_cnn_at": 6745.2345485,
+          "speech_veto": null
+        }
+      ],
+      "matches": {
+        "0": [
+          0,
+          0.9038419477707839
+        ]
+      },
+      "baseline": {
+        "played": [
+          [
+            1,
+            15,
+            true
+          ]
+        ],
+        "suppressed": []
+      },
+      "candidate": {
+        "played": [
+          [
+            1,
+            15,
+            true
+          ]
+        ],
+        "suppressed": []
+      }
+    },
+    {
+      "frame": 769,
+      "references": [],
+      "predictions": [],
+      "matches": {},
+      "baseline": {
+        "played": [],
+        "suppressed": []
+      },
+      "candidate": {
+        "played": [],
+        "suppressed": []
+      }
+    },
+    {
+      "frame": 786,
+      "references": [],
+      "predictions": [],
+      "matches": {},
+      "baseline": {
+        "played": [],
+        "suppressed": []
+      },
+      "candidate": {
+        "played": [],
+        "suppressed": []
+      }
+    },
+    {
+      "frame": 789,
+      "references": [
+        {
+          "box": [
+            759,
+            516,
+            788,
+            546
+          ],
+          "class_id": 14
+        }
+      ],
+      "predictions": [
+        {
+          "bbox": [
+            759.1583251953125,
+            515.5087890625,
+            786.227294921875,
+            544.1422119140625
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.9028022885322571,
+          "cnn_class_id": 14,
+          "cnn_class_name": "Stop",
+          "cnn_score": 1.0,
+          "valid_yolo_at": 6745.8498895,
+          "valid_cnn_at": 6745.8864663,
+          "speech_veto": null
+        }
+      ],
+      "matches": {
+        "0": [
+          0,
+          0.8624291147123196
+        ]
+      },
+      "baseline": {
+        "played": [
+          [
+            1,
+            14,
+            true
+          ]
+        ],
+        "suppressed": []
+      },
+      "candidate": {
+        "played": [
+          [
+            1,
+            14,
+            true
+          ]
+        ],
+        "suppressed": []
+      }
+    },
+    {
+      "frame": 791,
+      "references": [
+        {
+          "box": [
+            906,
+            469,
+            962,
+            520
+          ],
+          "class_id": 30
+        },
+        {
+          "box": [
+            985,
+            412,
+            1063,
+            490
+          ],
+          "class_id": 4
+        }
+      ],
+      "predictions": [
+        {
+          "bbox": [
+            984.551513671875,
+            411.8425598144531,
+            1063.749267578125,
+            490.0343933105469
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.9471163749694824,
+          "cnn_class_id": 4,
+          "cnn_class_name": "Speed limit (70km/h)",
+          "cnn_score": 1.0,
+          "valid_yolo_at": 6746.1487186,
+          "valid_cnn_at": 6746.1939613,
+          "speech_veto": "speed_face_unverified"
+        },
+        {
+          "bbox": [
+            904.679443359375,
+            469.0597229003906,
+            960.7206420898438,
+            519.6117553710938
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.9270743131637573,
+          "cnn_class_id": 30,
+          "cnn_class_name": "Beware of ice/snow",
+          "cnn_score": 1.0,
+          "valid_yolo_at": 6746.1489845,
+          "valid_cnn_at": 6746.1945672,
+          "speech_veto": null
+        }
+      ],
+      "matches": {
+        "0": [
+          1,
+          0.9824601494955297
+        ],
+        "1": [
+          0,
+          0.9464487961347978
+        ]
+      },
+      "baseline": {
+        "played": [
+          [
+            1,
+            4,
+            true
+          ]
+        ],
+        "suppressed": []
+      },
+      "candidate": {
+        "played": [
+          [
+            2,
+            30,
+            true
+          ]
+        ],
+        "suppressed": [
+          {
+            "event": "speech_suppressed",
+            "monotonic": 0.2,
+            "video_ms": 200.0,
+            "generation": 0,
+            "track_id": 1,
+            "frame_id": 1,
+            "class_id": 4,
+            "reason": "speed_face_unverified",
+            "would_be_correct": true
+          }
+        ]
+      }
+    },
+    {
+      "frame": 794,
+      "references": [
+        {
+          "box": [
+            1032,
+            518,
+            1063,
+            552
+          ],
+          "class_id": 12
+        }
+      ],
+      "predictions": [
+        {
+          "bbox": [
+            1031.7540283203125,
+            519.3837890625,
+            1062.1826171875,
+            550.1722412109375
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.8739125728607178,
+          "cnn_class_id": 12,
+          "cnn_class_name": "Priority road",
+          "cnn_score": 1.0,
+          "valid_yolo_at": 6746.4026509,
+          "valid_cnn_at": 6746.4414318,
+          "speech_veto": null
+        }
+      ],
+      "matches": {
+        "0": [
+          0,
+          0.8753764353279555
+        ]
+      },
+      "baseline": {
+        "played": [
+          [
+            1,
+            12,
+            true
+          ]
+        ],
+        "suppressed": []
+      },
+      "candidate": {
+        "played": [
+          [
+            1,
+            12,
+            true
+          ]
+        ],
+        "suppressed": []
+      }
+    },
+    {
+      "frame": 795,
+      "references": [
+        {
+          "box": [
+            168,
+            612,
+            217,
+            664
+          ],
+          "class_id": 38
+        }
+      ],
+      "predictions": [
+        {
+          "bbox": [
+            167.8519744873047,
+            610.7188720703125,
+            217.184326171875,
+            661.6060791015625
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.9233901500701904,
+          "cnn_class_id": 38,
+          "cnn_class_name": "Keep right",
+          "cnn_score": 1.0,
+          "valid_yolo_at": 6746.6353594,
+          "valid_cnn_at": 6746.6691669,
+          "speech_veto": null
+        },
+        {
+          "bbox": [
+            763.6421508789062,
+            574.60693359375,
+            777.8403930664062,
+            587.2424926757812
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.5448952913284302,
+          "cnn_class_id": 3,
+          "cnn_class_name": "Speed limit (60km/h)",
+          "cnn_score": 0.9907395839691162,
+          "valid_yolo_at": 6746.6355249,
+          "valid_cnn_at": 6746.6694754,
+          "speech_veto": "dark_red_sign_face"
+        }
+      ],
+      "matches": {
+        "0": [
+          0,
+          0.9250330089669625
+        ]
+      },
+      "baseline": {
+        "played": [
+          [
+            1,
+            38,
+            true
+          ]
+        ],
+        "suppressed": []
+      },
+      "candidate": {
+        "played": [
+          [
+            1,
+            38,
+            true
+          ]
+        ],
+        "suppressed": [
+          {
+            "event": "speech_suppressed",
+            "monotonic": 0.2,
+            "video_ms": 200.0,
+            "generation": 0,
+            "track_id": 2,
+            "frame_id": 1,
+            "class_id": 3,
+            "reason": "dark_red_sign_face",
+            "would_be_correct": false
+          }
+        ]
+      }
+    },
+    {
+      "frame": 798,
+      "references": [
+        {
+          "box": [
+            786,
+            545,
+            807,
+            566
+          ],
+          "class_id": 2
+        },
+        {
+          "box": [
+            1090,
+            445,
+            1163,
+            510
+          ],
+          "class_id": 13
+        }
+      ],
+      "predictions": [
+        {
+          "bbox": [
+            1091.86083984375,
+            446.071533203125,
+            1161.1158447265625,
+            508.4770202636719
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.9276542067527771,
+          "cnn_class_id": 13,
+          "cnn_class_name": "Yield",
+          "cnn_score": 1.0,
+          "valid_yolo_at": 6746.8679967,
+          "valid_cnn_at": 6746.9046563,
+          "speech_veto": null
+        },
+        {
+          "bbox": [
+            784.0982666015625,
+            543.0299072265625,
+            807.4489135742188,
+            565.3081665039062
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.8042075037956238,
+          "cnn_class_id": 2,
+          "cnn_class_name": "Speed limit (50km/h)",
+          "cnn_score": 0.9981623291969299,
+          "valid_yolo_at": 6746.8681381,
+          "valid_cnn_at": 6746.9049882,
+          "speech_veto": "speed_face_unverified"
+        }
+      ],
+      "matches": {
+        "0": [
+          1,
+          0.9108308347929328
+        ],
+        "1": [
+          0,
+          0.7975301650829515
+        ]
+      },
+      "baseline": {
+        "played": [
+          [
+            1,
+            13,
+            true
+          ]
+        ],
+        "suppressed": []
+      },
+      "candidate": {
+        "played": [
+          [
+            1,
+            13,
+            true
+          ]
+        ],
+        "suppressed": [
+          {
+            "event": "speech_suppressed",
+            "monotonic": 0.2,
+            "video_ms": 200.0,
+            "generation": 0,
+            "track_id": 2,
+            "frame_id": 1,
+            "class_id": 2,
+            "reason": "speed_face_unverified",
+            "would_be_correct": true
+          }
+        ]
+      }
+    },
+    {
+      "frame": 804,
+      "references": [],
+      "predictions": [],
+      "matches": {},
+      "baseline": {
+        "played": [],
+        "suppressed": []
+      },
+      "candidate": {
+        "played": [],
+        "suppressed": []
+      }
+    },
+    {
+      "frame": 823,
+      "references": [
+        {
+          "box": [
+            1062,
+            379,
+            1095,
+            409
+          ],
+          "class_id": 13
+        },
+        {
+          "box": [
+            1068,
+            408,
+            1091,
+            431
+          ],
+          "class_id": 40
+        },
+        {
+          "box": [
+            805,
+            479,
+            835,
+            509
+          ],
+          "class_id": 38
+        }
+      ],
+      "predictions": [
+        {
+          "bbox": [
+            804.649169921875,
+            478.952880859375,
+            833.0464477539062,
+            508.76776123046875
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.8926432728767395,
+          "cnn_class_id": 38,
+          "cnn_class_name": "Keep right",
+          "cnn_score": 1.0,
+          "valid_yolo_at": 6747.2428533,
+          "valid_cnn_at": 6747.2760704,
+          "speech_veto": null
+        },
+        {
+          "bbox": [
+            1061.272705078125,
+            379.2075500488281,
+            1095.0771484375,
+            410.2693176269531
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.8891856670379639,
+          "cnn_class_id": 13,
+          "cnn_class_name": "Yield",
+          "cnn_score": 1.0,
+          "valid_yolo_at": 6747.2429985,
+          "valid_cnn_at": 6747.2764666,
+          "speech_veto": "dark_red_sign_face"
+        },
+        {
+          "bbox": [
+            1067.1033935546875,
+            408.8551025390625,
+            1089.7147216796875,
+            431.1811218261719
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.8234023451805115,
+          "cnn_class_id": 40,
+          "cnn_class_name": "Roundabout mandatory",
+          "cnn_score": 0.9999964237213135,
+          "valid_yolo_at": 6747.2430719,
+          "valid_cnn_at": 6747.2766648,
+          "speech_veto": "roundabout_voice_unverified"
+        }
+      ],
+      "matches": {
+        "1": [
+          0,
+          0.9302433382053295
+        ],
+        "0": [
+          2,
+          0.9156579478750517
+        ],
+        "2": [
+          1,
+          0.8696441062621925
+        ]
+      },
+      "baseline": {
+        "played": [
+          [
+            2,
+            13,
+            true
+          ]
+        ],
+        "suppressed": []
+      },
+      "candidate": {
+        "played": [
+          [
+            1,
+            38,
+            true
+          ]
+        ],
+        "suppressed": [
+          {
+            "event": "speech_suppressed",
+            "monotonic": 0.2,
+            "video_ms": 200.0,
+            "generation": 0,
+            "track_id": 2,
+            "frame_id": 1,
+            "class_id": 13,
+            "reason": "dark_red_sign_face",
+            "would_be_correct": true
+          },
+          {
+            "event": "speech_suppressed",
+            "monotonic": 0.2,
+            "video_ms": 200.0,
+            "generation": 0,
+            "track_id": 3,
+            "frame_id": 1,
+            "class_id": 40,
+            "reason": "roundabout_voice_unverified",
+            "would_be_correct": true
+          }
+        ]
+      }
+    },
+    {
+      "frame": 827,
+      "references": [
+        {
+          "box": [
+            921,
+            442,
+            961,
+            486
+          ],
+          "class_id": 14
+        },
+        {
+          "box": [
+            539,
+            473,
+            571,
+            511
+          ],
+          "class_id": 38
+        }
+      ],
+      "predictions": [
+        {
+          "bbox": [
+            919.998779296875,
+            441.53741455078125,
+            959.9276123046875,
+            482.6641845703125
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.8859104514122009,
+          "cnn_class_id": 14,
+          "cnn_class_name": "Stop",
+          "cnn_score": 1.0,
+          "valid_yolo_at": 6747.4493291,
+          "valid_cnn_at": 6747.4860881,
+          "speech_veto": "dark_red_sign_face"
+        },
+        {
+          "bbox": [
+            537.576904296875,
+            473.924560546875,
+            569.4096069335938,
+            510.7735595703125
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.8614885807037354,
+          "cnn_class_id": 38,
+          "cnn_class_name": "Keep right",
+          "cnn_score": 1.0,
+          "valid_yolo_at": 6747.4494971,
+          "valid_cnn_at": 6747.4865403,
+          "speech_veto": null
+        }
+      ],
+      "matches": {
+        "1": [
+          1,
+          0.8834189110045033
+        ],
+        "0": [
+          0,
+          0.8701480073766528
+        ]
+      },
+      "baseline": {
+        "played": [
+          [
+            1,
+            14,
+            true
+          ]
+        ],
+        "suppressed": []
+      },
+      "candidate": {
+        "played": [
+          [
+            2,
+            38,
+            true
+          ]
+        ],
+        "suppressed": [
+          {
+            "event": "speech_suppressed",
+            "monotonic": 0.2,
+            "video_ms": 200.0,
+            "generation": 0,
+            "track_id": 1,
+            "frame_id": 1,
+            "class_id": 14,
+            "reason": "dark_red_sign_face",
+            "would_be_correct": true
+          }
+        ]
+      }
+    },
+    {
+      "frame": 834,
+      "references": [
+        {
+          "box": [
+            1130,
+            264,
+            1188,
+            326
+          ],
+          "class_id": 1
+        }
+      ],
+      "predictions": [
+        {
+          "bbox": [
+            1130.2060546875,
+            263.97509765625,
+            1188.16943359375,
+            325.9718322753906
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.9275805354118347,
+          "cnn_class_id": 1,
+          "cnn_class_name": "Speed limit (30km/h)",
+          "cnn_score": 1.0,
+          "valid_yolo_at": 6747.6631936,
+          "valid_cnn_at": 6747.6932603,
+          "speech_veto": null
+        }
+      ],
+      "matches": {
+        "0": [
+          0,
+          0.992697544030071
+        ]
+      },
+      "baseline": {
+        "played": [
+          [
+            1,
+            1,
+            true
+          ]
+        ],
+        "suppressed": []
+      },
+      "candidate": {
+        "played": [
+          [
+            1,
+            1,
+            true
+          ]
+        ],
+        "suppressed": []
+      }
+    },
+    {
+      "frame": 844,
+      "references": [
+        {
+          "box": [
+            977,
+            332,
+            1014,
+            371
+          ],
+          "class_id": 12
+        }
+      ],
+      "predictions": [
+        {
+          "bbox": [
+            975.7830200195312,
+            332.19439697265625,
+            1010.748779296875,
+            367.0618896484375
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.8018391728401184,
+          "cnn_class_id": 12,
+          "cnn_class_name": "Priority road",
+          "cnn_score": 1.0,
+          "valid_yolo_at": 6747.858447,
+          "valid_cnn_at": 6747.8912669,
+          "speech_veto": null
+        }
+      ],
+      "matches": {
+        "0": [
+          0,
+          0.7921833450737277
+        ]
+      },
+      "baseline": {
+        "played": [
+          [
+            1,
+            12,
+            true
+          ]
+        ],
+        "suppressed": []
+      },
+      "candidate": {
+        "played": [
+          [
+            1,
+            12,
+            true
+          ]
+        ],
+        "suppressed": []
+      }
+    },
+    {
+      "frame": 847,
+      "references": [],
+      "predictions": [],
+      "matches": {},
+      "baseline": {
+        "played": [],
+        "suppressed": []
+      },
+      "candidate": {
+        "played": [],
+        "suppressed": []
+      }
+    },
+    {
+      "frame": 853,
+      "references": [
+        {
+          "box": [
+            943,
+            415,
+            972,
+            445
+          ],
+          "class_id": 40
+        },
+        {
+          "box": [
+            683,
+            484,
+            706,
+            507
+          ],
+          "class_id": 38
+        },
+        {
+          "box": [
+            935,
+            383,
+            973,
+            418
+          ],
+          "class_id": 13
+        }
+      ],
+      "predictions": [
+        {
+          "bbox": [
+            933.7185668945312,
+            383.23052978515625,
+            971.8320922851562,
+            417.9805603027344
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.8826285600662231,
+          "cnn_class_id": 13,
+          "cnn_class_name": "Yield",
+          "cnn_score": 1.0,
+          "valid_yolo_at": 6748.515208,
+          "valid_cnn_at": 6748.555308,
+          "speech_veto": null
+        },
+        {
+          "bbox": [
+            943.0125732421875,
+            416.9222717285156,
+            966.8770751953125,
+            442.8707580566406
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.84732586145401,
+          "cnn_class_id": 40,
+          "cnn_class_name": "Roundabout mandatory",
+          "cnn_score": 0.9999990463256836,
+          "valid_yolo_at": 6748.5154178,
+          "valid_cnn_at": 6748.5555943,
+          "speech_veto": "roundabout_voice_unverified"
+        },
+        {
+          "bbox": [
+            682.9766845703125,
+            485.7814025878906,
+            702.587646484375,
+            504.97760009765625
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.464684396982193,
+          "cnn_class_id": 38,
+          "cnn_class_name": "Keep right",
+          "cnn_score": 1.0,
+          "valid_yolo_at": 6748.5155111,
+          "valid_cnn_at": 6748.5556054,
+          "speech_veto": null
+        }
+      ],
+      "matches": {
+        "0": [
+          2,
+          0.931166639045979
+        ],
+        "1": [
+          0,
+          0.7117789685726166
+        ],
+        "2": [
+          1,
+          0.7101899294291565
+        ]
+      },
+      "baseline": {
+        "played": [
+          [
+            1,
+            13,
+            true
+          ]
+        ],
+        "suppressed": []
+      },
+      "candidate": {
+        "played": [
+          [
+            1,
+            13,
+            true
+          ]
+        ],
+        "suppressed": [
+          {
+            "event": "speech_suppressed",
+            "monotonic": 0.2,
+            "video_ms": 200.0,
+            "generation": 0,
+            "track_id": 2,
+            "frame_id": 1,
+            "class_id": 40,
+            "reason": "roundabout_voice_unverified",
+            "would_be_correct": true
+          }
+        ]
+      }
+    },
+    {
+      "frame": 857,
+      "references": [
+        {
+          "box": [
+            852,
+            433,
+            876,
+            457
+          ],
+          "class_id": 14
+        },
+        {
+          "box": [
+            1129,
+            262,
+            1225,
+            350
+          ],
+          "class_id": 13
+        }
+      ],
+      "predictions": [
+        {
+          "bbox": [
+            1127.37841796875,
+            262.8388366699219,
+            1223.904052734375,
+            351.70745849609375
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.9267579317092896,
+          "cnn_class_id": 13,
+          "cnn_class_name": "Yield",
+          "cnn_score": 1.0,
+          "valid_yolo_at": 6748.7459352,
+          "valid_cnn_at": 6748.7861221,
+          "speech_veto": null
+        },
+        {
+          "bbox": [
+            854.2054443359375,
+            433.55511474609375,
+            874.0039672851562,
+            453.5923767089844
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.8752994537353516,
+          "cnn_class_id": 14,
+          "cnn_class_name": "Stop",
+          "cnn_score": 1.0,
+          "valid_yolo_at": 6748.7461211,
+          "valid_cnn_at": 6748.78642,
+          "speech_veto": null
+        }
+      ],
+      "matches": {
+        "0": [
+          1,
+          0.9449170149989911
+        ],
+        "1": [
+          0,
+          0.6887294979371492
+        ]
+      },
+      "baseline": {
+        "played": [
+          [
+            1,
+            13,
+            true
+          ]
+        ],
+        "suppressed": []
+      },
+      "candidate": {
+        "played": [
+          [
+            1,
+            13,
+            true
+          ]
+        ],
+        "suppressed": []
+      }
+    },
+    {
+      "frame": 862,
+      "references": [
+        {
+          "box": [
+            285,
+            425,
+            363,
+            502
+          ],
+          "class_id": 7
+        }
+      ],
+      "predictions": [
+        {
+          "bbox": [
+            286.16119384765625,
+            426.00494384765625,
+            362.10272216796875,
+            501.37322998046875
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.9475530982017517,
+          "cnn_class_id": 7,
+          "cnn_class_name": "Speed limit (100km/h)",
+          "cnn_score": 0.9999337196350098,
+          "valid_yolo_at": 6748.982294,
+          "valid_cnn_at": 6749.0173981,
+          "speech_veto": null
+        }
+      ],
+      "matches": {
+        "0": [
+          0,
+          0.9529774951395932
+        ]
+      },
+      "baseline": {
+        "played": [
+          [
+            1,
+            7,
+            true
+          ]
+        ],
+        "suppressed": []
+      },
+      "candidate": {
+        "played": [
+          [
+            1,
+            7,
+            true
+          ]
+        ],
+        "suppressed": []
+      }
+    },
+    {
+      "frame": 871,
+      "references": [
+        {
+          "box": [
+            375,
+            407,
+            412,
+            444
+          ],
+          "class_id": 5
+        },
+        {
+          "box": [
+            1273,
+            381,
+            1314,
+            422
+          ],
+          "class_id": 5
+        }
+      ],
+      "predictions": [
+        {
+          "bbox": [
+            1271.82958984375,
+            381.302734375,
+            1312.5296630859375,
+            421.3475646972656
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.9283504486083984,
+          "cnn_class_id": 5,
+          "cnn_class_name": "Speed limit (80km/h)",
+          "cnn_score": 0.999991774559021,
+          "valid_yolo_at": 6749.2134494,
+          "valid_cnn_at": 6749.2486947,
+          "speech_veto": "speed_face_unverified"
+        },
+        {
+          "bbox": [
+            374.7095642089844,
+            407.6013488769531,
+            411.8307800292969,
+            444.1475830078125
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.9265812635421753,
+          "cnn_class_id": 5,
+          "cnn_class_name": "Speed limit (80km/h)",
+          "cnn_score": 0.9999997615814209,
+          "valid_yolo_at": 6749.2135998,
+          "valid_cnn_at": 6749.249196,
+          "speech_veto": "speed_face_unverified"
+        }
+      ],
+      "matches": {
+        "1": [
+          0,
+          0.9679006382216667
+        ],
+        "0": [
+          1,
+          0.91613355206232
+        ]
+      },
+      "baseline": {
+        "played": [
+          [
+            1,
+            5,
+            true
+          ]
+        ],
+        "suppressed": []
+      },
+      "candidate": {
+        "played": [],
+        "suppressed": [
+          {
+            "event": "speech_suppressed",
+            "monotonic": 0.2,
+            "video_ms": 200.0,
+            "generation": 0,
+            "track_id": 1,
+            "frame_id": 1,
+            "class_id": 5,
+            "reason": "speed_face_unverified",
+            "would_be_correct": true
+          },
+          {
+            "event": "speech_suppressed",
+            "monotonic": 0.2,
+            "video_ms": 200.0,
+            "generation": 0,
+            "track_id": 2,
+            "frame_id": 1,
+            "class_id": 5,
+            "reason": "speed_face_unverified",
+            "would_be_correct": true
+          }
+        ]
+      }
+    },
+    {
+      "frame": 885,
+      "references": [
+        {
+          "box": [
+            202,
+            532,
+            282,
+            612
+          ],
+          "class_id": 38
+        },
+        {
+          "box": [
+            230,
+            403,
+            297,
+            470
+          ],
+          "class_id": 17
+        }
+      ],
+      "predictions": [
+        {
+          "bbox": [
+            202.7620849609375,
+            532.708740234375,
+            282.25616455078125,
+            612.0819702148438
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.9471147060394287,
+          "cnn_class_id": 38,
+          "cnn_class_name": "Keep right",
+          "cnn_score": 1.0,
+          "valid_yolo_at": 6749.4599504,
+          "valid_cnn_at": 6749.4957796,
+          "speech_veto": null
+        },
+        {
+          "bbox": [
+            230.0900421142578,
+            402.4858703613281,
+            297.92169189453125,
+            468.46435546875
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.9257478713989258,
+          "cnn_class_id": 17,
+          "cnn_class_name": "No entry",
+          "cnn_score": 1.0,
+          "valid_yolo_at": 6749.4601143,
+          "valid_cnn_at": 6749.4960802,
+          "speech_veto": null
+        }
+      ],
+      "matches": {
+        "0": [
+          0,
+          0.9776011342575436
+        ],
+        "1": [
+          1,
+          0.9555005418908542
+        ]
+      },
+      "baseline": {
+        "played": [
+          [
+            2,
+            17,
+            true
+          ]
+        ],
+        "suppressed": []
+      },
+      "candidate": {
+        "played": [
+          [
+            2,
+            17,
+            true
+          ]
+        ],
+        "suppressed": []
+      }
+    },
+    {
+      "frame": 896,
+      "references": [
+        {
+          "box": [
+            808,
+            412,
+            847,
+            451
+          ],
+          "class_id": 15
+        }
+      ],
+      "predictions": [
+        {
+          "bbox": [
+            807.759765625,
+            412.50408935546875,
+            846.520263671875,
+            450.6068420410156
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.8770466446876526,
+          "cnn_class_id": 15,
+          "cnn_class_name": "No vehicles",
+          "cnn_score": 1.0,
+          "valid_yolo_at": 6749.6530454,
+          "valid_cnn_at": 6749.6928494,
+          "speech_veto": null
+        }
+      ],
+      "matches": {
+        "0": [
+          0,
+          0.9592031079273443
+        ]
+      },
+      "baseline": {
+        "played": [
+          [
+            1,
+            15,
+            true
+          ]
+        ],
+        "suppressed": []
+      },
+      "candidate": {
+        "played": [
+          [
+            1,
+            15,
+            true
+          ]
+        ],
+        "suppressed": []
+      }
+    }
+  ]
+}

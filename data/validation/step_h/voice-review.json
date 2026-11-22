@@ -1,0 +1,111 @@
+{
+  "live": [
+    {
+      "track_id": 2,
+      "seen_frame": 89,
+      "expected_class_id": 36,
+      "spoken_class_id": 36,
+      "verdict": "correct"
+    },
+    {
+      "track_id": 8,
+      "seen_frame": 189,
+      "expected_class_id": 37,
+      "spoken_class_id": 37,
+      "verdict": "correct"
+    },
+    {
+      "track_id": 14,
+      "seen_frame": 382,
+      "expected_class_id": 38,
+      "spoken_class_id": 38,
+      "verdict": "correct"
+    },
+    {
+      "track_id": 17,
+      "seen_frame": 469,
+      "expected_class_id": 12,
+      "spoken_class_id": 38,
+      "verdict": "incorrect"
+    },
+    {
+      "track_id": 27,
+      "seen_frame": 772,
+      "expected_class_id": 13,
+      "spoken_class_id": 13,
+      "verdict": "correct"
+    },
+    {
+      "track_id": 32,
+      "seen_frame": 862,
+      "expected_class_id": null,
+      "spoken_class_id": 13,
+      "verdict": "unresolved"
+    },
+    {
+      "track_id": 39,
+      "seen_frame": 1087,
+      "expected_class_id": 38,
+      "spoken_class_id": 38,
+      "verdict": "correct"
+    },
+    {
+      "track_id": 49,
+      "seen_frame": 1345,
+      "expected_class_id": 13,
+      "spoken_class_id": 13,
+      "verdict": "correct"
+    }
+  ],
+  "performance": [
+    {
+      "track_id": 5,
+      "seen_frame": 86,
+      "expected_class_id": 36,
+      "spoken_class_id": 36,
+      "verdict": "correct"
+    },
+    {
+      "track_id": 12,
+      "seen_frame": 199,
+      "expected_class_id": 37,
+      "spoken_class_id": 37,
+      "verdict": "correct"
+    },
+    {
+      "track_id": 19,
+      "seen_frame": 382,
+      "expected_class_id": 38,
+      "spoken_class_id": 38,
+      "verdict": "correct"
+    },
+    {
+      "track_id": 22,
+      "seen_frame": 467,
+      "expected_class_id": 12,
+      "spoken_class_id": 38,
+      "verdict": "incorrect"
+    },
+    {
+      "track_id": 31,
+      "seen_frame": 768,
+      "expected_class_id": 35,
+      "spoken_class_id": 35,
+      "verdict": "correct"
+    },
+    {
+      "track_id": 53,
+      "seen_frame": 1087,
+      "expected_class_id": 38,
+      "spoken_class_id": 38,
+      "verdict": "correct"
+    },
+    {
+      "track_id": 71,
+      "seen_frame": 1333,
+      "expected_class_id": 13,
+      "spoken_class_id": 13,
+      "verdict": "correct"
+    }
+  ]
+}

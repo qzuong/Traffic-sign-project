@@ -1,0 +1,27 @@
+{
+  "generator": "gTTS 2.5.4",
+  "lang": "vi",
+  "samples": [
+    {
+      "class_id": 7,
+      "sentence": "Phía trước có biển báo tốc độ tối đa 100 ki lô mét trên giờ.",
+      "file": "07-speed-limit-100.mp3",
+      "bytes": 42432,
+      "sha256": "901c6cc9b13e57e7fead7632043d861fa6a3ce8073dbd0bf810e304759b88839"
+    },
+    {
+      "class_id": 13,
+      "sentence": "Phía trước có biển nhường đường.",
+      "file": "13-yield.mp3",
+      "bytes": 19392,
+      "sha256": "33055822409240278503b2158352c5baf623c8c4671cce9f13cc2c577d6b3981"
+    },
+    {
+      "class_id": 38,
+      "sentence": "Phía trước có biển hiệu lệnh giữ bên phải.",
+      "file": "38-keep-right.mp3",
+      "bytes": 25152,
+      "sha256": "4a3ec8556815c71f1ab12287b0029a4d85f875df56b5547aac1831fbc544cb25"
+    }
+  ]
+}

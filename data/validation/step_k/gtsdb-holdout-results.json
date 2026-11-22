@@ -1,0 +1,5966 @@
+{
+  "n": 64,
+  "detector": {
+    "tp": 83,
+    "fp": 1,
+    "fn": 4,
+    "negative_scenes": 12,
+    "cnn_correct": 83
+  },
+  "crop_level": {
+    "stable": {
+      "total": {
+        "correct_eligible": 54,
+        "correct_withheld": 29,
+        "incorrect_withheld": 1
+      },
+      "by_true": {
+        "12": {
+          "correct_eligible": 4
+        },
+        "2": {
+          "correct_eligible": 3,
+          "correct_withheld": 3,
+          "correct_veto_speed_face_unverified": 1,
+          "correct_veto_dark_red_sign_face": 2
+        },
+        "1": {
+          "correct_eligible": 5,
+          "correct_withheld": 3,
+          "correct_veto_dark_red_sign_face": 3
+        },
+        "4": {
+          "correct_eligible": 2,
+          "correct_withheld": 5,
+          "correct_veto_speed_face_unverified": 5
+        },
+        "9": {
+          "correct_eligible": 3,
+          "correct_withheld": 1,
+          "correct_veto_dark_red_sign_face": 1
+        },
+        "38": {
+          "correct_eligible": 7
+        },
+        "13": {
+          "correct_eligible": 5,
+          "correct_withheld": 1,
+          "correct_veto_dark_red_sign_face": 1
+        },
+        "5": {
+          "correct_withheld": 7,
+          "correct_veto_dark_red_sign_face": 5,
+          "correct_veto_speed_face_unverified": 2
+        },
+        "10": {
+          "correct_eligible": 5
+        },
+        "8": {
+          "correct_withheld": 2,
+          "correct_veto_speed_face_unverified": 2
+        },
+        "41": {
+          "correct_eligible": 1
+        },
+        "17": {
+          "correct_eligible": 1
+        },
+        "18": {
+          "correct_eligible": 3
+        },
+        "25": {
+          "correct_eligible": 2
+        },
+        "3": {
+          "correct_withheld": 4,
+          "correct_veto_speed_face_unverified": 2,
+          "correct_veto_dark_red_sign_face": 2
+        },
+        "11": {
+          "correct_eligible": 2
+        },
+        "14": {
+          "correct_eligible": 2,
+          "correct_withheld": 2,
+          "correct_veto_dark_red_sign_face": 2
+        },
+        "33": {
+          "correct_eligible": 2
+        },
+        "-1": {
+          "incorrect_withheld": 1,
+          "incorrect_veto_dark_red_sign_face": 1
+        },
+        "15": {
+          "correct_eligible": 1
+        },
+        "29": {
+          "correct_withheld": 1,
+          "correct_veto_dark_red_sign_face": 1
+        },
+        "26": {
+          "correct_eligible": 1
+        },
+        "32": {
+          "correct_eligible": 2
+        },
+        "36": {
+          "correct_eligible": 1
+        },
+        "35": {
+          "correct_eligible": 1
+        },
+        "24": {
+          "correct_eligible": 1
+        }
+      },
+      "by_predicted": {
+        "12": {
+          "correct_eligible": 4
+        },
+        "2": {
+          "correct_eligible": 3,
+          "correct_withheld": 3,
+          "correct_veto_speed_face_unverified": 1,
+          "correct_veto_dark_red_sign_face": 2
+        },
+        "1": {
+          "correct_eligible": 5,
+          "correct_withheld": 3,
+          "correct_veto_dark_red_sign_face": 3
+        },
+        "4": {
+          "correct_eligible": 2,
+          "correct_withheld": 5,
+          "correct_veto_speed_face_unverified": 5
+        },
+        "9": {
+          "correct_eligible": 3,
+          "correct_withheld": 1,
+          "correct_veto_dark_red_sign_face": 1
+        },
+        "38": {
+          "correct_eligible": 7
+        },
+        "13": {
+          "correct_eligible": 5,
+          "correct_withheld": 1,
+          "correct_veto_dark_red_sign_face": 1
+        },
+        "5": {
+          "correct_withheld": 7,
+          "correct_veto_dark_red_sign_face": 5,
+          "correct_veto_speed_face_unverified": 2
+        },
+        "10": {
+          "correct_eligible": 5
+        },
+        "8": {
+          "correct_withheld": 2,
+          "correct_veto_speed_face_unverified": 2
+        },
+        "41": {
+          "correct_eligible": 1
+        },
+        "17": {
+          "correct_eligible": 1
+        },
+        "18": {
+          "correct_eligible": 3
+        },
+        "25": {
+          "correct_eligible": 2
+        },
+        "3": {
+          "correct_withheld": 4,
+          "correct_veto_speed_face_unverified": 2,
+          "correct_veto_dark_red_sign_face": 2
+        },
+        "11": {
+          "correct_eligible": 2
+        },
+        "14": {
+          "correct_eligible": 2,
+          "correct_withheld": 2,
+          "correct_veto_dark_red_sign_face": 2
+        },
+        "33": {
+          "correct_eligible": 2
+        },
+        "29": {
+          "incorrect_withheld": 1,
+          "incorrect_veto_dark_red_sign_face": 1,
+          "correct_withheld": 1,
+          "correct_veto_dark_red_sign_face": 1
+        },
+        "15": {
+          "correct_eligible": 1
+        },
+        "26": {
+          "correct_eligible": 1
+        },
+        "32": {
+          "correct_eligible": 2
+        },
+        "36": {
+          "correct_eligible": 1
+        },
+        "35": {
+          "correct_eligible": 1
+        },
+        "24": {
+          "correct_eligible": 1
+        }
+      },
+      "confusion_matrix": {
+        "12": {
+          "12": 4
+        },
+        "2": {
+          "2": 6
+        },
+        "1": {
+          "1": 8
+        },
+        "4": {
+          "4": 7
+        },
+        "9": {
+          "9": 4
+        },
+        "38": {
+          "38": 7
+        },
+        "13": {
+          "13": 6
+        },
+        "5": {
+          "5": 7
+        },
+        "10": {
+          "10": 5
+        },
+        "8": {
+          "8": 2
+        },
+        "41": {
+          "41": 1
+        },
+        "17": {
+          "17": 1
+        },
+        "18": {
+          "18": 3
+        },
+        "25": {
+          "25": 2
+        },
+        "3": {
+          "3": 4
+        },
+        "11": {
+          "11": 2
+        },
+        "14": {
+          "14": 4
+        },
+        "33": {
+          "33": 2
+        },
+        "-1": {
+          "29": 1
+        },
+        "15": {
+          "15": 1
+        },
+        "29": {
+          "29": 1
+        },
+        "26": {
+          "26": 1
+        },
+        "32": {
+          "32": 2
+        },
+        "36": {
+          "36": 1
+        },
+        "35": {
+          "35": 1
+        },
+        "24": {
+          "24": 1
+        }
+      },
+      "eligible_wrong_confusion_matrix": {}
+    },
+    "margin_only": {
+      "total": {
+        "correct_eligible": 54,
+        "correct_withheld": 29,
+        "incorrect_withheld": 1
+      },
+      "by_true": {
+        "12": {
+          "correct_eligible": 4
+        },
+        "2": {
+          "correct_eligible": 3,
+          "correct_withheld": 3,
+          "correct_veto_speed_face_unverified": 1,
+          "correct_veto_dark_red_sign_face": 2
+        },
+        "1": {
+          "correct_eligible": 5,
+          "correct_withheld": 3,
+          "correct_veto_dark_red_sign_face": 3
+        },
+        "4": {
+          "correct_eligible": 2,
+          "correct_withheld": 5,
+          "correct_veto_speed_face_unverified": 5
+        },
+        "9": {
+          "correct_eligible": 3,
+          "correct_withheld": 1,
+          "correct_veto_dark_red_sign_face": 1
+        },
+        "38": {
+          "correct_eligible": 7
+        },
+        "13": {
+          "correct_eligible": 5,
+          "correct_withheld": 1,
+          "correct_veto_dark_red_sign_face": 1
+        },
+        "5": {
+          "correct_withheld": 7,
+          "correct_veto_dark_red_sign_face": 5,
+          "correct_veto_speed_face_unverified": 2
+        },
+        "10": {
+          "correct_eligible": 5
+        },
+        "8": {
+          "correct_withheld": 2,
+          "correct_veto_speed_face_unverified": 2
+        },
+        "41": {
+          "correct_eligible": 1
+        },
+        "17": {
+          "correct_eligible": 1
+        },
+        "18": {
+          "correct_eligible": 3
+        },
+        "25": {
+          "correct_eligible": 2
+        },
+        "3": {
+          "correct_withheld": 4,
+          "correct_veto_speed_face_unverified": 2,
+          "correct_veto_dark_red_sign_face": 2
+        },
+        "11": {
+          "correct_eligible": 2
+        },
+        "14": {
+          "correct_eligible": 2,
+          "correct_withheld": 2,
+          "correct_veto_dark_red_sign_face": 2
+        },
+        "33": {
+          "correct_eligible": 2
+        },
+        "-1": {
+          "incorrect_withheld": 1,
+          "incorrect_veto_dark_red_sign_face": 1
+        },
+        "15": {
+          "correct_eligible": 1
+        },
+        "29": {
+          "correct_withheld": 1,
+          "correct_veto_dark_red_sign_face": 1
+        },
+        "26": {
+          "correct_eligible": 1
+        },
+        "32": {
+          "correct_eligible": 2
+        },
+        "36": {
+          "correct_eligible": 1
+        },
+        "35": {
+          "correct_eligible": 1
+        },
+        "24": {
+          "correct_eligible": 1
+        }
+      },
+      "by_predicted": {
+        "12": {
+          "correct_eligible": 4
+        },
+        "2": {
+          "correct_eligible": 3,
+          "correct_withheld": 3,
+          "correct_veto_speed_face_unverified": 1,
+          "correct_veto_dark_red_sign_face": 2
+        },
+        "1": {
+          "correct_eligible": 5,
+          "correct_withheld": 3,
+          "correct_veto_dark_red_sign_face": 3
+        },
+        "4": {
+          "correct_eligible": 2,
+          "correct_withheld": 5,
+          "correct_veto_speed_face_unverified": 5
+        },
+        "9": {
+          "correct_eligible": 3,
+          "correct_withheld": 1,
+          "correct_veto_dark_red_sign_face": 1
+        },
+        "38": {
+          "correct_eligible": 7
+        },
+        "13": {
+          "correct_eligible": 5,
+          "correct_withheld": 1,
+          "correct_veto_dark_red_sign_face": 1
+        },
+        "5": {
+          "correct_withheld": 7,
+          "correct_veto_dark_red_sign_face": 5,
+          "correct_veto_speed_face_unverified": 2
+        },
+        "10": {
+          "correct_eligible": 5
+        },
+        "8": {
+          "correct_withheld": 2,
+          "correct_veto_speed_face_unverified": 2
+        },
+        "41": {
+          "correct_eligible": 1
+        },
+        "17": {
+          "correct_eligible": 1
+        },
+        "18": {
+          "correct_eligible": 3
+        },
+        "25": {
+          "correct_eligible": 2
+        },
+        "3": {
+          "correct_withheld": 4,
+          "correct_veto_speed_face_unverified": 2,
+          "correct_veto_dark_red_sign_face": 2
+        },
+        "11": {
+          "correct_eligible": 2
+        },
+        "14": {
+          "correct_eligible": 2,
+          "correct_withheld": 2,
+          "correct_veto_dark_red_sign_face": 2
+        },
+        "33": {
+          "correct_eligible": 2
+        },
+        "29": {
+          "incorrect_withheld": 1,
+          "incorrect_veto_dark_red_sign_face": 1,
+          "correct_withheld": 1,
+          "correct_veto_dark_red_sign_face": 1
+        },
+        "15": {
+          "correct_eligible": 1
+        },
+        "26": {
+          "correct_eligible": 1
+        },
+        "32": {
+          "correct_eligible": 2
+        },
+        "36": {
+          "correct_eligible": 1
+        },
+        "35": {
+          "correct_eligible": 1
+        },
+        "24": {
+          "correct_eligible": 1
+        }
+      },
+      "confusion_matrix": {
+        "12": {
+          "12": 4
+        },
+        "2": {
+          "2": 6
+        },
+        "1": {
+          "1": 8
+        },
+        "4": {
+          "4": 7
+        },
+        "9": {
+          "9": 4
+        },
+        "38": {
+          "38": 7
+        },
+        "13": {
+          "13": 6
+        },
+        "5": {
+          "5": 7
+        },
+        "10": {
+          "10": 5
+        },
+        "8": {
+          "8": 2
+        },
+        "41": {
+          "41": 1
+        },
+        "17": {
+          "17": 1
+        },
+        "18": {
+          "18": 3
+        },
+        "25": {
+          "25": 2
+        },
+        "3": {
+          "3": 4
+        },
+        "11": {
+          "11": 2
+        },
+        "14": {
+          "14": 4
+        },
+        "33": {
+          "33": 2
+        },
+        "-1": {
+          "29": 1
+        },
+        "15": {
+          "15": 1
+        },
+        "29": {
+          "29": 1
+        },
+        "26": {
+          "26": 1
+        },
+        "32": {
+          "32": 2
+        },
+        "36": {
+          "36": 1
+        },
+        "35": {
+          "35": 1
+        },
+        "24": {
+          "24": 1
+        }
+      },
+      "eligible_wrong_confusion_matrix": {}
+    },
+    "selective_speed": {
+      "total": {
+        "correct_eligible": 55,
+        "correct_withheld": 28,
+        "incorrect_withheld": 1
+      },
+      "by_true": {
+        "12": {
+          "correct_eligible": 4
+        },
+        "2": {
+          "correct_eligible": 3,
+          "correct_withheld": 3,
+          "correct_veto_speed_face_unverified": 1,
+          "correct_veto_dark_red_sign_face": 2
+        },
+        "1": {
+          "correct_eligible": 5,
+          "correct_withheld": 3,
+          "correct_veto_dark_red_sign_face": 3
+        },
+        "4": {
+          "correct_eligible": 2,
+          "correct_withheld": 5,
+          "correct_veto_speed_face_unverified": 5
+        },
+        "9": {
+          "correct_eligible": 3,
+          "correct_withheld": 1,
+          "correct_veto_dark_red_sign_face": 1
+        },
+        "38": {
+          "correct_eligible": 7
+        },
+        "13": {
+          "correct_eligible": 5,
+          "correct_withheld": 1,
+          "correct_veto_dark_red_sign_face": 1
+        },
+        "5": {
+          "correct_withheld": 7,
+          "correct_veto_dark_red_sign_face": 5,
+          "correct_veto_speed_face_unverified": 2
+        },
+        "10": {
+          "correct_eligible": 5
+        },
+        "8": {
+          "correct_withheld": 1,
+          "correct_veto_speed_face_unverified": 1,
+          "correct_eligible": 1
+        },
+        "41": {
+          "correct_eligible": 1
+        },
+        "17": {
+          "correct_eligible": 1
+        },
+        "18": {
+          "correct_eligible": 3
+        },
+        "25": {
+          "correct_eligible": 2
+        },
+        "3": {
+          "correct_withheld": 4,
+          "correct_veto_speed_face_unverified": 2,
+          "correct_veto_dark_red_sign_face": 2
+        },
+        "11": {
+          "correct_eligible": 2
+        },
+        "14": {
+          "correct_eligible": 2,
+          "correct_withheld": 2,
+          "correct_veto_dark_red_sign_face": 2
+        },
+        "33": {
+          "correct_eligible": 2
+        },
+        "-1": {
+          "incorrect_withheld": 1,
+          "incorrect_veto_dark_red_sign_face": 1
+        },
+        "15": {
+          "correct_eligible": 1
+        },
+        "29": {
+          "correct_withheld": 1,
+          "correct_veto_dark_red_sign_face": 1
+        },
+        "26": {
+          "correct_eligible": 1
+        },
+        "32": {
+          "correct_eligible": 2
+        },
+        "36": {
+          "correct_eligible": 1
+        },
+        "35": {
+          "correct_eligible": 1
+        },
+        "24": {
+          "correct_eligible": 1
+        }
+      },
+      "by_predicted": {
+        "12": {
+          "correct_eligible": 4
+        },
+        "2": {
+          "correct_eligible": 3,
+          "correct_withheld": 3,
+          "correct_veto_speed_face_unverified": 1,
+          "correct_veto_dark_red_sign_face": 2
+        },
+        "1": {
+          "correct_eligible": 5,
+          "correct_withheld": 3,
+          "correct_veto_dark_red_sign_face": 3
+        },
+        "4": {
+          "correct_eligible": 2,
+          "correct_withheld": 5,
+          "correct_veto_speed_face_unverified": 5
+        },
+        "9": {
+          "correct_eligible": 3,
+          "correct_withheld": 1,
+          "correct_veto_dark_red_sign_face": 1
+        },
+        "38": {
+          "correct_eligible": 7
+        },
+        "13": {
+          "correct_eligible": 5,
+          "correct_withheld": 1,
+          "correct_veto_dark_red_sign_face": 1
+        },
+        "5": {
+          "correct_withheld": 7,
+          "correct_veto_dark_red_sign_face": 5,
+          "correct_veto_speed_face_unverified": 2
+        },
+        "10": {
+          "correct_eligible": 5
+        },
+        "8": {
+          "correct_withheld": 1,
+          "correct_veto_speed_face_unverified": 1,
+          "correct_eligible": 1
+        },
+        "41": {
+          "correct_eligible": 1
+        },
+        "17": {
+          "correct_eligible": 1
+        },
+        "18": {
+          "correct_eligible": 3
+        },
+        "25": {
+          "correct_eligible": 2
+        },
+        "3": {
+          "correct_withheld": 4,
+          "correct_veto_speed_face_unverified": 2,
+          "correct_veto_dark_red_sign_face": 2
+        },
+        "11": {
+          "correct_eligible": 2
+        },
+        "14": {
+          "correct_eligible": 2,
+          "correct_withheld": 2,
+          "correct_veto_dark_red_sign_face": 2
+        },
+        "33": {
+          "correct_eligible": 2
+        },
+        "29": {
+          "incorrect_withheld": 1,
+          "incorrect_veto_dark_red_sign_face": 1,
+          "correct_withheld": 1,
+          "correct_veto_dark_red_sign_face": 1
+        },
+        "15": {
+          "correct_eligible": 1
+        },
+        "26": {
+          "correct_eligible": 1
+        },
+        "32": {
+          "correct_eligible": 2
+        },
+        "36": {
+          "correct_eligible": 1
+        },
+        "35": {
+          "correct_eligible": 1
+        },
+        "24": {
+          "correct_eligible": 1
+        }
+      },
+      "confusion_matrix": {
+        "12": {
+          "12": 4
+        },
+        "2": {
+          "2": 6
+        },
+        "1": {
+          "1": 8
+        },
+        "4": {
+          "4": 7
+        },
+        "9": {
+          "9": 4
+        },
+        "38": {
+          "38": 7
+        },
+        "13": {
+          "13": 6
+        },
+        "5": {
+          "5": 7
+        },
+        "10": {
+          "10": 5
+        },
+        "8": {
+          "8": 2
+        },
+        "41": {
+          "41": 1
+        },
+        "17": {
+          "17": 1
+        },
+        "18": {
+          "18": 3
+        },
+        "25": {
+          "25": 2
+        },
+        "3": {
+          "3": 4
+        },
+        "11": {
+          "11": 2
+        },
+        "14": {
+          "14": 4
+        },
+        "33": {
+          "33": 2
+        },
+        "-1": {
+          "29": 1
+        },
+        "15": {
+          "15": 1
+        },
+        "29": {
+          "29": 1
+        },
+        "26": {
+          "26": 1
+        },
+        "32": {
+          "32": 2
+        },
+        "36": {
+          "36": 1
+        },
+        "35": {
+          "35": 1
+        },
+        "24": {
+          "24": 1
+        }
+      },
+      "eligible_wrong_confusion_matrix": {}
+    }
+  },
+  "paired_playback": {
+    "stable": {
+      "played_correct": 41,
+      "played_correct_12": 4,
+      "played_correct_1": 4,
+      "played_correct_4": 2,
+      "track_correct_withheld": 29,
+      "played_correct_9": 3,
+      "played_correct_38": 6,
+      "played_correct_13": 3,
+      "played_correct_10": 2,
+      "played_correct_17": 1,
+      "played_correct_18": 2,
+      "played_correct_25": 1,
+      "played_correct_11": 2,
+      "played_correct_14": 2,
+      "played_correct_33": 1,
+      "track_incorrect_withheld": 1,
+      "played_correct_15": 1,
+      "played_correct_2": 2,
+      "played_correct_26": 1,
+      "played_correct_32": 1,
+      "played_correct_36": 1,
+      "played_correct_35": 1,
+      "played_correct_24": 1
+    },
+    "margin_only": {
+      "played_correct": 41,
+      "played_correct_12": 4,
+      "played_correct_1": 4,
+      "played_correct_4": 2,
+      "track_correct_withheld": 29,
+      "played_correct_9": 3,
+      "played_correct_38": 6,
+      "played_correct_13": 3,
+      "played_correct_10": 2,
+      "played_correct_17": 1,
+      "played_correct_18": 2,
+      "played_correct_25": 1,
+      "played_correct_11": 2,
+      "played_correct_14": 2,
+      "played_correct_33": 1,
+      "track_incorrect_withheld": 1,
+      "played_correct_15": 1,
+      "played_correct_2": 2,
+      "played_correct_26": 1,
+      "played_correct_32": 1,
+      "played_correct_36": 1,
+      "played_correct_35": 1,
+      "played_correct_24": 1
+    },
+    "selective_speed": {
+      "played_correct": 41,
+      "played_correct_12": 4,
+      "played_correct_1": 4,
+      "played_correct_4": 2,
+      "track_correct_withheld": 28,
+      "played_correct_9": 3,
+      "played_correct_38": 6,
+      "played_correct_13": 3,
+      "played_correct_10": 2,
+      "played_correct_17": 1,
+      "played_correct_18": 2,
+      "played_correct_25": 1,
+      "played_correct_11": 2,
+      "played_correct_14": 2,
+      "played_correct_33": 1,
+      "track_incorrect_withheld": 1,
+      "played_correct_15": 1,
+      "played_correct_2": 2,
+      "played_correct_26": 1,
+      "played_correct_32": 1,
+      "played_correct_36": 1,
+      "played_correct_35": 1,
+      "played_correct_24": 1
+    }
+  },
+  "diffs": {},
+  "rows": [
+    {
+      "frame": 614,
+      "matches": {},
+      "references": [],
+      "boxes": [],
+      "evidence": [],
+      "played": {
+        "stable": [],
+        "margin_only": [],
+        "selective_speed": []
+      }
+    },
+    {
+      "frame": 666,
+      "matches": {},
+      "references": [],
+      "boxes": [],
+      "evidence": [],
+      "played": {
+        "stable": [],
+        "margin_only": [],
+        "selective_speed": []
+      }
+    },
+    {
+      "frame": 677,
+      "matches": {},
+      "references": [],
+      "boxes": [],
+      "evidence": [],
+      "played": {
+        "stable": [],
+        "margin_only": [],
+        "selective_speed": []
+      }
+    },
+    {
+      "frame": 684,
+      "matches": {},
+      "references": [],
+      "boxes": [],
+      "evidence": [],
+      "played": {
+        "stable": [],
+        "margin_only": [],
+        "selective_speed": []
+      }
+    },
+    {
+      "frame": 687,
+      "matches": {},
+      "references": [],
+      "boxes": [],
+      "evidence": [],
+      "played": {
+        "stable": [],
+        "margin_only": [],
+        "selective_speed": []
+      }
+    },
+    {
+      "frame": 701,
+      "matches": {
+        "0": [
+          1,
+          0.9503348488336208
+        ],
+        "1": [
+          0,
+          0.9462557116240097
+        ]
+      },
+      "references": [
+        {
+          "box": [
+            1042,
+            396,
+            1089,
+            443
+          ],
+          "class_id": 2
+        },
+        {
+          "box": [
+            1032,
+            333,
+            1097,
+            397
+          ],
+          "class_id": 12
+        }
+      ],
+      "boxes": [
+        [
+          1031,
+          332,
+          1096,
+          396
+        ],
+        [
+          1042,
+          395,
+          1089,
+          442
+        ]
+      ],
+      "evidence": [
+        {
+          "pred": 12,
+          "runner_up": 32,
+          "top1": 1.0,
+          "top2": 1.1484891779733799e-14,
+          "margin": 1.0,
+          "baseline": null,
+          "width": 65,
+          "height": 64,
+          "bright": 0.1796875,
+          "neutral": 0.66015625,
+          "dark": 0.40234375,
+          "v_median": 121.0,
+          "red": 0.0,
+          "red_sectors": 0,
+          "relative_brightness": 0.0,
+          "blue": 0.0,
+          "sharpness": 858.5050172839506,
+          "true": 12
+        },
+        {
+          "pred": 2,
+          "runner_up": 5,
+          "top1": 1.0,
+          "top2": 1.479307565332988e-09,
+          "margin": 1.0,
+          "baseline": null,
+          "width": 47,
+          "height": 47,
+          "bright": 0.62890625,
+          "neutral": 0.98828125,
+          "dark": 0.1875,
+          "v_median": 179.0,
+          "red": 0.4642857142857143,
+          "red_sectors": 8,
+          "relative_brightness": 57.5,
+          "blue": 0.06640625,
+          "sharpness": 4850.906532098766,
+          "true": 2
+        }
+      ],
+      "played": {
+        "stable": [
+          [
+            1,
+            12,
+            true
+          ]
+        ],
+        "margin_only": [
+          [
+            1,
+            12,
+            true
+          ]
+        ],
+        "selective_speed": [
+          [
+            1,
+            12,
+            true
+          ]
+        ]
+      }
+    },
+    {
+      "frame": 702,
+      "matches": {
+        "0": [
+          0,
+          0.5945150531261512
+        ]
+      },
+      "references": [
+        {
+          "box": [
+            688,
+            446,
+            708,
+            469
+          ],
+          "class_id": 12
+        }
+      ],
+      "boxes": [
+        [
+          689,
+          448,
+          707,
+          465
+        ]
+      ],
+      "evidence": [
+        {
+          "pred": 12,
+          "runner_up": 17,
+          "top1": 1.0,
+          "top2": 1.1430726828553524e-16,
+          "margin": 1.0,
+          "baseline": null,
+          "width": 18,
+          "height": 17,
+          "bright": 0.5234375,
+          "neutral": 0.52734375,
+          "dark": 0.0,
+          "v_median": 222.0,
+          "red": 0.0,
+          "red_sectors": 0,
+          "relative_brightness": 0.0,
+          "blue": 0.0,
+          "sharpness": 319.7451,
+          "true": 12
+        }
+      ],
+      "played": {
+        "stable": [
+          [
+            1,
+            12,
+            true
+          ]
+        ],
+        "margin_only": [
+          [
+            1,
+            12,
+            true
+          ]
+        ],
+        "selective_speed": [
+          [
+            1,
+            12,
+            true
+          ]
+        ]
+      }
+    },
+    {
+      "frame": 706,
+      "matches": {
+        "0": [
+          0,
+          0.8780737821481314
+        ]
+      },
+      "references": [
+        {
+          "box": [
+            866,
+            371,
+            900,
+            403
+          ],
+          "class_id": 1
+        }
+      ],
+      "boxes": [
+        [
+          865,
+          369,
+          899,
+          402
+        ]
+      ],
+      "evidence": [
+        {
+          "pred": 1,
+          "runner_up": 5,
+          "top1": 1.0,
+          "top2": 8.757819469629169e-11,
+          "margin": 1.0,
+          "baseline": null,
+          "width": 34,
+          "height": 33,
+          "bright": 0.90234375,
+          "neutral": 0.96875,
+          "dark": 0.00390625,
+          "v_median": 253.0,
+          "red": 0.07678571428571429,
+          "red_sectors": 2,
+          "relative_brightness": 14.0,
+          "blue": 0.00390625,
+          "sharpness": 5607.5655246913575,
+          "true": 1
+        }
+      ],
+      "played": {
+        "stable": [
+          [
+            1,
+            1,
+            true
+          ]
+        ],
+        "margin_only": [
+          [
+            1,
+            1,
+            true
+          ]
+        ],
+        "selective_speed": [
+          [
+            1,
+            1,
+            true
+          ]
+        ]
+      }
+    },
+    {
+      "frame": 707,
+      "matches": {
+        "0": [
+          0,
+          0.9571668278859191
+        ]
+      },
+      "references": [
+        {
+          "box": [
+            907,
+            383,
+            944,
+            420
+          ],
+          "class_id": 4
+        }
+      ],
+      "boxes": [
+        [
+          906,
+          382,
+          944,
+          420
+        ]
+      ],
+      "evidence": [
+        {
+          "pred": 4,
+          "runner_up": 1,
+          "top1": 0.9999995231628418,
+          "top2": 3.8098107779660495e-07,
+          "margin": 0.9999991655349731,
+          "baseline": null,
+          "width": 38,
+          "height": 38,
+          "bright": 0.9609375,
+          "neutral": 0.9765625,
+          "dark": 0.0,
+          "v_median": 255.0,
+          "red": 0.2392857142857143,
+          "red_sectors": 6,
+          "relative_brightness": 19.0,
+          "blue": 0.0078125,
+          "sharpness": 7589.032369135803,
+          "true": 4
+        }
+      ],
+      "played": {
+        "stable": [
+          [
+            1,
+            4,
+            true
+          ]
+        ],
+        "margin_only": [
+          [
+            1,
+            4,
+            true
+          ]
+        ],
+        "selective_speed": [
+          [
+            1,
+            4,
+            true
+          ]
+        ]
+      }
+    },
+    {
+      "frame": 710,
+      "matches": {
+        "0": [
+          0,
+          0.95734193331967
+        ]
+      },
+      "references": [
+        {
+          "box": [
+            1084,
+            201,
+            1165,
+            284
+          ],
+          "class_id": 2
+        }
+      ],
+      "boxes": [
+        [
+          1084,
+          200,
+          1164,
+          283
+        ]
+      ],
+      "evidence": [
+        {
+          "pred": 2,
+          "runner_up": 5,
+          "top1": 0.979824423789978,
+          "top2": 0.02012934535741806,
+          "margin": 0.9596951007843018,
+          "baseline": "speed_face_unverified",
+          "width": 80,
+          "height": 83,
+          "bright": 0.0,
+          "neutral": 0.76171875,
+          "dark": 1.0,
+          "v_median": 61.0,
+          "red": 0.014285714285714285,
+          "red_sectors": 0,
+          "relative_brightness": -32.5,
+          "blue": 0.0234375,
+          "sharpness": 8779.638044444444,
+          "true": 2
+        }
+      ],
+      "played": {
+        "stable": [],
+        "margin_only": [],
+        "selective_speed": []
+      }
+    },
+    {
+      "frame": 712,
+      "matches": {
+        "0": [
+          0,
+          0.965602869995876
+        ]
+      },
+      "references": [
+        {
+          "box": [
+            932,
+            361,
+            985,
+            414
+          ],
+          "class_id": 9
+        }
+      ],
+      "boxes": [
+        [
+          931,
+          360,
+          985,
+          415
+        ]
+      ],
+      "evidence": [
+        {
+          "pred": 9,
+          "runner_up": 41,
+          "top1": 1.0,
+          "top2": 3.238973108818377e-12,
+          "margin": 1.0,
+          "baseline": null,
+          "width": 54,
+          "height": 55,
+          "bright": 0.609375,
+          "neutral": 0.91015625,
+          "dark": 0.16796875,
+          "v_median": 168.0,
+          "red": 0.43214285714285716,
+          "red_sectors": 8,
+          "relative_brightness": 78.0,
+          "blue": 0.01171875,
+          "sharpness": 3068.271420987654,
+          "true": 9
+        }
+      ],
+      "played": {
+        "stable": [
+          [
+            1,
+            9,
+            true
+          ]
+        ],
+        "margin_only": [
+          [
+            1,
+            9,
+            true
+          ]
+        ],
+        "selective_speed": [
+          [
+            1,
+            9,
+            true
+          ]
+        ]
+      }
+    },
+    {
+      "frame": 715,
+      "matches": {
+        "0": [
+          0,
+          0.9442421364548086
+        ]
+      },
+      "references": [
+        {
+          "box": [
+            285,
+            346,
+            352,
+            413
+          ],
+          "class_id": 38
+        }
+      ],
+      "boxes": [
+        [
+          285,
+          344,
+          351,
+          413
+        ]
+      ],
+      "evidence": [
+        {
+          "pred": 38,
+          "runner_up": 23,
+          "top1": 1.0,
+          "top2": 9.360390700901087e-18,
+          "margin": 1.0,
+          "baseline": null,
+          "width": 66,
+          "height": 69,
+          "bright": 0.0234375,
+          "neutral": 0.30859375,
+          "dark": 0.64453125,
+          "v_median": 101.0,
+          "red": 0.0017857142857142857,
+          "red_sectors": 0,
+          "relative_brightness": -17.0,
+          "blue": 0.69921875,
+          "sharpness": 3878.670177777779,
+          "true": 38
+        }
+      ],
+      "played": {
+        "stable": [
+          [
+            1,
+            38,
+            true
+          ]
+        ],
+        "margin_only": [
+          [
+            1,
+            38,
+            true
+          ]
+        ],
+        "selective_speed": [
+          [
+            1,
+            38,
+            true
+          ]
+        ]
+      }
+    },
+    {
+      "frame": 717,
+      "matches": {
+        "0": [
+          0,
+          0.855538986300531
+        ]
+      },
+      "references": [
+        {
+          "box": [
+            835,
+            435,
+            860,
+            460
+          ],
+          "class_id": 4
+        }
+      ],
+      "boxes": [
+        [
+          836,
+          435,
+          861,
+          460
+        ]
+      ],
+      "evidence": [
+        {
+          "pred": 4,
+          "runner_up": 0,
+          "top1": 1.0,
+          "top2": 1.1220713247439562e-09,
+          "margin": 1.0,
+          "baseline": "speed_face_unverified",
+          "width": 25,
+          "height": 25,
+          "bright": 0.0,
+          "neutral": 0.9375,
+          "dark": 1.0,
+          "v_median": 83.0,
+          "red": 0.06428571428571428,
+          "red_sectors": 3,
+          "relative_brightness": 21.0,
+          "blue": 0.109375,
+          "sharpness": 304.73571728395063,
+          "true": 4
+        }
+      ],
+      "played": {
+        "stable": [],
+        "margin_only": [],
+        "selective_speed": []
+      }
+    },
+    {
+      "frame": 733,
+      "matches": {
+        "2": [
+          2,
+          0.9516683556759633
+        ],
+        "1": [
+          1,
+          0.9516522936356988
+        ],
+        "0": [
+          0,
+          0.9095678273948756
+        ]
+      },
+      "references": [
+        {
+          "box": [
+            442,
+            583,
+            491,
+            633
+          ],
+          "class_id": 38
+        },
+        {
+          "box": [
+            508,
+            426,
+            544,
+            463
+          ],
+          "class_id": 4
+        },
+        {
+          "box": [
+            937,
+            523,
+            966,
+            552
+          ],
+          "class_id": 4
+        }
+      ],
+      "boxes": [
+        [
+          441,
+          581,
+          491,
+          632
+        ],
+        [
+          507,
+          425,
+          544,
+          462
+        ],
+        [
+          936,
+          523,
+          966,
+          553
+        ]
+      ],
+      "evidence": [
+        {
+          "pred": 38,
+          "runner_up": 10,
+          "top1": 1.0,
+          "top2": 4.3021237660867505e-18,
+          "margin": 1.0,
+          "baseline": null,
+          "width": 50,
+          "height": 51,
+          "bright": 0.0,
+          "neutral": 0.0,
+          "dark": 0.8828125,
+          "v_median": 80.0,
+          "red": 0.0,
+          "red_sectors": 0,
+          "relative_brightness": 0.0,
+          "blue": 1.0,
+          "sharpness": 429.79309135802464,
+          "true": 38
+        },
+        {
+          "pred": 4,
+          "runner_up": 0,
+          "top1": 1.0,
+          "top2": 1.270308597894898e-11,
+          "margin": 1.0,
+          "baseline": "speed_face_unverified",
+          "width": 37,
+          "height": 37,
+          "bright": 0.0,
+          "neutral": 0.31640625,
+          "dark": 0.55078125,
+          "v_median": 108.0,
+          "red": 0.055357142857142855,
+          "red_sectors": 2,
+          "relative_brightness": 46.0,
+          "blue": 0.7734375,
+          "sharpness": 3197.160013580247,
+          "true": 4
+        },
+        {
+          "pred": 4,
+          "runner_up": 34,
+          "top1": 1.0,
+          "top2": 6.458604484560482e-12,
+          "margin": 1.0,
+          "baseline": "speed_face_unverified",
+          "width": 30,
+          "height": 30,
+          "bright": 0.0,
+          "neutral": 0.48046875,
+          "dark": 0.58203125,
+          "v_median": 104.0,
+          "red": 0.05892857142857143,
+          "red_sectors": 2,
+          "relative_brightness": 41.0,
+          "blue": 0.64453125,
+          "sharpness": 772.2692283950616,
+          "true": 4
+        }
+      ],
+      "played": {
+        "stable": [
+          [
+            1,
+            38,
+            true
+          ]
+        ],
+        "margin_only": [
+          [
+            1,
+            38,
+            true
+          ]
+        ],
+        "selective_speed": [
+          [
+            1,
+            38,
+            true
+          ]
+        ]
+      }
+    },
+    {
+      "frame": 737,
+      "matches": {
+        "0": [
+          1,
+          0.9380327964523681
+        ],
+        "1": [
+          0,
+          0.8919280880201186
+        ]
+      },
+      "references": [
+        {
+          "box": [
+            603,
+            444,
+            639,
+            477
+          ],
+          "class_id": 13
+        },
+        {
+          "box": [
+            470,
+            449,
+            508,
+            484
+          ],
+          "class_id": 13
+        }
+      ],
+      "boxes": [
+        [
+          470,
+          449,
+          508,
+          484
+        ],
+        [
+          603,
+          443,
+          640,
+          480
+        ]
+      ],
+      "evidence": [
+        {
+          "pred": 13,
+          "runner_up": 15,
+          "top1": 1.0,
+          "top2": 7.737601249828419e-14,
+          "margin": 1.0,
+          "baseline": null,
+          "width": 38,
+          "height": 35,
+          "bright": 0.1953125,
+          "neutral": 0.43359375,
+          "dark": 0.50390625,
+          "v_median": 105.5,
+          "red": 0.18214285714285713,
+          "red_sectors": 5,
+          "relative_brightness": 30.5,
+          "blue": 0.4296875,
+          "sharpness": 1428.782887654321,
+          "true": 13
+        },
+        {
+          "pred": 13,
+          "runner_up": 12,
+          "top1": 1.0,
+          "top2": 7.172809844994618e-14,
+          "margin": 1.0,
+          "baseline": null,
+          "width": 37,
+          "height": 37,
+          "bright": 0.60546875,
+          "neutral": 0.7265625,
+          "dark": 0.30859375,
+          "v_median": 196.5,
+          "red": 0.16071428571428573,
+          "red_sectors": 4,
+          "relative_brightness": 109.0,
+          "blue": 0.375,
+          "sharpness": 2565.2270061728395,
+          "true": 13
+        }
+      ],
+      "played": {
+        "stable": [
+          [
+            1,
+            13,
+            true
+          ]
+        ],
+        "margin_only": [
+          [
+            1,
+            13,
+            true
+          ]
+        ],
+        "selective_speed": [
+          [
+            1,
+            13,
+            true
+          ]
+        ]
+      }
+    },
+    {
+      "frame": 739,
+      "matches": {},
+      "references": [],
+      "boxes": [],
+      "evidence": [],
+      "played": {
+        "stable": [],
+        "margin_only": [],
+        "selective_speed": []
+      }
+    },
+    {
+      "frame": 740,
+      "matches": {
+        "1": [
+          1,
+          0.9526232642220707
+        ],
+        "0": [
+          0,
+          0.9030371663181748
+        ]
+      },
+      "references": [
+        {
+          "box": [
+            1163,
+            510,
+            1214,
+            561
+          ],
+          "class_id": 5
+        },
+        {
+          "box": [
+            489,
+            513,
+            535,
+            559
+          ],
+          "class_id": 5
+        },
+        {
+          "box": [
+            1071,
+            554,
+            1095,
+            578
+          ],
+          "class_id": 13
+        }
+      ],
+      "boxes": [
+        [
+          1164,
+          510,
+          1213,
+          560
+        ],
+        [
+          488,
+          512,
+          534,
+          559
+        ]
+      ],
+      "evidence": [
+        {
+          "pred": 5,
+          "runner_up": 6,
+          "top1": 0.9999884366989136,
+          "top2": 1.148626961366972e-05,
+          "margin": 0.9999769330024719,
+          "baseline": "dark_red_sign_face",
+          "width": 49,
+          "height": 50,
+          "bright": 0.0,
+          "neutral": 0.30078125,
+          "dark": 0.66015625,
+          "v_median": 92.0,
+          "red": 0.3517857142857143,
+          "red_sectors": 8,
+          "relative_brightness": 19.0,
+          "blue": 0.62109375,
+          "sharpness": 1228.2034209876545,
+          "true": 5
+        },
+        {
+          "pred": 5,
+          "runner_up": 7,
+          "top1": 1.0,
+          "top2": 2.2699074564425104e-10,
+          "margin": 1.0,
+          "baseline": "speed_face_unverified",
+          "width": 46,
+          "height": 47,
+          "bright": 0.25,
+          "neutral": 0.5234375,
+          "dark": 0.390625,
+          "v_median": 140.0,
+          "red": 0.42142857142857143,
+          "red_sectors": 8,
+          "relative_brightness": 61.0,
+          "blue": 0.6015625,
+          "sharpness": 3768.002869135802,
+          "true": 5
+        }
+      ],
+      "played": {
+        "stable": [],
+        "margin_only": [],
+        "selective_speed": []
+      }
+    },
+    {
+      "frame": 741,
+      "matches": {
+        "1": [
+          0,
+          0.943613071564813
+        ],
+        "0": [
+          1,
+          0.9007019276390744
+        ]
+      },
+      "references": [
+        {
+          "box": [
+            438,
+            558,
+            466,
+            586
+          ],
+          "class_id": 10
+        },
+        {
+          "box": [
+            972,
+            555,
+            1001,
+            584
+          ],
+          "class_id": 10
+        }
+      ],
+      "boxes": [
+        [
+          972,
+          555,
+          1001,
+          583
+        ],
+        [
+          438,
+          558,
+          466,
+          586
+        ]
+      ],
+      "evidence": [
+        {
+          "pred": 10,
+          "runner_up": 42,
+          "top1": 1.0,
+          "top2": 3.951062025296659e-13,
+          "margin": 1.0,
+          "baseline": null,
+          "width": 29,
+          "height": 28,
+          "bright": 0.0,
+          "neutral": 0.48828125,
+          "dark": 1.0,
+          "v_median": 68.0,
+          "red": 0.0,
+          "red_sectors": 0,
+          "relative_brightness": 0.0,
+          "blue": 0.51171875,
+          "sharpness": 138.85887777777776,
+          "true": 10
+        },
+        {
+          "pred": 10,
+          "runner_up": 42,
+          "top1": 1.0,
+          "top2": 4.146170169347374e-13,
+          "margin": 1.0,
+          "baseline": null,
+          "width": 28,
+          "height": 28,
+          "bright": 0.0546875,
+          "neutral": 0.8203125,
+          "dark": 0.515625,
+          "v_median": 112.0,
+          "red": 0.1982142857142857,
+          "red_sectors": 7,
+          "relative_brightness": 48.0,
+          "blue": 0.05078125,
+          "sharpness": 591.7161728395062,
+          "true": 10
+        }
+      ],
+      "played": {
+        "stable": [
+          [
+            1,
+            10,
+            true
+          ]
+        ],
+        "margin_only": [
+          [
+            1,
+            10,
+            true
+          ]
+        ],
+        "selective_speed": [
+          [
+            1,
+            10,
+            true
+          ]
+        ]
+      }
+    },
+    {
+      "frame": 743,
+      "matches": {},
+      "references": [],
+      "boxes": [],
+      "evidence": [],
+      "played": {
+        "stable": [],
+        "margin_only": [],
+        "selective_speed": []
+      }
+    },
+    {
+      "frame": 746,
+      "matches": {
+        "3": [
+          3,
+          0.9578173195777988
+        ],
+        "0": [
+          2,
+          0.9376459784977509
+        ],
+        "2": [
+          0,
+          0.9166982473447008
+        ],
+        "1": [
+          1,
+          0.9098305654648359
+        ]
+      },
+      "references": [
+        {
+          "box": [
+            1135,
+            492,
+            1182,
+            538
+          ],
+          "class_id": 8
+        },
+        {
+          "box": [
+            235,
+            469,
+            282,
+            516
+          ],
+          "class_id": 8
+        },
+        {
+          "box": [
+            236,
+            515,
+            281,
+            562
+          ],
+          "class_id": 10
+        },
+        {
+          "box": [
+            1138,
+            537,
+            1183,
+            580
+          ],
+          "class_id": 10
+        }
+      ],
+      "boxes": [
+        [
+          235,
+          514,
+          281,
+          561
+        ],
+        [
+          235,
+          469,
+          281,
+          515
+        ],
+        [
+          1136,
+          491,
+          1181,
+          537
+        ],
+        [
+          1137,
+          535,
+          1183,
+          581
+        ]
+      ],
+      "evidence": [
+        {
+          "pred": 10,
+          "runner_up": 16,
+          "top1": 1.0,
+          "top2": 2.3058963627420326e-09,
+          "margin": 1.0,
+          "baseline": null,
+          "width": 46,
+          "height": 47,
+          "bright": 0.0,
+          "neutral": 0.6875,
+          "dark": 0.48046875,
+          "v_median": 118.5,
+          "red": 0.3982142857142857,
+          "red_sectors": 8,
+          "relative_brightness": 47.5,
+          "blue": 0.203125,
+          "sharpness": 1246.1312728395062,
+          "true": 10
+        },
+        {
+          "pred": 8,
+          "runner_up": 16,
+          "top1": 1.0,
+          "top2": 1.012936783062468e-11,
+          "margin": 1.0,
+          "baseline": "speed_face_unverified",
+          "width": 46,
+          "height": 46,
+          "bright": 0.0625,
+          "neutral": 0.65625,
+          "dark": 0.515625,
+          "v_median": 109.5,
+          "red": 0.3625,
+          "red_sectors": 8,
+          "relative_brightness": 40.5,
+          "blue": 0.4296875,
+          "sharpness": 1594.0194209876543,
+          "true": 8
+        },
+        {
+          "pred": 8,
+          "runner_up": 16,
+          "top1": 1.0,
+          "top2": 2.9686820899764085e-14,
+          "margin": 1.0,
+          "baseline": "speed_face_unverified",
+          "width": 45,
+          "height": 46,
+          "bright": 0.34375,
+          "neutral": 0.671875,
+          "dark": 0.35546875,
+          "v_median": 142.5,
+          "red": 0.5,
+          "red_sectors": 8,
+          "relative_brightness": 57.5,
+          "blue": 0.33203125,
+          "sharpness": 2085.816902469136,
+          "true": 8
+        },
+        {
+          "pred": 10,
+          "runner_up": 9,
+          "top1": 1.0,
+          "top2": 1.4219883950894463e-12,
+          "margin": 1.0,
+          "baseline": null,
+          "width": 46,
+          "height": 46,
+          "bright": 0.57421875,
+          "neutral": 0.7421875,
+          "dark": 0.29296875,
+          "v_median": 166.0,
+          "red": 0.3964285714285714,
+          "red_sectors": 8,
+          "relative_brightness": 87.0,
+          "blue": 0.13671875,
+          "sharpness": 1635.7535999999998,
+          "true": 10
+        }
+      ],
+      "played": {
+        "stable": [
+          [
+            1,
+            10,
+            true
+          ]
+        ],
+        "margin_only": [
+          [
+            1,
+            10,
+            true
+          ]
+        ],
+        "selective_speed": [
+          [
+            1,
+            10,
+            true
+          ]
+        ]
+      }
+    },
+    {
+      "frame": 759,
+      "matches": {},
+      "references": [],
+      "boxes": [],
+      "evidence": [],
+      "played": {
+        "stable": [],
+        "margin_only": [],
+        "selective_speed": []
+      }
+    },
+    {
+      "frame": 761,
+      "matches": {
+        "0": [
+          0,
+          0.971945974403593
+        ]
+      },
+      "references": [
+        {
+          "box": [
+            35,
+            541,
+            96,
+            598
+          ],
+          "class_id": 38
+        }
+      ],
+      "boxes": [
+        [
+          34,
+          540,
+          96,
+          599
+        ]
+      ],
+      "evidence": [
+        {
+          "pred": 38,
+          "runner_up": 31,
+          "top1": 1.0,
+          "top2": 4.340002847877391e-18,
+          "margin": 1.0,
+          "baseline": null,
+          "width": 62,
+          "height": 59,
+          "bright": 0.0,
+          "neutral": 0.0,
+          "dark": 1.0,
+          "v_median": 58.0,
+          "red": 0.0,
+          "red_sectors": 0,
+          "relative_brightness": 0.0,
+          "blue": 1.0,
+          "sharpness": 109.96955432098767,
+          "true": 38
+        }
+      ],
+      "played": {
+        "stable": [
+          [
+            1,
+            38,
+            true
+          ]
+        ],
+        "margin_only": [
+          [
+            1,
+            38,
+            true
+          ]
+        ],
+        "selective_speed": [
+          [
+            1,
+            38,
+            true
+          ]
+        ]
+      }
+    },
+    {
+      "frame": 762,
+      "matches": {
+        "1": [
+          0,
+          0.9393229810745778
+        ],
+        "0": [
+          1,
+          0.9225673124964571
+        ]
+      },
+      "references": [
+        {
+          "box": [
+            334,
+            378,
+            402,
+            439
+          ],
+          "class_id": 13
+        },
+        {
+          "box": [
+            1154,
+            405,
+            1219,
+            466
+          ],
+          "class_id": 13
+        }
+      ],
+      "boxes": [
+        [
+          1154,
+          407,
+          1219,
+          465
+        ],
+        [
+          332,
+          379,
+          402,
+          440
+        ]
+      ],
+      "evidence": [
+        {
+          "pred": 13,
+          "runner_up": 15,
+          "top1": 1.0,
+          "top2": 2.4167910728234432e-11,
+          "margin": 1.0,
+          "baseline": null,
+          "width": 65,
+          "height": 58,
+          "bright": 0.0,
+          "neutral": 0.17578125,
+          "dark": 1.0,
+          "v_median": 57.0,
+          "red": 0.0,
+          "red_sectors": 0,
+          "relative_brightness": 0.0,
+          "blue": 0.51953125,
+          "sharpness": 216.61293209876544,
+          "true": 13
+        },
+        {
+          "pred": 13,
+          "runner_up": 15,
+          "top1": 1.0,
+          "top2": 9.75863556629264e-11,
+          "margin": 1.0,
+          "baseline": null,
+          "width": 70,
+          "height": 61,
+          "bright": 0.00390625,
+          "neutral": 0.30859375,
+          "dark": 0.99609375,
+          "v_median": 60.0,
+          "red": 0.005357142857142857,
+          "red_sectors": 0,
+          "relative_brightness": -84.0,
+          "blue": 0.5078125,
+          "sharpness": 8242.782266666667,
+          "true": 13
+        }
+      ],
+      "played": {
+        "stable": [
+          [
+            1,
+            13,
+            true
+          ]
+        ],
+        "margin_only": [
+          [
+            1,
+            13,
+            true
+          ]
+        ],
+        "selective_speed": [
+          [
+            1,
+            13,
+            true
+          ]
+        ]
+      }
+    },
+    {
+      "frame": 770,
+      "matches": {
+        "1": [
+          0,
+          0.9580437389893468
+        ],
+        "0": [
+          2,
+          0.8682367261208396
+        ],
+        "2": [
+          1,
+          0.8178986867400188
+        ]
+      },
+      "references": [
+        {
+          "box": [
+            1059,
+            503,
+            1096,
+            540
+          ],
+          "class_id": 41
+        },
+        {
+          "box": [
+            468,
+            535,
+            498,
+            565
+          ],
+          "class_id": 17
+        },
+        {
+          "box": [
+            526,
+            578,
+            556,
+            608
+          ],
+          "class_id": 38
+        }
+      ],
+      "boxes": [
+        [
+          524,
+          576,
+          555,
+          609
+        ],
+        [
+          1058,
+          502,
+          1096,
+          541
+        ],
+        [
+          467,
+          534,
+          496,
+          563
+        ]
+      ],
+      "evidence": [
+        {
+          "pred": 38,
+          "runner_up": 36,
+          "top1": 1.0,
+          "top2": 6.564505883321914e-12,
+          "margin": 1.0,
+          "baseline": null,
+          "width": 31,
+          "height": 33,
+          "bright": 0.0,
+          "neutral": 0.0078125,
+          "dark": 1.0,
+          "v_median": 52.0,
+          "red": 0.0,
+          "red_sectors": 0,
+          "relative_brightness": 0.0,
+          "blue": 0.93359375,
+          "sharpness": 222.77373333333333,
+          "true": 38
+        },
+        {
+          "pred": 41,
+          "runner_up": 42,
+          "top1": 0.9999992847442627,
+          "top2": 3.7472548797268246e-07,
+          "margin": 0.999998927116394,
+          "baseline": null,
+          "width": 38,
+          "height": 39,
+          "bright": 0.0,
+          "neutral": 0.43359375,
+          "dark": 1.0,
+          "v_median": 52.0,
+          "red": 0.0,
+          "red_sectors": 0,
+          "relative_brightness": 0.0,
+          "blue": 0.5703125,
+          "sharpness": 68.51795555555556,
+          "true": 41
+        },
+        {
+          "pred": 17,
+          "runner_up": 13,
+          "top1": 1.0,
+          "top2": 1.7165683804942766e-11,
+          "margin": 1.0,
+          "baseline": null,
+          "width": 29,
+          "height": 29,
+          "bright": 0.0,
+          "neutral": 0.328125,
+          "dark": 1.0,
+          "v_median": 28.0,
+          "red": 0.0,
+          "red_sectors": 0,
+          "relative_brightness": 0.0,
+          "blue": 0.09765625,
+          "sharpness": 91.91527283950617,
+          "true": 17
+        }
+      ],
+      "played": {
+        "stable": [
+          [
+            3,
+            17,
+            true
+          ]
+        ],
+        "margin_only": [
+          [
+            3,
+            17,
+            true
+          ]
+        ],
+        "selective_speed": [
+          [
+            3,
+            17,
+            true
+          ]
+        ]
+      }
+    },
+    {
+      "frame": 772,
+      "matches": {
+        "0": [
+          0,
+          0.7887326265147208
+        ]
+      },
+      "references": [
+        {
+          "box": [
+            842,
+            553,
+            865,
+            574
+          ],
+          "class_id": 18
+        }
+      ],
+      "boxes": [
+        [
+          840,
+          551,
+          863,
+          574
+        ]
+      ],
+      "evidence": [
+        {
+          "pred": 18,
+          "runner_up": 27,
+          "top1": 1.0,
+          "top2": 1.8206832580527052e-17,
+          "margin": 1.0,
+          "baseline": null,
+          "width": 23,
+          "height": 23,
+          "bright": 0.58203125,
+          "neutral": 0.6484375,
+          "dark": 0.03125,
+          "v_median": 205.0,
+          "red": 0.22321428571428573,
+          "red_sectors": 5,
+          "relative_brightness": 36.0,
+          "blue": 0.03125,
+          "sharpness": 2649.8419395061733,
+          "true": 18
+        }
+      ],
+      "played": {
+        "stable": [
+          [
+            1,
+            18,
+            true
+          ]
+        ],
+        "margin_only": [
+          [
+            1,
+            18,
+            true
+          ]
+        ],
+        "selective_speed": [
+          [
+            1,
+            18,
+            true
+          ]
+        ]
+      }
+    },
+    {
+      "frame": 774,
+      "matches": {
+        "0": [
+          0,
+          0.900112911460184
+        ]
+      },
+      "references": [
+        {
+          "box": [
+            929,
+            516,
+            962,
+            549
+          ],
+          "class_id": 1
+        }
+      ],
+      "boxes": [
+        [
+          929,
+          516,
+          961,
+          549
+        ]
+      ],
+      "evidence": [
+        {
+          "pred": 1,
+          "runner_up": 19,
+          "top1": 1.0,
+          "top2": 6.625561644463263e-13,
+          "margin": 1.0,
+          "baseline": null,
+          "width": 32,
+          "height": 33,
+          "bright": 0.90234375,
+          "neutral": 0.9296875,
+          "dark": 0.0,
+          "v_median": 255.0,
+          "red": 0.36964285714285716,
+          "red_sectors": 8,
+          "relative_brightness": 24.0,
+          "blue": 0.05078125,
+          "sharpness": 7994.992072839505,
+          "true": 1
+        }
+      ],
+      "played": {
+        "stable": [
+          [
+            1,
+            1,
+            true
+          ]
+        ],
+        "margin_only": [
+          [
+            1,
+            1,
+            true
+          ]
+        ],
+        "selective_speed": [
+          [
+            1,
+            1,
+            true
+          ]
+        ]
+      }
+    },
+    {
+      "frame": 776,
+      "matches": {
+        "0": [
+          1,
+          0.9697499859297195
+        ],
+        "1": [
+          0,
+          0.8206910476731891
+        ]
+      },
+      "references": [
+        {
+          "box": [
+            861,
+            505,
+            894,
+            538
+          ],
+          "class_id": 1
+        },
+        {
+          "box": [
+            1076,
+            315,
+            1189,
+            428
+          ],
+          "class_id": 12
+        },
+        {
+          "box": [
+            646,
+            604,
+            668,
+            626
+          ],
+          "class_id": 38
+        }
+      ],
+      "boxes": [
+        [
+          1075,
+          315,
+          1188,
+          428
+        ],
+        [
+          860,
+          503,
+          893,
+          536
+        ]
+      ],
+      "evidence": [
+        {
+          "pred": 12,
+          "runner_up": 17,
+          "top1": 1.0,
+          "top2": 5.357083665558093e-10,
+          "margin": 1.0,
+          "baseline": null,
+          "width": 113,
+          "height": 113,
+          "bright": 0.0,
+          "neutral": 0.4765625,
+          "dark": 1.0,
+          "v_median": 50.0,
+          "red": 0.007142857142857143,
+          "red_sectors": 0,
+          "relative_brightness": -22.0,
+          "blue": 0.125,
+          "sharpness": 745.2216098765431,
+          "true": 12
+        },
+        {
+          "pred": 1,
+          "runner_up": 5,
+          "top1": 1.0,
+          "top2": 5.900266231151363e-08,
+          "margin": 0.9999999403953552,
+          "baseline": "dark_red_sign_face",
+          "width": 33,
+          "height": 33,
+          "bright": 0.0,
+          "neutral": 0.92578125,
+          "dark": 1.0,
+          "v_median": 74.0,
+          "red": 0.35714285714285715,
+          "red_sectors": 8,
+          "relative_brightness": 7.0,
+          "blue": 0.0,
+          "sharpness": 221.84030987654322,
+          "true": 1
+        }
+      ],
+      "played": {
+        "stable": [
+          [
+            1,
+            12,
+            true
+          ]
+        ],
+        "margin_only": [
+          [
+            1,
+            12,
+            true
+          ]
+        ],
+        "selective_speed": [
+          [
+            1,
+            12,
+            true
+          ]
+        ]
+      }
+    },
+    {
+      "frame": 780,
+      "matches": {
+        "1": [
+          0,
+          0.9749899736767093
+        ],
+        "3": [
+          3,
+          0.9460367231955378
+        ],
+        "2": [
+          1,
+          0.933493677775021
+        ],
+        "0": [
+          2,
+          0.9128395113838622
+        ]
+      },
+      "references": [
+        {
+          "box": [
+            365,
+            468,
+            467,
+            559
+          ],
+          "class_id": 25
+        },
+        {
+          "box": [
+            1165,
+            572,
+            1228,
+            637
+          ],
+          "class_id": 3
+        },
+        {
+          "box": [
+            1142,
+            487,
+            1238,
+            576
+          ],
+          "class_id": 25
+        },
+        {
+          "box": [
+            380,
+            557,
+            445,
+            622
+          ],
+          "class_id": 3
+        }
+      ],
+      "boxes": [
+        [
+          1143,
+          490,
+          1236,
+          577
+        ],
+        [
+          365,
+          467,
+          466,
+          559
+        ],
+        [
+          1166,
+          573,
+          1229,
+          638
+        ],
+        [
+          380,
+          556,
+          446,
+          621
+        ]
+      ],
+      "evidence": [
+        {
+          "pred": 25,
+          "runner_up": 0,
+          "top1": 0.9999998807907104,
+          "top2": 4.5955697913768745e-08,
+          "margin": 0.9999998211860657,
+          "baseline": null,
+          "width": 93,
+          "height": 87,
+          "bright": 0.0,
+          "neutral": 0.66796875,
+          "dark": 0.99609375,
+          "v_median": 40.0,
+          "red": 0.010714285714285714,
+          "red_sectors": 0,
+          "relative_brightness": -59.5,
+          "blue": 0.06640625,
+          "sharpness": 5830.949402469136,
+          "true": 25
+        },
+        {
+          "pred": 25,
+          "runner_up": 20,
+          "top1": 0.9998935461044312,
+          "top2": 8.789199637249112e-05,
+          "margin": 0.9998056292533875,
+          "baseline": null,
+          "width": 101,
+          "height": 92,
+          "bright": 0.01171875,
+          "neutral": 0.62890625,
+          "dark": 0.96484375,
+          "v_median": 38.5,
+          "red": 0.0017857142857142857,
+          "red_sectors": 0,
+          "relative_brightness": -32.5,
+          "blue": 0.08203125,
+          "sharpness": 3548.3068777777776,
+          "true": 25
+        },
+        {
+          "pred": 3,
+          "runner_up": 5,
+          "top1": 0.9995905756950378,
+          "top2": 0.0002925369772128761,
+          "margin": 0.9992980360984802,
+          "baseline": "speed_face_unverified",
+          "width": 63,
+          "height": 65,
+          "bright": 0.0,
+          "neutral": 0.75,
+          "dark": 1.0,
+          "v_median": 42.0,
+          "red": 0.0035714285714285713,
+          "red_sectors": 0,
+          "relative_brightness": -104.0,
+          "blue": 0.18359375,
+          "sharpness": 1165.198572839506,
+          "true": 3
+        },
+        {
+          "pred": 3,
+          "runner_up": 6,
+          "top1": 0.9622165560722351,
+          "top2": 0.034755125641822815,
+          "margin": 0.9274614453315735,
+          "baseline": "speed_face_unverified",
+          "width": 66,
+          "height": 65,
+          "bright": 0.0,
+          "neutral": 0.8515625,
+          "dark": 1.0,
+          "v_median": 45.0,
+          "red": 0.0017857142857142857,
+          "red_sectors": 0,
+          "relative_brightness": -15.0,
+          "blue": 0.078125,
+          "sharpness": 650.0388580246914,
+          "true": 3
+        }
+      ],
+      "played": {
+        "stable": [
+          [
+            1,
+            25,
+            true
+          ]
+        ],
+        "margin_only": [
+          [
+            1,
+            25,
+            true
+          ]
+        ],
+        "selective_speed": [
+          [
+            1,
+            25,
+            true
+          ]
+        ]
+      }
+    },
+    {
+      "frame": 783,
+      "matches": {
+        "0": [
+          0,
+          0.9338118963837857
+        ]
+      },
+      "references": [
+        {
+          "box": [
+            276,
+            568,
+            320,
+            615
+          ],
+          "class_id": 38
+        }
+      ],
+      "boxes": [
+        [
+          275,
+          567,
+          320,
+          614
+        ]
+      ],
+      "evidence": [
+        {
+          "pred": 38,
+          "runner_up": 36,
+          "top1": 1.0,
+          "top2": 5.439290795550278e-09,
+          "margin": 1.0,
+          "baseline": null,
+          "width": 45,
+          "height": 47,
+          "bright": 0.0,
+          "neutral": 0.00390625,
+          "dark": 0.9921875,
+          "v_median": 64.0,
+          "red": 0.0,
+          "red_sectors": 0,
+          "relative_brightness": 0.0,
+          "blue": 1.0,
+          "sharpness": 389.15951111111104,
+          "true": 38
+        }
+      ],
+      "played": {
+        "stable": [
+          [
+            1,
+            38,
+            true
+          ]
+        ],
+        "margin_only": [
+          [
+            1,
+            38,
+            true
+          ]
+        ],
+        "selective_speed": [
+          [
+            1,
+            38,
+            true
+          ]
+        ]
+      }
+    },
+    {
+      "frame": 788,
+      "matches": {
+        "0": [
+          0,
+          0.9096170964214468
+        ]
+      },
+      "references": [
+        {
+          "box": [
+            959,
+            501,
+            1043,
+            587
+          ],
+          "class_id": 18
+        }
+      ],
+      "boxes": [
+        [
+          957,
+          498,
+          1044,
+          584
+        ]
+      ],
+      "evidence": [
+        {
+          "pred": 18,
+          "runner_up": 26,
+          "top1": 1.0,
+          "top2": 1.7613075442568515e-09,
+          "margin": 1.0,
+          "baseline": null,
+          "width": 87,
+          "height": 86,
+          "bright": 0.46484375,
+          "neutral": 0.625,
+          "dark": 0.1953125,
+          "v_median": 157.0,
+          "red": 0.24285714285714285,
+          "red_sectors": 5,
+          "relative_brightness": 43.0,
+          "blue": 0.16015625,
+          "sharpness": 8465.267066666665,
+          "true": 18
+        }
+      ],
+      "played": {
+        "stable": [
+          [
+            1,
+            18,
+            true
+          ]
+        ],
+        "margin_only": [
+          [
+            1,
+            18,
+            true
+          ]
+        ],
+        "selective_speed": [
+          [
+            1,
+            18,
+            true
+          ]
+        ]
+      }
+    },
+    {
+      "frame": 793,
+      "matches": {},
+      "references": [],
+      "boxes": [],
+      "evidence": [],
+      "played": {
+        "stable": [],
+        "margin_only": [],
+        "selective_speed": []
+      }
+    },
+    {
+      "frame": 796,
+      "matches": {},
+      "references": [],
+      "boxes": [],
+      "evidence": [],
+      "played": {
+        "stable": [],
+        "margin_only": [],
+        "selective_speed": []
+      }
+    },
+    {
+      "frame": 803,
+      "matches": {
+        "0": [
+          0,
+          0.9536142904027963
+        ],
+        "1": [
+          1,
+          0.919217490985972
+        ]
+      },
+      "references": [
+        {
+          "box": [
+            771,
+            232,
+            836,
+            296
+          ],
+          "class_id": 1
+        },
+        {
+          "box": [
+            772,
+            322,
+            838,
+            388
+          ],
+          "class_id": 9
+        }
+      ],
+      "boxes": [
+        [
+          770,
+          231,
+          835,
+          297
+        ],
+        [
+          771,
+          321,
+          836,
+          387
+        ]
+      ],
+      "evidence": [
+        {
+          "pred": 1,
+          "runner_up": 6,
+          "top1": 1.0,
+          "top2": 1.7524349971154152e-08,
+          "margin": 1.0,
+          "baseline": "dark_red_sign_face",
+          "width": 65,
+          "height": 66,
+          "bright": 0.0,
+          "neutral": 0.83203125,
+          "dark": 0.8046875,
+          "v_median": 103.5,
+          "red": 0.475,
+          "red_sectors": 8,
+          "relative_brightness": 19.5,
+          "blue": 0.12890625,
+          "sharpness": 7344.165554320987,
+          "true": 1
+        },
+        {
+          "pred": 9,
+          "runner_up": 41,
+          "top1": 1.0,
+          "top2": 2.6561529864466138e-08,
+          "margin": 1.0,
+          "baseline": null,
+          "width": 65,
+          "height": 66,
+          "bright": 0.0,
+          "neutral": 0.90234375,
+          "dark": 0.546875,
+          "v_median": 113.0,
+          "red": 0.4714285714285714,
+          "red_sectors": 8,
+          "relative_brightness": 46.0,
+          "blue": 0.015625,
+          "sharpness": 4636.3736,
+          "true": 9
+        }
+      ],
+      "played": {
+        "stable": [
+          [
+            2,
+            9,
+            true
+          ]
+        ],
+        "margin_only": [
+          [
+            2,
+            9,
+            true
+          ]
+        ],
+        "selective_speed": [
+          [
+            2,
+            9,
+            true
+          ]
+        ]
+      }
+    },
+    {
+      "frame": 807,
+      "matches": {
+        "0": [
+          0,
+          0.8927581148687199
+        ]
+      },
+      "references": [
+        {
+          "box": [
+            823,
+            370,
+            868,
+            409
+          ],
+          "class_id": 11
+        }
+      ],
+      "boxes": [
+        [
+          821,
+          368,
+          867,
+          410
+        ]
+      ],
+      "evidence": [
+        {
+          "pred": 11,
+          "runner_up": 30,
+          "top1": 0.9999997615814209,
+          "top2": 2.0767031116974977e-07,
+          "margin": 0.9999995827674866,
+          "baseline": null,
+          "width": 46,
+          "height": 42,
+          "bright": 0.30859375,
+          "neutral": 0.51171875,
+          "dark": 0.26171875,
+          "v_median": 139.0,
+          "red": 0.22857142857142856,
+          "red_sectors": 6,
+          "relative_brightness": 3.0,
+          "blue": 0.00390625,
+          "sharpness": 4818.657099999999,
+          "true": 11
+        }
+      ],
+      "played": {
+        "stable": [
+          [
+            1,
+            11,
+            true
+          ]
+        ],
+        "margin_only": [
+          [
+            1,
+            11,
+            true
+          ]
+        ],
+        "selective_speed": [
+          [
+            1,
+            11,
+            true
+          ]
+        ]
+      }
+    },
+    {
+      "frame": 809,
+      "matches": {
+        "0": [
+          0,
+          0.8730784127341501
+        ]
+      },
+      "references": [
+        {
+          "box": [
+            689,
+            359,
+            721,
+            393
+          ],
+          "class_id": 14
+        }
+      ],
+      "boxes": [
+        [
+          689,
+          359,
+          720,
+          392
+        ]
+      ],
+      "evidence": [
+        {
+          "pred": 14,
+          "runner_up": 1,
+          "top1": 1.0,
+          "top2": 1.7586415657078192e-10,
+          "margin": 1.0,
+          "baseline": null,
+          "width": 31,
+          "height": 33,
+          "bright": 0.1640625,
+          "neutral": 0.19921875,
+          "dark": 0.328125,
+          "v_median": 135.0,
+          "red": 0.6357142857142857,
+          "red_sectors": 8,
+          "relative_brightness": 23.0,
+          "blue": 0.0,
+          "sharpness": 3066.0435358024693,
+          "true": 14
+        }
+      ],
+      "played": {
+        "stable": [
+          [
+            1,
+            14,
+            true
+          ]
+        ],
+        "margin_only": [
+          [
+            1,
+            14,
+            true
+          ]
+        ],
+        "selective_speed": [
+          [
+            1,
+            14,
+            true
+          ]
+        ]
+      }
+    },
+    {
+      "frame": 810,
+      "matches": {
+        "0": [
+          0,
+          0.9205943373048525
+        ],
+        "1": [
+          1,
+          0.8700660579494018
+        ]
+      },
+      "references": [
+        {
+          "box": [
+            622,
+            319,
+            693,
+            386
+          ],
+          "class_id": 11
+        },
+        {
+          "box": [
+            460,
+            385,
+            493,
+            416
+          ],
+          "class_id": 18
+        }
+      ],
+      "boxes": [
+        [
+          622,
+          317,
+          693,
+          383
+        ],
+        [
+          459,
+          384,
+          493,
+          415
+        ]
+      ],
+      "evidence": [
+        {
+          "pred": 11,
+          "runner_up": 30,
+          "top1": 0.9999990463256836,
+          "top2": 9.436078585167706e-07,
+          "margin": 0.9999980926513672,
+          "baseline": null,
+          "width": 71,
+          "height": 66,
+          "bright": 0.3984375,
+          "neutral": 0.6796875,
+          "dark": 0.3203125,
+          "v_median": 139.5,
+          "red": 0.1982142857142857,
+          "red_sectors": 5,
+          "relative_brightness": 21.5,
+          "blue": 0.00390625,
+          "sharpness": 4002.9119444444445,
+          "true": 11
+        },
+        {
+          "pred": 18,
+          "runner_up": 20,
+          "top1": 0.9818628430366516,
+          "top2": 0.007687915116548538,
+          "margin": 0.9741749167442322,
+          "baseline": null,
+          "width": 34,
+          "height": 31,
+          "bright": 0.2734375,
+          "neutral": 0.57421875,
+          "dark": 0.5234375,
+          "v_median": 113.0,
+          "red": 0.24285714285714285,
+          "red_sectors": 6,
+          "relative_brightness": 6.0,
+          "blue": 0.03515625,
+          "sharpness": 1571.0644444444445,
+          "true": 18
+        }
+      ],
+      "played": {
+        "stable": [
+          [
+            1,
+            11,
+            true
+          ]
+        ],
+        "margin_only": [
+          [
+            1,
+            11,
+            true
+          ]
+        ],
+        "selective_speed": [
+          [
+            1,
+            11,
+            true
+          ]
+        ]
+      }
+    },
+    {
+      "frame": 813,
+      "matches": {
+        "0": [
+          1,
+          0.9419212822869121
+        ],
+        "1": [
+          0,
+          0.9241811874548611
+        ]
+      },
+      "references": [
+        {
+          "box": [
+            928,
+            250,
+            1011,
+            334
+          ],
+          "class_id": 33
+        },
+        {
+          "box": [
+            913,
+            147,
+            1023,
+            251
+          ],
+          "class_id": 13
+        }
+      ],
+      "boxes": [
+        [
+          914,
+          149,
+          1022,
+          251
+        ],
+        [
+          930,
+          250,
+          1010,
+          332
+        ],
+        [
+          1023,
+          232,
+          1075,
+          290
+        ]
+      ],
+      "evidence": [
+        {
+          "pred": 13,
+          "runner_up": 15,
+          "top1": 1.0,
+          "top2": 1.2501272803402963e-12,
+          "margin": 1.0,
+          "baseline": "dark_red_sign_face",
+          "width": 108,
+          "height": 102,
+          "bright": 0.00390625,
+          "neutral": 0.69140625,
+          "dark": 0.83984375,
+          "v_median": 109.0,
+          "red": 0.2767857142857143,
+          "red_sectors": 6,
+          "relative_brightness": 33.0,
+          "blue": 0.0,
+          "sharpness": 6483.076388888889,
+          "true": 13
+        },
+        {
+          "pred": 33,
+          "runner_up": 42,
+          "top1": 1.0,
+          "top2": 1.5854677570814601e-09,
+          "margin": 1.0,
+          "baseline": null,
+          "width": 80,
+          "height": 82,
+          "bright": 0.0,
+          "neutral": 0.26953125,
+          "dark": 0.7734375,
+          "v_median": 71.0,
+          "red": 0.0,
+          "red_sectors": 0,
+          "relative_brightness": 0.0,
+          "blue": 0.73828125,
+          "sharpness": 4289.9803999999995,
+          "true": 33
+        },
+        {
+          "pred": 29,
+          "runner_up": 17,
+          "top1": 0.8698753118515015,
+          "top2": 0.10560436546802521,
+          "margin": 0.7642709612846375,
+          "baseline": "dark_red_sign_face",
+          "width": 52,
+          "height": 58,
+          "bright": 0.0,
+          "neutral": 0.05078125,
+          "dark": 1.0,
+          "v_median": 65.0,
+          "red": 0.49464285714285716,
+          "red_sectors": 8,
+          "relative_brightness": -9.0,
+          "blue": 0.48828125,
+          "sharpness": 1893.3363888888891,
+          "true": -1
+        }
+      ],
+      "played": {
+        "stable": [
+          [
+            2,
+            33,
+            true
+          ]
+        ],
+        "margin_only": [
+          [
+            2,
+            33,
+            true
+          ]
+        ],
+        "selective_speed": [
+          [
+            2,
+            33,
+            true
+          ]
+        ]
+      }
+    },
+    {
+      "frame": 821,
+      "matches": {
+        "0": [
+          0,
+          0.8866827862146862
+        ],
+        "1": [
+          1,
+          0.856658340627623
+        ]
+      },
+      "references": [
+        {
+          "box": [
+            859,
+            444,
+            883,
+            467
+          ],
+          "class_id": 5
+        },
+        {
+          "box": [
+            333,
+            442,
+            357,
+            467
+          ],
+          "class_id": 5
+        }
+      ],
+      "boxes": [
+        [
+          858,
+          442,
+          883,
+          467
+        ],
+        [
+          331,
+          440,
+          357,
+          466
+        ]
+      ],
+      "evidence": [
+        {
+          "pred": 5,
+          "runner_up": 6,
+          "top1": 1.0,
+          "top2": 8.31128232903211e-09,
+          "margin": 1.0,
+          "baseline": "dark_red_sign_face",
+          "width": 25,
+          "height": 25,
+          "bright": 0.0,
+          "neutral": 0.8046875,
+          "dark": 0.8046875,
+          "v_median": 92.5,
+          "red": 0.44821428571428573,
+          "red_sectors": 8,
+          "relative_brightness": 18.5,
+          "blue": 0.0625,
+          "sharpness": 455.1510320987655,
+          "true": 5
+        },
+        {
+          "pred": 5,
+          "runner_up": 6,
+          "top1": 1.0,
+          "top2": 5.3566804325555495e-08,
+          "margin": 0.9999999403953552,
+          "baseline": "dark_red_sign_face",
+          "width": 26,
+          "height": 26,
+          "bright": 0.01171875,
+          "neutral": 0.8046875,
+          "dark": 0.62890625,
+          "v_median": 107.0,
+          "red": 0.41964285714285715,
+          "red_sectors": 8,
+          "relative_brightness": 17.0,
+          "blue": 0.0078125,
+          "sharpness": 289.78678888888885,
+          "true": 5
+        }
+      ],
+      "played": {
+        "stable": [],
+        "margin_only": [],
+        "selective_speed": []
+      }
+    },
+    {
+      "frame": 824,
+      "matches": {
+        "0": [
+          0,
+          0.8889010564961689
+        ]
+      },
+      "references": [
+        {
+          "box": [
+            232,
+            416,
+            268,
+            452
+          ],
+          "class_id": 15
+        }
+      ],
+      "boxes": [
+        [
+          233,
+          415,
+          268,
+          451
+        ]
+      ],
+      "evidence": [
+        {
+          "pred": 15,
+          "runner_up": 9,
+          "top1": 1.0,
+          "top2": 1.4772618892044953e-11,
+          "margin": 1.0,
+          "baseline": null,
+          "width": 35,
+          "height": 36,
+          "bright": 1.0,
+          "neutral": 1.0,
+          "dark": 0.0,
+          "v_median": 190.0,
+          "red": 0.4982142857142857,
+          "red_sectors": 8,
+          "relative_brightness": 61.0,
+          "blue": 0.0,
+          "sharpness": 1673.2331802469134,
+          "true": 15
+        }
+      ],
+      "played": {
+        "stable": [
+          [
+            1,
+            15,
+            true
+          ]
+        ],
+        "margin_only": [
+          [
+            1,
+            15,
+            true
+          ]
+        ],
+        "selective_speed": [
+          [
+            1,
+            15,
+            true
+          ]
+        ]
+      }
+    },
+    {
+      "frame": 829,
+      "matches": {
+        "0": [
+          1,
+          0.9563847856905823
+        ],
+        "1": [
+          0,
+          0.8043186887648
+        ]
+      },
+      "references": [
+        {
+          "box": [
+            553,
+            399,
+            577,
+            423
+          ],
+          "class_id": 1
+        },
+        {
+          "box": [
+            1004,
+            253,
+            1115,
+            374
+          ],
+          "class_id": 12
+        }
+      ],
+      "boxes": [
+        [
+          1003,
+          254,
+          1113,
+          373
+        ],
+        [
+          551,
+          400,
+          577,
+          426
+        ]
+      ],
+      "evidence": [
+        {
+          "pred": 12,
+          "runner_up": 17,
+          "top1": 1.0,
+          "top2": 8.125230250381472e-16,
+          "margin": 1.0,
+          "baseline": null,
+          "width": 110,
+          "height": 119,
+          "bright": 0.4375,
+          "neutral": 0.4375,
+          "dark": 0.00390625,
+          "v_median": 214.0,
+          "red": 0.0,
+          "red_sectors": 0,
+          "relative_brightness": 0.0,
+          "blue": 0.0078125,
+          "sharpness": 8495.935924691357,
+          "true": 12
+        },
+        {
+          "pred": 1,
+          "runner_up": 19,
+          "top1": 1.0,
+          "top2": 6.8445717843479414e-12,
+          "margin": 1.0,
+          "baseline": null,
+          "width": 26,
+          "height": 26,
+          "bright": 0.78125,
+          "neutral": 0.8203125,
+          "dark": 0.0,
+          "v_median": 236.0,
+          "red": 0.3196428571428571,
+          "red_sectors": 8,
+          "relative_brightness": 17.0,
+          "blue": 0.16015625,
+          "sharpness": 3035.971183950617,
+          "true": 1
+        }
+      ],
+      "played": {
+        "stable": [
+          [
+            1,
+            12,
+            true
+          ]
+        ],
+        "margin_only": [
+          [
+            1,
+            12,
+            true
+          ]
+        ],
+        "selective_speed": [
+          [
+            1,
+            12,
+            true
+          ]
+        ]
+      }
+    },
+    {
+      "frame": 833,
+      "matches": {
+        "0": [
+          0,
+          0.981882748891921
+        ]
+      },
+      "references": [
+        {
+          "box": [
+            776,
+            332,
+            823,
+            379
+          ],
+          "class_id": 1
+        }
+      ],
+      "boxes": [
+        [
+          776,
+          331,
+          823,
+          380
+        ]
+      ],
+      "evidence": [
+        {
+          "pred": 1,
+          "runner_up": 6,
+          "top1": 1.0,
+          "top2": 1.2450265818308992e-10,
+          "margin": 1.0,
+          "baseline": null,
+          "width": 47,
+          "height": 49,
+          "bright": 0.8046875,
+          "neutral": 0.953125,
+          "dark": 0.078125,
+          "v_median": 254.5,
+          "red": 0.4357142857142857,
+          "red_sectors": 8,
+          "relative_brightness": 39.5,
+          "blue": 0.0859375,
+          "sharpness": 11260.13048888889,
+          "true": 1
+        }
+      ],
+      "played": {
+        "stable": [
+          [
+            1,
+            1,
+            true
+          ]
+        ],
+        "margin_only": [
+          [
+            1,
+            1,
+            true
+          ]
+        ],
+        "selective_speed": [
+          [
+            1,
+            1,
+            true
+          ]
+        ]
+      }
+    },
+    {
+      "frame": 836,
+      "matches": {
+        "0": [
+          0,
+          0.9355049788979997
+        ]
+      },
+      "references": [
+        {
+          "box": [
+            57,
+            363,
+            93,
+            396
+          ],
+          "class_id": 13
+        }
+      ],
+      "boxes": [
+        [
+          57,
+          362,
+          93,
+          395
+        ]
+      ],
+      "evidence": [
+        {
+          "pred": 13,
+          "runner_up": 15,
+          "top1": 1.0,
+          "top2": 1.0678290256150788e-16,
+          "margin": 1.0,
+          "baseline": null,
+          "width": 36,
+          "height": 33,
+          "bright": 0.5546875,
+          "neutral": 0.859375,
+          "dark": 0.2890625,
+          "v_median": 157.5,
+          "red": 0.22321428571428573,
+          "red_sectors": 6,
+          "relative_brightness": 62.5,
+          "blue": 0.0,
+          "sharpness": 1407.7395691358024,
+          "true": 13
+        }
+      ],
+      "played": {
+        "stable": [
+          [
+            1,
+            13,
+            true
+          ]
+        ],
+        "margin_only": [
+          [
+            1,
+            13,
+            true
+          ]
+        ],
+        "selective_speed": [
+          [
+            1,
+            13,
+            true
+          ]
+        ]
+      }
+    },
+    {
+      "frame": 839,
+      "matches": {
+        "0": [
+          0,
+          0.9780050586107255
+        ],
+        "3": [
+          3,
+          0.9649104784129139
+        ],
+        "1": [
+          2,
+          0.9433121287254205
+        ],
+        "2": [
+          1,
+          0.9273316572305353
+        ]
+      },
+      "references": [
+        {
+          "box": [
+            1234,
+            297,
+            1280,
+            343
+          ],
+          "class_id": 2
+        },
+        {
+          "box": [
+            1234,
+            343,
+            1281,
+            389
+          ],
+          "class_id": 9
+        },
+        {
+          "box": [
+            303,
+            365,
+            347,
+            410
+          ],
+          "class_id": 2
+        },
+        {
+          "box": [
+            305,
+            409,
+            349,
+            455
+          ],
+          "class_id": 9
+        }
+      ],
+      "boxes": [
+        [
+          1234,
+          296,
+          1280,
+          344
+        ],
+        [
+          302,
+          363,
+          347,
+          410
+        ],
+        [
+          1234,
+          343,
+          1280,
+          390
+        ],
+        [
+          305,
+          409,
+          350,
+          455
+        ]
+      ],
+      "evidence": [
+        {
+          "pred": 2,
+          "runner_up": 5,
+          "top1": 0.9999988079071045,
+          "top2": 1.2306564940445242e-06,
+          "margin": 0.9999975562095642,
+          "baseline": "dark_red_sign_face",
+          "width": 46,
+          "height": 48,
+          "bright": 0.0,
+          "neutral": 0.96875,
+          "dark": 1.0,
+          "v_median": 88.5,
+          "red": 0.48392857142857143,
+          "red_sectors": 8,
+          "relative_brightness": 16.5,
+          "blue": 0.0,
+          "sharpness": 3344.716424691358,
+          "true": 2
+        },
+        {
+          "pred": 2,
+          "runner_up": 5,
+          "top1": 0.9999996423721313,
+          "top2": 3.640391810222354e-07,
+          "margin": 0.9999992847442627,
+          "baseline": "dark_red_sign_face",
+          "width": 45,
+          "height": 47,
+          "bright": 0.0,
+          "neutral": 0.90625,
+          "dark": 0.98828125,
+          "v_median": 92.0,
+          "red": 0.41785714285714287,
+          "red_sectors": 8,
+          "relative_brightness": 26.0,
+          "blue": 0.04296875,
+          "sharpness": 3584.4689617283952,
+          "true": 2
+        },
+        {
+          "pred": 9,
+          "runner_up": 41,
+          "top1": 1.0,
+          "top2": 1.8805519641507118e-11,
+          "margin": 1.0,
+          "baseline": null,
+          "width": 46,
+          "height": 47,
+          "bright": 0.0,
+          "neutral": 0.890625,
+          "dark": 0.4453125,
+          "v_median": 116.0,
+          "red": 0.5089285714285714,
+          "red_sectors": 8,
+          "relative_brightness": 41.0,
+          "blue": 0.0,
+          "sharpness": 2148.1777580246912,
+          "true": 9
+        },
+        {
+          "pred": 9,
+          "runner_up": 41,
+          "top1": 1.0,
+          "top2": 2.5533525294108017e-10,
+          "margin": 1.0,
+          "baseline": "dark_red_sign_face",
+          "width": 45,
+          "height": 46,
+          "bright": 0.0,
+          "neutral": 0.90625,
+          "dark": 1.0,
+          "v_median": 104.5,
+          "red": 0.4732142857142857,
+          "red_sectors": 8,
+          "relative_brightness": 40.5,
+          "blue": 0.00390625,
+          "sharpness": 1991.9977024691354,
+          "true": 9
+        }
+      ],
+      "played": {
+        "stable": [
+          [
+            3,
+            9,
+            true
+          ]
+        ],
+        "margin_only": [
+          [
+            3,
+            9,
+            true
+          ]
+        ],
+        "selective_speed": [
+          [
+            3,
+            9,
+            true
+          ]
+        ]
+      }
+    },
+    {
+      "frame": 841,
+      "matches": {
+        "0": [
+          0,
+          0.8452510848843943
+        ]
+      },
+      "references": [
+        {
+          "box": [
+            593,
+            482,
+            624,
+            513
+          ],
+          "class_id": 38
+        }
+      ],
+      "boxes": [
+        [
+          592,
+          483,
+          621,
+          513
+        ]
+      ],
+      "evidence": [
+        {
+          "pred": 38,
+          "runner_up": 10,
+          "top1": 1.0,
+          "top2": 2.335454692050515e-13,
+          "margin": 1.0,
+          "baseline": null,
+          "width": 29,
+          "height": 30,
+          "bright": 0.34765625,
+          "neutral": 0.35546875,
+          "dark": 0.20703125,
+          "v_median": 120.0,
+          "red": 0.023214285714285715,
+          "red_sectors": 1,
+          "relative_brightness": 0.0,
+          "blue": 0.6875,
+          "sharpness": 3632.021772839506,
+          "true": 38
+        }
+      ],
+      "played": {
+        "stable": [
+          [
+            1,
+            38,
+            true
+          ]
+        ],
+        "margin_only": [
+          [
+            1,
+            38,
+            true
+          ]
+        ],
+        "selective_speed": [
+          [
+            1,
+            38,
+            true
+          ]
+        ]
+      }
+    },
+    {
+      "frame": 842,
+      "matches": {
+        "0": [
+          0,
+          0.9150426165044742
+        ]
+      },
+      "references": [
+        {
+          "box": [
+            1025,
+            227,
+            1087,
+            289
+          ],
+          "class_id": 14
+        }
+      ],
+      "boxes": [
+        [
+          1026,
+          228,
+          1086,
+          289
+        ]
+      ],
+      "evidence": [
+        {
+          "pred": 14,
+          "runner_up": 29,
+          "top1": 1.0,
+          "top2": 1.6634006672067159e-10,
+          "margin": 1.0,
+          "baseline": "dark_red_sign_face",
+          "width": 60,
+          "height": 61,
+          "bright": 0.0,
+          "neutral": 0.3125,
+          "dark": 1.0,
+          "v_median": 69.5,
+          "red": 0.625,
+          "red_sectors": 8,
+          "relative_brightness": 5.5,
+          "blue": 0.0,
+          "sharpness": 2500.705733333333,
+          "true": 14
+        }
+      ],
+      "played": {
+        "stable": [],
+        "margin_only": [],
+        "selective_speed": []
+      }
+    },
+    {
+      "frame": 843,
+      "matches": {},
+      "references": [],
+      "boxes": [],
+      "evidence": [],
+      "played": {
+        "stable": [],
+        "margin_only": [],
+        "selective_speed": []
+      }
+    },
+    {
+      "frame": 848,
+      "matches": {
+        "0": [
+          0,
+          0.9359087041978809
+        ]
+      },
+      "references": [
+        {
+          "box": [
+            982,
+            241,
+            1055,
+            314
+          ],
+          "class_id": 1
+        }
+      ],
+      "boxes": [
+        [
+          982,
+          240,
+          1054,
+          312
+        ]
+      ],
+      "evidence": [
+        {
+          "pred": 1,
+          "runner_up": 16,
+          "top1": 1.0,
+          "top2": 2.055176118176405e-08,
+          "margin": 1.0,
+          "baseline": null,
+          "width": 72,
+          "height": 72,
+          "bright": 0.359375,
+          "neutral": 0.90625,
+          "dark": 0.4453125,
+          "v_median": 122.5,
+          "red": 0.5339285714285714,
+          "red_sectors": 8,
+          "relative_brightness": -5.5,
+          "blue": 0.0078125,
+          "sharpness": 4603.729406172839,
+          "true": 1
+        }
+      ],
+      "played": {
+        "stable": [
+          [
+            1,
+            1,
+            true
+          ]
+        ],
+        "margin_only": [
+          [
+            1,
+            1,
+            true
+          ]
+        ],
+        "selective_speed": [
+          [
+            1,
+            1,
+            true
+          ]
+        ]
+      }
+    },
+    {
+      "frame": 849,
+      "matches": {
+        "1": [
+          0,
+          0.9219137741512639
+        ],
+        "0": [
+          1,
+          0.8965865334986136
+        ]
+      },
+      "references": [
+        {
+          "box": [
+            398,
+            359,
+            442,
+            413
+          ],
+          "class_id": 14
+        },
+        {
+          "box": [
+            400,
+            412,
+            436,
+            448
+          ],
+          "class_id": 33
+        }
+      ],
+      "boxes": [
+        [
+          402,
+          412,
+          437,
+          448
+        ],
+        [
+          397,
+          360,
+          443,
+          412
+        ]
+      ],
+      "evidence": [
+        {
+          "pred": 33,
+          "runner_up": 42,
+          "top1": 1.0,
+          "top2": 1.6388510104548004e-08,
+          "margin": 1.0,
+          "baseline": null,
+          "width": 35,
+          "height": 36,
+          "bright": 0.265625,
+          "neutral": 0.265625,
+          "dark": 0.0,
+          "v_median": 140.0,
+          "red": 0.0,
+          "red_sectors": 0,
+          "relative_brightness": 0.0,
+          "blue": 0.79296875,
+          "sharpness": 2170.8353135802467,
+          "true": 33
+        },
+        {
+          "pred": 14,
+          "runner_up": 29,
+          "top1": 1.0,
+          "top2": 1.4233859316897801e-12,
+          "margin": 1.0,
+          "baseline": null,
+          "width": 46,
+          "height": 52,
+          "bright": 0.31640625,
+          "neutral": 0.33984375,
+          "dark": 0.2421875,
+          "v_median": 134.0,
+          "red": 0.6125,
+          "red_sectors": 8,
+          "relative_brightness": 19.0,
+          "blue": 0.0,
+          "sharpness": 13374.603569135801,
+          "true": 14
+        }
+      ],
+      "played": {
+        "stable": [
+          [
+            2,
+            14,
+            true
+          ]
+        ],
+        "margin_only": [
+          [
+            2,
+            14,
+            true
+          ]
+        ],
+        "selective_speed": [
+          [
+            2,
+            14,
+            true
+          ]
+        ]
+      }
+    },
+    {
+      "frame": 850,
+      "matches": {
+        "0": [
+          0,
+          0.8639199545519739
+        ]
+      },
+      "references": [
+        {
+          "box": [
+            973,
+            373,
+            1006,
+            406
+          ],
+          "class_id": 1
+        }
+      ],
+      "boxes": [
+        [
+          973,
+          373,
+          1005,
+          404
+        ]
+      ],
+      "evidence": [
+        {
+          "pred": 1,
+          "runner_up": 16,
+          "top1": 0.9999997615814209,
+          "top2": 2.1892036272674886e-07,
+          "margin": 0.9999995231628418,
+          "baseline": "dark_red_sign_face",
+          "width": 32,
+          "height": 31,
+          "bright": 0.00390625,
+          "neutral": 0.94921875,
+          "dark": 0.8359375,
+          "v_median": 90.5,
+          "red": 0.3482142857142857,
+          "red_sectors": 8,
+          "relative_brightness": 21.5,
+          "blue": 0.0078125,
+          "sharpness": 1672.2366358024692,
+          "true": 1
+        }
+      ],
+      "played": {
+        "stable": [],
+        "margin_only": [],
+        "selective_speed": []
+      }
+    },
+    {
+      "frame": 852,
+      "matches": {
+        "0": [
+          0,
+          0.8267593612997772
+        ]
+      },
+      "references": [
+        {
+          "box": [
+            1091,
+            278,
+            1144,
+            329
+          ],
+          "class_id": 29
+        }
+      ],
+      "boxes": [
+        [
+          1088,
+          277,
+          1142,
+          325
+        ]
+      ],
+      "evidence": [
+        {
+          "pred": 29,
+          "runner_up": 30,
+          "top1": 0.9997429251670837,
+          "top2": 0.00024660618510097265,
+          "margin": 0.999496340751648,
+          "baseline": "dark_red_sign_face",
+          "width": 54,
+          "height": 48,
+          "bright": 0.14453125,
+          "neutral": 0.71875,
+          "dark": 0.82421875,
+          "v_median": 80.0,
+          "red": 0.10357142857142858,
+          "red_sectors": 3,
+          "relative_brightness": 7.0,
+          "blue": 0.0078125,
+          "sharpness": 4012.8531000000003,
+          "true": 29
+        }
+      ],
+      "played": {
+        "stable": [],
+        "margin_only": [],
+        "selective_speed": []
+      }
+    },
+    {
+      "frame": 854,
+      "matches": {
+        "0": [
+          0,
+          0.9771445329987565
+        ]
+      },
+      "references": [
+        {
+          "box": [
+            1182,
+            254,
+            1256,
+            328
+          ],
+          "class_id": 2
+        }
+      ],
+      "boxes": [
+        [
+          1182,
+          254,
+          1257,
+          328
+        ]
+      ],
+      "evidence": [
+        {
+          "pred": 2,
+          "runner_up": 5,
+          "top1": 1.0,
+          "top2": 1.3925802178071933e-10,
+          "margin": 1.0,
+          "baseline": null,
+          "width": 75,
+          "height": 74,
+          "bright": 0.84765625,
+          "neutral": 0.9140625,
+          "dark": 0.03125,
+          "v_median": 255.0,
+          "red": 0.5321428571428571,
+          "red_sectors": 8,
+          "relative_brightness": 22.0,
+          "blue": 0.0,
+          "sharpness": 14331.108902469137,
+          "true": 2
+        }
+      ],
+      "played": {
+        "stable": [
+          [
+            1,
+            2,
+            true
+          ]
+        ],
+        "margin_only": [
+          [
+            1,
+            2,
+            true
+          ]
+        ],
+        "selective_speed": [
+          [
+            1,
+            2,
+            true
+          ]
+        ]
+      }
+    },
+    {
+      "frame": 856,
+      "matches": {},
+      "references": [],
+      "boxes": [],
+      "evidence": [],
+      "played": {
+        "stable": [],
+        "margin_only": [],
+        "selective_speed": []
+      }
+    },
+    {
+      "frame": 860,
+      "matches": {
+        "0": [
+          0,
+          0.945254548177344
+        ]
+      },
+      "references": [
+        {
+          "box": [
+            1077,
+            144,
+            1169,
+            232
+          ],
+          "class_id": 2
+        }
+      ],
+      "boxes": [
+        [
+          1077,
+          142,
+          1168,
+          231
+        ]
+      ],
+      "evidence": [
+        {
+          "pred": 2,
+          "runner_up": 5,
+          "top1": 0.9996397495269775,
+          "top2": 0.0003592525899875909,
+          "margin": 0.9992805123329163,
+          "baseline": null,
+          "width": 91,
+          "height": 89,
+          "bright": 0.56640625,
+          "neutral": 0.92578125,
+          "dark": 0.34375,
+          "v_median": 174.0,
+          "red": 0.5,
+          "red_sectors": 8,
+          "relative_brightness": 62.0,
+          "blue": 0.10546875,
+          "sharpness": 9677.403333333334,
+          "true": 2
+        }
+      ],
+      "played": {
+        "stable": [
+          [
+            1,
+            2,
+            true
+          ]
+        ],
+        "margin_only": [
+          [
+            1,
+            2,
+            true
+          ]
+        ],
+        "selective_speed": [
+          [
+            1,
+            2,
+            true
+          ]
+        ]
+      }
+    },
+    {
+      "frame": 865,
+      "matches": {
+        "0": [
+          0,
+          0.9734562263840242
+        ],
+        "1": [
+          1,
+          0.8224757740139961
+        ]
+      },
+      "references": [
+        {
+          "box": [
+            342,
+            186,
+            430,
+            274
+          ],
+          "class_id": 14
+        },
+        {
+          "box": [
+            573,
+            490,
+            598,
+            515
+          ],
+          "class_id": 38
+        }
+      ],
+      "boxes": [
+        [
+          341,
+          186,
+          431,
+          273
+        ],
+        [
+          573,
+          490,
+          596,
+          515
+        ]
+      ],
+      "evidence": [
+        {
+          "pred": 14,
+          "runner_up": 2,
+          "top1": 0.9999990463256836,
+          "top2": 4.0342268903259537e-07,
+          "margin": 0.9999986290931702,
+          "baseline": "dark_red_sign_face",
+          "width": 90,
+          "height": 87,
+          "bright": 0.19140625,
+          "neutral": 0.3046875,
+          "dark": 0.67578125,
+          "v_median": 89.0,
+          "red": 0.6482142857142857,
+          "red_sectors": 8,
+          "relative_brightness": 2.0,
+          "blue": 0.0,
+          "sharpness": 9593.112902469136,
+          "true": 14
+        },
+        {
+          "pred": 38,
+          "runner_up": 42,
+          "top1": 1.0,
+          "top2": 7.458586609194782e-21,
+          "margin": 1.0,
+          "baseline": null,
+          "width": 23,
+          "height": 25,
+          "bright": 0.30078125,
+          "neutral": 0.30859375,
+          "dark": 0.42578125,
+          "v_median": 118.0,
+          "red": 0.0,
+          "red_sectors": 0,
+          "relative_brightness": 0.0,
+          "blue": 0.734375,
+          "sharpness": 1927.1180246913575,
+          "true": 38
+        }
+      ],
+      "played": {
+        "stable": [
+          [
+            2,
+            38,
+            true
+          ]
+        ],
+        "margin_only": [
+          [
+            2,
+            38,
+            true
+          ]
+        ],
+        "selective_speed": [
+          [
+            2,
+            38,
+            true
+          ]
+        ]
+      }
+    },
+    {
+      "frame": 868,
+      "matches": {
+        "0": [
+          1,
+          0.739362144022293
+        ]
+      },
+      "references": [
+        {
+          "box": [
+            590,
+            470,
+            611,
+            489
+          ],
+          "class_id": 26
+        },
+        {
+          "box": [
+            876,
+            450,
+            897,
+            470
+          ],
+          "class_id": 26
+        }
+      ],
+      "boxes": [
+        [
+          877,
+          450,
+          896,
+          469
+        ]
+      ],
+      "evidence": [
+        {
+          "pred": 26,
+          "runner_up": 30,
+          "top1": 0.9997362494468689,
+          "top2": 0.0002634586999192834,
+          "margin": 0.9994727969169617,
+          "baseline": null,
+          "width": 19,
+          "height": 19,
+          "bright": 0.0,
+          "neutral": 0.6796875,
+          "dark": 1.0,
+          "v_median": 50.0,
+          "red": 0.0,
+          "red_sectors": 0,
+          "relative_brightness": 0.0,
+          "blue": 0.0,
+          "sharpness": 68.26684444444444,
+          "true": 26
+        }
+      ],
+      "played": {
+        "stable": [
+          [
+            1,
+            26,
+            true
+          ]
+        ],
+        "margin_only": [
+          [
+            1,
+            26,
+            true
+          ]
+        ],
+        "selective_speed": [
+          [
+            1,
+            26,
+            true
+          ]
+        ]
+      }
+    },
+    {
+      "frame": 870,
+      "matches": {
+        "0": [
+          0,
+          0.937225076182739
+        ],
+        "1": [
+          1,
+          0.8670012543687389
+        ]
+      },
+      "references": [
+        {
+          "box": [
+            569,
+            456,
+            591,
+            478
+          ],
+          "class_id": 5
+        },
+        {
+          "box": [
+            1030,
+            441,
+            1051,
+            462
+          ],
+          "class_id": 5
+        }
+      ],
+      "boxes": [
+        [
+          569,
+          455,
+          592,
+          478
+        ],
+        [
+          1030,
+          440,
+          1052,
+          462
+        ]
+      ],
+      "evidence": [
+        {
+          "pred": 5,
+          "runner_up": 7,
+          "top1": 0.9999697208404541,
+          "top2": 2.5436376745346934e-05,
+          "margin": 0.999944269657135,
+          "baseline": "dark_red_sign_face",
+          "width": 23,
+          "height": 23,
+          "bright": 0.0,
+          "neutral": 0.92578125,
+          "dark": 1.0,
+          "v_median": 74.0,
+          "red": 0.29285714285714287,
+          "red_sectors": 8,
+          "relative_brightness": 9.0,
+          "blue": 0.02734375,
+          "sharpness": 170.15555555555557,
+          "true": 5
+        },
+        {
+          "pred": 5,
+          "runner_up": 3,
+          "top1": 0.9999933242797852,
+          "top2": 3.4633089853741694e-06,
+          "margin": 0.9999898672103882,
+          "baseline": "speed_face_unverified",
+          "width": 22,
+          "height": 22,
+          "bright": 0.0,
+          "neutral": 0.90234375,
+          "dark": 1.0,
+          "v_median": 53.0,
+          "red": 0.005357142857142857,
+          "red_sectors": 0,
+          "relative_brightness": -8.0,
+          "blue": 0.0,
+          "sharpness": 101.63656666666667,
+          "true": 5
+        }
+      ],
+      "played": {
+        "stable": [],
+        "margin_only": [],
+        "selective_speed": []
+      }
+    },
+    {
+      "frame": 876,
+      "matches": {
+        "1": [
+          1,
+          0.8872930889812495
+        ],
+        "0": [
+          0,
+          0.7642097766814235
+        ]
+      },
+      "references": [
+        {
+          "box": [
+            466,
+            469,
+            492,
+            495
+          ],
+          "class_id": 3
+        },
+        {
+          "box": [
+            776,
+            477,
+            797,
+            498
+          ],
+          "class_id": 3
+        }
+      ],
+      "boxes": [
+        [
+          466,
+          470,
+          490,
+          494
+        ],
+        [
+          776,
+          476,
+          797,
+          498
+        ]
+      ],
+      "evidence": [
+        {
+          "pred": 3,
+          "runner_up": 16,
+          "top1": 1.0,
+          "top2": 6.238055849649982e-09,
+          "margin": 1.0,
+          "baseline": "dark_red_sign_face",
+          "width": 24,
+          "height": 24,
+          "bright": 0.0,
+          "neutral": 0.91015625,
+          "dark": 1.0,
+          "v_median": 81.0,
+          "red": 0.4589285714285714,
+          "red_sectors": 8,
+          "relative_brightness": 14.0,
+          "blue": 0.0,
+          "sharpness": 261.8819555555556,
+          "true": 3
+        },
+        {
+          "pred": 3,
+          "runner_up": 5,
+          "top1": 0.999998927116394,
+          "top2": 5.221961600909708e-07,
+          "margin": 0.9999983906745911,
+          "baseline": "dark_red_sign_face",
+          "width": 21,
+          "height": 22,
+          "bright": 0.0,
+          "neutral": 0.84765625,
+          "dark": 1.0,
+          "v_median": 80.0,
+          "red": 0.4857142857142857,
+          "red_sectors": 8,
+          "relative_brightness": 11.0,
+          "blue": 0.0,
+          "sharpness": 147.2111839506173,
+          "true": 3
+        }
+      ],
+      "played": {
+        "stable": [],
+        "margin_only": [],
+        "selective_speed": []
+      }
+    },
+    {
+      "frame": 879,
+      "matches": {
+        "1": [
+          0,
+          0.9029252105786775
+        ],
+        "0": [
+          1,
+          0.8836044108167257
+        ]
+      },
+      "references": [
+        {
+          "box": [
+            301,
+            535,
+            342,
+            576
+          ],
+          "class_id": 32
+        },
+        {
+          "box": [
+            988,
+            506,
+            1030,
+            548
+          ],
+          "class_id": 32
+        }
+      ],
+      "boxes": [
+        [
+          986,
+          505,
+          1029,
+          547
+        ],
+        [
+          303,
+          535,
+          343,
+          575
+        ]
+      ],
+      "evidence": [
+        {
+          "pred": 32,
+          "runner_up": 39,
+          "top1": 1.0,
+          "top2": 4.0815902740964916e-11,
+          "margin": 1.0,
+          "baseline": null,
+          "width": 43,
+          "height": 42,
+          "bright": 1.0,
+          "neutral": 1.0,
+          "dark": 0.0,
+          "v_median": 255.0,
+          "red": 0.026785714285714284,
+          "red_sectors": 0,
+          "relative_brightness": 145.0,
+          "blue": 0.0,
+          "sharpness": 1413.1657333333335,
+          "true": 32
+        },
+        {
+          "pred": 32,
+          "runner_up": 6,
+          "top1": 1.0,
+          "top2": 4.090119798405567e-09,
+          "margin": 1.0,
+          "baseline": null,
+          "width": 40,
+          "height": 40,
+          "bright": 0.5859375,
+          "neutral": 1.0,
+          "dark": 0.2578125,
+          "v_median": 167.0,
+          "red": 0.0,
+          "red_sectors": 0,
+          "relative_brightness": 0.0,
+          "blue": 0.0,
+          "sharpness": 403.97315555555554,
+          "true": 32
+        }
+      ],
+      "played": {
+        "stable": [
+          [
+            1,
+            32,
+            true
+          ]
+        ],
+        "margin_only": [
+          [
+            1,
+            32,
+            true
+          ]
+        ],
+        "selective_speed": [
+          [
+            1,
+            32,
+            true
+          ]
+        ]
+      }
+    },
+    {
+      "frame": 882,
+      "matches": {
+        "0": [
+          0,
+          0.9518107851741695
+        ]
+      },
+      "references": [
+        {
+          "box": [
+            244,
+            546,
+            318,
+            618
+          ],
+          "class_id": 5
+        }
+      ],
+      "boxes": [
+        [
+          243,
+          546,
+          316,
+          619
+        ]
+      ],
+      "evidence": [
+        {
+          "pred": 5,
+          "runner_up": 6,
+          "top1": 0.9999929666519165,
+          "top2": 6.943146672711009e-06,
+          "margin": 0.9999860525131226,
+          "baseline": "dark_red_sign_face",
+          "width": 73,
+          "height": 73,
+          "bright": 0.0703125,
+          "neutral": 1.0,
+          "dark": 0.67578125,
+          "v_median": 99.0,
+          "red": 0.5160714285714286,
+          "red_sectors": 8,
+          "relative_brightness": 15.0,
+          "blue": 0.0078125,
+          "sharpness": 1019.8111111111112,
+          "true": 5
+        }
+      ],
+      "played": {
+        "stable": [],
+        "margin_only": [],
+        "selective_speed": []
+      }
+    },
+    {
+      "frame": 884,
+      "matches": {
+        "1": [
+          1,
+          0.9119318713614136
+        ],
+        "0": [
+          0,
+          0.860482829370905
+        ]
+      },
+      "references": [
+        {
+          "box": [
+            855,
+            477,
+            891,
+            513
+          ],
+          "class_id": 4
+        },
+        {
+          "box": [
+            854,
+            512,
+            890,
+            546
+          ],
+          "class_id": 10
+        }
+      ],
+      "boxes": [
+        [
+          854,
+          477,
+          889,
+          512
+        ],
+        [
+          853,
+          511,
+          889,
+          546
+        ]
+      ],
+      "evidence": [
+        {
+          "pred": 4,
+          "runner_up": 1,
+          "top1": 1.0,
+          "top2": 9.437990319827172e-12,
+          "margin": 1.0,
+          "baseline": null,
+          "width": 35,
+          "height": 35,
+          "bright": 0.984375,
+          "neutral": 0.98828125,
+          "dark": 0.0,
+          "v_median": 255.0,
+          "red": 0.5607142857142857,
+          "red_sectors": 8,
+          "relative_brightness": 26.0,
+          "blue": 0.0,
+          "sharpness": 2579.3716839506174,
+          "true": 4
+        },
+        {
+          "pred": 10,
+          "runner_up": 16,
+          "top1": 0.9999865293502808,
+          "top2": 1.3330544788914267e-05,
+          "margin": 0.9999731779098511,
+          "baseline": null,
+          "width": 36,
+          "height": 35,
+          "bright": 0.828125,
+          "neutral": 0.85546875,
+          "dark": 0.01953125,
+          "v_median": 255.0,
+          "red": 0.5678571428571428,
+          "red_sectors": 8,
+          "relative_brightness": 19.0,
+          "blue": 0.0,
+          "sharpness": 3178.9578320987657,
+          "true": 10
+        }
+      ],
+      "played": {
+        "stable": [
+          [
+            1,
+            4,
+            true
+          ]
+        ],
+        "margin_only": [
+          [
+            1,
+            4,
+            true
+          ]
+        ],
+        "selective_speed": [
+          [
+            1,
+            4,
+            true
+          ]
+        ]
+      }
+    },
+    {
+      "frame": 887,
+      "matches": {
+        "0": [
+          0,
+          0.887825521895001
+        ]
+      },
+      "references": [
+        {
+          "box": [
+            852,
+            523,
+            880,
+            551
+          ],
+          "class_id": 36
+        }
+      ],
+      "boxes": [
+        [
+          853,
+          523,
+          881,
+          551
+        ]
+      ],
+      "evidence": [
+        {
+          "pred": 36,
+          "runner_up": 38,
+          "top1": 0.9999969005584717,
+          "top2": 1.4376984154296224e-06,
+          "margin": 0.9999954700469971,
+          "baseline": null,
+          "width": 28,
+          "height": 28,
+          "bright": 0.69921875,
+          "neutral": 0.69921875,
+          "dark": 0.0,
+          "v_median": 251.0,
+          "red": 0.05714285714285714,
+          "red_sectors": 3,
+          "relative_brightness": 137.5,
+          "blue": 0.34765625,
+          "sharpness": 2733.2001222222225,
+          "true": 36
+        }
+      ],
+      "played": {
+        "stable": [
+          [
+            1,
+            36,
+            true
+          ]
+        ],
+        "margin_only": [
+          [
+            1,
+            36,
+            true
+          ]
+        ],
+        "selective_speed": [
+          [
+            1,
+            36,
+            true
+          ]
+        ]
+      }
+    },
+    {
+      "frame": 888,
+      "matches": {
+        "0": [
+          0,
+          0.9194745232245
+        ]
+      },
+      "references": [
+        {
+          "box": [
+            989,
+            315,
+            1044,
+            371
+          ],
+          "class_id": 35
+        },
+        {
+          "box": [
+            779,
+            546,
+            803,
+            570
+          ],
+          "class_id": 12
+        }
+      ],
+      "boxes": [
+        [
+          991,
+          316,
+          1045,
+          372
+        ]
+      ],
+      "evidence": [
+        {
+          "pred": 35,
+          "runner_up": 37,
+          "top1": 1.0,
+          "top2": 2.1648959411209265e-17,
+          "margin": 1.0,
+          "baseline": null,
+          "width": 54,
+          "height": 56,
+          "bright": 0.359375,
+          "neutral": 0.359375,
+          "dark": 0.0,
+          "v_median": 253.0,
+          "red": 0.023214285714285715,
+          "red_sectors": 1,
+          "relative_brightness": 48.0,
+          "blue": 0.64453125,
+          "sharpness": 8988.34969876543,
+          "true": 35
+        }
+      ],
+      "played": {
+        "stable": [
+          [
+            1,
+            35,
+            true
+          ]
+        ],
+        "margin_only": [
+          [
+            1,
+            35,
+            true
+          ]
+        ],
+        "selective_speed": [
+          [
+            1,
+            35,
+            true
+          ]
+        ]
+      }
+    },
+    {
+      "frame": 898,
+      "matches": {
+        "0": [
+          1,
+          0.9356766962151225
+        ],
+        "1": [
+          0,
+          0.9138219399702002
+        ]
+      },
+      "references": [
+        {
+          "box": [
+            323,
+            504,
+            356,
+            537
+          ],
+          "class_id": 4
+        },
+        {
+          "box": [
+            817,
+            510,
+            850,
+            543
+          ],
+          "class_id": 4
+        }
+      ],
+      "boxes": [
+        [
+          818,
+          510,
+          850,
+          543
+        ],
+        [
+          324,
+          504,
+          357,
+          537
+        ]
+      ],
+      "evidence": [
+        {
+          "pred": 4,
+          "runner_up": 1,
+          "top1": 1.0,
+          "top2": 2.4968958456383916e-08,
+          "margin": 1.0,
+          "baseline": "speed_face_unverified",
+          "width": 32,
+          "height": 33,
+          "bright": 0.0,
+          "neutral": 0.79296875,
+          "dark": 1.0,
+          "v_median": 45.0,
+          "red": 0.0,
+          "red_sectors": 0,
+          "relative_brightness": 0.0,
+          "blue": 0.1015625,
+          "sharpness": 119.7040135802469,
+          "true": 4
+        },
+        {
+          "pred": 4,
+          "runner_up": 0,
+          "top1": 0.9799407124519348,
+          "top2": 0.02005317248404026,
+          "margin": 0.9598875641822815,
+          "baseline": "speed_face_unverified",
+          "width": 33,
+          "height": 33,
+          "bright": 0.0,
+          "neutral": 0.68359375,
+          "dark": 1.0,
+          "v_median": 57.0,
+          "red": 0.005357142857142857,
+          "red_sectors": 0,
+          "relative_brightness": -3.0,
+          "blue": 0.2890625,
+          "sharpness": 756.9117666666667,
+          "true": 4
+        }
+      ],
+      "played": {
+        "stable": [],
+        "margin_only": [],
+        "selective_speed": []
+      }
+    },
+    {
+      "frame": 899,
+      "matches": {
+        "0": [
+          0,
+          0.9427007921951571
+        ]
+      },
+      "references": [
+        {
+          "box": [
+            864,
+            484,
+            922,
+            535
+          ],
+          "class_id": 24
+        }
+      ],
+      "boxes": [
+        [
+          864,
+          481,
+          922,
+          535
+        ]
+      ],
+      "evidence": [
+        {
+          "pred": 24,
+          "runner_up": 18,
+          "top1": 1.0,
+          "top2": 1.4219255772829342e-09,
+          "margin": 1.0,
+          "baseline": null,
+          "width": 58,
+          "height": 54,
+          "bright": 0.0,
+          "neutral": 0.66015625,
+          "dark": 1.0,
+          "v_median": 49.0,
+          "red": 0.0017857142857142857,
+          "red_sectors": 0,
+          "relative_brightness": -14.0,
+          "blue": 0.08203125,
+          "sharpness": 441.5991839506173,
+          "true": 24
+        }
+      ],
+      "played": {
+        "stable": [
+          [
+            1,
+            24,
+            true
+          ]
+        ],
+        "margin_only": [
+          [
+            1,
+            24,
+            true
+          ]
+        ],
+        "selective_speed": [
+          [
+            1,
+            24,
+            true
+          ]
+        ]
+      }
+    }
+  ],
+  "playback_method": "real production scheduler and recorded clip durations; virtual clock and three repeated static observations per scene"
+}

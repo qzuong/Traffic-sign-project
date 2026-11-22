@@ -1,0 +1,3378 @@
+{
+  "video": "C:\\Users\\Admin\\AppData\\Local\\Temp\\traffic-step-h\\motorway-288-304.mp4",
+  "frames": [
+    0,
+    479
+  ],
+  "eof": true,
+  "errors": [],
+  "startup_ready_s": 18.86587469999995,
+  "startup_first_overlay_s": 24.269649500000014,
+  "open_to_first_overlay_s": 23.54854020000039,
+  "display_fps": 19.631954693489323,
+  "ai_fps": 4.3927198199362065,
+  "workers": {
+    "yolo": {
+      "state": "ready",
+      "python": "D:\\Traffic-sign-project\\.venv-yolo\\Scripts\\python.exe",
+      "pid": 20040,
+      "startup_seconds": 6.93946539999979,
+      "error": null,
+      "started_monotonic": 4755.8365787,
+      "ready_message": {
+        "type": "ready",
+        "python": "D:\\Traffic-sign-project\\.venv-yolo\\Scripts\\python.exe",
+        "task": "detect",
+        "classes": 1,
+        "imgsz": 640
+      }
+    },
+    "cnn": {
+      "state": "ready",
+      "python": "C:\\Program Files\\Python313\\python.exe",
+      "pid": 18468,
+      "startup_seconds": 10.709262200000012,
+      "error": null,
+      "started_monotonic": 4762.9544038,
+      "ready_message": {
+        "type": "ready",
+        "python": "C:\\Program Files\\Python313\\python.exe",
+        "input_shape": [
+          null,
+          30,
+          30,
+          3
+        ],
+        "output_shape": [
+          null,
+          43
+        ]
+      }
+    }
+  },
+  "controls": {
+    "open": true,
+    "eof_idle": true,
+    "stop": true,
+    "replay": true
+  },
+  "status": "AI Processing",
+  "peaks": {
+    "generated": 2,
+    "accepted": 2,
+    "played": 1,
+    "expired": 1,
+    "duplicates_suppressed": 1,
+    "peak_queue": 1,
+    "queued_while_speaking": 1,
+    "expired_tracking_uncertain": 1,
+    "cancelled": 0,
+    "tracks_created": 10,
+    "tracks_lost": 9,
+    "ambiguous_associations": 0,
+    "unresolved_associations": 0,
+    "unconfirmed_tracks_lost": 7,
+    "confirmed_classes": [
+      0,
+      4
+    ],
+    "pending": 0,
+    "speech_latency_ms": [
+      2396.4640000003783
+    ],
+    "measurements": [
+      {
+        "track_id": 2,
+        "class_id": 4,
+        "detection_to_confirmation_ms": 2046.8359000005876,
+        "detection_to_speech_ms": 2396.4640000003783,
+        "confirmation_to_speech_ms": 349.6280999997907,
+        "queue_ms": 0.16429999959655106,
+        "wav_ms": 5280.0,
+        "slot_ms": 4625.25,
+        "dispatch_video_ms": 3900.0,
+        "last_seen_video_ms": 3900.0
+      }
+    ],
+    "played_tracks": [
+      [
+        2,
+        4
+      ]
+    ]
+  },
+  "trace": [
+    {
+      "event": "yolo_valid",
+      "monotonic": 4777.7080683,
+      "video_ms": 3533.333333333333,
+      "generation": 1,
+      "track_id": 1,
+      "frame_id": 106
+    },
+    {
+      "event": "track_created",
+      "monotonic": 4779.3979421,
+      "video_ms": 3533.333333333333,
+      "generation": 1,
+      "track_id": 1,
+      "frame_id": 106
+    },
+    {
+      "event": "cnn_valid",
+      "monotonic": 4777.7528057,
+      "video_ms": 3533.333333333333,
+      "generation": 1,
+      "track_id": 1,
+      "frame_id": 106
+    },
+    {
+      "event": "yolo_valid",
+      "monotonic": 4777.7082573,
+      "video_ms": 3533.333333333333,
+      "generation": 1,
+      "track_id": 2,
+      "frame_id": 106
+    },
+    {
+      "event": "track_created",
+      "monotonic": 4779.3979421,
+      "video_ms": 3533.333333333333,
+      "generation": 1,
+      "track_id": 2,
+      "frame_id": 106
+    },
+    {
+      "event": "cnn_valid",
+      "monotonic": 4777.7528357,
+      "video_ms": 3533.333333333333,
+      "generation": 1,
+      "track_id": 2,
+      "frame_id": 106
+    },
+    {
+      "event": "confirmed",
+      "monotonic": 4779.7550932,
+      "video_ms": 3900.0,
+      "generation": 1,
+      "track_id": 2,
+      "class_id": 4,
+      "detection_to_confirmation_ms": 2046.8359000005876
+    },
+    {
+      "event": "offered",
+      "monotonic": 4779.7550932,
+      "video_ms": 3900.0,
+      "generation": 1,
+      "track_id": 2,
+      "class_id": 4,
+      "busy": false
+    },
+    {
+      "event": "accepted",
+      "monotonic": 4779.7550932,
+      "video_ms": 3900.0,
+      "generation": 1,
+      "track_id": 2
+    },
+    {
+      "event": "yolo_valid",
+      "monotonic": 4778.1873106,
+      "video_ms": 4033.333333333333,
+      "generation": 1,
+      "track_id": 3,
+      "frame_id": 121
+    },
+    {
+      "event": "track_created",
+      "monotonic": 4779.8548133,
+      "video_ms": 4033.333333333333,
+      "generation": 1,
+      "track_id": 3,
+      "frame_id": 121
+    },
+    {
+      "event": "cnn_valid",
+      "monotonic": 4778.2312901,
+      "video_ms": 4033.333333333333,
+      "generation": 1,
+      "track_id": 3,
+      "frame_id": 121
+    },
+    {
+      "event": "audio_started",
+      "monotonic": 4780.1047213,
+      "video_ms": 3900.0,
+      "generation": 1,
+      "track_id": 2,
+      "class_id": 4,
+      "detection_to_confirmation_ms": 2046.8359000005876,
+      "detection_to_speech_ms": 2396.4640000003783,
+      "confirmation_to_speech_ms": 349.6280999997907,
+      "queue_ms": 0.16429999959655106,
+      "wav_ms": 5280.0,
+      "slot_ms": 4625.25,
+      "dispatch_video_ms": 3900.0,
+      "last_seen_video_ms": 3900.0
+    },
+    {
+      "event": "confirmed",
+      "monotonic": 4780.2176082,
+      "video_ms": 4366.666666666666,
+      "generation": 1,
+      "track_id": 3,
+      "class_id": 0,
+      "detection_to_confirmation_ms": 2030.2975999993578
+    },
+    {
+      "event": "offered",
+      "monotonic": 4780.2176082,
+      "video_ms": 4366.666666666666,
+      "generation": 1,
+      "track_id": 3,
+      "class_id": 0,
+      "busy": true
+    },
+    {
+      "event": "accepted",
+      "monotonic": 4780.2176082,
+      "video_ms": 4366.666666666666,
+      "generation": 1,
+      "track_id": 3
+    },
+    {
+      "event": "yolo_valid",
+      "monotonic": 4779.1278119,
+      "video_ms": 4933.333333333334,
+      "generation": 1,
+      "track_id": 4,
+      "frame_id": 148
+    },
+    {
+      "event": "track_created",
+      "monotonic": 4780.7699487,
+      "video_ms": 4933.333333333334,
+      "generation": 1,
+      "track_id": 4,
+      "frame_id": 148
+    },
+    {
+      "event": "cnn_valid",
+      "monotonic": 4779.1636469,
+      "video_ms": 4933.333333333334,
+      "generation": 1,
+      "track_id": 4,
+      "frame_id": 148
+    },
+    {
+      "event": "yolo_valid",
+      "monotonic": 4779.1278795,
+      "video_ms": 4933.333333333334,
+      "generation": 1,
+      "track_id": 5,
+      "frame_id": 148
+    },
+    {
+      "event": "track_created",
+      "monotonic": 4780.7699487,
+      "video_ms": 4933.333333333334,
+      "generation": 1,
+      "track_id": 5,
+      "frame_id": 148
+    },
+    {
+      "event": "cnn_valid",
+      "monotonic": 4779.1636541,
+      "video_ms": 4933.333333333334,
+      "generation": 1,
+      "track_id": 5,
+      "frame_id": 148
+    },
+    {
+      "event": "expired",
+      "monotonic": 4781.5358462,
+      "video_ms": 5700.0,
+      "generation": 1,
+      "track_id": 3,
+      "class_id": 0,
+      "reason": "tracking_uncertain",
+      "busy": true,
+      "queue_ms": 1318.238000000747
+    },
+    {
+      "event": "audio_finished",
+      "monotonic": 4784.7778585,
+      "video_ms": 8933.333333333334,
+      "generation": 1,
+      "track_id": 2,
+      "class_id": 4,
+      "reason": null
+    },
+    {
+      "event": "yolo_valid",
+      "monotonic": 4787.2693396,
+      "video_ms": 12966.666666666666,
+      "generation": 1,
+      "track_id": 6,
+      "frame_id": 389
+    },
+    {
+      "event": "track_created",
+      "monotonic": 4788.812587,
+      "video_ms": 12966.666666666666,
+      "generation": 1,
+      "track_id": 6,
+      "frame_id": 389
+    },
+    {
+      "event": "cnn_valid",
+      "monotonic": 4787.3084371,
+      "video_ms": 12966.666666666666,
+      "generation": 1,
+      "track_id": 6,
+      "frame_id": 389
+    },
+    {
+      "event": "yolo_valid",
+      "monotonic": 4787.269512,
+      "video_ms": 12966.666666666666,
+      "generation": 1,
+      "track_id": 7,
+      "frame_id": 389
+    },
+    {
+      "event": "track_created",
+      "monotonic": 4788.812587,
+      "video_ms": 12966.666666666666,
+      "generation": 1,
+      "track_id": 7,
+      "frame_id": 389
+    },
+    {
+      "event": "cnn_valid",
+      "monotonic": 4787.3084542,
+      "video_ms": 12966.666666666666,
+      "generation": 1,
+      "track_id": 7,
+      "frame_id": 389
+    },
+    {
+      "event": "yolo_valid",
+      "monotonic": 4787.5878706,
+      "video_ms": 13400.0,
+      "generation": 1,
+      "track_id": 8,
+      "frame_id": 402
+    },
+    {
+      "event": "track_created",
+      "monotonic": 4789.2180026,
+      "video_ms": 13400.0,
+      "generation": 1,
+      "track_id": 8,
+      "frame_id": 402
+    },
+    {
+      "event": "cnn_valid",
+      "monotonic": 4787.6371034,
+      "video_ms": 13400.0,
+      "generation": 1,
+      "track_id": 8,
+      "frame_id": 402
+    },
+    {
+      "event": "yolo_valid",
+      "monotonic": 4788.4232257,
+      "video_ms": 14266.666666666668,
+      "generation": 1,
+      "track_id": 9,
+      "frame_id": 428
+    },
+    {
+      "event": "track_created",
+      "monotonic": 4790.0860773,
+      "video_ms": 14266.666666666668,
+      "generation": 1,
+      "track_id": 9,
+      "frame_id": 428
+    },
+    {
+      "event": "cnn_valid",
+      "monotonic": 4788.4597635,
+      "video_ms": 14266.666666666668,
+      "generation": 1,
+      "track_id": 9,
+      "frame_id": 428
+    },
+    {
+      "event": "yolo_valid",
+      "monotonic": 4789.9068217,
+      "video_ms": 15166.666666666666,
+      "generation": 1,
+      "track_id": 10,
+      "frame_id": 455
+    },
+    {
+      "event": "track_created",
+      "monotonic": 4790.9810833,
+      "video_ms": 15166.666666666666,
+      "generation": 1,
+      "track_id": 10,
+      "frame_id": 455
+    },
+    {
+      "event": "cnn_valid",
+      "monotonic": 4789.9489471,
+      "video_ms": 15166.666666666666,
+      "generation": 1,
+      "track_id": 10,
+      "frame_id": 455
+    }
+  ],
+  "observations": [
+    {
+      "frame": 106,
+      "media_ms": 3533.333333333333,
+      "detections": [
+        {
+          "bbox": [
+            383.5205383300781,
+            208.66275024414062,
+            403.6599426269531,
+            229.94961547851562
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.5190191268920898,
+          "cnn_class_id": 14,
+          "cnn_class_name": "Stop",
+          "cnn_score": 0.9384877681732178,
+          "valid_yolo_at": 4777.7080683,
+          "valid_cnn_at": 4777.7528057
+        },
+        {
+          "bbox": [
+            446.2770690917969,
+            216.32650756835938,
+            467.3389587402344,
+            236.78302001953125
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.5172584652900696,
+          "cnn_class_id": 4,
+          "cnn_class_name": "Speed limit (70km/h)",
+          "cnn_score": 0.5453829169273376,
+          "valid_yolo_at": 4777.7082573,
+          "valid_cnn_at": 4777.7528357
+        }
+      ],
+      "tracks": [
+        [
+          1,
+          [
+            287,
+            156,
+            303,
+            173
+          ],
+          null
+        ],
+        [
+          2,
+          [
+            334,
+            162,
+            351,
+            178
+          ],
+          null
+        ]
+      ]
+    },
+    {
+      "frame": 117,
+      "media_ms": 3900.0,
+      "detections": [
+        {
+          "bbox": [
+            458.67681884765625,
+            198.68353271484375,
+            483.02081298828125,
+            223.2103271484375
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.8379966616630554,
+          "cnn_class_id": 4,
+          "cnn_class_name": "Speed limit (70km/h)",
+          "cnn_score": 0.6479426622390747,
+          "valid_yolo_at": 4778.027489,
+          "valid_cnn_at": 4778.0622435
+        },
+        {
+          "bbox": [
+            385.2816162109375,
+            189.99020385742188,
+            407.21307373046875,
+            213.39651489257812
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.502220630645752,
+          "cnn_class_id": 4,
+          "cnn_class_name": "Speed limit (70km/h)",
+          "cnn_score": 0.965168297290802,
+          "valid_yolo_at": 4778.0276753,
+          "valid_cnn_at": 4778.0622616
+        }
+      ],
+      "tracks": [
+        [
+          2,
+          [
+            344,
+            149,
+            363,
+            168
+          ],
+          4
+        ],
+        [
+          1,
+          [
+            288,
+            142,
+            306,
+            161
+          ],
+          null
+        ]
+      ]
+    },
+    {
+      "frame": 121,
+      "media_ms": 4033.333333333333,
+      "detections": [
+        {
+          "bbox": [
+            539.9515380859375,
+            200.93312072753906,
+            563.8001708984375,
+            225.5012969970703
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.7886911034584045,
+          "cnn_class_id": 0,
+          "cnn_class_name": "Speed limit (20km/h)",
+          "cnn_score": 0.5559442043304443,
+          "valid_yolo_at": 4778.1873106,
+          "valid_cnn_at": 4778.2312901
+        },
+        {
+          "bbox": [
+            464.48394775390625,
+            191.35220336914062,
+            488.47576904296875,
+            214.87521362304688
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.32557961344718933,
+          "cnn_class_id": 0,
+          "cnn_class_name": "Speed limit (20km/h)",
+          "cnn_score": 0.9805622696876526,
+          "valid_yolo_at": 4778.1874878,
+          "valid_cnn_at": 4778.2313068
+        },
+        {
+          "bbox": [
+            385.656005859375,
+            180.94952392578125,
+            408.9078369140625,
+            205.99884033203125
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.2883303761482239,
+          "cnn_class_id": 1,
+          "cnn_class_name": "Speed limit (30km/h)",
+          "cnn_score": 0.9290224313735962,
+          "valid_yolo_at": 4778.1875725,
+          "valid_cnn_at": 4778.231315
+        }
+      ],
+      "tracks": [
+        [
+          3,
+          [
+            404,
+            150,
+            423,
+            170
+          ],
+          null
+        ],
+        [
+          2,
+          [
+            348,
+            143,
+            367,
+            162
+          ],
+          null
+        ],
+        [
+          1,
+          [
+            289,
+            135,
+            307,
+            155
+          ],
+          null
+        ]
+      ]
+    },
+    {
+      "frame": 125,
+      "media_ms": 4166.666666666667,
+      "detections": [
+        {
+          "bbox": [
+            468.98919677734375,
+            182.6836700439453,
+            494.39910888671875,
+            208.40599060058594
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.8806285858154297,
+          "cnn_class_id": 1,
+          "cnn_class_name": "Speed limit (30km/h)",
+          "cnn_score": 0.44796282052993774,
+          "valid_yolo_at": 4778.3489741,
+          "valid_cnn_at": 4778.3889321
+        },
+        {
+          "bbox": [
+            551.1265869140625,
+            193.04498291015625,
+            573.6998291015625,
+            216.26507568359375
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.6752721071243286,
+          "cnn_class_id": 25,
+          "cnn_class_name": "Road work",
+          "cnn_score": 0.5344152450561523,
+          "valid_yolo_at": 4778.3491461,
+          "valid_cnn_at": 4778.3889561
+        }
+      ],
+      "tracks": [
+        [
+          2,
+          [
+            351,
+            137,
+            371,
+            157
+          ],
+          null
+        ],
+        [
+          3,
+          [
+            413,
+            144,
+            431,
+            163
+          ],
+          null
+        ]
+      ]
+    },
+    {
+      "frame": 131,
+      "media_ms": 4366.666666666666,
+      "detections": [
+        {
+          "bbox": [
+            567.7347412109375,
+            177.86111450195312,
+            593.4552001953125,
+            205.3046875
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.8632243871688843,
+          "cnn_class_id": 0,
+          "cnn_class_name": "Speed limit (20km/h)",
+          "cnn_score": 0.9414265751838684,
+          "valid_yolo_at": 4778.5096402,
+          "valid_cnn_at": 4778.5436752
+        },
+        {
+          "bbox": [
+            477.0633544921875,
+            166.90887451171875,
+            502.0548095703125,
+            192.68756103515625
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.6852794289588928,
+          "cnn_class_id": 34,
+          "cnn_class_name": "Turn left ahead",
+          "cnn_score": 0.6310041546821594,
+          "valid_yolo_at": 4778.5097586,
+          "valid_cnn_at": 4778.5436934
+        }
+      ],
+      "tracks": [
+        [
+          3,
+          [
+            425,
+            133,
+            446,
+            154
+          ],
+          0
+        ],
+        [
+          2,
+          [
+            357,
+            125,
+            377,
+            145
+          ],
+          null
+        ]
+      ]
+    },
+    {
+      "frame": 135,
+      "media_ms": 4500.0,
+      "detections": [
+        {
+          "bbox": [
+            579.6466064453125,
+            165.23941040039062,
+            608.5809326171875,
+            195.06512451171875
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.9152292609214783,
+          "cnn_class_id": 33,
+          "cnn_class_name": "Turn right ahead",
+          "cnn_score": 0.26258620619773865,
+          "valid_yolo_at": 4778.6653143,
+          "valid_cnn_at": 4778.7047794
+        }
+      ],
+      "tracks": [
+        [
+          3,
+          [
+            434,
+            123,
+            457,
+            147
+          ],
+          0
+        ]
+      ]
+    },
+    {
+      "frame": 140,
+      "media_ms": 4666.666666666667,
+      "detections": [
+        {
+          "bbox": [
+            598.2591552734375,
+            146.57681274414062,
+            627.5936279296875,
+            177.98471069335938
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.8926170468330383,
+          "cnn_class_id": 8,
+          "cnn_class_name": "Speed limit (120km/h)",
+          "cnn_score": 0.6797032952308655,
+          "valid_yolo_at": 4778.9328112,
+          "valid_cnn_at": 4779.000254
+        }
+      ],
+      "tracks": [
+        [
+          3,
+          [
+            448,
+            109,
+            471,
+            134
+          ],
+          null
+        ]
+      ]
+    },
+    {
+      "frame": 148,
+      "media_ms": 4933.333333333334,
+      "detections": [
+        {
+          "bbox": [
+            635.8798828125,
+            102.85743713378906,
+            673.1041259765625,
+            142.3601531982422
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.9071048498153687,
+          "cnn_class_id": 25,
+          "cnn_class_name": "Road work",
+          "cnn_score": 0.7694036364555359,
+          "valid_yolo_at": 4779.1276829,
+          "valid_cnn_at": 4779.1636307
+        },
+        {
+          "bbox": [
+            497.96240234375,
+            85.2270736694336,
+            536.59716796875,
+            124.32986450195312
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.8857104778289795,
+          "cnn_class_id": 1,
+          "cnn_class_name": "Speed limit (30km/h)",
+          "cnn_score": 0.4706641733646393,
+          "valid_yolo_at": 4779.1278119,
+          "valid_cnn_at": 4779.1636469
+        },
+        {
+          "bbox": [
+            351.11053466796875,
+            64.81878662109375,
+            391.13067626953125,
+            104.7978515625
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.6949055790901184,
+          "cnn_class_id": 38,
+          "cnn_class_name": "Keep right",
+          "cnn_score": 0.6246157884597778,
+          "valid_yolo_at": 4779.1278795,
+          "valid_cnn_at": 4779.1636541
+        }
+      ],
+      "tracks": [
+        [
+          3,
+          [
+            476,
+            77,
+            505,
+            107
+          ],
+          null
+        ],
+        [
+          4,
+          [
+            373,
+            63,
+            403,
+            94
+          ],
+          null
+        ],
+        [
+          5,
+          [
+            263,
+            48,
+            294,
+            79
+          ],
+          null
+        ]
+      ]
+    },
+    {
+      "frame": 389,
+      "media_ms": 12966.666666666666,
+      "detections": [
+        {
+          "bbox": [
+            679.810791015625,
+            266.6756591796875,
+            700.97509765625,
+            286.54962158203125
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.462909460067749,
+          "cnn_class_id": 11,
+          "cnn_class_name": "Right-of-way at intersection",
+          "cnn_score": 0.5462554693222046,
+          "valid_yolo_at": 4787.2693396,
+          "valid_cnn_at": 4787.3084371
+        },
+        {
+          "bbox": [
+            678.015380859375,
+            282.9871826171875,
+            696.86474609375,
+            297.9066162109375
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.2774423062801361,
+          "cnn_class_id": 40,
+          "cnn_class_name": "Roundabout mandatory",
+          "cnn_score": 0.2319917380809784,
+          "valid_yolo_at": 4787.269512,
+          "valid_cnn_at": 4787.3084542
+        }
+      ],
+      "tracks": [
+        [
+          6,
+          [
+            509,
+            200,
+            526,
+            215
+          ],
+          null
+        ],
+        [
+          7,
+          [
+            508,
+            212,
+            523,
+            224
+          ],
+          null
+        ]
+      ]
+    },
+    {
+      "frame": 402,
+      "media_ms": 13400.0,
+      "detections": [
+        {
+          "bbox": [
+            789.20263671875,
+            316.76171875,
+            810.513916015625,
+            338.7459716796875
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.36079251766204834,
+          "cnn_class_id": 5,
+          "cnn_class_name": "Speed limit (80km/h)",
+          "cnn_score": 0.4048943817615509,
+          "valid_yolo_at": 4787.5878706,
+          "valid_cnn_at": 4787.6371034
+        }
+      ],
+      "tracks": [
+        [
+          8,
+          [
+            591,
+            237,
+            608,
+            255
+          ],
+          null
+        ]
+      ]
+    },
+    {
+      "frame": 428,
+      "media_ms": 14266.666666666668,
+      "detections": [
+        {
+          "bbox": [
+            887.4368286132812,
+            187.51968383789062,
+            928.2769165039062,
+            223.51266479492188
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.2730315327644348,
+          "cnn_class_id": 13,
+          "cnn_class_name": "Yield",
+          "cnn_score": 0.7918351292610168,
+          "valid_yolo_at": 4788.4232257,
+          "valid_cnn_at": 4788.4597635
+        }
+      ],
+      "tracks": [
+        [
+          9,
+          [
+            665,
+            140,
+            697,
+            168
+          ],
+          null
+        ]
+      ]
+    },
+    {
+      "frame": 455,
+      "media_ms": 15166.666666666666,
+      "detections": [
+        {
+          "bbox": [
+            790.31640625,
+            317.94696044921875,
+            813.33251953125,
+            340.22283935546875
+          ],
+          "yolo_class_id": 0,
+          "yolo_class_name": "traffic_sign",
+          "yolo_confidence": 0.2897636890411377,
+          "cnn_class_id": 31,
+          "cnn_class_name": "Wild animals crossing",
+          "cnn_score": 0.2525915205478668,
+          "valid_yolo_at": 4789.9068217,
+          "valid_cnn_at": 4789.9489471
+        }
+      ],
+      "tracks": [
+        [
+          10,
+          [
+            592,
+            238,
+            610,
+            256
+          ],
+          null
+        ]
+      ]
+    }
+  ],
+  "actual_audio": [
+    {
+      "at": 4780.1046826,
+      "frame": 128,
+      "path": "D:\\Traffic-sign-project\\assets\\voice_google\\04.wav"
+    },
+    {
+      "at": 4784.777811,
+      "frame": 268,
+      "path": null
+    }
+  ],
+  "results": [
+    {
+      "frame": 0,
+      "session": 1,
+      "elapsed": 94.65030000046681,
+      "turnaround": 18144.15250000002,
+      "submitted": 4755.9190138,
+      "positive": false
+    },
+    {
+      "frame": 9,
+      "session": 1,
+      "elapsed": 106.98950000005425,
+      "turnaround": 107.2346999999354,
+      "submitted": 4774.7535294,
+      "positive": false
+    },
+    {
+      "frame": 25,
+      "session": 1,
+      "elapsed": 129.80160000006435,
+      "turnaround": 141.39950000026147,
+      "submitted": 4774.8496804,
+      "positive": false
+    },
+    {
+      "frame": 29,
+      "session": 1,
+      "elapsed": 107.9611000004661,
+      "turnaround": 114.95370000011462,
+      "submitted": 4774.9847975,
+      "positive": false
+    },
+    {
+      "frame": 32,
+      "session": 1,
+      "elapsed": 103.61890000058338,
+      "turnaround": 127.55490000017744,
+      "submitted": 4775.0763729,
+      "positive": false
+    },
+    {
+      "frame": 35,
+      "session": 1,
+      "elapsed": 129.5127000003049,
+      "turnaround": 147.41390000017418,
+      "submitted": 4775.1865434,
+      "positive": false
+    },
+    {
+      "frame": 39,
+      "session": 1,
+      "elapsed": 110.00549999971554,
+      "turnaround": 129.7588999996151,
+      "submitted": 4775.3147244,
+      "positive": false
+    },
+    {
+      "frame": 43,
+      "session": 1,
+      "elapsed": 108.19179999998596,
+      "turnaround": 114.14369999965857,
+      "submitted": 4775.4390413,
+      "positive": false
+    },
+    {
+      "frame": 46,
+      "session": 1,
+      "elapsed": 119.04930000036984,
+      "turnaround": 120.47979999988456,
+      "submitted": 4775.5523247,
+      "positive": false
+    },
+    {
+      "frame": 49,
+      "session": 1,
+      "elapsed": 113.48199999974895,
+      "turnaround": 137.8123999993477,
+      "submitted": 4775.6491119,
+      "positive": false
+    },
+    {
+      "frame": 53,
+      "session": 1,
+      "elapsed": 100.48139999980776,
+      "turnaround": 103.02630000023782,
+      "submitted": 4775.7848913,
+      "positive": false
+    },
+    {
+      "frame": 56,
+      "session": 1,
+      "elapsed": 136.10309999967285,
+      "turnaround": 142.34810000016296,
+      "submitted": 4775.8823481,
+      "positive": false
+    },
+    {
+      "frame": 60,
+      "session": 1,
+      "elapsed": 108.31280000002153,
+      "turnaround": 126.54680000014196,
+      "submitted": 4776.007175,
+      "positive": false
+    },
+    {
+      "frame": 63,
+      "session": 1,
+      "elapsed": 113.652799999727,
+      "turnaround": 130.96609999956854,
+      "submitted": 4776.1171154,
+      "positive": false
+    },
+    {
+      "frame": 67,
+      "session": 1,
+      "elapsed": 115.52220000066882,
+      "turnaround": 120.03910000021278,
+      "submitted": 4776.2442516,
+      "positive": false
+    },
+    {
+      "frame": 70,
+      "session": 1,
+      "elapsed": 103.59189999962837,
+      "turnaround": 128.45089999973425,
+      "submitted": 4776.3401519,
+      "positive": false
+    },
+    {
+      "frame": 73,
+      "session": 1,
+      "elapsed": 111.36919999989914,
+      "turnaround": 121.07859999923676,
+      "submitted": 4776.4593566,
+      "positive": false
+    },
+    {
+      "frame": 77,
+      "session": 1,
+      "elapsed": 109.65159999977914,
+      "turnaround": 113.90380000011646,
+      "submitted": 4776.5766638,
+      "positive": false
+    },
+    {
+      "frame": 80,
+      "session": 1,
+      "elapsed": 124.86050000006799,
+      "turnaround": 137.87520000005316,
+      "submitted": 4776.6780668,
+      "positive": false
+    },
+    {
+      "frame": 83,
+      "session": 1,
+      "elapsed": 120.17950000063138,
+      "turnaround": 151.07690000058938,
+      "submitted": 4776.7855309,
+      "positive": false
+    },
+    {
+      "frame": 86,
+      "session": 1,
+      "elapsed": 120.8584999994855,
+      "turnaround": 156.25850000014907,
+      "submitted": 4776.90194,
+      "positive": false
+    },
+    {
+      "frame": 90,
+      "session": 1,
+      "elapsed": 117.31890000010026,
+      "turnaround": 149.80949999971926,
+      "submitted": 4777.0262369,
+      "positive": false
+    },
+    {
+      "frame": 94,
+      "session": 1,
+      "elapsed": 113.36419999952341,
+      "turnaround": 119.42519999956858,
+      "submitted": 4777.1705517,
+      "positive": false
+    },
+    {
+      "frame": 98,
+      "session": 1,
+      "elapsed": 188.23389999943174,
+      "turnaround": 190.311099999235,
+      "submitted": 4777.288913,
+      "positive": false
+    },
+    {
+      "frame": 103,
+      "session": 1,
+      "elapsed": 100.21290000076988,
+      "turnaround": 113.6558000007426,
+      "submitted": 4777.4662407,
+      "positive": false
+    },
+    {
+      "frame": 106,
+      "session": 1,
+      "elapsed": 172.43149999922025,
+      "turnaround": 201.96589999977732,
+      "submitted": 4777.5508852,
+      "positive": true
+    },
+    {
+      "frame": 111,
+      "session": 1,
+      "elapsed": 163.01079999902868,
+      "turnaround": 190.59480000032636,
+      "submitted": 4777.7259638,
+      "positive": true
+    },
+    {
+      "frame": 117,
+      "session": 1,
+      "elapsed": 145.1254000003246,
+      "turnaround": 146.4811000005284,
+      "submitted": 4777.9157915,
+      "positive": true
+    },
+    {
+      "frame": 121,
+      "session": 1,
+      "elapsed": 168.54160000002594,
+      "turnaround": 175.57459999989078,
+      "submitted": 4778.0557503,
+      "positive": true
+    },
+    {
+      "frame": 125,
+      "session": 1,
+      "elapsed": 157.06700000009732,
+      "turnaround": 188.4563999992679,
+      "submitted": 4778.2005108,
+      "positive": true
+    },
+    {
+      "frame": 131,
+      "session": 1,
+      "elapsed": 153.57910000057018,
+      "turnaround": 157.67179999966174,
+      "submitted": 4778.3860315,
+      "positive": true
+    },
+    {
+      "frame": 135,
+      "session": 1,
+      "elapsed": 160.51810000044497,
+      "turnaround": 171.39039999983652,
+      "submitted": 4778.5334062,
+      "positive": true
+    },
+    {
+      "frame": 140,
+      "session": 1,
+      "elapsed": 294.63940000005095,
+      "turnaround": 315.32070000048407,
+      "submitted": 4778.6849508,
+      "positive": true
+    },
+    {
+      "frame": 148,
+      "session": 1,
+      "elapsed": 162.913799999842,
+      "turnaround": 200.13549999930547,
+      "submitted": 4778.9635273,
+      "positive": true
+    },
+    {
+      "frame": 160,
+      "session": 1,
+      "elapsed": 139.9091999992379,
+      "turnaround": 263.1000999999742,
+      "submitted": 4779.3529112,
+      "positive": false
+    },
+    {
+      "frame": 169,
+      "session": 1,
+      "elapsed": 135.95650000024762,
+      "turnaround": 138.53480000034324,
+      "submitted": 4779.6844019,
+      "positive": false
+    },
+    {
+      "frame": 173,
+      "session": 1,
+      "elapsed": 111.15450000033889,
+      "turnaround": 148.9885000000868,
+      "submitted": 4779.7857198,
+      "positive": false
+    },
+    {
+      "frame": 177,
+      "session": 1,
+      "elapsed": 117.7069000004849,
+      "turnaround": 136.58870000017487,
+      "submitted": 4779.9161329,
+      "positive": false
+    },
+    {
+      "frame": 180,
+      "session": 1,
+      "elapsed": 147.67719999963447,
+      "turnaround": 173.6888999994335,
+      "submitted": 4780.0271964,
+      "positive": false
+    },
+    {
+      "frame": 185,
+      "session": 1,
+      "elapsed": 153.79980000034266,
+      "turnaround": 160.47429999980523,
+      "submitted": 4780.1947858,
+      "positive": false
+    },
+    {
+      "frame": 189,
+      "session": 1,
+      "elapsed": 125.96899999971356,
+      "turnaround": 164.43749999962165,
+      "submitted": 4780.3173973,
+      "positive": false
+    },
+    {
+      "frame": 193,
+      "session": 1,
+      "elapsed": 130.93990000015765,
+      "turnaround": 147.43750000070577,
+      "submitted": 4780.4658241,
+      "positive": false
+    },
+    {
+      "frame": 197,
+      "session": 1,
+      "elapsed": 138.1656000003204,
+      "turnaround": 161.60899999977119,
+      "submitted": 4780.590524,
+      "positive": false
+    },
+    {
+      "frame": 202,
+      "session": 1,
+      "elapsed": 114.57419999987906,
+      "turnaround": 116.88620000040828,
+      "submitted": 4780.7503178,
+      "positive": false
+    },
+    {
+      "frame": 205,
+      "session": 1,
+      "elapsed": 132.8853999993953,
+      "turnaround": 138.83779999923718,
+      "submitted": 4780.8617743,
+      "positive": false
+    },
+    {
+      "frame": 209,
+      "session": 1,
+      "elapsed": 135.24989999950776,
+      "turnaround": 137.05709999976534,
+      "submitted": 4780.9993174,
+      "positive": false
+    },
+    {
+      "frame": 212,
+      "session": 1,
+      "elapsed": 119.98119999952905,
+      "turnaround": 152.70439999949303,
+      "submitted": 4781.1042101,
+      "positive": false
+    },
+    {
+      "frame": 217,
+      "session": 1,
+      "elapsed": 143.94540000012057,
+      "turnaround": 150.47860000049695,
+      "submitted": 4781.2509185,
+      "positive": false
+    },
+    {
+      "frame": 221,
+      "session": 1,
+      "elapsed": 118.49549999988085,
+      "turnaround": 127.63629999972181,
+      "submitted": 4781.3927841,
+      "positive": false
+    },
+    {
+      "frame": 224,
+      "session": 1,
+      "elapsed": 110.06429999997636,
+      "turnaround": 146.9414000002871,
+      "submitted": 4781.4840297,
+      "positive": false
+    },
+    {
+      "frame": 228,
+      "session": 1,
+      "elapsed": 147.53190000010363,
+      "turnaround": 156.2408999998297,
+      "submitted": 4781.6228146,
+      "positive": false
+    },
+    {
+      "frame": 232,
+      "session": 1,
+      "elapsed": 123.13589999939722,
+      "turnaround": 132.39859999976034,
+      "submitted": 4781.7705944,
+      "positive": false
+    },
+    {
+      "frame": 236,
+      "session": 1,
+      "elapsed": 136.69890000073792,
+      "turnaround": 157.032000000072,
+      "submitted": 4781.8832147,
+      "positive": false
+    },
+    {
+      "frame": 240,
+      "session": 1,
+      "elapsed": 147.30760000020382,
+      "turnaround": 161.31709999990562,
+      "submitted": 4782.0267712,
+      "positive": false
+    },
+    {
+      "frame": 245,
+      "session": 1,
+      "elapsed": 121.45260000033886,
+      "turnaround": 123.27410000034433,
+      "submitted": 4782.1868416,
+      "positive": false
+    },
+    {
+      "frame": 248,
+      "session": 1,
+      "elapsed": 506.4833999995244,
+      "turnaround": 529.6874999994543,
+      "submitted": 4782.2874289,
+      "positive": false
+    },
+    {
+      "frame": 263,
+      "session": 1,
+      "elapsed": 152.97829999963142,
+      "turnaround": 181.56999999973777,
+      "submitted": 4782.7890624,
+      "positive": false
+    },
+    {
+      "frame": 268,
+      "session": 1,
+      "elapsed": 153.99559999968915,
+      "turnaround": 157.58229999937612,
+      "submitted": 4782.9676434,
+      "positive": false
+    },
+    {
+      "frame": 271,
+      "session": 1,
+      "elapsed": 145.8081000000675,
+      "turnaround": 191.43509999958042,
+      "submitted": 4783.0801133,
+      "positive": false
+    },
+    {
+      "frame": 276,
+      "session": 1,
+      "elapsed": 349.2861000004268,
+      "turnaround": 395.72099999986676,
+      "submitted": 4783.2270611,
+      "positive": false
+    },
+    {
+      "frame": 286,
+      "session": 1,
+      "elapsed": 611.7840999995678,
+      "turnaround": 675.3432999994402,
+      "submitted": 4783.5597354,
+      "positive": false
+    },
+    {
+      "frame": 306,
+      "session": 1,
+      "elapsed": 347.9312999998001,
+      "turnaround": 360.81000000012864,
+      "submitted": 4784.222643,
+      "positive": false
+    },
+    {
+      "frame": 316,
+      "session": 1,
+      "elapsed": 207.112899999629,
+      "turnaround": 222.1849999996266,
+      "submitted": 4784.5688779,
+      "positive": false
+    },
+    {
+      "frame": 321,
+      "session": 1,
+      "elapsed": 156.6194999995787,
+      "turnaround": 217.1582999999373,
+      "submitted": 4784.7313711,
+      "positive": false
+    },
+    {
+      "frame": 327,
+      "session": 1,
+      "elapsed": 211.63849999993545,
+      "turnaround": 237.89279999982682,
+      "submitted": 4784.9228702,
+      "positive": false
+    },
+    {
+      "frame": 333,
+      "session": 1,
+      "elapsed": 175.57940000006056,
+      "turnaround": 206.91509999960545,
+      "submitted": 4785.1297295,
+      "positive": false
+    },
+    {
+      "frame": 339,
+      "session": 1,
+      "elapsed": 145.3374000002441,
+      "turnaround": 171.9202000003861,
+      "submitted": 4785.3104052,
+      "positive": false
+    },
+    {
+      "frame": 343,
+      "session": 1,
+      "elapsed": 189.0356999992946,
+      "turnaround": 225.01899999952002,
+      "submitted": 4785.4469213,
+      "positive": false
+    },
+    {
+      "frame": 349,
+      "session": 1,
+      "elapsed": 216.41029999955208,
+      "turnaround": 220.0537999997323,
+      "submitted": 4785.6688002,
+      "positive": false
+    },
+    {
+      "frame": 355,
+      "session": 1,
+      "elapsed": 139.15300000007846,
+      "turnaround": 162.6326000005065,
+      "submitted": 4785.8659591,
+      "positive": false
+    },
+    {
+      "frame": 360,
+      "session": 1,
+      "elapsed": 151.67860000019573,
+      "turnaround": 161.29199999977573,
+      "submitted": 4786.0194305,
+      "positive": false
+    },
+    {
+      "frame": 364,
+      "session": 1,
+      "elapsed": 132.23809999999503,
+      "turnaround": 155.08699999918463,
+      "submitted": 4786.1584165,
+      "positive": false
+    },
+    {
+      "frame": 368,
+      "session": 1,
+      "elapsed": 218.06660000038391,
+      "turnaround": 237.5251000003118,
+      "submitted": 4786.2945469,
+      "positive": false
+    },
+    {
+      "frame": 375,
+      "session": 1,
+      "elapsed": 131.69379999999364,
+      "turnaround": 139.83490000009624,
+      "submitted": 4786.5242319,
+      "positive": false
+    },
+    {
+      "frame": 378,
+      "session": 1,
+      "elapsed": 138.68419999926118,
+      "turnaround": 173.09989999921527,
+      "submitted": 4786.6303739,
+      "positive": false
+    },
+    {
+      "frame": 383,
+      "session": 1,
+      "elapsed": 225.63819999959378,
+      "turnaround": 236.06939999990573,
+      "submitted": 4786.7933487,
+      "positive": false
+    },
+    {
+      "frame": 389,
+      "session": 1,
+      "elapsed": 278.49260000039067,
+      "turnaround": 325.1513999994131,
+      "submitted": 4786.9833127,
+      "positive": true
+    },
+    {
+      "frame": 398,
+      "session": 1,
+      "elapsed": 141.70369999919785,
+      "turnaround": 157.1892999991178,
+      "submitted": 4787.2936519,
+      "positive": false
+    },
+    {
+      "frame": 402,
+      "session": 1,
+      "elapsed": 185.93540000074427,
+      "turnaround": 210.6748999995034,
+      "submitted": 4787.4264479,
+      "positive": true
+    },
+    {
+      "frame": 408,
+      "session": 1,
+      "elapsed": 167.8470999995625,
+      "turnaround": 188.919100000021,
+      "submitted": 4787.6165917,
+      "positive": false
+    },
+    {
+      "frame": 413,
+      "session": 1,
+      "elapsed": 156.0221999998248,
+      "turnaround": 172.04140000012558,
+      "submitted": 4787.7897955,
+      "positive": false
+    },
+    {
+      "frame": 418,
+      "session": 1,
+      "elapsed": 204.99890000064624,
+      "turnaround": 224.08470000027592,
+      "submitted": 4787.9431051,
+      "positive": false
+    },
+    {
+      "frame": 424,
+      "session": 1,
+      "elapsed": 126.34230000003299,
+      "turnaround": 136.64559999961057,
+      "submitted": 4788.1573705,
+      "positive": false
+    },
+    {
+      "frame": 428,
+      "session": 1,
+      "elapsed": 165.40420000092126,
+      "turnaround": 175.21810000016558,
+      "submitted": 4788.2845637,
+      "positive": true
+    },
+    {
+      "frame": 433,
+      "session": 1,
+      "elapsed": 132.1045000004233,
+      "turnaround": 143.72170000024198,
+      "submitted": 4788.4487534,
+      "positive": false
+    },
+    {
+      "frame": 437,
+      "session": 1,
+      "elapsed": 453.5910000004151,
+      "turnaround": 461.869800000386,
+      "submitted": 4788.5845165,
+      "positive": false
+    },
+    {
+      "frame": 449,
+      "session": 1,
+      "elapsed": 165.97229999933916,
+      "turnaround": 195.47179999972286,
+      "submitted": 4789.0173268,
+      "positive": false
+    },
+    {
+      "frame": 455,
+      "session": 1,
+      "elapsed": 735.5356999996729,
+      "turnaround": 749.3316999998569,
+      "submitted": 4789.1996326,
+      "positive": true
+    },
+    {
+      "frame": 477,
+      "session": 1,
+      "elapsed": 148.54490000016085,
+      "turnaround": 168.67670000010548,
+      "submitted": 4789.9292072,
+      "positive": false
+    },
+    {
+      "frame": 479,
+      "session": 1,
+      "elapsed": 118.04789999951026,
+      "turnaround": 207.7118999995946,
+      "submitted": 4790.0087977,
+      "positive": false
+    }
+  ],
+  "overlays": [
+    [
+      106,
+      4779.3997398,
+      1691.6714999997566,
+      [
+        14,
+        4
+      ]
+    ],
+    [
+      117,
+      4779.7573197,
+      1729.8307000000932,
+      [
+        4,
+        4
+      ]
+    ],
+    [
+      121,
+      4779.8578473,
+      1670.5366999995022,
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    [
+      125,
+      4780.0093593,
+      1660.385199999837,
+      [
+        1,
+        25
+      ]
+    ],
+    [
+      131,
+      4780.2189183,
+      1709.2781000001196,
+      [
+        0,
+        34
+      ]
+    ],
+    [
+      135,
+      4780.3414584,
+      1676.144099999874,
+      [
+        33
+      ]
+    ],
+    [
+      140,
+      4780.4880653,
+      1555.254099999729,
+      [
+        8
+      ]
+    ],
+    [
+      148,
+      4780.7723355,
+      1644.6525999999722,
+      [
+        25,
+        1,
+        38
+      ]
+    ],
+    [
+      389,
+      4788.8143007,
+      1544.9610999994547,
+      [
+        11,
+        40
+      ]
+    ],
+    [
+      402,
+      4789.2192708,
+      1631.4001999999164,
+      [
+        5
+      ]
+    ],
+    [
+      428,
+      4790.0883653,
+      1665.1395999997476,
+      [
+        13
+      ]
+    ],
+    [
+      455,
+      4790.9820873,
+      1075.2655999995113,
+      [
+        31
+      ]
+    ]
+  ],
+  "views": [
+    [
+      0,
+      4755.9189809
+    ],
+    [
+      9,
+      4776.1351454
+    ],
+    [
+      18,
+      4776.4403631
+    ],
+    [
+      24,
+      4776.624425
+    ],
+    [
+      25,
+      4776.6605485
+    ],
+    [
+      26,
+      4776.6962668
+    ],
+    [
+      27,
+      4776.7325857
+    ],
+    [
+      28,
+      4776.7727411
+    ],
+    [
+      29,
+      4776.8052501
+    ],
+    [
+      30,
+      4776.8439142
+    ],
+    [
+      32,
+      4776.8820675
+    ],
+    [
+      33,
+      4776.9219216
+    ],
+    [
+      34,
+      4776.9707459
+    ],
+    [
+      35,
+      4777.0052835
+    ],
+    [
+      36,
+      4777.0444654
+    ],
+    [
+      37,
+      4777.0805275
+    ],
+    [
+      39,
+      4777.1187457
+    ],
+    [
+      40,
+      4777.1595973
+    ],
+    [
+      41,
+      4777.1881404
+    ],
+    [
+      42,
+      4777.233722
+    ],
+    [
+      43,
+      4777.2707862
+    ],
+    [
+      44,
+      4777.3050147
+    ],
+    [
+      45,
+      4777.3444285
+    ],
+    [
+      47,
+      4777.3903421
+    ],
+    [
+      49,
+      4777.4549734
+    ],
+    [
+      50,
+      4777.4833566
+    ],
+    [
+      51,
+      4777.5240819
+    ],
+    [
+      52,
+      4777.5683559
+    ],
+    [
+      53,
+      4777.6053865
+    ],
+    [
+      54,
+      4777.6384203
+    ],
+    [
+      55,
+      4777.675967
+    ],
+    [
+      56,
+      4777.710521
+    ],
+    [
+      57,
+      4777.7417766
+    ],
+    [
+      58,
+      4777.7758013
+    ],
+    [
+      59,
+      4777.8136222
+    ],
+    [
+      61,
+      4777.8524114
+    ],
+    [
+      62,
+      4777.8892914
+    ],
+    [
+      63,
+      4777.9335095
+    ],
+    [
+      64,
+      4777.9710526
+    ],
+    [
+      65,
+      4778.0077148
+    ],
+    [
+      66,
+      4778.0404976
+    ],
+    [
+      67,
+      4778.0763211
+    ],
+    [
+      68,
+      4778.1104608
+    ],
+    [
+      70,
+      4778.1477534
+    ],
+    [
+      71,
+      4778.1848799
+    ],
+    [
+      72,
+      4778.2168701
+    ],
+    [
+      73,
+      4778.2475534
+    ],
+    [
+      74,
+      4778.2831197
+    ],
+    [
+      75,
+      4778.3196221
+    ],
+    [
+      76,
+      4778.3588539
+    ],
+    [
+      77,
+      4778.4069983
+    ],
+    [
+      78,
+      4778.4467036
+    ],
+    [
+      80,
+      4778.4827424
+    ],
+    [
+      81,
+      4778.5188058
+    ],
+    [
+      82,
+      4778.5495103
+    ],
+    [
+      83,
+      4778.5832374
+    ],
+    [
+      84,
+      4778.6200031
+    ],
+    [
+      85,
+      4778.6579564
+    ],
+    [
+      86,
+      4778.7028609
+    ],
+    [
+      88,
+      4778.7752861
+    ],
+    [
+      90,
+      4778.8187727
+    ],
+    [
+      91,
+      4778.8672307
+    ],
+    [
+      93,
+      4778.9268708
+    ],
+    [
+      94,
+      4778.9912333
+    ],
+    [
+      96,
+      4779.0334664
+    ],
+    [
+      98,
+      4779.0846317
+    ],
+    [
+      99,
+      4779.1216426
+    ],
+    [
+      100,
+      4779.1628944
+    ],
+    [
+      102,
+      4779.2273293
+    ],
+    [
+      103,
+      4779.2644735
+    ],
+    [
+      104,
+      4779.3003459
+    ],
+    [
+      106,
+      4779.3997398
+    ],
+    [
+      115,
+      4779.7039836
+    ],
+    [
+      117,
+      4779.7573197
+    ],
+    [
+      119,
+      4779.8099003
+    ],
+    [
+      121,
+      4779.8578473
+    ],
+    [
+      122,
+      4779.9054999
+    ],
+    [
+      123,
+      4779.9357774
+    ],
+    [
+      124,
+      4779.9733126
+    ],
+    [
+      125,
+      4780.0093593
+    ],
+    [
+      126,
+      4780.050551
+    ],
+    [
+      128,
+      4780.0871229
+    ],
+    [
+      129,
+      4780.1377447
+    ],
+    [
+      131,
+      4780.2189183
+    ],
+    [
+      133,
+      4780.2578443
+    ],
+    [
+      134,
+      4780.3022015
+    ],
+    [
+      135,
+      4780.3414584
+    ],
+    [
+      136,
+      4780.3723107
+    ],
+    [
+      137,
+      4780.4096438
+    ],
+    [
+      138,
+      4780.4491989
+    ],
+    [
+      140,
+      4780.4880653
+    ],
+    [
+      141,
+      4780.5279271
+    ],
+    [
+      142,
+      4780.5739561
+    ],
+    [
+      143,
+      4780.6104293
+    ],
+    [
+      144,
+      4780.6462276
+    ],
+    [
+      146,
+      4780.6829724
+    ],
+    [
+      148,
+      4780.7723355
+    ],
+    [
+      149,
+      4780.81041
+    ],
+    [
+      152,
+      4780.879665
+    ],
+    [
+      154,
+      4780.9504893
+    ],
+    [
+      155,
+      4780.9842124
+    ],
+    [
+      156,
+      4781.0169089
+    ],
+    [
+      157,
+      4781.0531555
+    ],
+    [
+      158,
+      4781.0892795
+    ],
+    [
+      159,
+      4781.1247336
+    ],
+    [
+      160,
+      4781.1627744
+    ],
+    [
+      169,
+      4781.468576
+    ],
+    [
+      171,
+      4781.5367392
+    ],
+    [
+      173,
+      4781.6072257
+    ],
+    [
+      174,
+      4781.6420231
+    ],
+    [
+      176,
+      4781.7155303
+    ],
+    [
+      178,
+      4781.754601
+    ],
+    [
+      179,
+      4781.791127
+    ],
+    [
+      180,
+      4781.8321806
+    ],
+    [
+      181,
+      4781.8673292
+    ],
+    [
+      183,
+      4781.9383806
+    ],
+    [
+      184,
+      4781.9740978
+    ],
+    [
+      185,
+      4782.011625
+    ],
+    [
+      186,
+      4782.0461909
+    ],
+    [
+      189,
+      4782.1232094
+    ],
+    [
+      190,
+      4782.1704041
+    ],
+    [
+      191,
+      4782.2031179
+    ],
+    [
+      192,
+      4782.2374047
+    ],
+    [
+      193,
+      4782.271999
+    ],
+    [
+      194,
+      4782.3082672
+    ],
+    [
+      197,
+      4782.3850865
+    ],
+    [
+      199,
+      4782.4814786
+    ],
+    [
+      200,
+      4782.524089
+    ],
+    [
+      202,
+      4782.5702022
+    ],
+    [
+      203,
+      4782.6110773
+    ],
+    [
+      204,
+      4782.6509417
+    ],
+    [
+      206,
+      4782.6955447
+    ],
+    [
+      207,
+      4782.7642595
+    ],
+    [
+      209,
+      4782.8074658
+    ],
+    [
+      210,
+      4782.8408411
+    ],
+    [
+      211,
+      4782.8762524
+    ],
+    [
+      212,
+      4782.9135987
+    ],
+    [
+      214,
+      4782.9508584
+    ],
+    [
+      215,
+      4782.9848245
+    ],
+    [
+      216,
+      4783.0247339
+    ],
+    [
+      218,
+      4783.100294
+    ],
+    [
+      219,
+      4783.141495
+    ],
+    [
+      220,
+      4783.1777482
+    ],
+    [
+      221,
+      4783.2107397
+    ],
+    [
+      222,
+      4783.2447952
+    ],
+    [
+      224,
+      4783.3079151
+    ],
+    [
+      225,
+      4783.3456748
+    ],
+    [
+      227,
+      4783.383283
+    ],
+    [
+      228,
+      4783.4454221
+    ],
+    [
+      230,
+      4783.494327
+    ],
+    [
+      231,
+      4783.5341231
+    ],
+    [
+      232,
+      4783.5788535
+    ],
+    [
+      234,
+      4783.6463948
+    ],
+    [
+      236,
+      4783.6862561
+    ],
+    [
+      237,
+      4783.7257437
+    ],
+    [
+      238,
+      4783.7675075
+    ],
+    [
+      239,
+      4783.8224237
+    ],
+    [
+      241,
+      4783.8800501
+    ],
+    [
+      242,
+      4783.9234633
+    ],
+    [
+      244,
+      4783.9641383
+    ],
+    [
+      245,
+      4784.0109321
+    ],
+    [
+      246,
+      4784.0485148
+    ],
+    [
+      248,
+      4784.0874936
+    ],
+    [
+      249,
+      4784.1245411
+    ],
+    [
+      251,
+      4784.1988049
+    ],
+    [
+      254,
+      4784.2916974
+    ],
+    [
+      256,
+      4784.3812934
+    ],
+    [
+      259,
+      4784.4601434
+    ],
+    [
+      261,
+      4784.5532427
+    ],
+    [
+      263,
+      4784.5902267
+    ],
+    [
+      264,
+      4784.6254612
+    ],
+    [
+      265,
+      4784.6727109
+    ],
+    [
+      266,
+      4784.7137511
+    ],
+    [
+      268,
+      4784.7527468
+    ],
+    [
+      269,
+      4784.8253422
+    ],
+    [
+      271,
+      4784.8690143
+    ],
+    [
+      273,
+      4784.9415123
+    ],
+    [
+      274,
+      4784.9758821
+    ],
+    [
+      275,
+      4785.010931
+    ],
+    [
+      276,
+      4785.0443763
+    ],
+    [
+      279,
+      4785.1140263
+    ],
+    [
+      280,
+      4785.1493519
+    ],
+    [
+      281,
+      4785.2160047
+    ],
+    [
+      283,
+      4785.2504095
+    ],
+    [
+      285,
+      4785.329415
+    ],
+    [
+      286,
+      4785.3619865
+    ],
+    [
+      288,
+      4785.4311989
+    ],
+    [
+      289,
+      4785.4649358
+    ],
+    [
+      290,
+      4785.5195904
+    ],
+    [
+      292,
+      4785.5545485
+    ],
+    [
+      293,
+      4785.5859124
+    ],
+    [
+      294,
+      4785.652195
+    ],
+    [
+      296,
+      4785.6870339
+    ],
+    [
+      297,
+      4785.722373
+    ],
+    [
+      299,
+      4785.8131174
+    ],
+    [
+      302,
+      4785.8882207
+    ],
+    [
+      304,
+      4785.9687835
+    ],
+    [
+      306,
+      4786.0407556
+    ],
+    [
+      307,
+      4786.0741998
+    ],
+    [
+      309,
+      4786.1423774
+    ],
+    [
+      310,
+      4786.1782783
+    ],
+    [
+      312,
+      4786.2480404
+    ],
+    [
+      314,
+      4786.2803761
+    ],
+    [
+      316,
+      4786.3449031
+    ],
+    [
+      317,
+      4786.4136514
+    ],
+    [
+      319,
+      4786.4471534
+    ],
+    [
+      320,
+      4786.5099043
+    ],
+    [
+      321,
+      4786.5453545
+    ],
+    [
+      323,
+      4786.6153741
+    ],
+    [
+      325,
+      4786.6478328
+    ],
+    [
+      326,
+      4786.7114188
+    ],
+    [
+      327,
+      4786.7464082
+    ],
+    [
+      329,
+      4786.8112492
+    ],
+    [
+      330,
+      4786.8444857
+    ],
+    [
+      331,
+      4786.8767625
+    ],
+    [
+      332,
+      4786.908362
+    ],
+    [
+      333,
+      4786.9698087
+    ],
+    [
+      335,
+      4786.9998392
+    ],
+    [
+      336,
+      4787.0621378
+    ],
+    [
+      338,
+      4787.0944476
+    ],
+    [
+      339,
+      4787.1266022
+    ],
+    [
+      341,
+      4787.1802283
+    ],
+    [
+      343,
+      4787.2485858
+    ],
+    [
+      344,
+      4787.2796287
+    ],
+    [
+      345,
+      4787.3447851
+    ],
+    [
+      346,
+      4787.3770469
+    ],
+    [
+      348,
+      4787.4430366
+    ],
+    [
+      349,
+      4787.4765958
+    ],
+    [
+      350,
+      4787.5097382
+    ],
+    [
+      352,
+      4787.5707097
+    ],
+    [
+      353,
+      4787.6024013
+    ],
+    [
+      355,
+      4787.6732148
+    ],
+    [
+      356,
+      4787.7064812
+    ],
+    [
+      358,
+      4787.7759994
+    ],
+    [
+      359,
+      4787.8065474
+    ],
+    [
+      360,
+      4787.8364067
+    ],
+    [
+      361,
+      4787.8973013
+    ],
+    [
+      363,
+      4787.9293233
+    ],
+    [
+      364,
+      4787.9615573
+    ],
+    [
+      365,
+      4787.9944343
+    ],
+    [
+      367,
+      4788.0480996
+    ],
+    [
+      368,
+      4788.0823759
+    ],
+    [
+      369,
+      4788.1425138
+    ],
+    [
+      370,
+      4788.1785743
+    ],
+    [
+      371,
+      4788.2105752
+    ],
+    [
+      372,
+      4788.2422734
+    ],
+    [
+      374,
+      4788.3053985
+    ],
+    [
+      375,
+      4788.339782
+    ],
+    [
+      377,
+      4788.4033392
+    ],
+    [
+      378,
+      4788.4363326
+    ],
+    [
+      380,
+      4788.4987957
+    ],
+    [
+      381,
+      4788.5323187
+    ],
+    [
+      383,
+      4788.6085946
+    ],
+    [
+      384,
+      4788.6461808
+    ],
+    [
+      386,
+      4788.68364
+    ],
+    [
+      388,
+      4788.7571259
+    ],
+    [
+      389,
+      4788.8143007
+    ],
+    [
+      396,
+      4789.0370579
+    ],
+    [
+      397,
+      4789.0782789
+    ],
+    [
+      398,
+      4789.1147334
+    ],
+    [
+      400,
+      4789.1518116
+    ],
+    [
+      402,
+      4789.2192708
+    ],
+    [
+      403,
+      4789.2573108
+    ],
+    [
+      404,
+      4789.3158802
+    ],
+    [
+      406,
+      4789.3515027
+    ],
+    [
+      407,
+      4789.3973139
+    ],
+    [
+      409,
+      4789.4698292
+    ],
+    [
+      410,
+      4789.5092688
+    ],
+    [
+      411,
+      4789.5456238
+    ],
+    [
+      413,
+      4789.6104453
+    ],
+    [
+      414,
+      4789.6507494
+    ],
+    [
+      417,
+      4789.7229245
+    ],
+    [
+      418,
+      4789.7699488
+    ],
+    [
+      420,
+      4789.8648068
+    ],
+    [
+      424,
+      4789.9474751
+    ],
+    [
+      425,
+      4789.9916105
+    ],
+    [
+      426,
+      4790.028433
+    ],
+    [
+      428,
+      4790.0883653
+    ],
+    [
+      429,
+      4790.1216067
+    ],
+    [
+      431,
+      4790.1843015
+    ],
+    [
+      432,
+      4790.2147335
+    ],
+    [
+      433,
+      4790.244866
+    ],
+    [
+      434,
+      4790.277151
+    ],
+    [
+      435,
+      4790.3238716
+    ],
+    [
+      436,
+      4790.3445222
+    ],
+    [
+      437,
+      4790.3882012
+    ],
+    [
+      438,
+      4790.4180853
+    ],
+    [
+      439,
+      4790.444835
+    ],
+    [
+      441,
+      4790.5105064
+    ],
+    [
+      442,
+      4790.5523417
+    ],
+    [
+      449,
+      4790.7746793
+    ],
+    [
+      451,
+      4790.8376985
+    ],
+    [
+      452,
+      4790.8835924
+    ],
+    [
+      453,
+      4790.9157331
+    ],
+    [
+      455,
+      4790.9820873
+    ],
+    [
+      458,
+      4791.0996772
+    ],
+    [
+      459,
+      4791.1130856
+    ],
+    [
+      460,
+      4791.1459151
+    ],
+    [
+      462,
+      4791.2097895
+    ],
+    [
+      464,
+      4791.2718722
+    ],
+    [
+      465,
+      4791.3063448
+    ],
+    [
+      467,
+      4791.3812796
+    ],
+    [
+      468,
+      4791.413034
+    ],
+    [
+      470,
+      4791.4735623
+    ],
+    [
+      472,
+      4791.5425451
+    ],
+    [
+      473,
+      4791.5847064
+    ],
+    [
+      477,
+      4791.7103225
+    ],
+    [
+      478,
+      4791.7424599
+    ],
+    [
+      479,
+      4791.7729158
+    ],
+    [
+      0,
+      4791.857478
+    ]
+  ],
+  "system": [
+    [
+      4773.995965,
+      {
+        "yolo": [
+          0.015625,
+          4300800
+        ],
+        "cnn": [
+          7.625,
+          395997184
+        ],
+        "ui": [
+          0.890625,
+          80543744
+        ],
+        "yolo_child_1": [
+          9.0,
+          380612608
+        ]
+      }
+    ],
+    [
+      4775.7854622,
+      {
+        "yolo": [
+          0.015625,
+          4300800
+        ],
+        "cnn": [
+          7.625,
+          395997184
+        ],
+        "ui": [
+          1.765625,
+          137420800
+        ],
+        "yolo_child_1": [
+          14.4375,
+          384155648
+        ]
+      }
+    ],
+    [
+      4777.6055158,
+      {
+        "yolo": [
+          0.015625,
+          4300800
+        ],
+        "cnn": [
+          7.625,
+          395997184
+        ],
+        "ui": [
+          3.6875,
+          165974016
+        ],
+        "yolo_child_1": [
+          23.234375,
+          385925120
+        ]
+      }
+    ],
+    [
+      4779.6429142,
+      {
+        "yolo": [
+          0.015625,
+          4300800
+        ],
+        "cnn": [
+          8.046875,
+          401285120
+        ],
+        "ui": [
+          6.015625,
+          159109120
+        ],
+        "yolo_child_1": [
+          32.265625,
+          381640704
+        ]
+      }
+    ],
+    [
+      4781.3934211,
+      {
+        "yolo": [
+          0.015625,
+          4300800
+        ],
+        "cnn": [
+          8.046875,
+          401285120
+        ],
+        "ui": [
+          8.296875,
+          164990976
+        ],
+        "yolo_child_1": [
+          39.78125,
+          384151552
+        ]
+      }
+    ],
+    [
+      4783.1778721,
+      {
+        "yolo": [
+          0.015625,
+          4300800
+        ],
+        "cnn": [
+          8.046875,
+          401285120
+        ],
+        "ui": [
+          10.21875,
+          165330944
+        ],
+        "yolo_child_1": [
+          45.765625,
+          384135168
+        ]
+      }
+    ],
+    [
+      4784.9760467,
+      {
+        "yolo": [
+          0.015625,
+          4300800
+        ],
+        "cnn": [
+          8.046875,
+          401285120
+        ],
+        "ui": [
+          12.1875,
+          155410432
+        ],
+        "yolo_child_1": [
+          49.96875,
+          384102400
+        ]
+      }
+    ],
+    [
+      4786.8173432,
+      {
+        "yolo": [
+          0.015625,
+          4288512
+        ],
+        "cnn": [
+          8.046875,
+          401285120
+        ],
+        "ui": [
+          14.546875,
+          162258944
+        ],
+        "yolo_child_1": [
+          56.828125,
+          381333504
+        ]
+      }
+    ],
+    [
+      4788.6155468,
+      {
+        "yolo": [
+          0.015625,
+          4288512
+        ],
+        "cnn": [
+          8.109375,
+          401297408
+        ],
+        "ui": [
+          16.78125,
+          165085184
+        ],
+        "yolo_child_1": [
+          63.828125,
+          384327680
+        ]
+      }
+    ],
+    [
+      4790.4182468,
+      {
+        "yolo": [
+          0.015625,
+          4288512
+        ],
+        "cnn": [
+          8.109375,
+          401305600
+        ],
+        "ui": [
+          18.453125,
+          115257344
+        ],
+        "yolo_child_1": [
+          69.859375,
+          381534208
+        ]
+      }
+    ]
+  ],
+  "logical_cpus": 8,
+  "pids": {
+    "yolo": 20040,
+    "cnn": 18468,
+    "ui": 19204,
+    "yolo_child_1": 15272
+  }
+}

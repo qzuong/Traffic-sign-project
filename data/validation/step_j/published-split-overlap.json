@@ -1,0 +1,93 @@
+{
+  "published_converter_training": {
+    "counts": {
+      "images": 17,
+      "tp": 25,
+      "fp": 1,
+      "fn": 0,
+      "cnn_correct": 25,
+      "baseline_correct": 17,
+      "candidate_correct": 14
+    },
+    "frames": [
+      601,
+      602,
+      612,
+      613,
+      620,
+      626,
+      635,
+      641,
+      642,
+      646,
+      657,
+      659,
+      663,
+      670,
+      675,
+      681,
+      692
+    ]
+  },
+  "published_converter_validation": {
+    "counts": {
+      "images": 28,
+      "tp": 50,
+      "fp": 1,
+      "fn": 0,
+      "cnn_correct": 50,
+      "baseline_correct": 28,
+      "candidate_correct": 21
+    },
+    "frames": [
+      704,
+      705,
+      723,
+      729,
+      730,
+      734,
+      738,
+      742,
+      747,
+      749,
+      758,
+      760,
+      766,
+      789,
+      791,
+      794,
+      795,
+      798,
+      823,
+      827,
+      834,
+      844,
+      853,
+      857,
+      862,
+      871,
+      885,
+      896
+    ]
+  },
+  "published_converter_excluded_negative": {
+    "counts": {
+      "images": 10,
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    "frames": [
+      627,
+      676,
+      708,
+      713,
+      750,
+      765,
+      769,
+      786,
+      804,
+      847
+    ]
+  }
+}

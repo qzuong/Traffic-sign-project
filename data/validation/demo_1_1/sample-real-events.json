@@ -1,0 +1,64 @@
+[
+  {
+    "event_id": "9c0e8e09f8a34687b54ea6186e4e8d99:track-65",
+    "session_id": "9c0e8e09f8a34687b54ea6186e4e8d99",
+    "event_type": "YIELD_SIGN",
+    "class_id": 13,
+    "class_name_vi": "Nhường đường",
+    "track_id": 65,
+    "video_timestamp_ms": 45733.333333333336,
+    "source_frame_id": 1372,
+    "confirmed": true,
+    "decision_status": "confirmed",
+    "suggested_action": "Chuẩn bị nhường đường",
+    "parameters": {},
+    "evidence": {
+      "observation_count": 2,
+      "aggregation_score": 1.0,
+      "speech_evidence_block": null,
+      "bbox_xyxy": [
+        795,
+        82,
+        837,
+        123
+      ],
+      "bbox_frame_size": [
+        960,
+        540
+      ]
+    },
+    "created_at": "2026-11-22T04:55:56.458+00:00",
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "9c0e8e09f8a34687b54ea6186e4e8d99:track-22",
+    "session_id": "9c0e8e09f8a34687b54ea6186e4e8d99",
+    "event_type": "KEEP_RIGHT",
+    "class_id": 38,
+    "class_name_vi": "Giữ bên phải",
+    "track_id": 22,
+    "video_timestamp_ms": 14666.666666666666,
+    "source_frame_id": 440,
+    "confirmed": true,
+    "decision_status": "withheld",
+    "suggested_action": null,
+    "parameters": {},
+    "evidence": {
+      "observation_count": 2,
+      "aggregation_score": 0.68311855909519,
+      "speech_evidence_block": "mandatory_blue_face_unverified",
+      "bbox_xyxy": [
+        631,
+        217,
+        645,
+        230
+      ],
+      "bbox_frame_size": [
+        960,
+        540
+      ]
+    },
+    "created_at": "2026-11-22T04:55:25.375+00:00",
+    "schema_version": "1.0"
+  }
+]

@@ -1,0 +1,87 @@
+{
+  "selected_commit": "f2f61cbde310b762fd351873f546b761b631343f",
+  "tests": 96,
+  "remaining_recorded_python_processes": [],
+  "recorded_pids": [
+    "17260",
+    "14688",
+    "19036",
+    "18168",
+    "2608",
+    "6960",
+    "12944",
+    "13300"
+  ],
+  "display_fps": 18.8038327534205,
+  "ai_fps": 6.1193280792086036,
+  "ready_seconds": 23.793607800000245,
+  "open_to_first_overlay_seconds": 25.045555699999568,
+  "detection_to_speech_ms": {
+    "median": 1966.543300000012,
+    "maximum": 3089.2734000008204
+  },
+  "submit_to_overlay_ms": {
+    "median": 1815.7050999998319,
+    "maximum": 1879.2022999996334,
+    "samples": 99
+  },
+  "voice_review": [
+    {
+      "class_id": 12,
+      "label": "Priority Road",
+      "track_id": 6,
+      "seconds": 3.1333333333333333,
+      "correct": true
+    },
+    {
+      "class_id": 37,
+      "label": "Straight or Turn Left",
+      "track_id": 15,
+      "seconds": 6.1,
+      "correct": true
+    },
+    {
+      "class_id": 38,
+      "label": "Keep Right",
+      "track_id": 22,
+      "seconds": 12.733333333333333,
+      "correct": true
+    },
+    {
+      "class_id": 35,
+      "label": "Ahead Only",
+      "track_id": 24,
+      "seconds": 15.8,
+      "correct": true
+    },
+    {
+      "class_id": 13,
+      "label": "Yield",
+      "track_id": 32,
+      "seconds": 25.333333333333332,
+      "correct": true
+    },
+    {
+      "class_id": 38,
+      "label": "Keep Right",
+      "track_id": 53,
+      "seconds": 36.3,
+      "correct": true
+    },
+    {
+      "class_id": 13,
+      "label": "Yield",
+      "track_id": 76,
+      "seconds": 44.266666666666666,
+      "correct": true
+    }
+  ],
+  "input_hashes": {
+    "data\\videos\\test_video.mp4": "8bc57e7b4f67a37c771c6950c7e447c18c31031c0b5bf12e37a8d065f25397fc",
+    "models\\candidates\\gtsdb_yolov8n.pt": "f1d5b008c38ea080aca89e82725fbf9080f70ea239378011df95b855f2e5797e",
+    "models\\model.h5": "8032e2b396dc9996d9ba6ca884c538e40ee39177e05f416c38b9512f02250d70",
+    "data\\validation\\final_demo\\eof-sample.mp4": "8fb5867dab4d03943defab7a7eaf203e57e32057c2224add5bde4acd706d6da7"
+  },
+  "git_tag": "final-demo",
+  "tag_verified_commit": "f2f61cbde310b762fd351873f546b761b631343f"
+}

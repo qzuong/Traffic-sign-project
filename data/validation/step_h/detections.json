@@ -1,0 +1,1031 @@
+{
+  "780": {
+    "references": [
+      {
+        "label": "Priority road",
+        "class_id": 12,
+        "box": [
+          891,
+          237,
+          913,
+          260
+        ]
+      },
+      {
+        "label": "Ahead only",
+        "class_id": 35,
+        "box": [
+          885,
+          310,
+          908,
+          334
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "bbox": [
+          890.8626708984375,
+          239.01022338867188,
+          913.1031494140625,
+          262.2848815917969
+        ],
+        "yolo_class_id": 0,
+        "yolo_class_name": "traffic_sign",
+        "yolo_confidence": 0.6345462203025818,
+        "cnn_class_id": 12,
+        "cnn_class_name": "Priority road",
+        "cnn_score": 1.0,
+        "valid_yolo_at": 4637.3928563,
+        "valid_cnn_at": 4637.434206
+      },
+      {
+        "bbox": [
+          885.4639282226562,
+          313.44256591796875,
+          906.7247924804688,
+          335.70245361328125
+        ],
+        "yolo_class_id": 0,
+        "yolo_class_name": "traffic_sign",
+        "yolo_confidence": 0.374149352312088,
+        "cnn_class_id": 35,
+        "cnn_class_name": "Ahead only",
+        "cnn_score": 0.9999485015869141,
+        "valid_yolo_at": 4637.3932552,
+        "valid_cnn_at": 4637.4342326
+      }
+    ],
+    "matches": [
+      {
+        "reference": 0,
+        "prediction": 0,
+        "iou": 0.8218620794080648
+      },
+      {
+        "reference": 1,
+        "prediction": 1,
+        "iou": 0.7430670840923987
+      }
+    ],
+    "fn": [],
+    "fp": [],
+    "elapsed_ms": 135.6458999998722
+  },
+  "1080": {
+    "references": [
+      {
+        "label": "Priority road",
+        "class_id": 12,
+        "box": [
+          1090,
+          251,
+          1117,
+          278
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "bbox": [
+          1086.5614013671875,
+          250.54193115234375,
+          1116.1524658203125,
+          278.64337158203125
+        ],
+        "yolo_class_id": 0,
+        "yolo_class_name": "traffic_sign",
+        "yolo_confidence": 0.5904380679130554,
+        "cnn_class_id": 12,
+        "cnn_class_name": "Priority road",
+        "cnn_score": 1.0,
+        "valid_yolo_at": 4637.6062464,
+        "valid_cnn_at": 4637.6386839
+      }
+    ],
+    "matches": [
+      {
+        "reference": 0,
+        "prediction": 0,
+        "iou": 0.8264134919526478
+      }
+    ],
+    "fn": [],
+    "fp": [],
+    "elapsed_ms": 140.4445999987729
+  },
+  "1170": {
+    "references": [
+      {
+        "label": "No entry",
+        "class_id": 17,
+        "box": [
+          562,
+          260,
+          577,
+          277
+        ]
+      },
+      {
+        "label": "Keep right",
+        "class_id": 38,
+        "box": [
+          162,
+          290,
+          177,
+          306
+        ]
+      }
+    ],
+    "predictions": [],
+    "matches": [],
+    "fn": [
+      0,
+      1
+    ],
+    "fp": [],
+    "elapsed_ms": 93.61149999949703
+  },
+  "1260": {
+    "references": [],
+    "predictions": [],
+    "matches": [],
+    "fn": [],
+    "fp": [],
+    "elapsed_ms": 96.41430000010587
+  },
+  "1300": {
+    "references": [
+      {
+        "label": "Yield",
+        "class_id": 13,
+        "box": [
+          177,
+          201,
+          207,
+          230
+        ]
+      },
+      {
+        "label": "Turn right ahead",
+        "class_id": 33,
+        "box": [
+          160,
+          223,
+          183,
+          247
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "bbox": [
+          174.33880615234375,
+          199.90481567382812,
+          210.22772216796875,
+          230.28985595703125
+        ],
+        "yolo_class_id": 0,
+        "yolo_class_name": "traffic_sign",
+        "yolo_confidence": 0.8538730144500732,
+        "cnn_class_id": 13,
+        "cnn_class_name": "Yield",
+        "cnn_score": 1.0,
+        "valid_yolo_at": 4638.1570867,
+        "valid_cnn_at": 4638.1948821
+      },
+      {
+        "bbox": [
+          160.5909423828125,
+          224.22335815429688,
+          182.2685546875,
+          246.96261596679688
+        ],
+        "yolo_class_id": 0,
+        "yolo_class_name": "traffic_sign",
+        "yolo_confidence": 0.8047293424606323,
+        "cnn_class_id": 33,
+        "cnn_class_name": "Turn right ahead",
+        "cnn_score": 0.999998927116394,
+        "valid_yolo_at": 4638.1572613,
+        "valid_cnn_at": 4638.1948981
+      }
+    ],
+    "matches": [
+      {
+        "reference": 1,
+        "prediction": 1,
+        "iou": 0.8929942299922308
+      },
+      {
+        "reference": 0,
+        "prediction": 0,
+        "iou": 0.7978093008656659
+      }
+    ],
+    "fn": [],
+    "fp": [],
+    "elapsed_ms": 160.52159999981086
+  },
+  "1326": {
+    "references": [
+      {
+        "label": "Yield",
+        "class_id": 13,
+        "box": [
+          620,
+          201,
+          649,
+          233
+        ]
+      },
+      {
+        "label": "Turn right ahead",
+        "class_id": 33,
+        "box": [
+          603,
+          228,
+          624,
+          257
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "bbox": [
+          607.20556640625,
+          230.4267578125,
+          628.414306640625,
+          254.36346435546875
+        ],
+        "yolo_class_id": 0,
+        "yolo_class_name": "traffic_sign",
+        "yolo_confidence": 0.7868343591690063,
+        "cnn_class_id": 33,
+        "cnn_class_name": "Turn right ahead",
+        "cnn_score": 0.9999994039535522,
+        "valid_yolo_at": 4638.3555532,
+        "valid_cnn_at": 4638.3887538
+      },
+      {
+        "bbox": [
+          618.3992309570312,
+          204.13589477539062,
+          650.9392700195312,
+          233.56423950195312
+        ],
+        "yolo_class_id": 0,
+        "yolo_class_name": "traffic_sign",
+        "yolo_confidence": 0.7779873609542847,
+        "cnn_class_id": 13,
+        "cnn_class_name": "Yield",
+        "cnn_score": 1.0,
+        "valid_yolo_at": 4638.355714,
+        "valid_cnn_at": 4638.3887695
+      }
+    ],
+    "matches": [
+      {
+        "reference": 0,
+        "prediction": 1,
+        "iou": 0.7983087949943434
+      },
+      {
+        "reference": 1,
+        "prediction": 0,
+        "iou": 0.5625069256323414
+      }
+    ],
+    "fn": [],
+    "fp": [],
+    "elapsed_ms": 128.48849999863887
+  },
+  "1345": {
+    "references": [
+      {
+        "label": "Yield",
+        "class_id": 13,
+        "box": [
+          794,
+          180,
+          827,
+          222
+        ]
+      },
+      {
+        "label": "Turn right ahead",
+        "class_id": 33,
+        "box": [
+          776,
+          216,
+          801,
+          246
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "bbox": [
+          795.8715209960938,
+          184.51876831054688,
+          834.4783325195312,
+          221.11260986328125
+        ],
+        "yolo_class_id": 0,
+        "yolo_class_name": "traffic_sign",
+        "yolo_confidence": 0.8652607798576355,
+        "cnn_class_id": 13,
+        "cnn_class_name": "Yield",
+        "cnn_score": 1.0,
+        "valid_yolo_at": 4638.5522138,
+        "valid_cnn_at": 4638.5927673
+      },
+      {
+        "bbox": [
+          777.3954467773438,
+          215.24560546875,
+          805.7764282226562,
+          245.81582641601562
+        ],
+        "yolo_class_id": 0,
+        "yolo_class_name": "traffic_sign",
+        "yolo_confidence": 0.8047179579734802,
+        "cnn_class_id": 33,
+        "cnn_class_name": "Turn right ahead",
+        "cnn_score": 1.0,
+        "valid_yolo_at": 4638.5523719,
+        "valid_cnn_at": 4638.5927831
+      },
+      {
+        "bbox": [
+          912.8368530273438,
+          284.02569580078125,
+          934.6912231445312,
+          308.77862548828125
+        ],
+        "yolo_class_id": 0,
+        "yolo_class_name": "traffic_sign",
+        "yolo_confidence": 0.4548673927783966,
+        "cnn_class_id": 40,
+        "cnn_class_name": "Roundabout mandatory",
+        "cnn_score": 0.9987691044807434,
+        "valid_yolo_at": 4638.5524712,
+        "valid_cnn_at": 4638.592793
+      }
+    ],
+    "matches": [
+      {
+        "reference": 1,
+        "prediction": 1,
+        "iou": 0.7701587618181365
+      },
+      {
+        "reference": 0,
+        "prediction": 0,
+        "iou": 0.6863514215141745
+      }
+    ],
+    "fn": [],
+    "fp": [
+      2
+    ],
+    "elapsed_ms": 136.5672000001723
+  },
+  "1358": {
+    "references": [
+      {
+        "label": "Yield",
+        "class_id": 13,
+        "box": [
+          912,
+          153,
+          955,
+          205
+        ]
+      },
+      {
+        "label": "Turn right ahead",
+        "class_id": 33,
+        "box": [
+          886,
+          194,
+          925,
+          233
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "bbox": [
+          911.48583984375,
+          157.34381103515625,
+          956.3955078125,
+          200.24591064453125
+        ],
+        "yolo_class_id": 0,
+        "yolo_class_name": "traffic_sign",
+        "yolo_confidence": 0.914930522441864,
+        "cnn_class_id": 13,
+        "cnn_class_name": "Yield",
+        "cnn_score": 1.0,
+        "valid_yolo_at": 4638.775692,
+        "valid_cnn_at": 4638.8124077
+      },
+      {
+        "bbox": [
+          889.095458984375,
+          194.1859130859375,
+          922.599853515625,
+          229.04705810546875
+        ],
+        "yolo_class_id": 0,
+        "yolo_class_name": "traffic_sign",
+        "yolo_confidence": 0.744111955165863,
+        "cnn_class_id": 33,
+        "cnn_class_name": "Turn right ahead",
+        "cnn_score": 1.0,
+        "valid_yolo_at": 4638.7758648,
+        "valid_cnn_at": 4638.812423
+      },
+      {
+        "bbox": [
+          1037.5068359375,
+          278.1404724121094,
+          1063.7763671875,
+          307.4120178222656
+        ],
+        "yolo_class_id": 0,
+        "yolo_class_name": "traffic_sign",
+        "yolo_confidence": 0.500702977180481,
+        "cnn_class_id": 40,
+        "cnn_class_name": "Roundabout mandatory",
+        "cnn_score": 0.9474529027938843,
+        "valid_yolo_at": 4638.7759716,
+        "valid_cnn_at": 4638.8124316
+      }
+    ],
+    "matches": [
+      {
+        "reference": 0,
+        "prediction": 0,
+        "iou": 0.7958787650111084
+      },
+      {
+        "reference": 1,
+        "prediction": 1,
+        "iou": 0.7679168682087416
+      }
+    ],
+    "fn": [],
+    "fp": [
+      2
+    ],
+    "elapsed_ms": 156.35870000005525
+  },
+  "1372": {
+    "references": [
+      {
+        "label": "Yield",
+        "class_id": 13,
+        "box": [
+          1059,
+          110,
+          1115,
+          173
+        ]
+      },
+      {
+        "label": "Turn right ahead",
+        "class_id": 33,
+        "box": [
+          1030,
+          158,
+          1066,
+          201
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "bbox": [
+          1032.83740234375,
+          156.408447265625,
+          1073.921875,
+          199.924560546875
+        ],
+        "yolo_class_id": 0,
+        "yolo_class_name": "traffic_sign",
+        "yolo_confidence": 0.9160104990005493,
+        "cnn_class_id": 33,
+        "cnn_class_name": "Turn right ahead",
+        "cnn_score": 1.0,
+        "valid_yolo_at": 4638.9723789,
+        "valid_cnn_at": 4639.0041199
+      },
+      {
+        "bbox": [
+          1061.275634765625,
+          109.7091064453125,
+          1115.551513671875,
+          163.7388916015625
+        ],
+        "yolo_class_id": 0,
+        "yolo_class_name": "traffic_sign",
+        "yolo_confidence": 0.892409086227417,
+        "cnn_class_id": 13,
+        "cnn_class_name": "Yield",
+        "cnn_score": 1.0,
+        "valid_yolo_at": 4638.9725116,
+        "valid_cnn_at": 4639.0041358
+      }
+    ],
+    "matches": [
+      {
+        "reference": 0,
+        "prediction": 1,
+        "iou": 0.8079326809598812
+      },
+      {
+        "reference": 1,
+        "prediction": 0,
+        "iou": 0.7146341481370929
+      }
+    ],
+    "fn": [],
+    "fp": [],
+    "elapsed_ms": 121.77410000003874
+  },
+  "1550": {
+    "references": [
+      {
+        "label": "Speed limit 30",
+        "class_id": 1,
+        "box": [
+          851,
+          272,
+          868,
+          289
+        ]
+      },
+      {
+        "label": "Speed limit face, value unreadable",
+        "class_id": null,
+        "box": [
+          850,
+          289,
+          867,
+          307
+        ]
+      }
+    ],
+    "predictions": [],
+    "matches": [],
+    "fn": [
+      0,
+      1
+    ],
+    "fp": [],
+    "elapsed_ms": 93.10339999956341
+  },
+  "1980": {
+    "references": [],
+    "predictions": [],
+    "matches": [],
+    "fn": [],
+    "fp": [],
+    "elapsed_ms": 86.51950000057695
+  },
+  "7470": {
+    "references": [
+      {
+        "box": [
+          510,
+          200,
+          530,
+          222
+        ],
+        "label": "Electronic speed limit, value uncertain",
+        "class_id": null
+      },
+      {
+        "box": [
+          588,
+          207,
+          608,
+          228
+        ],
+        "label": "Electronic speed limit, value uncertain",
+        "class_id": null
+      },
+      {
+        "box": [
+          663,
+          213,
+          684,
+          234
+        ],
+        "label": "Electronic speed limit, value uncertain",
+        "class_id": null
+      }
+    ],
+    "predictions": [
+      {
+        "bbox": [
+          506.09320068359375,
+          197.0569610595703,
+          529.7557983398438,
+          222.3622589111328
+        ],
+        "yolo_class_id": 0,
+        "yolo_class_name": "traffic_sign",
+        "yolo_confidence": 0.821609616279602,
+        "cnn_class_id": 35,
+        "cnn_class_name": "Ahead only",
+        "cnn_score": 0.9983140230178833,
+        "valid_yolo_at": 4639.427588,
+        "valid_cnn_at": 4639.4654921
+      },
+      {
+        "bbox": [
+          660.716796875,
+          210.48294067382812,
+          684.924072265625,
+          234.55490112304688
+        ],
+        "yolo_class_id": 0,
+        "yolo_class_name": "traffic_sign",
+        "yolo_confidence": 0.8023030757904053,
+        "cnn_class_id": 4,
+        "cnn_class_name": "Speed limit (70km/h)",
+        "cnn_score": 0.7247903943061829,
+        "valid_yolo_at": 4639.427723,
+        "valid_cnn_at": 4639.4655074
+      },
+      {
+        "bbox": [
+          585.1939697265625,
+          204.7928466796875,
+          607.9141845703125,
+          227.57260131835938
+        ],
+        "yolo_class_id": 0,
+        "yolo_class_name": "traffic_sign",
+        "yolo_confidence": 0.5922658443450928,
+        "cnn_class_id": 25,
+        "cnn_class_name": "Road work",
+        "cnn_score": 0.748485803604126,
+        "valid_yolo_at": 4639.4277905,
+        "valid_cnn_at": 4639.4655167
+      }
+    ],
+    "matches": [
+      {
+        "reference": 1,
+        "prediction": 2,
+        "iou": 0.7761062603502786
+      },
+      {
+        "reference": 2,
+        "prediction": 1,
+        "iou": 0.7568001637928324
+      },
+      {
+        "reference": 0,
+        "prediction": 0,
+        "iou": 0.7193896837434084
+      }
+    ],
+    "fn": [],
+    "fp": [],
+    "elapsed_ms": 149.69400000063615
+  },
+  "8780": {
+    "references": [
+      {
+        "box": [
+          370,
+          114,
+          401,
+          144
+        ],
+        "label": "Electronic speed limit 100",
+        "class_id": 7
+      },
+      {
+        "box": [
+          490,
+          130,
+          519,
+          159
+        ],
+        "label": "Electronic speed limit 100",
+        "class_id": 7
+      },
+      {
+        "box": [
+          604,
+          146,
+          631,
+          174
+        ],
+        "label": "Electronic speed limit 100",
+        "class_id": 7
+      }
+    ],
+    "predictions": [
+      {
+        "bbox": [
+          602.6392822265625,
+          142.053466796875,
+          634.1343994140625,
+          174.41021728515625
+        ],
+        "yolo_class_id": 0,
+        "yolo_class_name": "traffic_sign",
+        "yolo_confidence": 0.839925229549408,
+        "cnn_class_id": 0,
+        "cnn_class_name": "Speed limit (20km/h)",
+        "cnn_score": 0.228443905711174,
+        "valid_yolo_at": 4639.6018796,
+        "valid_cnn_at": 4639.6329447
+      },
+      {
+        "bbox": [
+          489.142333984375,
+          127.43875122070312,
+          520.575927734375,
+          159.70703125
+        ],
+        "yolo_class_id": 0,
+        "yolo_class_name": "traffic_sign",
+        "yolo_confidence": 0.5528936386108398,
+        "cnn_class_id": 25,
+        "cnn_class_name": "Road work",
+        "cnn_score": 0.43282195925712585,
+        "valid_yolo_at": 4639.6020475,
+        "valid_cnn_at": 4639.6329604
+      },
+      {
+        "bbox": [
+          369.26922607421875,
+          112.10963439941406,
+          402.33563232421875,
+          145.38575744628906
+        ],
+        "yolo_class_id": 0,
+        "yolo_class_name": "traffic_sign",
+        "yolo_confidence": 0.4409644603729248,
+        "cnn_class_id": 1,
+        "cnn_class_name": "Speed limit (30km/h)",
+        "cnn_score": 0.7050699591636658,
+        "valid_yolo_at": 4639.6021283,
+        "valid_cnn_at": 4639.6329684
+      }
+    ],
+    "matches": [
+      {
+        "reference": 0,
+        "prediction": 2,
+        "iou": 0.8452072815296494
+      },
+      {
+        "reference": 1,
+        "prediction": 1,
+        "iou": 0.8291367074689515
+      },
+      {
+        "reference": 2,
+        "prediction": 0,
+        "iou": 0.7418458421389367
+      }
+    ],
+    "fn": [],
+    "fp": [],
+    "elapsed_ms": 121.58909999925527
+  },
+  "9350": {
+    "references": [
+      {
+        "box": [
+          472,
+          239,
+          489,
+          255
+        ],
+        "label": "Electronic speed limit, value uncertain",
+        "class_id": null
+      },
+      {
+        "box": [
+          533,
+          242,
+          549,
+          258
+        ],
+        "label": "Electronic speed limit, value uncertain",
+        "class_id": null
+      },
+      {
+        "box": [
+          591,
+          243,
+          608,
+          260
+        ],
+        "label": "Electronic speed limit, value uncertain",
+        "class_id": null
+      }
+    ],
+    "predictions": [],
+    "matches": [],
+    "fn": [
+      0,
+      1,
+      2
+    ],
+    "fp": [],
+    "elapsed_ms": 102.42529999959515
+  },
+  "10080": {
+    "references": [],
+    "predictions": [],
+    "matches": [],
+    "fn": [],
+    "fp": [],
+    "elapsed_ms": 96.32049999981973
+  },
+  "18000": {
+    "references": [],
+    "predictions": [],
+    "matches": [],
+    "fn": [],
+    "fp": [],
+    "elapsed_ms": 110.68869999962772
+  },
+  "19500": {
+    "references": [
+      {
+        "label": "Yield",
+        "class_id": 13,
+        "box": [
+          747,
+          164,
+          796,
+          207
+        ]
+      },
+      {
+        "label": "Turn left ahead",
+        "class_id": 34,
+        "box": [
+          749,
+          203,
+          788,
+          239
+        ]
+      },
+      {
+        "label": "Yield",
+        "class_id": 13,
+        "box": [
+          1201,
+          161,
+          1251,
+          204
+        ]
+      },
+      {
+        "label": "Turn right ahead",
+        "class_id": 33,
+        "box": [
+          1203,
+          202,
+          1248,
+          241
+        ]
+      },
+      {
+        "label": "Yield",
+        "class_id": 13,
+        "box": [
+          457,
+          291,
+          477,
+          313
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "bbox": [
+          752.015869140625,
+          204.0301513671875,
+          783.5732421875,
+          237.89212036132812
+        ],
+        "yolo_class_id": 0,
+        "yolo_class_name": "traffic_sign",
+        "yolo_confidence": 0.889253556728363,
+        "cnn_class_id": 34,
+        "cnn_class_name": "Turn left ahead",
+        "cnn_score": 0.9784656167030334,
+        "valid_yolo_at": 4640.3108341,
+        "valid_cnn_at": 4640.3570754
+      },
+      {
+        "bbox": [
+          751.1783447265625,
+          163.8402557373047,
+          793.4375,
+          201.2609405517578
+        ],
+        "yolo_class_id": 0,
+        "yolo_class_name": "traffic_sign",
+        "yolo_confidence": 0.8840866684913635,
+        "cnn_class_id": 13,
+        "cnn_class_name": "Yield",
+        "cnn_score": 1.0,
+        "valid_yolo_at": 4640.3109695,
+        "valid_cnn_at": 4640.3570919
+      },
+      {
+        "bbox": [
+          1201.353271484375,
+          159.94873046875,
+          1253.030029296875,
+          204.67547607421875
+        ],
+        "yolo_class_id": 0,
+        "yolo_class_name": "traffic_sign",
+        "yolo_confidence": 0.8815783858299255,
+        "cnn_class_id": 13,
+        "cnn_class_name": "Yield",
+        "cnn_score": 1.0,
+        "valid_yolo_at": 4640.3110383,
+        "valid_cnn_at": 4640.3570998
+      },
+      {
+        "bbox": [
+          1206.410400390625,
+          205.109130859375,
+          1243.04150390625,
+          241.2655029296875
+        ],
+        "yolo_class_id": 0,
+        "yolo_class_name": "traffic_sign",
+        "yolo_confidence": 0.8771064877510071,
+        "cnn_class_id": 33,
+        "cnn_class_name": "Turn right ahead",
+        "cnn_score": 0.9998179078102112,
+        "valid_yolo_at": 4640.3111042,
+        "valid_cnn_at": 4640.3571063
+      },
+      {
+        "bbox": [
+          462.595458984375,
+          294.6014404296875,
+          480.1546630859375,
+          313.1630859375
+        ],
+        "yolo_class_id": 0,
+        "yolo_class_name": "traffic_sign",
+        "yolo_confidence": 0.5929210782051086,
+        "cnn_class_id": 32,
+        "cnn_class_name": "End speed + passing limits",
+        "cnn_score": 0.9979298114776611,
+        "valid_yolo_at": 4640.3111647,
+        "valid_cnn_at": 4640.3571125
+      }
+    ],
+    "matches": [
+      {
+        "reference": 2,
+        "prediction": 2,
+        "iou": 0.9175961398137958
+      },
+      {
+        "reference": 1,
+        "prediction": 0,
+        "iou": 0.761107398610976
+      },
+      {
+        "reference": 3,
+        "prediction": 3,
+        "iou": 0.745000862517448
+      },
+      {
+        "reference": 0,
+        "prediction": 1,
+        "iou": 0.744939270272283
+      },
+      {
+        "reference": 4,
+        "prediction": 4,
+        "iou": 0.5290880514596182
+      }
+    ],
+    "fn": [],
+    "fp": [],
+    "elapsed_ms": 164.85019999981887
+  }
+}

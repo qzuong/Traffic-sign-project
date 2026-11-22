@@ -1,0 +1,1078 @@
+{
+  "seed": "step-j-gtsdb-official-eval-v1",
+  "test_archive": "https://sid.erda.dk/public/archives/ff17dc924eba88d5d01a807357d6614c/TestIJCNN2013.zip",
+  "labels_archive": "https://sid.erda.dk/public/archives/ff17dc924eba88d5d01a807357d6614c/FullIJCNN2013.zip",
+  "gt_file_sha256": "43e91e93cf8c5d8e2391b6faf81b6e3c7800445f3a872beeff7cbde5f832cc3e",
+  "priority_classes": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    38,
+    40
+  ],
+  "rows": [
+    {
+      "frame": 601,
+      "archive_member": "TestIJCNN2013Download/00001.ppm",
+      "image_sha256": "9d516f765f2b746a55a393fc919f0981201f365caba5eecb28d5d62a94ed5b62",
+      "references": [
+        {
+          "box": [
+            82,
+            450,
+            146,
+            509
+          ],
+          "class_id": 7
+        }
+      ]
+    },
+    {
+      "frame": 602,
+      "archive_member": "TestIJCNN2013Download/00002.ppm",
+      "image_sha256": "b7317aaa86f8fcbe792d6e61285b0a67f9f4e95904a41caac57836dc6cc266e1",
+      "references": [
+        {
+          "box": [
+            1268,
+            555,
+            1300,
+            587
+          ],
+          "class_id": 8
+        },
+        {
+          "box": [
+            443,
+            543,
+            475,
+            575
+          ],
+          "class_id": 8
+        }
+      ]
+    },
+    {
+      "frame": 612,
+      "archive_member": "TestIJCNN2013Download/00012.ppm",
+      "image_sha256": "1ed46a5c4ea84b2edc1aab16ed46ecfb3ec65332d8bacbce4a3c98524de30ca8",
+      "references": [
+        {
+          "box": [
+            127,
+            521,
+            219,
+            613
+          ],
+          "class_id": 38
+        },
+        {
+          "box": [
+            170,
+            374,
+            247,
+            452
+          ],
+          "class_id": 17
+        }
+      ]
+    },
+    {
+      "frame": 613,
+      "archive_member": "TestIJCNN2013Download/00013.ppm",
+      "image_sha256": "e02aa27963317df1062a8742a43118027b66d788bbb7bec28847f7ea75e59bbd",
+      "references": [
+        {
+          "box": [
+            1132,
+            561,
+            1170,
+            599
+          ],
+          "class_id": 5
+        },
+        {
+          "box": [
+            478,
+            546,
+            514,
+            582
+          ],
+          "class_id": 5
+        }
+      ]
+    },
+    {
+      "frame": 620,
+      "archive_member": "TestIJCNN2013Download/00020.ppm",
+      "image_sha256": "145af98af22f8b9c44acc6a8c641d4d1006c5c37848f2946f876c97bbfefe5fa",
+      "references": [
+        {
+          "box": [
+            863,
+            425,
+            893,
+            455
+          ],
+          "class_id": 9
+        }
+      ]
+    },
+    {
+      "frame": 626,
+      "archive_member": "TestIJCNN2013Download/00026.ppm",
+      "image_sha256": "a636e7acc7d79badc243b1617f62a8436f257daf32871152ce7fbeee54b15b73",
+      "references": [
+        {
+          "box": [
+            857,
+            404,
+            896,
+            443
+          ],
+          "class_id": 2
+        },
+        {
+          "box": [
+            857,
+            444,
+            894,
+            481
+          ],
+          "class_id": 9
+        }
+      ]
+    },
+    {
+      "frame": 627,
+      "archive_member": "TestIJCNN2013Download/00027.ppm",
+      "image_sha256": "29e4e6683afd9acd2ded7a0d71b430e80b5037e6b46bfc561407534d93982b3b",
+      "references": []
+    },
+    {
+      "frame": 635,
+      "archive_member": "TestIJCNN2013Download/00035.ppm",
+      "image_sha256": "08f4fc67a69184282c22ed4210fa569f7c35793acce10770b0f30b38780a2193",
+      "references": [
+        {
+          "box": [
+            826,
+            423,
+            865,
+            462
+          ],
+          "class_id": 9
+        }
+      ]
+    },
+    {
+      "frame": 641,
+      "archive_member": "TestIJCNN2013Download/00041.ppm",
+      "image_sha256": "7124e7890031df0e5ec628e51192c0468e9a65f352112dbf737093cc00785eb5",
+      "references": [
+        {
+          "box": [
+            26,
+            425,
+            69,
+            468
+          ],
+          "class_id": 17
+        }
+      ]
+    },
+    {
+      "frame": 642,
+      "archive_member": "TestIJCNN2013Download/00042.ppm",
+      "image_sha256": "b6c657a63a898aef91fc54897bf90c0fd1d683e878170567073659aefaac17d8",
+      "references": [
+        {
+          "box": [
+            860,
+            327,
+            935,
+            402
+          ],
+          "class_id": 12
+        },
+        {
+          "box": [
+            434,
+            496,
+            458,
+            519
+          ],
+          "class_id": 38
+        }
+      ]
+    },
+    {
+      "frame": 646,
+      "archive_member": "TestIJCNN2013Download/00046.ppm",
+      "image_sha256": "1e2d693c39f2321c96e8bd4ff9e8347daabdd4d1403315887fec9ba1a2344cd9",
+      "references": [
+        {
+          "box": [
+            1059,
+            440,
+            1091,
+            470
+          ],
+          "class_id": 13
+        },
+        {
+          "box": [
+            560,
+            434,
+            591,
+            461
+          ],
+          "class_id": 13
+        }
+      ]
+    },
+    {
+      "frame": 657,
+      "archive_member": "TestIJCNN2013Download/00057.ppm",
+      "image_sha256": "39aacbe346b81f0a413dead98a8d2d6cd0a5cd1cdd37c19ad85165a250dc8587",
+      "references": [
+        {
+          "box": [
+            991,
+            400,
+            1027,
+            436
+          ],
+          "class_id": 16
+        }
+      ]
+    },
+    {
+      "frame": 659,
+      "archive_member": "TestIJCNN2013Download/00059.ppm",
+      "image_sha256": "21d978d228d30c1d2be8079e521300abbeee70fd38ff6f119baa64a91f3a0f7d",
+      "references": [
+        {
+          "box": [
+            993,
+            430,
+            1034,
+            471
+          ],
+          "class_id": 2
+        }
+      ]
+    },
+    {
+      "frame": 663,
+      "archive_member": "TestIJCNN2013Download/00063.ppm",
+      "image_sha256": "6686df49ac028ca2fcb07cd0710134a61353156cc82cd424748429b88cb1c9d2",
+      "references": [
+        {
+          "box": [
+            830,
+            307,
+            897,
+            368
+          ],
+          "class_id": 13
+        }
+      ]
+    },
+    {
+      "frame": 670,
+      "archive_member": "TestIJCNN2013Download/00070.ppm",
+      "image_sha256": "bb623baa6ced515a865ee26f0410d062af07c9fc9ac78ba7f00b1e05e2c4cf4a",
+      "references": [
+        {
+          "box": [
+            997,
+            306,
+            1065,
+            374
+          ],
+          "class_id": 4
+        }
+      ]
+    },
+    {
+      "frame": 675,
+      "archive_member": "TestIJCNN2013Download/00075.ppm",
+      "image_sha256": "9d461d2c80a43009f2911072fe8fc962456c9dcfa029f6e681f1092a600dd933",
+      "references": [
+        {
+          "box": [
+            641,
+            503,
+            677,
+            539
+          ],
+          "class_id": 38
+        },
+        {
+          "box": [
+            1008,
+            388,
+            1044,
+            423
+          ],
+          "class_id": 13
+        },
+        {
+          "box": [
+            1012,
+            421,
+            1038,
+            448
+          ],
+          "class_id": 40
+        }
+      ]
+    },
+    {
+      "frame": 676,
+      "archive_member": "TestIJCNN2013Download/00076.ppm",
+      "image_sha256": "f4857a0fcce352ddbc742f0f6cefed6d80a4fc0e0950091166f1d5c7d2c52862",
+      "references": []
+    },
+    {
+      "frame": 681,
+      "archive_member": "TestIJCNN2013Download/00081.ppm",
+      "image_sha256": "8a04732a788fcbb8496792bb8aa948d18977246ee28f7655eb14c391123d15c8",
+      "references": [
+        {
+          "box": [
+            820,
+            434,
+            847,
+            461
+          ],
+          "class_id": 1
+        }
+      ]
+    },
+    {
+      "frame": 692,
+      "archive_member": "TestIJCNN2013Download/00092.ppm",
+      "image_sha256": "930e7ca814c7eb24ff559490fd144dbb4c06be2a83ff6072e95b8d63ffb80879",
+      "references": [
+        {
+          "box": [
+            1050,
+            357,
+            1092,
+            398
+          ],
+          "class_id": 15
+        }
+      ]
+    },
+    {
+      "frame": 704,
+      "archive_member": "TestIJCNN2013Download/00104.ppm",
+      "image_sha256": "0f909173b5a3a078d57c88f1ba039cde41830679668893b054818402c88c6e37",
+      "references": [
+        {
+          "box": [
+            766,
+            411,
+            794,
+            439
+          ],
+          "class_id": 2
+        }
+      ]
+    },
+    {
+      "frame": 705,
+      "archive_member": "TestIJCNN2013Download/00105.ppm",
+      "image_sha256": "30ad56ec465820a80da80623e19475ea43ea2bb244a622d0a8fe72daa1e9737e",
+      "references": [
+        {
+          "box": [
+            955,
+            343,
+            992,
+            379
+          ],
+          "class_id": 1
+        }
+      ]
+    },
+    {
+      "frame": 708,
+      "archive_member": "TestIJCNN2013Download/00108.ppm",
+      "image_sha256": "f7c746dee04c73220357240c83bb3eb3b5ce76b6b75a61895eb3ef86fb5445af",
+      "references": []
+    },
+    {
+      "frame": 713,
+      "archive_member": "TestIJCNN2013Download/00113.ppm",
+      "image_sha256": "d1f5f443067a4ca38f69a22da56feb2a81e5fa730aaecfeb15b23c22d3250f8f",
+      "references": []
+    },
+    {
+      "frame": 723,
+      "archive_member": "TestIJCNN2013Download/00123.ppm",
+      "image_sha256": "1ee3972c66edd72ad9ec06a862509d2d2a67a3312633c6c487a290a84a7b270c",
+      "references": [
+        {
+          "box": [
+            746,
+            360,
+            801,
+            409
+          ],
+          "class_id": 23
+        },
+        {
+          "box": [
+            180,
+            366,
+            237,
+            415
+          ],
+          "class_id": 23
+        },
+        {
+          "box": [
+            696,
+            424,
+            718,
+            447
+          ],
+          "class_id": 4
+        }
+      ]
+    },
+    {
+      "frame": 729,
+      "archive_member": "TestIJCNN2013Download/00129.ppm",
+      "image_sha256": "361d94f0e62fdc93fbf319482a669ba3b742760948848f1e9a9bf129a99a4f36",
+      "references": [
+        {
+          "box": [
+            536,
+            489,
+            571,
+            524
+          ],
+          "class_id": 3
+        }
+      ]
+    },
+    {
+      "frame": 730,
+      "archive_member": "TestIJCNN2013Download/00130.ppm",
+      "image_sha256": "c08e31e0547eca1b4397ee82d651d0acd143c3fd77f1f65822291297ac74e663",
+      "references": [
+        {
+          "box": [
+            466,
+            443,
+            513,
+            491
+          ],
+          "class_id": 3
+        },
+        {
+          "box": [
+            1053,
+            517,
+            1084,
+            548
+          ],
+          "class_id": 3
+        }
+      ]
+    },
+    {
+      "frame": 734,
+      "archive_member": "TestIJCNN2013Download/00134.ppm",
+      "image_sha256": "8f5498ed6e558625f7162e3d31d59c076adf7372514f18cf8135e7a6860461e1",
+      "references": [
+        {
+          "box": [
+            1090,
+            450,
+            1167,
+            529
+          ],
+          "class_id": 3
+        }
+      ]
+    },
+    {
+      "frame": 738,
+      "archive_member": "TestIJCNN2013Download/00138.ppm",
+      "image_sha256": "e9de76e8d20641ea7a47fd2f2750dcfc3b464c90d99eb480d68fd949ba903525",
+      "references": [
+        {
+          "box": [
+            555,
+            605,
+            585,
+            635
+          ],
+          "class_id": 38
+        }
+      ]
+    },
+    {
+      "frame": 742,
+      "archive_member": "TestIJCNN2013Download/00142.ppm",
+      "image_sha256": "005227187023c7449eab38d4dec832d63e1b91049152bd6338e5ab6d67a8e756",
+      "references": [
+        {
+          "box": [
+            334,
+            562,
+            369,
+            597
+          ],
+          "class_id": 7
+        },
+        {
+          "box": [
+            960,
+            554,
+            996,
+            588
+          ],
+          "class_id": 7
+        }
+      ]
+    },
+    {
+      "frame": 747,
+      "archive_member": "TestIJCNN2013Download/00147.ppm",
+      "image_sha256": "dc3d063bbef12fe8fa7ec0f4961c99af3005f8d48dfce9ff5c8d2b470e810312",
+      "references": [
+        {
+          "box": [
+            298,
+            489,
+            346,
+            539
+          ],
+          "class_id": 6
+        },
+        {
+          "box": [
+            1148,
+            506,
+            1197,
+            554
+          ],
+          "class_id": 6
+        }
+      ]
+    },
+    {
+      "frame": 749,
+      "archive_member": "TestIJCNN2013Download/00149.ppm",
+      "image_sha256": "e75de6a104eb99c5ee63ec47301b237cd1921559fcd3a1dafa6d9fe5918879f4",
+      "references": [
+        {
+          "box": [
+            301,
+            551,
+            347,
+            597
+          ],
+          "class_id": 5
+        },
+        {
+          "box": [
+            1153,
+            546,
+            1201,
+            594
+          ],
+          "class_id": 5
+        }
+      ]
+    },
+    {
+      "frame": 750,
+      "archive_member": "TestIJCNN2013Download/00150.ppm",
+      "image_sha256": "92ccb1ad87cf5db5de732aa52804397924bea30360794c534d26e9900dd99ff9",
+      "references": []
+    },
+    {
+      "frame": 758,
+      "archive_member": "TestIJCNN2013Download/00158.ppm",
+      "image_sha256": "8eef3b04ac8c4787ba405fc57bf519b7bd251a7431eeb3d5a1419d89d0bb2a50",
+      "references": [
+        {
+          "box": [
+            982,
+            521,
+            1015,
+            554
+          ],
+          "class_id": 8
+        },
+        {
+          "box": [
+            374,
+            515,
+            407,
+            548
+          ],
+          "class_id": 8
+        },
+        {
+          "box": [
+            376,
+            548,
+            408,
+            580
+          ],
+          "class_id": 10
+        },
+        {
+          "box": [
+            982,
+            553,
+            1016,
+            587
+          ],
+          "class_id": 10
+        }
+      ]
+    },
+    {
+      "frame": 760,
+      "archive_member": "TestIJCNN2013Download/00160.ppm",
+      "image_sha256": "d2e657c2489dff6f788f29973a18bf8f3ee6c54728467963aa2654a27240b25f",
+      "references": [
+        {
+          "box": [
+            591,
+            538,
+            617,
+            564
+          ],
+          "class_id": 8
+        },
+        {
+          "box": [
+            591,
+            563,
+            617,
+            588
+          ],
+          "class_id": 10
+        },
+        {
+          "box": [
+            1023,
+            542,
+            1050,
+            570
+          ],
+          "class_id": 8
+        },
+        {
+          "box": [
+            1024,
+            568,
+            1049,
+            593
+          ],
+          "class_id": 10
+        }
+      ]
+    },
+    {
+      "frame": 765,
+      "archive_member": "TestIJCNN2013Download/00165.ppm",
+      "image_sha256": "b0206d8068fbd50f4d031b6673120459132b918197ebd749270c576fb34642cf",
+      "references": []
+    },
+    {
+      "frame": 766,
+      "archive_member": "TestIJCNN2013Download/00166.ppm",
+      "image_sha256": "75ee2b9e123c5e906d1e7fa8174f39fd792b3e851b8e316469bbcb2f12f2abbc",
+      "references": [
+        {
+          "box": [
+            256,
+            495,
+            290,
+            534
+          ],
+          "class_id": 15
+        }
+      ]
+    },
+    {
+      "frame": 769,
+      "archive_member": "TestIJCNN2013Download/00169.ppm",
+      "image_sha256": "261aa47f447df6f9bd5ae208f27f587fd3aa80afdaf76bc4ab1cbf0332952f2a",
+      "references": []
+    },
+    {
+      "frame": 786,
+      "archive_member": "TestIJCNN2013Download/00186.ppm",
+      "image_sha256": "521522653c0c4eababeb54a2a976ca858ef48557f92384e8cd5bb00e037d7944",
+      "references": []
+    },
+    {
+      "frame": 789,
+      "archive_member": "TestIJCNN2013Download/00189.ppm",
+      "image_sha256": "01a39b9557376856356b0b8cab5ab2e4e5d9f5ab284297b8eb736672df3abecc",
+      "references": [
+        {
+          "box": [
+            759,
+            516,
+            788,
+            546
+          ],
+          "class_id": 14
+        }
+      ]
+    },
+    {
+      "frame": 791,
+      "archive_member": "TestIJCNN2013Download/00191.ppm",
+      "image_sha256": "5fbbe67fa2995c06bd4c81bc44e9b7eb17ee6253e6b2c127ba0a60b1e2b3eeaa",
+      "references": [
+        {
+          "box": [
+            906,
+            469,
+            962,
+            520
+          ],
+          "class_id": 30
+        },
+        {
+          "box": [
+            985,
+            412,
+            1063,
+            490
+          ],
+          "class_id": 4
+        }
+      ]
+    },
+    {
+      "frame": 794,
+      "archive_member": "TestIJCNN2013Download/00194.ppm",
+      "image_sha256": "be32fce64d8f352f95dda91fc4a300f573df907b0678bbd29116346de5dbd894",
+      "references": [
+        {
+          "box": [
+            1032,
+            518,
+            1063,
+            552
+          ],
+          "class_id": 12
+        }
+      ]
+    },
+    {
+      "frame": 795,
+      "archive_member": "TestIJCNN2013Download/00195.ppm",
+      "image_sha256": "7bb0f78866d40838b172c147f9a2b82a6a0790c8d6896e8be9ded379981b2427",
+      "references": [
+        {
+          "box": [
+            168,
+            612,
+            217,
+            664
+          ],
+          "class_id": 38
+        }
+      ]
+    },
+    {
+      "frame": 798,
+      "archive_member": "TestIJCNN2013Download/00198.ppm",
+      "image_sha256": "6da7d72cfd43803476909962ced091e2e722ef6d83f650ef233bba64ae4094f9",
+      "references": [
+        {
+          "box": [
+            786,
+            545,
+            807,
+            566
+          ],
+          "class_id": 2
+        },
+        {
+          "box": [
+            1090,
+            445,
+            1163,
+            510
+          ],
+          "class_id": 13
+        }
+      ]
+    },
+    {
+      "frame": 804,
+      "archive_member": "TestIJCNN2013Download/00204.ppm",
+      "image_sha256": "877295514947270078a6fe5ff5834a4a6405bed0cc3ce04c7ffcd091b732c3d0",
+      "references": []
+    },
+    {
+      "frame": 823,
+      "archive_member": "TestIJCNN2013Download/00223.ppm",
+      "image_sha256": "a8bb6a88378cc6dc39d0dd828b4ef5e8aeaef41a5560f6cb10469a22fda10064",
+      "references": [
+        {
+          "box": [
+            1062,
+            379,
+            1095,
+            409
+          ],
+          "class_id": 13
+        },
+        {
+          "box": [
+            1068,
+            408,
+            1091,
+            431
+          ],
+          "class_id": 40
+        },
+        {
+          "box": [
+            805,
+            479,
+            835,
+            509
+          ],
+          "class_id": 38
+        }
+      ]
+    },
+    {
+      "frame": 827,
+      "archive_member": "TestIJCNN2013Download/00227.ppm",
+      "image_sha256": "805173495e471b0edfaf57bc62f82408bd87f400b7cfc46e9d9d3af628183dd3",
+      "references": [
+        {
+          "box": [
+            921,
+            442,
+            961,
+            486
+          ],
+          "class_id": 14
+        },
+        {
+          "box": [
+            539,
+            473,
+            571,
+            511
+          ],
+          "class_id": 38
+        }
+      ]
+    },
+    {
+      "frame": 834,
+      "archive_member": "TestIJCNN2013Download/00234.ppm",
+      "image_sha256": "c62653eb799027ce7fae5d4cc33b63c529c891ed72ea78662396bb960025fe88",
+      "references": [
+        {
+          "box": [
+            1130,
+            264,
+            1188,
+            326
+          ],
+          "class_id": 1
+        }
+      ]
+    },
+    {
+      "frame": 844,
+      "archive_member": "TestIJCNN2013Download/00244.ppm",
+      "image_sha256": "d37c0f4cb589999b7d89e16efce0dbbdae204e3e18023e37a0ab5fe1afceabe2",
+      "references": [
+        {
+          "box": [
+            977,
+            332,
+            1014,
+            371
+          ],
+          "class_id": 12
+        }
+      ]
+    },
+    {
+      "frame": 847,
+      "archive_member": "TestIJCNN2013Download/00247.ppm",
+      "image_sha256": "f24da5b17c0b5f55d1bc2a483125dd9c108a33f3cce684ffb5366f0b82733547",
+      "references": []
+    },
+    {
+      "frame": 853,
+      "archive_member": "TestIJCNN2013Download/00253.ppm",
+      "image_sha256": "3813f9e8153bbc6b0c8f56d78dac9e5cf9b2be9516a604718aad29a3d176824e",
+      "references": [
+        {
+          "box": [
+            943,
+            415,
+            972,
+            445
+          ],
+          "class_id": 40
+        },
+        {
+          "box": [
+            683,
+            484,
+            706,
+            507
+          ],
+          "class_id": 38
+        },
+        {
+          "box": [
+            935,
+            383,
+            973,
+            418
+          ],
+          "class_id": 13
+        }
+      ]
+    },
+    {
+      "frame": 857,
+      "archive_member": "TestIJCNN2013Download/00257.ppm",
+      "image_sha256": "f54582d761e3e162e441bd32b357c1105a8465bfe8e6ec7d24ce82c6b427e6b8",
+      "references": [
+        {
+          "box": [
+            852,
+            433,
+            876,
+            457
+          ],
+          "class_id": 14
+        },
+        {
+          "box": [
+            1129,
+            262,
+            1225,
+            350
+          ],
+          "class_id": 13
+        }
+      ]
+    },
+    {
+      "frame": 862,
+      "archive_member": "TestIJCNN2013Download/00262.ppm",
+      "image_sha256": "342b76f530c56c0bce560d9cc881086a6c89b76c6e1bdf9cdfdafefb8900d991",
+      "references": [
+        {
+          "box": [
+            285,
+            425,
+            363,
+            502
+          ],
+          "class_id": 7
+        }
+      ]
+    },
+    {
+      "frame": 871,
+      "archive_member": "TestIJCNN2013Download/00271.ppm",
+      "image_sha256": "1883a117494c942e403f65ede13c2a400c6c4842fa7a13fd71bb1fce5210d074",
+      "references": [
+        {
+          "box": [
+            375,
+            407,
+            412,
+            444
+          ],
+          "class_id": 5
+        },
+        {
+          "box": [
+            1273,
+            381,
+            1314,
+            422
+          ],
+          "class_id": 5
+        }
+      ]
+    },
+    {
+      "frame": 885,
+      "archive_member": "TestIJCNN2013Download/00285.ppm",
+      "image_sha256": "1257d54f2c3407adb8942089fffb866afb77bd96df6bfbdf3b2f56c8162f0c2b",
+      "references": [
+        {
+          "box": [
+            202,
+            532,
+            282,
+            612
+          ],
+          "class_id": 38
+        },
+        {
+          "box": [
+            230,
+            403,
+            297,
+            470
+          ],
+          "class_id": 17
+        }
+      ]
+    },
+    {
+      "frame": 896,
+      "archive_member": "TestIJCNN2013Download/00296.ppm",
+      "image_sha256": "a9c7cac395d3f4a224551f5dda3c05334e228ade2f3496dea3afcb7c385e4d6b",
+      "references": [
+        {
+          "box": [
+            808,
+            412,
+            847,
+            451
+          ],
+          "class_id": 15
+        }
+      ]
+    }
+  ]
+}
