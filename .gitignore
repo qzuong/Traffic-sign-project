@@ -4,6 +4,7 @@ __pycache__/
 .env
 .env.*
 *.md
+!/README.md
 *.log
 logs/
 docs/

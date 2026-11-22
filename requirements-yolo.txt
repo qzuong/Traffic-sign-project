@@ -1,0 +1,6 @@
+# Windows x64, CPython 3.13. CPU wheels from the official PyTorch index.
+torch @ https://download-r2.pytorch.org/whl/cpu/torch-2.14.1%2Bcpu-cp313-cp313-win_amd64.whl#sha256=4eec5a4fadd7a18f9c75b97fdb374fbb579ce4b1604bf66eeb14dc2201d54def
+torchvision @ https://download-r2.pytorch.org/whl/cpu/torchvision-0.29.1%2Bcpu-cp313-cp313-win_amd64.whl#sha256=94590cee2298a7b6cc6512159781b577a322d0813baf1add3cf02db744138b31
+ultralytics==8.4.216
+opencv-python==5.1.0.95
+numpy==2.5.4
